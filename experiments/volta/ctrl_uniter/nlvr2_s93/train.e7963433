@@ -1,0 +1,1188 @@
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+
+Bad key "text.kerning_factor" on line 4 in
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+10/03/2020 20:19:52 - INFO - __main__ -   device: cuda n_gpu: 4, distributed training: False, 16-bits training: False
+10/03/2020 20:19:53 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+10/03/2020 20:19:54 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 64
+10/03/2020 20:19:54 - INFO - volta.datasets.nlvr2_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/data/cache/NLVR2_train_40.pkl
+10/03/2020 20:20:22 - INFO - volta.datasets.nlvr2_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/data/cache/NLVR2_dev_40.pkl
+10/03/2020 20:20:24 - INFO - volta.utils -   logging file at: /gs/hs0/tgb-deepmt/bugliarello.e/logs/volta/nlvr2_s93/NLVR2_ctrl_uniter_base
+10/03/2020 20:20:24 - INFO - volta.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/mpre-unmasked/conceptual_captions/volta/ctrl_uniter/ctrl_uniter_base/pytorch_model_9.bin
+10/03/2020 20:20:27 - INFO - volta.utils -   
+10/03/2020 20:20:28 - INFO - volta.utils -   Weights of BertForVLTasks not initialized from pretrained model: ['clfs_dict.TASK12.logit_fc.0.weight', 'clfs_dict.TASK12.logit_fc.0.bias', 'clfs_dict.TASK12.logit_fc.2.weight', 'clfs_dict.TASK12.logit_fc.2.bias', 'clfs_dict.TASK12.logit_fc.3.weight', 'clfs_dict.TASK12.logit_fc.3.bias']
+10/03/2020 20:20:28 - INFO - volta.utils -   Weights from pretrained model not used in BertForVLTasks: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.bi_seq_relationship.weight', 'cls.bi_seq_relationship.bias', 'cls.imagePredictions.transform.dense.weight', 'cls.imagePredictions.transform.dense.bias', 'cls.imagePredictions.transform.LayerNorm.weight', 'cls.imagePredictions.transform.LayerNorm.bias', 'cls.imagePredictions.decoder_dict.0.weight', 'cls.imagePredictions.decoder_dict.0.bias']
+10/03/2020 20:20:33 - INFO - __main__ -   >> Trainable Parameters:
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |Name                                                              |Dtype            |Shape           |#Params     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.word_embeddings.weight                     |torch.float32    |(30522, 768)    |23440896    |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.position_embeddings.weight                 |torch.float32    |(512, 768)      |393216      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.token_type_embeddings.weight               |torch.float32    |(2, 768)        |1536        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.LayerNorm.weight                           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.LayerNorm.bias                             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_embeddings.weight                    |torch.float32    |(768, 2048)     |1572864     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_embeddings.bias                      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_location_embeddings.weight           |torch.float32    |(768, 5)        |3840        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_location_embeddings.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_layer_norm.weight                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_layer_norm.bias                      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_location_layer_norm.weight           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.image_location_layer_norm.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.v_LayerNorm.weight                         |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.embeddings.v_LayerNorm.bias                           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.query.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.query.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.key.weight             |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.key.bias               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.value.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_self.value.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_output.dense.bias           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.0.attention_output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.output.dense.bias                     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.1.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.query.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.query.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.key.weight             |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.key.bias               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.value.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_self.value.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_output.dense.bias           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.2.attention_output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.output.dense.bias                     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.3.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.query.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.query.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.key.weight             |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.key.bias               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.value.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_self.value.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_output.dense.bias           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.4.attention_output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.output.dense.bias                     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.5.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.query.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.query.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.key.weight             |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.key.bias               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.value.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_self.value.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_output.dense.bias           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.6.attention_output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.output.dense.bias                     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.7.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.query.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.query.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.key.weight             |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.key.bias               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.value.weight           |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_self.value.bias             |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_output.dense.bias           |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.8.attention_output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.output.dense.bias                     |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.9.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.10.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.11.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.12.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.13.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.14.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.15.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.16.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.17.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.18.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.19.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.20.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.21.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.query.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.query.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.key.weight            |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.key.bias              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.value.weight          |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_self.value.bias            |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_output.dense.bias          |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.22.attention_output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.output.dense.bias                    |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.encoder.layer.23.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.t_pooler.dense.weight                                 |torch.float32    |(1024, 768)     |786432      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.t_pooler.dense.bias                                   |torch.float32    |(1024,)         |1024        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.v_pooler.dense.weight                                 |torch.float32    |(1024, 768)     |786432      |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.bert.v_pooler.dense.bias                                   |torch.float32    |(1024,)         |1024        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.0.weight                         |torch.float32    |(1536, 2048)    |3145728     |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.0.bias                           |torch.float32    |(1536,)         |1536        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.2.weight                         |torch.float32    |(1536,)         |1536        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.2.bias                           |torch.float32    |(1536,)         |1536        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.3.weight                         |torch.float32    |(2, 1536)       |3072        |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   |module.clfs_dict.TASK12.logit_fc.3.bias                           |torch.float32    |(2,)            |2           |
+10/03/2020 20:20:33 - INFO - __main__ -   --------------------------------------------------------------------------------------------------------------------
+10/03/2020 20:20:33 - INFO - __main__ -   >> # TrainableParams:       	115.20	M
+10/03/2020 20:20:33 - INFO - __main__ -   >> # NonTrainableParams:    	0.00	M
+10/03/2020 20:20:33 - INFO - __main__ -   >> # TotalParams:           	115.20	M
+
+Epoch:   0%|          | 0/20 [00:00<?, ?it/s]10/03/2020 21:45:13 - INFO - volta.utils -   [NLVR2]: iter 21 Ep: 0.02 loss 0.765 score 0.522 lr 4.07709e-08 
+10/03/2020 21:55:35 - INFO - volta.utils -   [NLVR2]: iter 41 Ep: 0.03 loss 0.766 score 0.527 lr 1.16753e-07 
+10/03/2020 21:55:50 - INFO - volta.utils -   [NLVR2]: iter 61 Ep: 0.05 loss 0.757 score 0.510 lr 1.90882e-07 
+10/03/2020 21:55:58 - INFO - volta.utils -   [NLVR2]: iter 81 Ep: 0.06 loss 0.757 score 0.494 lr 2.65011e-07 
+10/03/2020 21:56:05 - INFO - volta.utils -   [NLVR2]: iter 101 Ep: 0.07 loss 0.738 score 0.511 lr 3.3914e-07 
+10/03/2020 21:56:13 - INFO - volta.utils -   [NLVR2]: iter 121 Ep: 0.09 loss 0.711 score 0.561 lr 4.13269e-07 
+10/03/2020 21:56:22 - INFO - volta.utils -   [NLVR2]: iter 141 Ep: 0.10 loss 0.718 score 0.523 lr 4.87398e-07 
+10/03/2020 21:56:30 - INFO - volta.utils -   [NLVR2]: iter 161 Ep: 0.12 loss 0.712 score 0.521 lr 5.61527e-07 
+10/03/2020 21:56:38 - INFO - volta.utils -   [NLVR2]: iter 181 Ep: 0.13 loss 0.701 score 0.527 lr 6.35656e-07 
+10/03/2020 21:56:46 - INFO - volta.utils -   [NLVR2]: iter 201 Ep: 0.15 loss 0.700 score 0.538 lr 7.09785e-07 
+10/03/2020 21:56:53 - INFO - volta.utils -   [NLVR2]: iter 221 Ep: 0.16 loss 0.705 score 0.526 lr 7.83914e-07 
+10/03/2020 21:57:01 - INFO - volta.utils -   [NLVR2]: iter 241 Ep: 0.18 loss 0.705 score 0.524 lr 8.58043e-07 
+10/03/2020 21:57:09 - INFO - volta.utils -   [NLVR2]: iter 261 Ep: 0.19 loss 0.703 score 0.521 lr 9.32172e-07 
+10/03/2020 21:57:19 - INFO - volta.utils -   [NLVR2]: iter 281 Ep: 0.21 loss 0.701 score 0.524 lr 1.0063e-06 
+10/03/2020 21:57:27 - INFO - volta.utils -   [NLVR2]: iter 301 Ep: 0.22 loss 0.695 score 0.539 lr 1.08043e-06 
+10/03/2020 21:57:34 - INFO - volta.utils -   [NLVR2]: iter 321 Ep: 0.24 loss 0.701 score 0.538 lr 1.15456e-06 
+10/03/2020 21:57:42 - INFO - volta.utils -   [NLVR2]: iter 341 Ep: 0.25 loss 0.698 score 0.534 lr 1.22869e-06 
+10/03/2020 21:57:50 - INFO - volta.utils -   [NLVR2]: iter 361 Ep: 0.27 loss 0.701 score 0.527 lr 1.30282e-06 
+10/03/2020 21:57:57 - INFO - volta.utils -   [NLVR2]: iter 381 Ep: 0.28 loss 0.695 score 0.539 lr 1.37695e-06 
+10/03/2020 21:58:05 - INFO - volta.utils -   [NLVR2]: iter 401 Ep: 0.30 loss 0.694 score 0.534 lr 1.45107e-06 
+10/03/2020 21:58:13 - INFO - volta.utils -   [NLVR2]: iter 421 Ep: 0.31 loss 0.692 score 0.558 lr 1.5252e-06 
+10/03/2020 21:58:21 - INFO - volta.utils -   [NLVR2]: iter 441 Ep: 0.33 loss 0.686 score 0.566 lr 1.59933e-06 
+10/03/2020 21:58:29 - INFO - volta.utils -   [NLVR2]: iter 461 Ep: 0.34 loss 0.692 score 0.538 lr 1.67346e-06 
+10/03/2020 21:58:37 - INFO - volta.utils -   [NLVR2]: iter 481 Ep: 0.36 loss 0.692 score 0.536 lr 1.74759e-06 
+10/03/2020 21:58:44 - INFO - volta.utils -   [NLVR2]: iter 501 Ep: 0.37 loss 0.693 score 0.523 lr 1.82172e-06 
+10/03/2020 21:58:52 - INFO - volta.utils -   [NLVR2]: iter 521 Ep: 0.39 loss 0.687 score 0.566 lr 1.89585e-06 
+10/03/2020 21:59:00 - INFO - volta.utils -   [NLVR2]: iter 541 Ep: 0.40 loss 0.686 score 0.572 lr 1.96998e-06 
+10/03/2020 21:59:09 - INFO - volta.utils -   [NLVR2]: iter 561 Ep: 0.42 loss 0.690 score 0.565 lr 2.04411e-06 
+10/03/2020 21:59:16 - INFO - volta.utils -   [NLVR2]: iter 581 Ep: 0.43 loss 0.674 score 0.587 lr 2.11824e-06 
+10/03/2020 21:59:24 - INFO - volta.utils -   [NLVR2]: iter 601 Ep: 0.45 loss 0.689 score 0.537 lr 2.19236e-06 
+10/03/2020 21:59:31 - INFO - volta.utils -   [NLVR2]: iter 621 Ep: 0.46 loss 0.674 score 0.585 lr 2.26649e-06 
+10/03/2020 21:59:39 - INFO - volta.utils -   [NLVR2]: iter 641 Ep: 0.48 loss 0.680 score 0.562 lr 2.34062e-06 
+10/03/2020 21:59:46 - INFO - volta.utils -   [NLVR2]: iter 661 Ep: 0.49 loss 0.688 score 0.556 lr 2.41475e-06 
+10/03/2020 21:59:54 - INFO - volta.utils -   [NLVR2]: iter 681 Ep: 0.50 loss 0.691 score 0.548 lr 2.48888e-06 
+10/03/2020 22:00:04 - INFO - volta.utils -   [NLVR2]: iter 701 Ep: 0.52 loss 0.674 score 0.584 lr 2.56301e-06 
+10/03/2020 22:00:13 - INFO - volta.utils -   [NLVR2]: iter 721 Ep: 0.53 loss 0.677 score 0.574 lr 2.63714e-06 
+10/03/2020 22:00:21 - INFO - volta.utils -   [NLVR2]: iter 741 Ep: 0.55 loss 0.681 score 0.562 lr 2.71127e-06 
+10/03/2020 22:00:28 - INFO - volta.utils -   [NLVR2]: iter 761 Ep: 0.56 loss 0.685 score 0.554 lr 2.7854e-06 
+10/03/2020 22:00:36 - INFO - volta.utils -   [NLVR2]: iter 781 Ep: 0.58 loss 0.680 score 0.567 lr 2.85953e-06 
+10/03/2020 22:00:43 - INFO - volta.utils -   [NLVR2]: iter 801 Ep: 0.59 loss 0.669 score 0.597 lr 2.93365e-06 
+10/03/2020 22:00:51 - INFO - volta.utils -   [NLVR2]: iter 821 Ep: 0.61 loss 0.672 score 0.592 lr 3.00778e-06 
+10/03/2020 22:00:58 - INFO - volta.utils -   [NLVR2]: iter 841 Ep: 0.62 loss 0.670 score 0.588 lr 3.08191e-06 
+10/03/2020 22:01:07 - INFO - volta.utils -   [NLVR2]: iter 861 Ep: 0.64 loss 0.679 score 0.575 lr 3.15604e-06 
+10/03/2020 22:01:14 - INFO - volta.utils -   [NLVR2]: iter 881 Ep: 0.65 loss 0.645 score 0.627 lr 3.23017e-06 
+10/03/2020 22:01:21 - INFO - volta.utils -   [NLVR2]: iter 901 Ep: 0.67 loss 0.674 score 0.588 lr 3.3043e-06 
+10/03/2020 22:01:29 - INFO - volta.utils -   [NLVR2]: iter 921 Ep: 0.68 loss 0.664 score 0.594 lr 3.37843e-06 
+10/03/2020 22:01:36 - INFO - volta.utils -   [NLVR2]: iter 941 Ep: 0.70 loss 0.669 score 0.586 lr 3.45256e-06 
+10/03/2020 22:01:44 - INFO - volta.utils -   [NLVR2]: iter 961 Ep: 0.71 loss 0.674 score 0.580 lr 3.52669e-06 
+10/03/2020 22:01:51 - INFO - volta.utils -   [NLVR2]: iter 981 Ep: 0.73 loss 0.661 score 0.604 lr 3.60082e-06 
+10/03/2020 22:02:00 - INFO - volta.utils -   [NLVR2]: iter 1001 Ep: 0.74 loss 0.665 score 0.602 lr 3.67494e-06 
+10/03/2020 22:02:07 - INFO - volta.utils -   [NLVR2]: iter 1021 Ep: 0.76 loss 0.657 score 0.605 lr 3.74907e-06 
+10/03/2020 22:02:15 - INFO - volta.utils -   [NLVR2]: iter 1041 Ep: 0.77 loss 0.666 score 0.595 lr 3.8232e-06 
+10/03/2020 22:02:22 - INFO - volta.utils -   [NLVR2]: iter 1061 Ep: 0.79 loss 0.664 score 0.584 lr 3.89733e-06 
+10/03/2020 22:02:33 - INFO - volta.utils -   [NLVR2]: iter 1081 Ep: 0.80 loss 0.637 score 0.649 lr 3.97146e-06 
+10/03/2020 22:02:41 - INFO - volta.utils -   [NLVR2]: iter 1101 Ep: 0.82 loss 0.648 score 0.605 lr 4.04559e-06 
+10/03/2020 22:02:48 - INFO - volta.utils -   [NLVR2]: iter 1121 Ep: 0.83 loss 0.656 score 0.619 lr 4.11972e-06 
+10/03/2020 22:02:57 - INFO - volta.utils -   [NLVR2]: iter 1141 Ep: 0.85 loss 0.647 score 0.623 lr 4.19385e-06 
+10/03/2020 22:03:04 - INFO - volta.utils -   [NLVR2]: iter 1161 Ep: 0.86 loss 0.660 score 0.599 lr 4.26798e-06 
+10/03/2020 22:03:12 - INFO - volta.utils -   [NLVR2]: iter 1181 Ep: 0.88 loss 0.661 score 0.606 lr 4.34211e-06 
+10/03/2020 22:03:23 - INFO - volta.utils -   [NLVR2]: iter 1201 Ep: 0.89 loss 0.648 score 0.621 lr 4.41623e-06 
+10/03/2020 22:03:31 - INFO - volta.utils -   [NLVR2]: iter 1221 Ep: 0.91 loss 0.648 score 0.612 lr 4.49036e-06 
+10/03/2020 22:03:38 - INFO - volta.utils -   [NLVR2]: iter 1241 Ep: 0.92 loss 0.661 score 0.602 lr 4.56449e-06 
+10/03/2020 22:03:46 - INFO - volta.utils -   [NLVR2]: iter 1261 Ep: 0.93 loss 0.638 score 0.625 lr 4.63862e-06 
+10/03/2020 22:03:55 - INFO - volta.utils -   [NLVR2]: iter 1281 Ep: 0.95 loss 0.648 score 0.605 lr 4.71275e-06 
+10/03/2020 22:04:02 - INFO - volta.utils -   [NLVR2]: iter 1301 Ep: 0.96 loss 0.645 score 0.620 lr 4.78688e-06 
+10/03/2020 22:04:09 - INFO - volta.utils -   [NLVR2]: iter 1321 Ep: 0.98 loss 0.648 score 0.609 lr 4.86101e-06 
+10/03/2020 22:04:17 - INFO - volta.utils -   [NLVR2]: iter 1341 Ep: 0.99 loss 0.649 score 0.603 lr 4.93514e-06 
+10/03/2020 22:04:20 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:   5%|▌         | 1/20 [1:43:52<32:53:28, 6232.02s/it]10/03/2020 22:06:36 - INFO - volta.utils -   Eval task TASK12 on iteration 1350 
+10/03/2020 22:06:36 - INFO - volta.utils -   Validation [NLVR2]: loss 0.632 score 62.973 
+10/03/2020 22:06:44 - INFO - volta.utils -   [NLVR2]: iter 1370 Ep: 1.02 loss 0.625 score 0.633 lr 5.02595e-06 
+10/03/2020 22:06:52 - INFO - volta.utils -   [NLVR2]: iter 1390 Ep: 1.03 loss 0.641 score 0.616 lr 5.11675e-06 
+10/03/2020 22:07:00 - INFO - volta.utils -   [NLVR2]: iter 1410 Ep: 1.05 loss 0.634 score 0.607 lr 5.19088e-06 
+10/03/2020 22:07:07 - INFO - volta.utils -   [NLVR2]: iter 1430 Ep: 1.06 loss 0.613 score 0.658 lr 5.26501e-06 
+10/03/2020 22:07:15 - INFO - volta.utils -   [NLVR2]: iter 1450 Ep: 1.07 loss 0.625 score 0.648 lr 5.33914e-06 
+10/03/2020 22:07:22 - INFO - volta.utils -   [NLVR2]: iter 1470 Ep: 1.09 loss 0.617 score 0.655 lr 5.41327e-06 
+10/03/2020 22:07:29 - INFO - volta.utils -   [NLVR2]: iter 1490 Ep: 1.10 loss 0.619 score 0.649 lr 5.4874e-06 
+10/03/2020 22:07:38 - INFO - volta.utils -   [NLVR2]: iter 1510 Ep: 1.12 loss 0.622 score 0.645 lr 5.56153e-06 
+10/03/2020 22:07:45 - INFO - volta.utils -   [NLVR2]: iter 1530 Ep: 1.13 loss 0.619 score 0.641 lr 5.63566e-06 
+10/03/2020 22:07:53 - INFO - volta.utils -   [NLVR2]: iter 1550 Ep: 1.15 loss 0.617 score 0.649 lr 5.70979e-06 
+10/03/2020 22:08:00 - INFO - volta.utils -   [NLVR2]: iter 1570 Ep: 1.16 loss 0.607 score 0.659 lr 5.78391e-06 
+10/03/2020 22:08:08 - INFO - volta.utils -   [NLVR2]: iter 1590 Ep: 1.18 loss 0.620 score 0.634 lr 5.85804e-06 
+10/03/2020 22:08:15 - INFO - volta.utils -   [NLVR2]: iter 1610 Ep: 1.19 loss 0.598 score 0.650 lr 5.93217e-06 
+10/03/2020 22:08:22 - INFO - volta.utils -   [NLVR2]: iter 1630 Ep: 1.21 loss 0.632 score 0.644 lr 6.0063e-06 
+10/03/2020 22:08:31 - INFO - volta.utils -   [NLVR2]: iter 1650 Ep: 1.22 loss 0.630 score 0.634 lr 6.08043e-06 
+10/03/2020 22:08:38 - INFO - volta.utils -   [NLVR2]: iter 1670 Ep: 1.24 loss 0.614 score 0.635 lr 6.15456e-06 
+10/03/2020 22:08:46 - INFO - volta.utils -   [NLVR2]: iter 1690 Ep: 1.25 loss 0.622 score 0.646 lr 6.22869e-06 
+10/03/2020 22:08:53 - INFO - volta.utils -   [NLVR2]: iter 1710 Ep: 1.27 loss 0.607 score 0.652 lr 6.30282e-06 
+10/03/2020 22:09:01 - INFO - volta.utils -   [NLVR2]: iter 1730 Ep: 1.28 loss 0.631 score 0.626 lr 6.37695e-06 
+10/03/2020 22:09:08 - INFO - volta.utils -   [NLVR2]: iter 1750 Ep: 1.30 loss 0.592 score 0.657 lr 6.45107e-06 
+10/03/2020 22:09:16 - INFO - volta.utils -   [NLVR2]: iter 1770 Ep: 1.31 loss 0.609 score 0.660 lr 6.5252e-06 
+10/03/2020 22:09:25 - INFO - volta.utils -   [NLVR2]: iter 1790 Ep: 1.33 loss 0.623 score 0.658 lr 6.59933e-06 
+10/03/2020 22:09:32 - INFO - volta.utils -   [NLVR2]: iter 1810 Ep: 1.34 loss 0.620 score 0.655 lr 6.67346e-06 
+10/03/2020 22:09:39 - INFO - volta.utils -   [NLVR2]: iter 1830 Ep: 1.36 loss 0.620 score 0.631 lr 6.74759e-06 
+10/03/2020 22:09:47 - INFO - volta.utils -   [NLVR2]: iter 1850 Ep: 1.37 loss 0.594 score 0.652 lr 6.82172e-06 
+10/03/2020 22:09:54 - INFO - volta.utils -   [NLVR2]: iter 1870 Ep: 1.39 loss 0.617 score 0.660 lr 6.89585e-06 
+10/03/2020 22:10:02 - INFO - volta.utils -   [NLVR2]: iter 1890 Ep: 1.40 loss 0.607 score 0.659 lr 6.96998e-06 
+10/03/2020 22:10:10 - INFO - volta.utils -   [NLVR2]: iter 1910 Ep: 1.42 loss 0.605 score 0.657 lr 7.04411e-06 
+10/03/2020 22:10:17 - INFO - volta.utils -   [NLVR2]: iter 1930 Ep: 1.43 loss 0.601 score 0.672 lr 7.11824e-06 
+10/03/2020 22:10:26 - INFO - volta.utils -   [NLVR2]: iter 1950 Ep: 1.45 loss 0.621 score 0.631 lr 7.19236e-06 
+10/03/2020 22:10:34 - INFO - volta.utils -   [NLVR2]: iter 1970 Ep: 1.46 loss 0.608 score 0.652 lr 7.26649e-06 
+10/03/2020 22:10:41 - INFO - volta.utils -   [NLVR2]: iter 1990 Ep: 1.48 loss 0.598 score 0.655 lr 7.34062e-06 
+10/03/2020 22:10:49 - INFO - volta.utils -   [NLVR2]: iter 2010 Ep: 1.49 loss 0.630 score 0.637 lr 7.41475e-06 
+10/03/2020 22:10:56 - INFO - volta.utils -   [NLVR2]: iter 2030 Ep: 1.50 loss 0.615 score 0.659 lr 7.48888e-06 
+10/03/2020 22:11:04 - INFO - volta.utils -   [NLVR2]: iter 2050 Ep: 1.52 loss 0.593 score 0.664 lr 7.56301e-06 
+10/03/2020 22:11:11 - INFO - volta.utils -   [NLVR2]: iter 2070 Ep: 1.53 loss 0.595 score 0.653 lr 7.63714e-06 
+10/03/2020 22:11:19 - INFO - volta.utils -   [NLVR2]: iter 2090 Ep: 1.55 loss 0.604 score 0.651 lr 7.71127e-06 
+10/03/2020 22:11:27 - INFO - volta.utils -   [NLVR2]: iter 2110 Ep: 1.56 loss 0.603 score 0.672 lr 7.7854e-06 
+10/03/2020 22:11:34 - INFO - volta.utils -   [NLVR2]: iter 2130 Ep: 1.58 loss 0.622 score 0.629 lr 7.85953e-06 
+10/03/2020 22:11:42 - INFO - volta.utils -   [NLVR2]: iter 2150 Ep: 1.59 loss 0.604 score 0.647 lr 7.93365e-06 
+10/03/2020 22:11:50 - INFO - volta.utils -   [NLVR2]: iter 2170 Ep: 1.61 loss 0.593 score 0.679 lr 8.00778e-06 
+10/03/2020 22:11:57 - INFO - volta.utils -   [NLVR2]: iter 2190 Ep: 1.62 loss 0.597 score 0.663 lr 8.08191e-06 
+10/03/2020 22:12:05 - INFO - volta.utils -   [NLVR2]: iter 2210 Ep: 1.64 loss 0.600 score 0.652 lr 8.15604e-06 
+10/03/2020 22:12:13 - INFO - volta.utils -   [NLVR2]: iter 2230 Ep: 1.65 loss 0.607 score 0.649 lr 8.23017e-06 
+10/03/2020 22:12:21 - INFO - volta.utils -   [NLVR2]: iter 2250 Ep: 1.67 loss 0.602 score 0.662 lr 8.3043e-06 
+10/03/2020 22:12:28 - INFO - volta.utils -   [NLVR2]: iter 2270 Ep: 1.68 loss 0.600 score 0.657 lr 8.37843e-06 
+10/03/2020 22:12:36 - INFO - volta.utils -   [NLVR2]: iter 2290 Ep: 1.70 loss 0.608 score 0.655 lr 8.45256e-06 
+10/03/2020 22:12:44 - INFO - volta.utils -   [NLVR2]: iter 2310 Ep: 1.71 loss 0.600 score 0.667 lr 8.52669e-06 
+10/03/2020 22:12:51 - INFO - volta.utils -   [NLVR2]: iter 2330 Ep: 1.73 loss 0.607 score 0.657 lr 8.60082e-06 
+10/03/2020 22:12:59 - INFO - volta.utils -   [NLVR2]: iter 2350 Ep: 1.74 loss 0.596 score 0.666 lr 8.67494e-06 
+10/03/2020 22:13:07 - INFO - volta.utils -   [NLVR2]: iter 2370 Ep: 1.76 loss 0.615 score 0.662 lr 8.74907e-06 
+10/03/2020 22:13:15 - INFO - volta.utils -   [NLVR2]: iter 2390 Ep: 1.77 loss 0.613 score 0.646 lr 8.8232e-06 
+10/03/2020 22:13:22 - INFO - volta.utils -   [NLVR2]: iter 2410 Ep: 1.79 loss 0.592 score 0.670 lr 8.89733e-06 
+10/03/2020 22:13:30 - INFO - volta.utils -   [NLVR2]: iter 2430 Ep: 1.80 loss 0.597 score 0.659 lr 8.97146e-06 
+10/03/2020 22:13:37 - INFO - volta.utils -   [NLVR2]: iter 2450 Ep: 1.82 loss 0.597 score 0.666 lr 9.04559e-06 
+10/03/2020 22:13:45 - INFO - volta.utils -   [NLVR2]: iter 2470 Ep: 1.83 loss 0.589 score 0.673 lr 9.11972e-06 
+10/03/2020 22:13:52 - INFO - volta.utils -   [NLVR2]: iter 2490 Ep: 1.85 loss 0.602 score 0.658 lr 9.19385e-06 
+10/03/2020 22:14:01 - INFO - volta.utils -   [NLVR2]: iter 2510 Ep: 1.86 loss 0.593 score 0.679 lr 9.26798e-06 
+10/03/2020 22:14:08 - INFO - volta.utils -   [NLVR2]: iter 2530 Ep: 1.88 loss 0.593 score 0.671 lr 9.34211e-06 
+10/03/2020 22:14:16 - INFO - volta.utils -   [NLVR2]: iter 2550 Ep: 1.89 loss 0.631 score 0.647 lr 9.41623e-06 
+10/03/2020 22:14:23 - INFO - volta.utils -   [NLVR2]: iter 2570 Ep: 1.91 loss 0.603 score 0.659 lr 9.49036e-06 
+10/03/2020 22:14:31 - INFO - volta.utils -   [NLVR2]: iter 2590 Ep: 1.92 loss 0.596 score 0.676 lr 9.56449e-06 
+10/03/2020 22:14:39 - INFO - volta.utils -   [NLVR2]: iter 2610 Ep: 1.93 loss 0.598 score 0.648 lr 9.63862e-06 
+10/03/2020 22:14:46 - INFO - volta.utils -   [NLVR2]: iter 2630 Ep: 1.95 loss 0.602 score 0.672 lr 9.71275e-06 
+10/03/2020 22:14:54 - INFO - volta.utils -   [NLVR2]: iter 2650 Ep: 1.96 loss 0.586 score 0.662 lr 9.78688e-06 
+10/03/2020 22:15:02 - INFO - volta.utils -   [NLVR2]: iter 2670 Ep: 1.98 loss 0.592 score 0.655 lr 9.86101e-06 
+10/03/2020 22:15:09 - INFO - volta.utils -   [NLVR2]: iter 2690 Ep: 1.99 loss 0.610 score 0.641 lr 9.93514e-06 
+10/03/2020 22:15:12 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  10%|█         | 2/20 [1:54:45<22:47:31, 4558.41s/it]10/03/2020 22:15:47 - INFO - volta.utils -   Eval task TASK12 on iteration 2699 
+10/03/2020 22:15:47 - INFO - volta.utils -   Validation [NLVR2]: loss 0.594 score 66.901 
+10/03/2020 22:15:54 - INFO - volta.utils -   [NLVR2]: iter 2719 Ep: 2.02 loss 0.578 score 0.685 lr 9.99314e-06 
+10/03/2020 22:16:02 - INFO - volta.utils -   [NLVR2]: iter 2739 Ep: 2.03 loss 0.559 score 0.685 lr 9.98703e-06 
+10/03/2020 22:16:10 - INFO - volta.utils -   [NLVR2]: iter 2759 Ep: 2.05 loss 0.555 score 0.707 lr 9.97879e-06 
+10/03/2020 22:16:17 - INFO - volta.utils -   [NLVR2]: iter 2779 Ep: 2.06 loss 0.568 score 0.684 lr 9.97055e-06 
+10/03/2020 22:16:25 - INFO - volta.utils -   [NLVR2]: iter 2799 Ep: 2.07 loss 0.573 score 0.688 lr 9.96232e-06 
+10/03/2020 22:16:33 - INFO - volta.utils -   [NLVR2]: iter 2819 Ep: 2.09 loss 0.558 score 0.701 lr 9.95408e-06 
+10/03/2020 22:16:41 - INFO - volta.utils -   [NLVR2]: iter 2839 Ep: 2.10 loss 0.561 score 0.698 lr 9.94584e-06 
+10/03/2020 22:16:48 - INFO - volta.utils -   [NLVR2]: iter 2859 Ep: 2.12 loss 0.552 score 0.707 lr 9.93761e-06 
+10/03/2020 22:16:56 - INFO - volta.utils -   [NLVR2]: iter 2879 Ep: 2.13 loss 0.561 score 0.700 lr 9.92937e-06 
+10/03/2020 22:17:03 - INFO - volta.utils -   [NLVR2]: iter 2899 Ep: 2.15 loss 0.571 score 0.684 lr 9.92113e-06 
+10/03/2020 22:17:11 - INFO - volta.utils -   [NLVR2]: iter 2919 Ep: 2.16 loss 0.563 score 0.681 lr 9.9129e-06 
+10/03/2020 22:17:18 - INFO - volta.utils -   [NLVR2]: iter 2939 Ep: 2.18 loss 0.545 score 0.702 lr 9.90466e-06 
+10/03/2020 22:17:26 - INFO - volta.utils -   [NLVR2]: iter 2959 Ep: 2.19 loss 0.548 score 0.716 lr 9.89643e-06 
+10/03/2020 22:17:35 - INFO - volta.utils -   [NLVR2]: iter 2979 Ep: 2.21 loss 0.563 score 0.695 lr 9.88819e-06 
+10/03/2020 22:17:42 - INFO - volta.utils -   [NLVR2]: iter 2999 Ep: 2.22 loss 0.553 score 0.697 lr 9.87995e-06 
+10/03/2020 22:17:50 - INFO - volta.utils -   [NLVR2]: iter 3019 Ep: 2.24 loss 0.569 score 0.702 lr 9.87172e-06 
+10/03/2020 22:17:57 - INFO - volta.utils -   [NLVR2]: iter 3039 Ep: 2.25 loss 0.553 score 0.711 lr 9.86348e-06 
+10/03/2020 22:18:04 - INFO - volta.utils -   [NLVR2]: iter 3059 Ep: 2.27 loss 0.553 score 0.695 lr 9.85524e-06 
+10/03/2020 22:18:12 - INFO - volta.utils -   [NLVR2]: iter 3079 Ep: 2.28 loss 0.567 score 0.682 lr 9.84701e-06 
+10/03/2020 22:18:19 - INFO - volta.utils -   [NLVR2]: iter 3099 Ep: 2.30 loss 0.562 score 0.694 lr 9.83877e-06 
+10/03/2020 22:18:28 - INFO - volta.utils -   [NLVR2]: iter 3119 Ep: 2.31 loss 0.539 score 0.709 lr 9.83053e-06 
+10/03/2020 22:18:36 - INFO - volta.utils -   [NLVR2]: iter 3139 Ep: 2.33 loss 0.569 score 0.688 lr 9.8223e-06 
+10/03/2020 22:18:43 - INFO - volta.utils -   [NLVR2]: iter 3159 Ep: 2.34 loss 0.553 score 0.721 lr 9.81406e-06 
+10/03/2020 22:18:51 - INFO - volta.utils -   [NLVR2]: iter 3179 Ep: 2.36 loss 0.555 score 0.712 lr 9.80582e-06 
+10/03/2020 22:18:58 - INFO - volta.utils -   [NLVR2]: iter 3199 Ep: 2.37 loss 0.546 score 0.725 lr 9.79759e-06 
+10/03/2020 22:19:06 - INFO - volta.utils -   [NLVR2]: iter 3219 Ep: 2.39 loss 0.562 score 0.689 lr 9.78935e-06 
+10/03/2020 22:19:13 - INFO - volta.utils -   [NLVR2]: iter 3239 Ep: 2.40 loss 0.551 score 0.703 lr 9.78111e-06 
+10/03/2020 22:19:22 - INFO - volta.utils -   [NLVR2]: iter 3259 Ep: 2.42 loss 0.558 score 0.702 lr 9.77288e-06 
+10/03/2020 22:19:30 - INFO - volta.utils -   [NLVR2]: iter 3279 Ep: 2.43 loss 0.554 score 0.697 lr 9.76464e-06 
+10/03/2020 22:19:37 - INFO - volta.utils -   [NLVR2]: iter 3299 Ep: 2.45 loss 0.534 score 0.712 lr 9.7564e-06 
+10/03/2020 22:19:45 - INFO - volta.utils -   [NLVR2]: iter 3319 Ep: 2.46 loss 0.566 score 0.700 lr 9.74817e-06 
+10/03/2020 22:19:52 - INFO - volta.utils -   [NLVR2]: iter 3339 Ep: 2.48 loss 0.567 score 0.688 lr 9.73993e-06 
+10/03/2020 22:19:59 - INFO - volta.utils -   [NLVR2]: iter 3359 Ep: 2.49 loss 0.546 score 0.705 lr 9.73169e-06 
+10/03/2020 22:20:07 - INFO - volta.utils -   [NLVR2]: iter 3379 Ep: 2.50 loss 0.555 score 0.691 lr 9.72346e-06 
+10/03/2020 22:20:14 - INFO - volta.utils -   [NLVR2]: iter 3399 Ep: 2.52 loss 0.534 score 0.722 lr 9.71522e-06 
+10/03/2020 22:20:23 - INFO - volta.utils -   [NLVR2]: iter 3419 Ep: 2.53 loss 0.544 score 0.695 lr 9.70698e-06 
+10/03/2020 22:20:30 - INFO - volta.utils -   [NLVR2]: iter 3439 Ep: 2.55 loss 0.571 score 0.683 lr 9.69875e-06 
+10/03/2020 22:20:38 - INFO - volta.utils -   [NLVR2]: iter 3459 Ep: 2.56 loss 0.556 score 0.709 lr 9.69051e-06 
+10/03/2020 22:20:45 - INFO - volta.utils -   [NLVR2]: iter 3479 Ep: 2.58 loss 0.554 score 0.706 lr 9.68227e-06 
+10/03/2020 22:20:53 - INFO - volta.utils -   [NLVR2]: iter 3499 Ep: 2.59 loss 0.565 score 0.703 lr 9.67404e-06 
+10/03/2020 22:21:00 - INFO - volta.utils -   [NLVR2]: iter 3519 Ep: 2.61 loss 0.562 score 0.677 lr 9.6658e-06 
+10/03/2020 22:21:08 - INFO - volta.utils -   [NLVR2]: iter 3539 Ep: 2.62 loss 0.533 score 0.727 lr 9.65757e-06 
+10/03/2020 22:21:17 - INFO - volta.utils -   [NLVR2]: iter 3559 Ep: 2.64 loss 0.564 score 0.687 lr 9.64933e-06 
+10/03/2020 22:21:24 - INFO - volta.utils -   [NLVR2]: iter 3579 Ep: 2.65 loss 0.560 score 0.700 lr 9.64109e-06 
+10/03/2020 22:21:32 - INFO - volta.utils -   [NLVR2]: iter 3599 Ep: 2.67 loss 0.543 score 0.707 lr 9.63286e-06 
+10/03/2020 22:21:39 - INFO - volta.utils -   [NLVR2]: iter 3619 Ep: 2.68 loss 0.546 score 0.711 lr 9.62462e-06 
+10/03/2020 22:21:47 - INFO - volta.utils -   [NLVR2]: iter 3639 Ep: 2.70 loss 0.516 score 0.730 lr 9.61638e-06 
+10/03/2020 22:21:54 - INFO - volta.utils -   [NLVR2]: iter 3659 Ep: 2.71 loss 0.549 score 0.716 lr 9.60815e-06 
+10/03/2020 22:22:02 - INFO - volta.utils -   [NLVR2]: iter 3679 Ep: 2.73 loss 0.536 score 0.698 lr 9.59991e-06 
+10/03/2020 22:22:10 - INFO - volta.utils -   [NLVR2]: iter 3699 Ep: 2.74 loss 0.548 score 0.698 lr 9.59167e-06 
+10/03/2020 22:22:18 - INFO - volta.utils -   [NLVR2]: iter 3719 Ep: 2.76 loss 0.541 score 0.707 lr 9.58344e-06 
+10/03/2020 22:22:25 - INFO - volta.utils -   [NLVR2]: iter 3739 Ep: 2.77 loss 0.533 score 0.730 lr 9.5752e-06 
+10/03/2020 22:22:32 - INFO - volta.utils -   [NLVR2]: iter 3759 Ep: 2.79 loss 0.563 score 0.679 lr 9.56696e-06 
+10/03/2020 22:22:40 - INFO - volta.utils -   [NLVR2]: iter 3779 Ep: 2.80 loss 0.553 score 0.705 lr 9.55873e-06 
+10/03/2020 22:22:48 - INFO - volta.utils -   [NLVR2]: iter 3799 Ep: 2.82 loss 0.523 score 0.724 lr 9.55049e-06 
+10/03/2020 22:22:55 - INFO - volta.utils -   [NLVR2]: iter 3819 Ep: 2.83 loss 0.571 score 0.682 lr 9.54225e-06 
+10/03/2020 22:23:04 - INFO - volta.utils -   [NLVR2]: iter 3839 Ep: 2.85 loss 0.550 score 0.707 lr 9.53402e-06 
+10/03/2020 22:23:11 - INFO - volta.utils -   [NLVR2]: iter 3859 Ep: 2.86 loss 0.530 score 0.733 lr 9.52578e-06 
+10/03/2020 22:23:19 - INFO - volta.utils -   [NLVR2]: iter 3879 Ep: 2.88 loss 0.525 score 0.729 lr 9.51754e-06 
+10/03/2020 22:23:26 - INFO - volta.utils -   [NLVR2]: iter 3899 Ep: 2.89 loss 0.531 score 0.712 lr 9.50931e-06 
+10/03/2020 22:23:34 - INFO - volta.utils -   [NLVR2]: iter 3919 Ep: 2.91 loss 0.525 score 0.714 lr 9.50107e-06 
+10/03/2020 22:23:41 - INFO - volta.utils -   [NLVR2]: iter 3939 Ep: 2.92 loss 0.554 score 0.695 lr 9.49283e-06 
+10/03/2020 22:23:49 - INFO - volta.utils -   [NLVR2]: iter 3959 Ep: 2.93 loss 0.535 score 0.717 lr 9.4846e-06 
+10/03/2020 22:23:57 - INFO - volta.utils -   [NLVR2]: iter 3979 Ep: 2.95 loss 0.534 score 0.735 lr 9.47636e-06 
+10/03/2020 22:24:05 - INFO - volta.utils -   [NLVR2]: iter 3999 Ep: 2.96 loss 0.534 score 0.707 lr 9.46812e-06 
+10/03/2020 22:24:12 - INFO - volta.utils -   [NLVR2]: iter 4019 Ep: 2.98 loss 0.564 score 0.688 lr 9.45989e-06 
+10/03/2020 22:24:20 - INFO - volta.utils -   [NLVR2]: iter 4039 Ep: 2.99 loss 0.552 score 0.699 lr 9.45165e-06 
+10/03/2020 22:24:23 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  15%|█▌        | 3/20 [2:03:56<15:50:55, 3356.22s/it]10/03/2020 22:24:55 - INFO - volta.utils -   Eval task TASK12 on iteration 4048 
+10/03/2020 22:24:55 - INFO - volta.utils -   Validation [NLVR2]: loss 0.562 score 70.341 
+10/03/2020 22:25:03 - INFO - volta.utils -   [NLVR2]: iter 4068 Ep: 3.02 loss 0.487 score 0.763 lr 9.44156e-06 
+10/03/2020 22:25:11 - INFO - volta.utils -   [NLVR2]: iter 4088 Ep: 3.03 loss 0.466 score 0.777 lr 9.43147e-06 
+10/03/2020 22:25:18 - INFO - volta.utils -   [NLVR2]: iter 4108 Ep: 3.05 loss 0.486 score 0.761 lr 9.42324e-06 
+10/03/2020 22:25:26 - INFO - volta.utils -   [NLVR2]: iter 4128 Ep: 3.06 loss 0.486 score 0.748 lr 9.415e-06 
+10/03/2020 22:25:33 - INFO - volta.utils -   [NLVR2]: iter 4148 Ep: 3.07 loss 0.488 score 0.749 lr 9.40676e-06 
+10/03/2020 22:25:41 - INFO - volta.utils -   [NLVR2]: iter 4168 Ep: 3.09 loss 0.461 score 0.757 lr 9.39853e-06 
+10/03/2020 22:25:48 - INFO - volta.utils -   [NLVR2]: iter 4188 Ep: 3.10 loss 0.459 score 0.766 lr 9.39029e-06 
+10/03/2020 22:25:56 - INFO - volta.utils -   [NLVR2]: iter 4208 Ep: 3.12 loss 0.493 score 0.747 lr 9.38205e-06 
+10/03/2020 22:26:04 - INFO - volta.utils -   [NLVR2]: iter 4228 Ep: 3.13 loss 0.467 score 0.777 lr 9.37382e-06 
+10/03/2020 22:26:12 - INFO - volta.utils -   [NLVR2]: iter 4248 Ep: 3.15 loss 0.490 score 0.754 lr 9.36558e-06 
+10/03/2020 22:26:19 - INFO - volta.utils -   [NLVR2]: iter 4268 Ep: 3.16 loss 0.483 score 0.753 lr 9.35734e-06 
+10/03/2020 22:26:27 - INFO - volta.utils -   [NLVR2]: iter 4288 Ep: 3.18 loss 0.478 score 0.756 lr 9.34911e-06 
+10/03/2020 22:26:34 - INFO - volta.utils -   [NLVR2]: iter 4308 Ep: 3.19 loss 0.481 score 0.755 lr 9.34087e-06 
+10/03/2020 22:26:42 - INFO - volta.utils -   [NLVR2]: iter 4328 Ep: 3.21 loss 0.484 score 0.755 lr 9.33263e-06 
+10/03/2020 22:26:50 - INFO - volta.utils -   [NLVR2]: iter 4348 Ep: 3.22 loss 0.460 score 0.780 lr 9.3244e-06 
+10/03/2020 22:26:58 - INFO - volta.utils -   [NLVR2]: iter 4368 Ep: 3.24 loss 0.473 score 0.758 lr 9.31616e-06 
+10/03/2020 22:27:06 - INFO - volta.utils -   [NLVR2]: iter 4388 Ep: 3.25 loss 0.475 score 0.745 lr 9.30792e-06 
+10/03/2020 22:27:14 - INFO - volta.utils -   [NLVR2]: iter 4408 Ep: 3.27 loss 0.472 score 0.767 lr 9.29969e-06 
+10/03/2020 22:27:21 - INFO - volta.utils -   [NLVR2]: iter 4428 Ep: 3.28 loss 0.483 score 0.758 lr 9.29145e-06 
+10/03/2020 22:27:29 - INFO - volta.utils -   [NLVR2]: iter 4448 Ep: 3.30 loss 0.479 score 0.747 lr 9.28321e-06 
+10/03/2020 22:27:37 - INFO - volta.utils -   [NLVR2]: iter 4468 Ep: 3.31 loss 0.520 score 0.723 lr 9.27498e-06 
+10/03/2020 22:27:45 - INFO - volta.utils -   [NLVR2]: iter 4488 Ep: 3.33 loss 0.476 score 0.766 lr 9.26674e-06 
+10/03/2020 22:27:53 - INFO - volta.utils -   [NLVR2]: iter 4508 Ep: 3.34 loss 0.475 score 0.764 lr 9.2585e-06 
+10/03/2020 22:28:01 - INFO - volta.utils -   [NLVR2]: iter 4528 Ep: 3.36 loss 0.457 score 0.782 lr 9.25027e-06 
+10/03/2020 22:28:08 - INFO - volta.utils -   [NLVR2]: iter 4548 Ep: 3.37 loss 0.497 score 0.739 lr 9.24203e-06 
+10/03/2020 22:28:16 - INFO - volta.utils -   [NLVR2]: iter 4568 Ep: 3.39 loss 0.461 score 0.764 lr 9.23379e-06 
+10/03/2020 22:28:24 - INFO - volta.utils -   [NLVR2]: iter 4588 Ep: 3.40 loss 0.474 score 0.762 lr 9.22556e-06 
+10/03/2020 22:28:31 - INFO - volta.utils -   [NLVR2]: iter 4608 Ep: 3.42 loss 0.474 score 0.745 lr 9.21732e-06 
+10/03/2020 22:28:39 - INFO - volta.utils -   [NLVR2]: iter 4628 Ep: 3.43 loss 0.477 score 0.755 lr 9.20908e-06 
+10/03/2020 22:28:47 - INFO - volta.utils -   [NLVR2]: iter 4648 Ep: 3.45 loss 0.463 score 0.763 lr 9.20085e-06 
+10/03/2020 22:28:55 - INFO - volta.utils -   [NLVR2]: iter 4668 Ep: 3.46 loss 0.468 score 0.759 lr 9.19261e-06 
+10/03/2020 22:29:02 - INFO - volta.utils -   [NLVR2]: iter 4688 Ep: 3.48 loss 0.495 score 0.748 lr 9.18438e-06 
+10/03/2020 22:29:10 - INFO - volta.utils -   [NLVR2]: iter 4708 Ep: 3.49 loss 0.499 score 0.748 lr 9.17614e-06 
+10/03/2020 22:29:18 - INFO - volta.utils -   [NLVR2]: iter 4728 Ep: 3.50 loss 0.493 score 0.757 lr 9.1679e-06 
+10/03/2020 22:29:26 - INFO - volta.utils -   [NLVR2]: iter 4748 Ep: 3.52 loss 0.483 score 0.741 lr 9.15967e-06 
+10/03/2020 22:29:34 - INFO - volta.utils -   [NLVR2]: iter 4768 Ep: 3.53 loss 0.454 score 0.767 lr 9.15143e-06 
+10/03/2020 22:29:43 - INFO - volta.utils -   [NLVR2]: iter 4788 Ep: 3.55 loss 0.485 score 0.755 lr 9.14319e-06 
+10/03/2020 22:29:50 - INFO - volta.utils -   [NLVR2]: iter 4808 Ep: 3.56 loss 0.463 score 0.776 lr 9.13496e-06 
+10/03/2020 22:29:58 - INFO - volta.utils -   [NLVR2]: iter 4828 Ep: 3.58 loss 0.477 score 0.762 lr 9.12672e-06 
+10/03/2020 22:30:06 - INFO - volta.utils -   [NLVR2]: iter 4848 Ep: 3.59 loss 0.456 score 0.773 lr 9.11848e-06 
+10/03/2020 22:30:13 - INFO - volta.utils -   [NLVR2]: iter 4868 Ep: 3.61 loss 0.482 score 0.751 lr 9.11025e-06 
+10/03/2020 22:30:21 - INFO - volta.utils -   [NLVR2]: iter 4888 Ep: 3.62 loss 0.482 score 0.761 lr 9.10201e-06 
+10/03/2020 22:30:28 - INFO - volta.utils -   [NLVR2]: iter 4908 Ep: 3.64 loss 0.482 score 0.731 lr 9.09377e-06 
+10/03/2020 22:30:37 - INFO - volta.utils -   [NLVR2]: iter 4928 Ep: 3.65 loss 0.479 score 0.744 lr 9.08554e-06 
+10/03/2020 22:30:44 - INFO - volta.utils -   [NLVR2]: iter 4948 Ep: 3.67 loss 0.456 score 0.779 lr 9.0773e-06 
+10/03/2020 22:30:52 - INFO - volta.utils -   [NLVR2]: iter 4968 Ep: 3.68 loss 0.464 score 0.772 lr 9.06906e-06 
+10/03/2020 22:30:59 - INFO - volta.utils -   [NLVR2]: iter 4988 Ep: 3.70 loss 0.471 score 0.755 lr 9.06083e-06 
+10/03/2020 22:31:07 - INFO - volta.utils -   [NLVR2]: iter 5008 Ep: 3.71 loss 0.474 score 0.745 lr 9.05259e-06 
+10/03/2020 22:31:14 - INFO - volta.utils -   [NLVR2]: iter 5028 Ep: 3.73 loss 0.490 score 0.761 lr 9.04435e-06 
+10/03/2020 22:31:22 - INFO - volta.utils -   [NLVR2]: iter 5048 Ep: 3.74 loss 0.480 score 0.761 lr 9.03612e-06 
+10/03/2020 22:31:30 - INFO - volta.utils -   [NLVR2]: iter 5068 Ep: 3.76 loss 0.475 score 0.768 lr 9.02788e-06 
+10/03/2020 22:31:38 - INFO - volta.utils -   [NLVR2]: iter 5088 Ep: 3.77 loss 0.476 score 0.757 lr 9.01964e-06 
+10/03/2020 22:31:46 - INFO - volta.utils -   [NLVR2]: iter 5108 Ep: 3.79 loss 0.484 score 0.757 lr 9.01141e-06 
+10/03/2020 22:31:54 - INFO - volta.utils -   [NLVR2]: iter 5128 Ep: 3.80 loss 0.488 score 0.752 lr 9.00317e-06 
+10/03/2020 22:32:01 - INFO - volta.utils -   [NLVR2]: iter 5148 Ep: 3.82 loss 0.492 score 0.751 lr 8.99493e-06 
+10/03/2020 22:32:09 - INFO - volta.utils -   [NLVR2]: iter 5168 Ep: 3.83 loss 0.496 score 0.745 lr 8.9867e-06 
+10/03/2020 22:32:17 - INFO - volta.utils -   [NLVR2]: iter 5188 Ep: 3.85 loss 0.457 score 0.762 lr 8.97846e-06 
+10/03/2020 22:32:25 - INFO - volta.utils -   [NLVR2]: iter 5208 Ep: 3.86 loss 0.485 score 0.752 lr 8.97022e-06 
+10/03/2020 22:32:33 - INFO - volta.utils -   [NLVR2]: iter 5228 Ep: 3.88 loss 0.479 score 0.747 lr 8.96199e-06 
+10/03/2020 22:32:40 - INFO - volta.utils -   [NLVR2]: iter 5248 Ep: 3.89 loss 0.504 score 0.721 lr 8.95375e-06 
+10/03/2020 22:32:48 - INFO - volta.utils -   [NLVR2]: iter 5268 Ep: 3.91 loss 0.479 score 0.750 lr 8.94552e-06 
+10/03/2020 22:32:55 - INFO - volta.utils -   [NLVR2]: iter 5288 Ep: 3.92 loss 0.495 score 0.738 lr 8.93728e-06 
+10/03/2020 22:33:02 - INFO - volta.utils -   [NLVR2]: iter 5308 Ep: 3.93 loss 0.490 score 0.757 lr 8.92904e-06 
+10/03/2020 22:33:10 - INFO - volta.utils -   [NLVR2]: iter 5328 Ep: 3.95 loss 0.477 score 0.756 lr 8.92081e-06 
+10/03/2020 22:33:17 - INFO - volta.utils -   [NLVR2]: iter 5348 Ep: 3.96 loss 0.479 score 0.766 lr 8.91257e-06 
+10/03/2020 22:33:26 - INFO - volta.utils -   [NLVR2]: iter 5368 Ep: 3.98 loss 0.458 score 0.769 lr 8.90433e-06 
+10/03/2020 22:33:33 - INFO - volta.utils -   [NLVR2]: iter 5388 Ep: 3.99 loss 0.497 score 0.750 lr 8.8961e-06 
+10/03/2020 22:33:36 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  20%|██        | 4/20 [2:13:07<11:10:32, 2514.52s/it]10/03/2020 22:34:05 - INFO - volta.utils -   Eval task TASK12 on iteration 5397 
+10/03/2020 22:34:05 - INFO - volta.utils -   Validation [NLVR2]: loss 0.568 score 71.875 
+10/03/2020 22:34:14 - INFO - volta.utils -   [NLVR2]: iter 5417 Ep: 4.02 loss 0.438 score 0.790 lr 8.88601e-06 
+10/03/2020 22:34:21 - INFO - volta.utils -   [NLVR2]: iter 5437 Ep: 4.03 loss 0.415 score 0.786 lr 8.87592e-06 
+10/03/2020 22:34:29 - INFO - volta.utils -   [NLVR2]: iter 5457 Ep: 4.05 loss 0.420 score 0.792 lr 8.86768e-06 
+10/03/2020 22:34:36 - INFO - volta.utils -   [NLVR2]: iter 5477 Ep: 4.06 loss 0.396 score 0.805 lr 8.85944e-06 
+10/03/2020 22:34:43 - INFO - volta.utils -   [NLVR2]: iter 5497 Ep: 4.07 loss 0.395 score 0.801 lr 8.85121e-06 
+10/03/2020 22:34:51 - INFO - volta.utils -   [NLVR2]: iter 5517 Ep: 4.09 loss 0.430 score 0.780 lr 8.84297e-06 
+10/03/2020 22:34:58 - INFO - volta.utils -   [NLVR2]: iter 5537 Ep: 4.10 loss 0.411 score 0.809 lr 8.83473e-06 
+10/03/2020 22:35:05 - INFO - volta.utils -   [NLVR2]: iter 5557 Ep: 4.12 loss 0.416 score 0.792 lr 8.8265e-06 
+10/03/2020 22:35:14 - INFO - volta.utils -   [NLVR2]: iter 5577 Ep: 4.13 loss 0.418 score 0.798 lr 8.81826e-06 
+10/03/2020 22:35:21 - INFO - volta.utils -   [NLVR2]: iter 5597 Ep: 4.15 loss 0.421 score 0.791 lr 8.81002e-06 
+10/03/2020 22:35:29 - INFO - volta.utils -   [NLVR2]: iter 5617 Ep: 4.16 loss 0.435 score 0.783 lr 8.80179e-06 
+10/03/2020 22:35:36 - INFO - volta.utils -   [NLVR2]: iter 5637 Ep: 4.18 loss 0.407 score 0.800 lr 8.79355e-06 
+10/03/2020 22:35:43 - INFO - volta.utils -   [NLVR2]: iter 5657 Ep: 4.19 loss 0.436 score 0.784 lr 8.78531e-06 
+10/03/2020 22:35:51 - INFO - volta.utils -   [NLVR2]: iter 5677 Ep: 4.21 loss 0.426 score 0.791 lr 8.77708e-06 
+10/03/2020 22:35:58 - INFO - volta.utils -   [NLVR2]: iter 5697 Ep: 4.22 loss 0.429 score 0.791 lr 8.76884e-06 
+10/03/2020 22:36:05 - INFO - volta.utils -   [NLVR2]: iter 5717 Ep: 4.24 loss 0.414 score 0.795 lr 8.7606e-06 
+10/03/2020 22:36:13 - INFO - volta.utils -   [NLVR2]: iter 5737 Ep: 4.25 loss 0.392 score 0.809 lr 8.75237e-06 
+10/03/2020 22:36:21 - INFO - volta.utils -   [NLVR2]: iter 5757 Ep: 4.27 loss 0.431 score 0.786 lr 8.74413e-06 
+10/03/2020 22:36:29 - INFO - volta.utils -   [NLVR2]: iter 5777 Ep: 4.28 loss 0.408 score 0.799 lr 8.73589e-06 
+10/03/2020 22:36:37 - INFO - volta.utils -   [NLVR2]: iter 5797 Ep: 4.30 loss 0.407 score 0.805 lr 8.72766e-06 
+10/03/2020 22:36:44 - INFO - volta.utils -   [NLVR2]: iter 5817 Ep: 4.31 loss 0.427 score 0.788 lr 8.71942e-06 
+10/03/2020 22:36:51 - INFO - volta.utils -   [NLVR2]: iter 5837 Ep: 4.33 loss 0.472 score 0.762 lr 8.71119e-06 
+10/03/2020 22:36:59 - INFO - volta.utils -   [NLVR2]: iter 5857 Ep: 4.34 loss 0.430 score 0.791 lr 8.70295e-06 
+10/03/2020 22:37:06 - INFO - volta.utils -   [NLVR2]: iter 5877 Ep: 4.36 loss 0.437 score 0.789 lr 8.69471e-06 
+10/03/2020 22:37:14 - INFO - volta.utils -   [NLVR2]: iter 5897 Ep: 4.37 loss 0.419 score 0.788 lr 8.68648e-06 
+10/03/2020 22:37:23 - INFO - volta.utils -   [NLVR2]: iter 5917 Ep: 4.39 loss 0.423 score 0.795 lr 8.67824e-06 
+10/03/2020 22:37:30 - INFO - volta.utils -   [NLVR2]: iter 5937 Ep: 4.40 loss 0.397 score 0.804 lr 8.67e-06 
+10/03/2020 22:37:37 - INFO - volta.utils -   [NLVR2]: iter 5957 Ep: 4.42 loss 0.428 score 0.764 lr 8.66177e-06 
+10/03/2020 22:37:44 - INFO - volta.utils -   [NLVR2]: iter 5977 Ep: 4.43 loss 0.430 score 0.776 lr 8.65353e-06 
+10/03/2020 22:37:52 - INFO - volta.utils -   [NLVR2]: iter 5997 Ep: 4.45 loss 0.428 score 0.795 lr 8.64529e-06 
+10/03/2020 22:38:00 - INFO - volta.utils -   [NLVR2]: iter 6017 Ep: 4.46 loss 0.420 score 0.789 lr 8.63706e-06 
+10/03/2020 22:38:07 - INFO - volta.utils -   [NLVR2]: iter 6037 Ep: 4.48 loss 0.425 score 0.784 lr 8.62882e-06 
+10/03/2020 22:38:14 - INFO - volta.utils -   [NLVR2]: iter 6057 Ep: 4.49 loss 0.411 score 0.802 lr 8.62058e-06 
+10/03/2020 22:38:22 - INFO - volta.utils -   [NLVR2]: iter 6077 Ep: 4.50 loss 0.411 score 0.801 lr 8.61235e-06 
+10/03/2020 22:38:31 - INFO - volta.utils -   [NLVR2]: iter 6097 Ep: 4.52 loss 0.442 score 0.774 lr 8.60411e-06 
+10/03/2020 22:38:38 - INFO - volta.utils -   [NLVR2]: iter 6117 Ep: 4.53 loss 0.418 score 0.785 lr 8.59587e-06 
+10/03/2020 22:38:46 - INFO - volta.utils -   [NLVR2]: iter 6137 Ep: 4.55 loss 0.437 score 0.790 lr 8.58764e-06 
+10/03/2020 22:38:53 - INFO - volta.utils -   [NLVR2]: iter 6157 Ep: 4.56 loss 0.425 score 0.806 lr 8.5794e-06 
+10/03/2020 22:39:01 - INFO - volta.utils -   [NLVR2]: iter 6177 Ep: 4.58 loss 0.450 score 0.778 lr 8.57116e-06 
+10/03/2020 22:39:08 - INFO - volta.utils -   [NLVR2]: iter 6197 Ep: 4.59 loss 0.426 score 0.786 lr 8.56293e-06 
+10/03/2020 22:39:16 - INFO - volta.utils -   [NLVR2]: iter 6217 Ep: 4.61 loss 0.425 score 0.791 lr 8.55469e-06 
+10/03/2020 22:39:23 - INFO - volta.utils -   [NLVR2]: iter 6237 Ep: 4.62 loss 0.416 score 0.782 lr 8.54645e-06 
+10/03/2020 22:39:32 - INFO - volta.utils -   [NLVR2]: iter 6257 Ep: 4.64 loss 0.417 score 0.793 lr 8.53822e-06 
+10/03/2020 22:39:39 - INFO - volta.utils -   [NLVR2]: iter 6277 Ep: 4.65 loss 0.413 score 0.809 lr 8.52998e-06 
+10/03/2020 22:39:46 - INFO - volta.utils -   [NLVR2]: iter 6297 Ep: 4.67 loss 0.386 score 0.812 lr 8.52174e-06 
+10/03/2020 22:39:54 - INFO - volta.utils -   [NLVR2]: iter 6317 Ep: 4.68 loss 0.427 score 0.787 lr 8.51351e-06 
+10/03/2020 22:40:01 - INFO - volta.utils -   [NLVR2]: iter 6337 Ep: 4.70 loss 0.392 score 0.814 lr 8.50527e-06 
+10/03/2020 22:40:09 - INFO - volta.utils -   [NLVR2]: iter 6357 Ep: 4.71 loss 0.396 score 0.812 lr 8.49703e-06 
+10/03/2020 22:40:16 - INFO - volta.utils -   [NLVR2]: iter 6377 Ep: 4.73 loss 0.442 score 0.791 lr 8.4888e-06 
+10/03/2020 22:40:24 - INFO - volta.utils -   [NLVR2]: iter 6397 Ep: 4.74 loss 0.445 score 0.785 lr 8.48056e-06 
+10/03/2020 22:40:32 - INFO - volta.utils -   [NLVR2]: iter 6417 Ep: 4.76 loss 0.416 score 0.795 lr 8.47233e-06 
+10/03/2020 22:40:40 - INFO - volta.utils -   [NLVR2]: iter 6437 Ep: 4.77 loss 0.443 score 0.780 lr 8.46409e-06 
+10/03/2020 22:40:47 - INFO - volta.utils -   [NLVR2]: iter 6457 Ep: 4.79 loss 0.438 score 0.785 lr 8.45585e-06 
+10/03/2020 22:40:55 - INFO - volta.utils -   [NLVR2]: iter 6477 Ep: 4.80 loss 0.428 score 0.784 lr 8.44762e-06 
+10/03/2020 22:41:02 - INFO - volta.utils -   [NLVR2]: iter 6497 Ep: 4.82 loss 0.423 score 0.794 lr 8.43938e-06 
+10/03/2020 22:41:10 - INFO - volta.utils -   [NLVR2]: iter 6517 Ep: 4.83 loss 0.405 score 0.793 lr 8.43114e-06 
+10/03/2020 22:41:17 - INFO - volta.utils -   [NLVR2]: iter 6537 Ep: 4.85 loss 0.429 score 0.788 lr 8.42291e-06 
+10/03/2020 22:41:25 - INFO - volta.utils -   [NLVR2]: iter 6557 Ep: 4.86 loss 0.426 score 0.791 lr 8.41467e-06 
+10/03/2020 22:41:32 - INFO - volta.utils -   [NLVR2]: iter 6577 Ep: 4.88 loss 0.453 score 0.767 lr 8.40643e-06 
+10/03/2020 22:41:40 - INFO - volta.utils -   [NLVR2]: iter 6597 Ep: 4.89 loss 0.421 score 0.787 lr 8.3982e-06 
+10/03/2020 22:41:48 - INFO - volta.utils -   [NLVR2]: iter 6617 Ep: 4.91 loss 0.437 score 0.778 lr 8.38996e-06 
+10/03/2020 22:41:55 - INFO - volta.utils -   [NLVR2]: iter 6637 Ep: 4.92 loss 0.412 score 0.810 lr 8.38172e-06 
+10/03/2020 22:42:03 - INFO - volta.utils -   [NLVR2]: iter 6657 Ep: 4.93 loss 0.432 score 0.786 lr 8.37349e-06 
+10/03/2020 22:42:10 - INFO - volta.utils -   [NLVR2]: iter 6677 Ep: 4.95 loss 0.440 score 0.774 lr 8.36525e-06 
+10/03/2020 22:42:18 - INFO - volta.utils -   [NLVR2]: iter 6697 Ep: 4.96 loss 0.432 score 0.791 lr 8.35701e-06 
+10/03/2020 22:42:25 - INFO - volta.utils -   [NLVR2]: iter 6717 Ep: 4.98 loss 0.422 score 0.792 lr 8.34878e-06 
+10/03/2020 22:42:32 - INFO - volta.utils -   [NLVR2]: iter 6737 Ep: 4.99 loss 0.413 score 0.799 lr 8.34054e-06 
+10/03/2020 22:42:35 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  25%|██▌       | 5/20 [2:22:05<8:00:25, 1921.67s/it] 10/03/2020 22:53:41 - INFO - volta.utils -   Eval task TASK12 on iteration 6746 
+10/03/2020 22:53:41 - INFO - volta.utils -   Validation [NLVR2]: loss 0.600 score 72.076 
+10/03/2020 22:53:49 - INFO - volta.utils -   [NLVR2]: iter 6766 Ep: 5.02 loss 0.384 score 0.815 lr 8.33045e-06 
+10/03/2020 22:56:43 - INFO - volta.utils -   [NLVR2]: iter 6786 Ep: 5.03 loss 0.371 score 0.814 lr 8.32036e-06 
+10/03/2020 22:58:01 - INFO - volta.utils -   [NLVR2]: iter 6806 Ep: 5.05 loss 0.361 score 0.825 lr 8.31212e-06 
+10/03/2020 22:59:13 - INFO - volta.utils -   [NLVR2]: iter 6826 Ep: 5.06 loss 0.382 score 0.815 lr 8.30389e-06 
+10/03/2020 23:00:11 - INFO - volta.utils -   [NLVR2]: iter 6846 Ep: 5.07 loss 0.375 score 0.826 lr 8.29565e-06 
+10/03/2020 23:00:27 - INFO - volta.utils -   [NLVR2]: iter 6866 Ep: 5.09 loss 0.401 score 0.811 lr 8.28741e-06 
+10/03/2020 23:00:36 - INFO - volta.utils -   [NLVR2]: iter 6886 Ep: 5.10 loss 0.393 score 0.820 lr 8.27918e-06 
+10/03/2020 23:01:16 - INFO - volta.utils -   [NLVR2]: iter 6906 Ep: 5.12 loss 0.381 score 0.811 lr 8.27094e-06 
+10/03/2020 23:01:31 - INFO - volta.utils -   [NLVR2]: iter 6926 Ep: 5.13 loss 0.373 score 0.817 lr 8.2627e-06 
+10/03/2020 23:01:40 - INFO - volta.utils -   [NLVR2]: iter 6946 Ep: 5.15 loss 0.373 score 0.826 lr 8.25447e-06 
+10/03/2020 23:01:48 - INFO - volta.utils -   [NLVR2]: iter 6966 Ep: 5.16 loss 0.365 score 0.828 lr 8.24623e-06 
+10/03/2020 23:02:10 - INFO - volta.utils -   [NLVR2]: iter 6986 Ep: 5.18 loss 0.340 score 0.844 lr 8.238e-06 
+10/03/2020 23:02:50 - INFO - volta.utils -   [NLVR2]: iter 7006 Ep: 5.19 loss 0.362 score 0.838 lr 8.22976e-06 
+10/03/2020 23:02:58 - INFO - volta.utils -   [NLVR2]: iter 7026 Ep: 5.21 loss 0.364 score 0.816 lr 8.22152e-06 
+10/03/2020 23:03:05 - INFO - volta.utils -   [NLVR2]: iter 7046 Ep: 5.22 loss 0.372 score 0.831 lr 8.21329e-06 
+10/03/2020 23:03:13 - INFO - volta.utils -   [NLVR2]: iter 7066 Ep: 5.24 loss 0.343 score 0.837 lr 8.20505e-06 
+10/03/2020 23:03:22 - INFO - volta.utils -   [NLVR2]: iter 7086 Ep: 5.25 loss 0.363 score 0.827 lr 8.19681e-06 
+10/03/2020 23:03:31 - INFO - volta.utils -   [NLVR2]: iter 7106 Ep: 5.27 loss 0.375 score 0.813 lr 8.18858e-06 
+10/03/2020 23:03:39 - INFO - volta.utils -   [NLVR2]: iter 7126 Ep: 5.28 loss 0.365 score 0.813 lr 8.18034e-06 
+10/03/2020 23:04:04 - INFO - volta.utils -   [NLVR2]: iter 7146 Ep: 5.30 loss 0.363 score 0.828 lr 8.1721e-06 
+10/03/2020 23:04:11 - INFO - volta.utils -   [NLVR2]: iter 7166 Ep: 5.31 loss 0.366 score 0.824 lr 8.16387e-06 
+10/03/2020 23:04:18 - INFO - volta.utils -   [NLVR2]: iter 7186 Ep: 5.33 loss 0.385 score 0.815 lr 8.15563e-06 
+10/03/2020 23:04:26 - INFO - volta.utils -   [NLVR2]: iter 7206 Ep: 5.34 loss 0.385 score 0.816 lr 8.14739e-06 
+10/03/2020 23:04:36 - INFO - volta.utils -   [NLVR2]: iter 7226 Ep: 5.36 loss 0.366 score 0.818 lr 8.13916e-06 
+10/03/2020 23:04:44 - INFO - volta.utils -   [NLVR2]: iter 7246 Ep: 5.37 loss 0.362 score 0.819 lr 8.13092e-06 
+10/03/2020 23:04:51 - INFO - volta.utils -   [NLVR2]: iter 7266 Ep: 5.39 loss 0.366 score 0.832 lr 8.12268e-06 
+10/03/2020 23:05:00 - INFO - volta.utils -   [NLVR2]: iter 7286 Ep: 5.40 loss 0.366 score 0.813 lr 8.11445e-06 
+10/03/2020 23:05:07 - INFO - volta.utils -   [NLVR2]: iter 7306 Ep: 5.42 loss 0.397 score 0.805 lr 8.10621e-06 
+10/03/2020 23:05:15 - INFO - volta.utils -   [NLVR2]: iter 7326 Ep: 5.43 loss 0.380 score 0.812 lr 8.09797e-06 
+10/03/2020 23:05:22 - INFO - volta.utils -   [NLVR2]: iter 7346 Ep: 5.45 loss 0.355 score 0.826 lr 8.08974e-06 
+10/03/2020 23:05:30 - INFO - volta.utils -   [NLVR2]: iter 7366 Ep: 5.46 loss 0.394 score 0.813 lr 8.0815e-06 
+10/03/2020 23:05:37 - INFO - volta.utils -   [NLVR2]: iter 7386 Ep: 5.48 loss 0.401 score 0.810 lr 8.07326e-06 
+10/03/2020 23:05:45 - INFO - volta.utils -   [NLVR2]: iter 7406 Ep: 5.49 loss 0.372 score 0.821 lr 8.06503e-06 
+10/03/2020 23:05:52 - INFO - volta.utils -   [NLVR2]: iter 7426 Ep: 5.50 loss 0.369 score 0.824 lr 8.05679e-06 
+10/03/2020 23:06:01 - INFO - volta.utils -   [NLVR2]: iter 7446 Ep: 5.52 loss 0.385 score 0.822 lr 8.04855e-06 
+10/03/2020 23:06:08 - INFO - volta.utils -   [NLVR2]: iter 7466 Ep: 5.53 loss 0.366 score 0.834 lr 8.04032e-06 
+10/03/2020 23:06:16 - INFO - volta.utils -   [NLVR2]: iter 7486 Ep: 5.55 loss 0.397 score 0.821 lr 8.03208e-06 
+10/03/2020 23:06:23 - INFO - volta.utils -   [NLVR2]: iter 7506 Ep: 5.56 loss 0.375 score 0.809 lr 8.02384e-06 
+10/03/2020 23:06:31 - INFO - volta.utils -   [NLVR2]: iter 7526 Ep: 5.58 loss 0.390 score 0.809 lr 8.01561e-06 
+10/03/2020 23:06:38 - INFO - volta.utils -   [NLVR2]: iter 7546 Ep: 5.59 loss 0.389 score 0.809 lr 8.00737e-06 
+10/03/2020 23:06:46 - INFO - volta.utils -   [NLVR2]: iter 7566 Ep: 5.61 loss 0.367 score 0.829 lr 7.99914e-06 
+10/03/2020 23:06:53 - INFO - volta.utils -   [NLVR2]: iter 7586 Ep: 5.62 loss 0.366 score 0.827 lr 7.9909e-06 
+10/03/2020 23:07:01 - INFO - volta.utils -   [NLVR2]: iter 7606 Ep: 5.64 loss 0.362 score 0.830 lr 7.98266e-06 
+10/03/2020 23:07:09 - INFO - volta.utils -   [NLVR2]: iter 7626 Ep: 5.65 loss 0.383 score 0.809 lr 7.97443e-06 
+10/03/2020 23:07:17 - INFO - volta.utils -   [NLVR2]: iter 7646 Ep: 5.67 loss 0.396 score 0.803 lr 7.96619e-06 
+10/03/2020 23:07:24 - INFO - volta.utils -   [NLVR2]: iter 7666 Ep: 5.68 loss 0.390 score 0.823 lr 7.95795e-06 
+10/03/2020 23:07:32 - INFO - volta.utils -   [NLVR2]: iter 7686 Ep: 5.70 loss 0.385 score 0.812 lr 7.94972e-06 
+10/03/2020 23:07:39 - INFO - volta.utils -   [NLVR2]: iter 7706 Ep: 5.71 loss 0.338 score 0.837 lr 7.94148e-06 
+10/03/2020 23:07:46 - INFO - volta.utils -   [NLVR2]: iter 7726 Ep: 5.73 loss 0.369 score 0.825 lr 7.93324e-06 
+10/03/2020 23:07:54 - INFO - volta.utils -   [NLVR2]: iter 7746 Ep: 5.74 loss 0.363 score 0.835 lr 7.92501e-06 
+10/03/2020 23:08:01 - INFO - volta.utils -   [NLVR2]: iter 7766 Ep: 5.76 loss 0.395 score 0.813 lr 7.91677e-06 
+10/03/2020 23:08:10 - INFO - volta.utils -   [NLVR2]: iter 7786 Ep: 5.77 loss 0.382 score 0.807 lr 7.90853e-06 
+10/03/2020 23:08:17 - INFO - volta.utils -   [NLVR2]: iter 7806 Ep: 5.79 loss 0.413 score 0.786 lr 7.9003e-06 
+10/03/2020 23:08:28 - INFO - volta.utils -   [NLVR2]: iter 7826 Ep: 5.80 loss 0.385 score 0.809 lr 7.89206e-06 
+10/03/2020 23:08:35 - INFO - volta.utils -   [NLVR2]: iter 7846 Ep: 5.82 loss 0.391 score 0.814 lr 7.88382e-06 
+10/03/2020 23:08:43 - INFO - volta.utils -   [NLVR2]: iter 7866 Ep: 5.83 loss 0.392 score 0.812 lr 7.87559e-06 
+10/03/2020 23:08:50 - INFO - volta.utils -   [NLVR2]: iter 7886 Ep: 5.85 loss 0.413 score 0.799 lr 7.86735e-06 
+10/03/2020 23:08:58 - INFO - volta.utils -   [NLVR2]: iter 7906 Ep: 5.86 loss 0.385 score 0.823 lr 7.85911e-06 
+10/03/2020 23:09:05 - INFO - volta.utils -   [NLVR2]: iter 7926 Ep: 5.88 loss 0.381 score 0.823 lr 7.85088e-06 
+10/03/2020 23:09:13 - INFO - volta.utils -   [NLVR2]: iter 7946 Ep: 5.89 loss 0.391 score 0.816 lr 7.84264e-06 
+10/03/2020 23:09:21 - INFO - volta.utils -   [NLVR2]: iter 7966 Ep: 5.91 loss 0.360 score 0.830 lr 7.8344e-06 
+10/03/2020 23:09:29 - INFO - volta.utils -   [NLVR2]: iter 7986 Ep: 5.92 loss 0.369 score 0.824 lr 7.82617e-06 
+10/03/2020 23:09:36 - INFO - volta.utils -   [NLVR2]: iter 8006 Ep: 5.93 loss 0.382 score 0.818 lr 7.81793e-06 
+10/03/2020 23:09:44 - INFO - volta.utils -   [NLVR2]: iter 8026 Ep: 5.95 loss 0.371 score 0.816 lr 7.80969e-06 
+10/03/2020 23:09:51 - INFO - volta.utils -   [NLVR2]: iter 8046 Ep: 5.96 loss 0.387 score 0.810 lr 7.80146e-06 
+10/03/2020 23:09:59 - INFO - volta.utils -   [NLVR2]: iter 8066 Ep: 5.98 loss 0.366 score 0.803 lr 7.79322e-06 
+10/03/2020 23:10:06 - INFO - volta.utils -   [NLVR2]: iter 8086 Ep: 5.99 loss 0.368 score 0.821 lr 7.78498e-06 
+10/03/2020 23:10:09 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  30%|███       | 6/20 [2:49:38<7:09:37, 1841.25s/it]10/03/2020 23:10:41 - INFO - volta.utils -   Eval task TASK12 on iteration 8095 
+10/03/2020 23:10:41 - INFO - volta.utils -   Validation [NLVR2]: loss 0.654 score 72.463 
+10/03/2020 23:10:49 - INFO - volta.utils -   [NLVR2]: iter 8115 Ep: 6.02 loss 0.348 score 0.831 lr 7.77489e-06 
+10/03/2020 23:10:56 - INFO - volta.utils -   [NLVR2]: iter 8135 Ep: 6.03 loss 0.319 score 0.859 lr 7.76481e-06 
+10/03/2020 23:11:05 - INFO - volta.utils -   [NLVR2]: iter 8155 Ep: 6.05 loss 0.339 score 0.841 lr 7.75657e-06 
+10/03/2020 23:11:13 - INFO - volta.utils -   [NLVR2]: iter 8175 Ep: 6.06 loss 0.332 score 0.842 lr 7.74833e-06 
+10/03/2020 23:11:21 - INFO - volta.utils -   [NLVR2]: iter 8195 Ep: 6.07 loss 0.337 score 0.854 lr 7.7401e-06 
+10/03/2020 23:11:28 - INFO - volta.utils -   [NLVR2]: iter 8215 Ep: 6.09 loss 0.314 score 0.845 lr 7.73186e-06 
+10/03/2020 23:11:36 - INFO - volta.utils -   [NLVR2]: iter 8235 Ep: 6.10 loss 0.331 score 0.848 lr 7.72362e-06 
+10/03/2020 23:11:44 - INFO - volta.utils -   [NLVR2]: iter 8255 Ep: 6.12 loss 0.310 score 0.860 lr 7.71539e-06 
+10/03/2020 23:11:51 - INFO - volta.utils -   [NLVR2]: iter 8275 Ep: 6.13 loss 0.325 score 0.850 lr 7.70715e-06 
+10/03/2020 23:12:00 - INFO - volta.utils -   [NLVR2]: iter 8295 Ep: 6.15 loss 0.334 score 0.858 lr 7.69891e-06 
+10/03/2020 23:12:08 - INFO - volta.utils -   [NLVR2]: iter 8315 Ep: 6.16 loss 0.350 score 0.831 lr 7.69068e-06 
+10/03/2020 23:12:15 - INFO - volta.utils -   [NLVR2]: iter 8335 Ep: 6.18 loss 0.332 score 0.836 lr 7.68244e-06 
+10/03/2020 23:12:23 - INFO - volta.utils -   [NLVR2]: iter 8355 Ep: 6.19 loss 0.325 score 0.848 lr 7.6742e-06 
+10/03/2020 23:12:31 - INFO - volta.utils -   [NLVR2]: iter 8375 Ep: 6.21 loss 0.296 score 0.857 lr 7.66597e-06 
+10/03/2020 23:12:39 - INFO - volta.utils -   [NLVR2]: iter 8395 Ep: 6.22 loss 0.337 score 0.838 lr 7.65773e-06 
+10/03/2020 23:12:46 - INFO - volta.utils -   [NLVR2]: iter 8415 Ep: 6.24 loss 0.325 score 0.838 lr 7.64949e-06 
+10/03/2020 23:12:54 - INFO - volta.utils -   [NLVR2]: iter 8435 Ep: 6.25 loss 0.325 score 0.839 lr 7.64126e-06 
+10/03/2020 23:13:03 - INFO - volta.utils -   [NLVR2]: iter 8455 Ep: 6.27 loss 0.320 score 0.863 lr 7.63302e-06 
+10/03/2020 23:13:11 - INFO - volta.utils -   [NLVR2]: iter 8475 Ep: 6.28 loss 0.332 score 0.846 lr 7.62478e-06 
+10/03/2020 23:13:18 - INFO - volta.utils -   [NLVR2]: iter 8495 Ep: 6.30 loss 0.323 score 0.847 lr 7.61655e-06 
+10/03/2020 23:13:26 - INFO - volta.utils -   [NLVR2]: iter 8515 Ep: 6.31 loss 0.329 score 0.844 lr 7.60831e-06 
+10/03/2020 23:13:34 - INFO - volta.utils -   [NLVR2]: iter 8535 Ep: 6.33 loss 0.340 score 0.848 lr 7.60007e-06 
+10/03/2020 23:13:42 - INFO - volta.utils -   [NLVR2]: iter 8555 Ep: 6.34 loss 0.329 score 0.848 lr 7.59184e-06 
+10/03/2020 23:13:49 - INFO - volta.utils -   [NLVR2]: iter 8575 Ep: 6.36 loss 0.344 score 0.834 lr 7.5836e-06 
+10/03/2020 23:13:58 - INFO - volta.utils -   [NLVR2]: iter 8595 Ep: 6.37 loss 0.336 score 0.840 lr 7.57536e-06 
+10/03/2020 23:14:06 - INFO - volta.utils -   [NLVR2]: iter 8615 Ep: 6.39 loss 0.337 score 0.843 lr 7.56713e-06 
+10/03/2020 23:14:13 - INFO - volta.utils -   [NLVR2]: iter 8635 Ep: 6.40 loss 0.330 score 0.845 lr 7.55889e-06 
+10/03/2020 23:14:21 - INFO - volta.utils -   [NLVR2]: iter 8655 Ep: 6.42 loss 0.342 score 0.841 lr 7.55065e-06 
+10/03/2020 23:14:29 - INFO - volta.utils -   [NLVR2]: iter 8675 Ep: 6.43 loss 0.323 score 0.849 lr 7.54242e-06 
+10/03/2020 23:14:36 - INFO - volta.utils -   [NLVR2]: iter 8695 Ep: 6.45 loss 0.333 score 0.834 lr 7.53418e-06 
+10/03/2020 23:14:45 - INFO - volta.utils -   [NLVR2]: iter 8715 Ep: 6.46 loss 0.344 score 0.845 lr 7.52595e-06 
+10/03/2020 23:14:53 - INFO - volta.utils -   [NLVR2]: iter 8735 Ep: 6.48 loss 0.341 score 0.831 lr 7.51771e-06 
+10/03/2020 23:15:01 - INFO - volta.utils -   [NLVR2]: iter 8755 Ep: 6.49 loss 0.333 score 0.848 lr 7.50947e-06 
+10/03/2020 23:15:09 - INFO - volta.utils -   [NLVR2]: iter 8775 Ep: 6.50 loss 0.328 score 0.838 lr 7.50124e-06 
+10/03/2020 23:15:17 - INFO - volta.utils -   [NLVR2]: iter 8795 Ep: 6.52 loss 0.322 score 0.845 lr 7.493e-06 
+10/03/2020 23:15:24 - INFO - volta.utils -   [NLVR2]: iter 8815 Ep: 6.53 loss 0.346 score 0.829 lr 7.48476e-06 
+10/03/2020 23:15:33 - INFO - volta.utils -   [NLVR2]: iter 8835 Ep: 6.55 loss 0.327 score 0.840 lr 7.47653e-06 
+10/03/2020 23:15:41 - INFO - volta.utils -   [NLVR2]: iter 8855 Ep: 6.56 loss 0.344 score 0.829 lr 7.46829e-06 
+10/03/2020 23:15:48 - INFO - volta.utils -   [NLVR2]: iter 8875 Ep: 6.58 loss 0.318 score 0.853 lr 7.46005e-06 
+10/03/2020 23:15:56 - INFO - volta.utils -   [NLVR2]: iter 8895 Ep: 6.59 loss 0.337 score 0.848 lr 7.45182e-06 
+10/03/2020 23:16:04 - INFO - volta.utils -   [NLVR2]: iter 8915 Ep: 6.61 loss 0.348 score 0.827 lr 7.44358e-06 
+10/03/2020 23:16:12 - INFO - volta.utils -   [NLVR2]: iter 8935 Ep: 6.62 loss 0.345 score 0.844 lr 7.43534e-06 
+10/03/2020 23:16:20 - INFO - volta.utils -   [NLVR2]: iter 8955 Ep: 6.64 loss 0.338 score 0.841 lr 7.42711e-06 
+10/03/2020 23:16:28 - INFO - volta.utils -   [NLVR2]: iter 8975 Ep: 6.65 loss 0.310 score 0.847 lr 7.41887e-06 
+10/03/2020 23:16:36 - INFO - volta.utils -   [NLVR2]: iter 8995 Ep: 6.67 loss 0.339 score 0.845 lr 7.41063e-06 
+10/03/2020 23:16:43 - INFO - volta.utils -   [NLVR2]: iter 9015 Ep: 6.68 loss 0.344 score 0.835 lr 7.4024e-06 
+10/03/2020 23:16:51 - INFO - volta.utils -   [NLVR2]: iter 9035 Ep: 6.70 loss 0.323 score 0.846 lr 7.39416e-06 
+10/03/2020 23:16:59 - INFO - volta.utils -   [NLVR2]: iter 9055 Ep: 6.71 loss 0.327 score 0.842 lr 7.38592e-06 
+10/03/2020 23:17:07 - INFO - volta.utils -   [NLVR2]: iter 9075 Ep: 6.73 loss 0.347 score 0.845 lr 7.37769e-06 
+10/03/2020 23:17:15 - INFO - volta.utils -   [NLVR2]: iter 9095 Ep: 6.74 loss 0.371 score 0.808 lr 7.36945e-06 
+10/03/2020 23:17:23 - INFO - volta.utils -   [NLVR2]: iter 9115 Ep: 6.76 loss 0.365 score 0.827 lr 7.36121e-06 
+10/03/2020 23:17:31 - INFO - volta.utils -   [NLVR2]: iter 9135 Ep: 6.77 loss 0.329 score 0.829 lr 7.35298e-06 
+10/03/2020 23:17:38 - INFO - volta.utils -   [NLVR2]: iter 9155 Ep: 6.79 loss 0.346 score 0.831 lr 7.34474e-06 
+10/03/2020 23:17:47 - INFO - volta.utils -   [NLVR2]: iter 9175 Ep: 6.80 loss 0.335 score 0.841 lr 7.3365e-06 
+10/03/2020 23:17:54 - INFO - volta.utils -   [NLVR2]: iter 9195 Ep: 6.82 loss 0.330 score 0.838 lr 7.32827e-06 
+10/03/2020 23:18:02 - INFO - volta.utils -   [NLVR2]: iter 9215 Ep: 6.83 loss 0.350 score 0.838 lr 7.32003e-06 
+10/03/2020 23:18:10 - INFO - volta.utils -   [NLVR2]: iter 9235 Ep: 6.85 loss 0.352 score 0.834 lr 7.31179e-06 
+10/03/2020 23:18:17 - INFO - volta.utils -   [NLVR2]: iter 9255 Ep: 6.86 loss 0.353 score 0.826 lr 7.30356e-06 
+10/03/2020 23:18:25 - INFO - volta.utils -   [NLVR2]: iter 9275 Ep: 6.88 loss 0.346 score 0.832 lr 7.29532e-06 
+10/03/2020 23:18:34 - INFO - volta.utils -   [NLVR2]: iter 9295 Ep: 6.89 loss 0.334 score 0.838 lr 7.28709e-06 
+10/03/2020 23:18:42 - INFO - volta.utils -   [NLVR2]: iter 9315 Ep: 6.91 loss 0.326 score 0.845 lr 7.27885e-06 
+10/03/2020 23:18:49 - INFO - volta.utils -   [NLVR2]: iter 9335 Ep: 6.92 loss 0.351 score 0.843 lr 7.27061e-06 
+10/03/2020 23:18:57 - INFO - volta.utils -   [NLVR2]: iter 9355 Ep: 6.93 loss 0.345 score 0.850 lr 7.26238e-06 
+10/03/2020 23:19:05 - INFO - volta.utils -   [NLVR2]: iter 9375 Ep: 6.95 loss 0.332 score 0.836 lr 7.25414e-06 
+10/03/2020 23:19:13 - INFO - volta.utils -   [NLVR2]: iter 9395 Ep: 6.96 loss 0.327 score 0.845 lr 7.2459e-06 
+10/03/2020 23:19:21 - INFO - volta.utils -   [NLVR2]: iter 9415 Ep: 6.98 loss 0.348 score 0.812 lr 7.23767e-06 
+10/03/2020 23:19:29 - INFO - volta.utils -   [NLVR2]: iter 9435 Ep: 6.99 loss 0.371 score 0.823 lr 7.22943e-06 
+10/03/2020 23:19:32 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  35%|███▌      | 7/20 [2:59:02<5:15:53, 1457.95s/it]10/03/2020 23:20:01 - INFO - volta.utils -   Eval task TASK12 on iteration 9444 
+10/03/2020 23:20:01 - INFO - volta.utils -   Validation [NLVR2]: loss 0.678 score 71.932 
+10/03/2020 23:20:09 - INFO - volta.utils -   [NLVR2]: iter 9464 Ep: 7.02 loss 0.307 score 0.864 lr 7.21934e-06 
+10/03/2020 23:20:16 - INFO - volta.utils -   [NLVR2]: iter 9484 Ep: 7.03 loss 0.289 score 0.871 lr 7.20925e-06 
+10/03/2020 23:20:24 - INFO - volta.utils -   [NLVR2]: iter 9504 Ep: 7.05 loss 0.288 score 0.871 lr 7.20101e-06 
+10/03/2020 23:20:31 - INFO - volta.utils -   [NLVR2]: iter 9524 Ep: 7.06 loss 0.303 score 0.859 lr 7.19278e-06 
+10/03/2020 23:20:39 - INFO - volta.utils -   [NLVR2]: iter 9544 Ep: 7.07 loss 0.310 score 0.848 lr 7.18454e-06 
+10/03/2020 23:20:46 - INFO - volta.utils -   [NLVR2]: iter 9564 Ep: 7.09 loss 0.287 score 0.873 lr 7.1763e-06 
+10/03/2020 23:20:54 - INFO - volta.utils -   [NLVR2]: iter 9584 Ep: 7.10 loss 0.292 score 0.869 lr 7.16807e-06 
+10/03/2020 23:21:02 - INFO - volta.utils -   [NLVR2]: iter 9604 Ep: 7.12 loss 0.311 score 0.855 lr 7.15983e-06 
+10/03/2020 23:21:10 - INFO - volta.utils -   [NLVR2]: iter 9624 Ep: 7.13 loss 0.281 score 0.873 lr 7.15159e-06 
+10/03/2020 23:21:17 - INFO - volta.utils -   [NLVR2]: iter 9644 Ep: 7.15 loss 0.280 score 0.874 lr 7.14336e-06 
+10/03/2020 23:21:25 - INFO - volta.utils -   [NLVR2]: iter 9664 Ep: 7.16 loss 0.315 score 0.853 lr 7.13512e-06 
+10/03/2020 23:21:32 - INFO - volta.utils -   [NLVR2]: iter 9684 Ep: 7.18 loss 0.302 score 0.857 lr 7.12688e-06 
+10/03/2020 23:21:40 - INFO - volta.utils -   [NLVR2]: iter 9704 Ep: 7.19 loss 0.297 score 0.869 lr 7.11865e-06 
+10/03/2020 23:21:47 - INFO - volta.utils -   [NLVR2]: iter 9724 Ep: 7.21 loss 0.315 score 0.855 lr 7.11041e-06 
+10/03/2020 23:21:55 - INFO - volta.utils -   [NLVR2]: iter 9744 Ep: 7.22 loss 0.289 score 0.872 lr 7.10217e-06 
+10/03/2020 23:22:04 - INFO - volta.utils -   [NLVR2]: iter 9764 Ep: 7.24 loss 0.310 score 0.853 lr 7.09394e-06 
+10/03/2020 23:22:11 - INFO - volta.utils -   [NLVR2]: iter 9784 Ep: 7.25 loss 0.289 score 0.871 lr 7.0857e-06 
+10/03/2020 23:22:18 - INFO - volta.utils -   [NLVR2]: iter 9804 Ep: 7.27 loss 0.260 score 0.893 lr 7.07746e-06 
+10/03/2020 23:22:26 - INFO - volta.utils -   [NLVR2]: iter 9824 Ep: 7.28 loss 0.284 score 0.872 lr 7.06923e-06 
+10/03/2020 23:22:34 - INFO - volta.utils -   [NLVR2]: iter 9844 Ep: 7.30 loss 0.293 score 0.855 lr 7.06099e-06 
+10/03/2020 23:22:41 - INFO - volta.utils -   [NLVR2]: iter 9864 Ep: 7.31 loss 0.293 score 0.863 lr 7.05276e-06 
+10/03/2020 23:22:49 - INFO - volta.utils -   [NLVR2]: iter 9884 Ep: 7.33 loss 0.296 score 0.855 lr 7.04452e-06 
+10/03/2020 23:22:56 - INFO - volta.utils -   [NLVR2]: iter 9904 Ep: 7.34 loss 0.286 score 0.868 lr 7.03628e-06 
+10/03/2020 23:23:04 - INFO - volta.utils -   [NLVR2]: iter 9924 Ep: 7.36 loss 0.291 score 0.855 lr 7.02805e-06 
+10/03/2020 23:23:12 - INFO - volta.utils -   [NLVR2]: iter 9944 Ep: 7.37 loss 0.282 score 0.876 lr 7.01981e-06 
+10/03/2020 23:23:20 - INFO - volta.utils -   [NLVR2]: iter 9964 Ep: 7.39 loss 0.315 score 0.857 lr 7.01157e-06 
+10/03/2020 23:23:27 - INFO - volta.utils -   [NLVR2]: iter 9984 Ep: 7.40 loss 0.295 score 0.858 lr 7.00334e-06 
+10/03/2020 23:23:34 - INFO - volta.utils -   [NLVR2]: iter 10004 Ep: 7.42 loss 0.314 score 0.848 lr 6.9951e-06 
+10/03/2020 23:23:42 - INFO - volta.utils -   [NLVR2]: iter 10024 Ep: 7.43 loss 0.306 score 0.859 lr 6.98686e-06 
+10/03/2020 23:23:49 - INFO - volta.utils -   [NLVR2]: iter 10044 Ep: 7.45 loss 0.310 score 0.852 lr 6.97863e-06 
+10/03/2020 23:23:57 - INFO - volta.utils -   [NLVR2]: iter 10064 Ep: 7.46 loss 0.334 score 0.847 lr 6.97039e-06 
+10/03/2020 23:24:05 - INFO - volta.utils -   [NLVR2]: iter 10084 Ep: 7.48 loss 0.319 score 0.847 lr 6.96215e-06 
+10/03/2020 23:24:13 - INFO - volta.utils -   [NLVR2]: iter 10104 Ep: 7.49 loss 0.298 score 0.850 lr 6.95392e-06 
+10/03/2020 23:24:21 - INFO - volta.utils -   [NLVR2]: iter 10124 Ep: 7.50 loss 0.270 score 0.873 lr 6.94568e-06 
+10/03/2020 23:24:28 - INFO - volta.utils -   [NLVR2]: iter 10144 Ep: 7.52 loss 0.299 score 0.859 lr 6.93744e-06 
+10/03/2020 23:24:35 - INFO - volta.utils -   [NLVR2]: iter 10164 Ep: 7.53 loss 0.298 score 0.863 lr 6.92921e-06 
+10/03/2020 23:24:43 - INFO - volta.utils -   [NLVR2]: iter 10184 Ep: 7.55 loss 0.290 score 0.868 lr 6.92097e-06 
+10/03/2020 23:24:50 - INFO - volta.utils -   [NLVR2]: iter 10204 Ep: 7.56 loss 0.325 score 0.850 lr 6.91273e-06 
+10/03/2020 23:24:58 - INFO - volta.utils -   [NLVR2]: iter 10224 Ep: 7.58 loss 0.296 score 0.871 lr 6.9045e-06 
+10/03/2020 23:25:05 - INFO - volta.utils -   [NLVR2]: iter 10244 Ep: 7.59 loss 0.310 score 0.857 lr 6.89626e-06 
+10/03/2020 23:25:14 - INFO - volta.utils -   [NLVR2]: iter 10264 Ep: 7.61 loss 0.309 score 0.854 lr 6.88802e-06 
+10/03/2020 23:25:21 - INFO - volta.utils -   [NLVR2]: iter 10284 Ep: 7.62 loss 0.310 score 0.862 lr 6.87979e-06 
+10/03/2020 23:25:29 - INFO - volta.utils -   [NLVR2]: iter 10304 Ep: 7.64 loss 0.310 score 0.856 lr 6.87155e-06 
+10/03/2020 23:25:36 - INFO - volta.utils -   [NLVR2]: iter 10324 Ep: 7.65 loss 0.303 score 0.863 lr 6.86331e-06 
+10/03/2020 23:25:44 - INFO - volta.utils -   [NLVR2]: iter 10344 Ep: 7.67 loss 0.300 score 0.854 lr 6.85508e-06 
+10/03/2020 23:25:51 - INFO - volta.utils -   [NLVR2]: iter 10364 Ep: 7.68 loss 0.320 score 0.855 lr 6.84684e-06 
+10/03/2020 23:25:59 - INFO - volta.utils -   [NLVR2]: iter 10384 Ep: 7.70 loss 0.323 score 0.850 lr 6.8386e-06 
+10/03/2020 23:26:06 - INFO - volta.utils -   [NLVR2]: iter 10404 Ep: 7.71 loss 0.315 score 0.854 lr 6.83037e-06 
+10/03/2020 23:26:14 - INFO - volta.utils -   [NLVR2]: iter 10424 Ep: 7.73 loss 0.294 score 0.861 lr 6.82213e-06 
+10/03/2020 23:26:22 - INFO - volta.utils -   [NLVR2]: iter 10444 Ep: 7.74 loss 0.306 score 0.864 lr 6.8139e-06 
+10/03/2020 23:26:30 - INFO - volta.utils -   [NLVR2]: iter 10464 Ep: 7.76 loss 0.309 score 0.844 lr 6.80566e-06 
+10/03/2020 23:26:37 - INFO - volta.utils -   [NLVR2]: iter 10484 Ep: 7.77 loss 0.303 score 0.863 lr 6.79742e-06 
+10/03/2020 23:26:44 - INFO - volta.utils -   [NLVR2]: iter 10504 Ep: 7.79 loss 0.320 score 0.849 lr 6.78919e-06 
+10/03/2020 23:26:52 - INFO - volta.utils -   [NLVR2]: iter 10524 Ep: 7.80 loss 0.322 score 0.850 lr 6.78095e-06 
+10/03/2020 23:26:59 - INFO - volta.utils -   [NLVR2]: iter 10544 Ep: 7.82 loss 0.309 score 0.859 lr 6.77271e-06 
+10/03/2020 23:27:07 - INFO - volta.utils -   [NLVR2]: iter 10564 Ep: 7.83 loss 0.296 score 0.873 lr 6.76448e-06 
+10/03/2020 23:27:14 - INFO - volta.utils -   [NLVR2]: iter 10584 Ep: 7.85 loss 0.310 score 0.856 lr 6.75624e-06 
+10/03/2020 23:27:23 - INFO - volta.utils -   [NLVR2]: iter 10604 Ep: 7.86 loss 0.334 score 0.838 lr 6.748e-06 
+10/03/2020 23:27:31 - INFO - volta.utils -   [NLVR2]: iter 10624 Ep: 7.88 loss 0.316 score 0.857 lr 6.73977e-06 
+10/03/2020 23:27:38 - INFO - volta.utils -   [NLVR2]: iter 10644 Ep: 7.89 loss 0.306 score 0.865 lr 6.73153e-06 
+10/03/2020 23:27:46 - INFO - volta.utils -   [NLVR2]: iter 10664 Ep: 7.91 loss 0.284 score 0.870 lr 6.72329e-06 
+10/03/2020 23:27:53 - INFO - volta.utils -   [NLVR2]: iter 10684 Ep: 7.92 loss 0.299 score 0.862 lr 6.71506e-06 
+10/03/2020 23:28:01 - INFO - volta.utils -   [NLVR2]: iter 10704 Ep: 7.93 loss 0.270 score 0.864 lr 6.70682e-06 
+10/03/2020 23:28:08 - INFO - volta.utils -   [NLVR2]: iter 10724 Ep: 7.95 loss 0.283 score 0.868 lr 6.69858e-06 
+10/03/2020 23:28:16 - INFO - volta.utils -   [NLVR2]: iter 10744 Ep: 7.96 loss 0.291 score 0.872 lr 6.69035e-06 
+10/03/2020 23:28:23 - INFO - volta.utils -   [NLVR2]: iter 10764 Ep: 7.98 loss 0.329 score 0.851 lr 6.68211e-06 
+10/03/2020 23:28:31 - INFO - volta.utils -   [NLVR2]: iter 10784 Ep: 7.99 loss 0.317 score 0.856 lr 6.67387e-06 
+10/03/2020 23:28:34 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  40%|████      | 8/20 [3:08:04<3:56:39, 1183.26s/it]10/03/2020 23:29:03 - INFO - volta.utils -   Eval task TASK12 on iteration 10793 
+10/03/2020 23:29:03 - INFO - volta.utils -   Validation [NLVR2]: loss 0.703 score 72.434 
+10/03/2020 23:29:11 - INFO - volta.utils -   [NLVR2]: iter 10813 Ep: 8.02 loss 0.285 score 0.863 lr 6.66378e-06 
+10/03/2020 23:29:19 - INFO - volta.utils -   [NLVR2]: iter 10833 Ep: 8.03 loss 0.247 score 0.895 lr 6.65369e-06 
+10/03/2020 23:29:27 - INFO - volta.utils -   [NLVR2]: iter 10853 Ep: 8.05 loss 0.226 score 0.895 lr 6.64546e-06 
+10/03/2020 23:29:34 - INFO - volta.utils -   [NLVR2]: iter 10873 Ep: 8.06 loss 0.248 score 0.888 lr 6.63722e-06 
+10/03/2020 23:29:42 - INFO - volta.utils -   [NLVR2]: iter 10893 Ep: 8.07 loss 0.278 score 0.881 lr 6.62898e-06 
+10/03/2020 23:29:49 - INFO - volta.utils -   [NLVR2]: iter 10913 Ep: 8.09 loss 0.275 score 0.874 lr 6.62075e-06 
+10/03/2020 23:29:56 - INFO - volta.utils -   [NLVR2]: iter 10933 Ep: 8.10 loss 0.284 score 0.877 lr 6.61251e-06 
+10/03/2020 23:30:04 - INFO - volta.utils -   [NLVR2]: iter 10953 Ep: 8.12 loss 0.241 score 0.898 lr 6.60427e-06 
+10/03/2020 23:30:12 - INFO - volta.utils -   [NLVR2]: iter 10973 Ep: 8.13 loss 0.279 score 0.865 lr 6.59604e-06 
+10/03/2020 23:30:20 - INFO - volta.utils -   [NLVR2]: iter 10993 Ep: 8.15 loss 0.255 score 0.886 lr 6.5878e-06 
+10/03/2020 23:30:27 - INFO - volta.utils -   [NLVR2]: iter 11013 Ep: 8.16 loss 0.264 score 0.873 lr 6.57957e-06 
+10/03/2020 23:30:34 - INFO - volta.utils -   [NLVR2]: iter 11033 Ep: 8.18 loss 0.268 score 0.883 lr 6.57133e-06 
+10/03/2020 23:30:42 - INFO - volta.utils -   [NLVR2]: iter 11053 Ep: 8.19 loss 0.260 score 0.877 lr 6.56309e-06 
+10/03/2020 23:30:49 - INFO - volta.utils -   [NLVR2]: iter 11073 Ep: 8.21 loss 0.265 score 0.879 lr 6.55486e-06 
+10/03/2020 23:30:57 - INFO - volta.utils -   [NLVR2]: iter 11093 Ep: 8.22 loss 0.260 score 0.882 lr 6.54662e-06 
+10/03/2020 23:31:05 - INFO - volta.utils -   [NLVR2]: iter 11113 Ep: 8.24 loss 0.264 score 0.880 lr 6.53838e-06 
+10/03/2020 23:31:12 - INFO - volta.utils -   [NLVR2]: iter 11133 Ep: 8.25 loss 0.279 score 0.873 lr 6.53015e-06 
+10/03/2020 23:31:20 - INFO - volta.utils -   [NLVR2]: iter 11153 Ep: 8.27 loss 0.276 score 0.875 lr 6.52191e-06 
+10/03/2020 23:31:27 - INFO - volta.utils -   [NLVR2]: iter 11173 Ep: 8.28 loss 0.259 score 0.872 lr 6.51367e-06 
+10/03/2020 23:31:35 - INFO - volta.utils -   [NLVR2]: iter 11193 Ep: 8.30 loss 0.262 score 0.881 lr 6.50544e-06 
+10/03/2020 23:31:42 - INFO - volta.utils -   [NLVR2]: iter 11213 Ep: 8.31 loss 0.264 score 0.880 lr 6.4972e-06 
+10/03/2020 23:31:50 - INFO - volta.utils -   [NLVR2]: iter 11233 Ep: 8.33 loss 0.259 score 0.883 lr 6.48896e-06 
+10/03/2020 23:31:57 - INFO - volta.utils -   [NLVR2]: iter 11253 Ep: 8.34 loss 0.247 score 0.900 lr 6.48073e-06 
+10/03/2020 23:32:06 - INFO - volta.utils -   [NLVR2]: iter 11273 Ep: 8.36 loss 0.263 score 0.872 lr 6.47249e-06 
+10/03/2020 23:32:13 - INFO - volta.utils -   [NLVR2]: iter 11293 Ep: 8.37 loss 0.268 score 0.880 lr 6.46425e-06 
+10/03/2020 23:32:21 - INFO - volta.utils -   [NLVR2]: iter 11313 Ep: 8.39 loss 0.299 score 0.859 lr 6.45602e-06 
+10/03/2020 23:32:28 - INFO - volta.utils -   [NLVR2]: iter 11333 Ep: 8.40 loss 0.251 score 0.895 lr 6.44778e-06 
+10/03/2020 23:32:36 - INFO - volta.utils -   [NLVR2]: iter 11353 Ep: 8.42 loss 0.280 score 0.868 lr 6.43954e-06 
+10/03/2020 23:32:43 - INFO - volta.utils -   [NLVR2]: iter 11373 Ep: 8.43 loss 0.242 score 0.895 lr 6.43131e-06 
+10/03/2020 23:32:51 - INFO - volta.utils -   [NLVR2]: iter 11393 Ep: 8.45 loss 0.284 score 0.869 lr 6.42307e-06 
+10/03/2020 23:33:00 - INFO - volta.utils -   [NLVR2]: iter 11413 Ep: 8.46 loss 0.273 score 0.866 lr 6.41483e-06 
+10/03/2020 23:33:07 - INFO - volta.utils -   [NLVR2]: iter 11433 Ep: 8.48 loss 0.254 score 0.882 lr 6.4066e-06 
+10/03/2020 23:33:15 - INFO - volta.utils -   [NLVR2]: iter 11453 Ep: 8.49 loss 0.257 score 0.885 lr 6.39836e-06 
+10/03/2020 23:33:22 - INFO - volta.utils -   [NLVR2]: iter 11473 Ep: 8.50 loss 0.262 score 0.882 lr 6.39012e-06 
+10/03/2020 23:33:30 - INFO - volta.utils -   [NLVR2]: iter 11493 Ep: 8.52 loss 0.276 score 0.873 lr 6.38189e-06 
+10/03/2020 23:33:38 - INFO - volta.utils -   [NLVR2]: iter 11513 Ep: 8.53 loss 0.264 score 0.877 lr 6.37365e-06 
+10/03/2020 23:33:46 - INFO - volta.utils -   [NLVR2]: iter 11533 Ep: 8.55 loss 0.290 score 0.866 lr 6.36541e-06 
+10/03/2020 23:33:55 - INFO - volta.utils -   [NLVR2]: iter 11553 Ep: 8.56 loss 0.284 score 0.876 lr 6.35718e-06 
+10/03/2020 23:34:02 - INFO - volta.utils -   [NLVR2]: iter 11573 Ep: 8.58 loss 0.246 score 0.884 lr 6.34894e-06 
+10/03/2020 23:34:10 - INFO - volta.utils -   [NLVR2]: iter 11593 Ep: 8.59 loss 0.284 score 0.867 lr 6.34071e-06 
+10/03/2020 23:34:17 - INFO - volta.utils -   [NLVR2]: iter 11613 Ep: 8.61 loss 0.270 score 0.873 lr 6.33247e-06 
+10/03/2020 23:34:24 - INFO - volta.utils -   [NLVR2]: iter 11633 Ep: 8.62 loss 0.276 score 0.870 lr 6.32423e-06 
+10/03/2020 23:34:32 - INFO - volta.utils -   [NLVR2]: iter 11653 Ep: 8.64 loss 0.253 score 0.885 lr 6.316e-06 
+10/03/2020 23:34:40 - INFO - volta.utils -   [NLVR2]: iter 11673 Ep: 8.65 loss 0.255 score 0.885 lr 6.30776e-06 
+10/03/2020 23:34:48 - INFO - volta.utils -   [NLVR2]: iter 11693 Ep: 8.67 loss 0.274 score 0.886 lr 6.29952e-06 
+10/03/2020 23:34:56 - INFO - volta.utils -   [NLVR2]: iter 11713 Ep: 8.68 loss 0.278 score 0.875 lr 6.29129e-06 
+10/03/2020 23:35:03 - INFO - volta.utils -   [NLVR2]: iter 11733 Ep: 8.70 loss 0.246 score 0.895 lr 6.28305e-06 
+10/03/2020 23:35:11 - INFO - volta.utils -   [NLVR2]: iter 11753 Ep: 8.71 loss 0.271 score 0.863 lr 6.27481e-06 
+10/03/2020 23:35:18 - INFO - volta.utils -   [NLVR2]: iter 11773 Ep: 8.73 loss 0.307 score 0.871 lr 6.26658e-06 
+10/03/2020 23:35:26 - INFO - volta.utils -   [NLVR2]: iter 11793 Ep: 8.74 loss 0.270 score 0.870 lr 6.25834e-06 
+10/03/2020 23:35:33 - INFO - volta.utils -   [NLVR2]: iter 11813 Ep: 8.76 loss 0.292 score 0.862 lr 6.2501e-06 
+10/03/2020 23:35:41 - INFO - volta.utils -   [NLVR2]: iter 11833 Ep: 8.77 loss 0.256 score 0.889 lr 6.24187e-06 
+10/03/2020 23:35:49 - INFO - volta.utils -   [NLVR2]: iter 11853 Ep: 8.79 loss 0.271 score 0.882 lr 6.23363e-06 
+10/03/2020 23:35:56 - INFO - volta.utils -   [NLVR2]: iter 11873 Ep: 8.80 loss 0.273 score 0.875 lr 6.22539e-06 
+10/03/2020 23:36:03 - INFO - volta.utils -   [NLVR2]: iter 11893 Ep: 8.82 loss 0.277 score 0.867 lr 6.21716e-06 
+10/03/2020 23:36:11 - INFO - volta.utils -   [NLVR2]: iter 11913 Ep: 8.83 loss 0.255 score 0.883 lr 6.20892e-06 
+10/03/2020 23:36:18 - INFO - volta.utils -   [NLVR2]: iter 11933 Ep: 8.85 loss 0.272 score 0.880 lr 6.20068e-06 
+10/03/2020 23:36:26 - INFO - volta.utils -   [NLVR2]: iter 11953 Ep: 8.86 loss 0.289 score 0.868 lr 6.19245e-06 
+10/03/2020 23:36:33 - INFO - volta.utils -   [NLVR2]: iter 11973 Ep: 8.88 loss 0.269 score 0.877 lr 6.18421e-06 
+10/03/2020 23:36:41 - INFO - volta.utils -   [NLVR2]: iter 11993 Ep: 8.89 loss 0.284 score 0.865 lr 6.17597e-06 
+10/03/2020 23:36:49 - INFO - volta.utils -   [NLVR2]: iter 12013 Ep: 8.91 loss 0.275 score 0.880 lr 6.16774e-06 
+10/03/2020 23:36:56 - INFO - volta.utils -   [NLVR2]: iter 12033 Ep: 8.92 loss 0.277 score 0.873 lr 6.1595e-06 
+10/03/2020 23:37:03 - INFO - volta.utils -   [NLVR2]: iter 12053 Ep: 8.93 loss 0.288 score 0.867 lr 6.15126e-06 
+10/03/2020 23:37:11 - INFO - volta.utils -   [NLVR2]: iter 12073 Ep: 8.95 loss 0.259 score 0.883 lr 6.14303e-06 
+10/03/2020 23:37:18 - INFO - volta.utils -   [NLVR2]: iter 12093 Ep: 8.96 loss 0.249 score 0.896 lr 6.13479e-06 
+10/03/2020 23:37:26 - INFO - volta.utils -   [NLVR2]: iter 12113 Ep: 8.98 loss 0.289 score 0.869 lr 6.12655e-06 
+10/03/2020 23:37:34 - INFO - volta.utils -   [NLVR2]: iter 12133 Ep: 8.99 loss 0.289 score 0.865 lr 6.11832e-06 
+10/03/2020 23:37:37 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  45%|████▌     | 9/20 [3:17:07<3:01:41, 991.04s/it] 10/04/2020 00:07:26 - INFO - volta.utils -   Eval task TASK12 on iteration 12142 
+10/04/2020 00:07:26 - INFO - volta.utils -   Validation [NLVR2]: loss 0.773 score 72.792 
+10/04/2020 00:07:33 - INFO - volta.utils -   [NLVR2]: iter 12162 Ep: 9.02 loss 0.233 score 0.892 lr 6.10823e-06 
+10/04/2020 00:11:55 - INFO - volta.utils -   [NLVR2]: iter 12182 Ep: 9.03 loss 0.228 score 0.905 lr 6.09814e-06 
+10/04/2020 00:14:36 - INFO - volta.utils -   [NLVR2]: iter 12202 Ep: 9.05 loss 0.236 score 0.899 lr 6.0899e-06 
+10/04/2020 00:18:09 - INFO - volta.utils -   [NLVR2]: iter 12222 Ep: 9.06 loss 0.221 score 0.896 lr 6.08167e-06 
+10/04/2020 00:19:16 - INFO - volta.utils -   [NLVR2]: iter 12242 Ep: 9.07 loss 0.237 score 0.898 lr 6.07343e-06 
+10/04/2020 00:21:12 - INFO - volta.utils -   [NLVR2]: iter 12262 Ep: 9.09 loss 0.242 score 0.892 lr 6.06519e-06 
+10/04/2020 00:21:20 - INFO - volta.utils -   [NLVR2]: iter 12282 Ep: 9.10 loss 0.214 score 0.907 lr 6.05696e-06 
+10/04/2020 00:21:47 - INFO - volta.utils -   [NLVR2]: iter 12302 Ep: 9.12 loss 0.246 score 0.895 lr 6.04872e-06 
+10/04/2020 00:21:55 - INFO - volta.utils -   [NLVR2]: iter 12322 Ep: 9.13 loss 0.246 score 0.887 lr 6.04048e-06 
+10/04/2020 00:22:10 - INFO - volta.utils -   [NLVR2]: iter 12342 Ep: 9.15 loss 0.243 score 0.895 lr 6.03225e-06 
+10/04/2020 00:47:10 - INFO - volta.utils -   [NLVR2]: iter 12362 Ep: 9.16 loss 0.258 score 0.884 lr 6.02401e-06 
+10/04/2020 00:54:28 - INFO - volta.utils -   [NLVR2]: iter 12382 Ep: 9.18 loss 0.223 score 0.903 lr 6.01577e-06 
+10/04/2020 01:03:35 - INFO - volta.utils -   [NLVR2]: iter 12402 Ep: 9.19 loss 0.241 score 0.890 lr 6.00754e-06 
+10/04/2020 01:06:04 - INFO - volta.utils -   [NLVR2]: iter 12422 Ep: 9.21 loss 0.201 score 0.909 lr 5.9993e-06 
+10/04/2020 01:07:10 - INFO - volta.utils -   [NLVR2]: iter 12442 Ep: 9.22 loss 0.243 score 0.892 lr 5.99106e-06 
+10/04/2020 01:08:55 - INFO - volta.utils -   [NLVR2]: iter 12462 Ep: 9.24 loss 0.236 score 0.889 lr 5.98283e-06 
+10/04/2020 01:09:06 - INFO - volta.utils -   [NLVR2]: iter 12482 Ep: 9.25 loss 0.247 score 0.880 lr 5.97459e-06 
+10/04/2020 01:09:19 - INFO - volta.utils -   [NLVR2]: iter 12502 Ep: 9.27 loss 0.263 score 0.884 lr 5.96635e-06 
+10/04/2020 01:09:27 - INFO - volta.utils -   [NLVR2]: iter 12522 Ep: 9.28 loss 0.235 score 0.891 lr 5.95812e-06 
+10/04/2020 01:33:33 - INFO - volta.utils -   [NLVR2]: iter 12542 Ep: 9.30 loss 0.213 score 0.910 lr 5.94988e-06 
+10/04/2020 01:35:34 - INFO - volta.utils -   [NLVR2]: iter 12562 Ep: 9.31 loss 0.245 score 0.881 lr 5.94164e-06 
+10/04/2020 01:35:41 - INFO - volta.utils -   [NLVR2]: iter 12582 Ep: 9.33 loss 0.254 score 0.878 lr 5.93341e-06 
+10/04/2020 02:00:12 - INFO - volta.utils -   [NLVR2]: iter 12602 Ep: 9.34 loss 0.226 score 0.902 lr 5.92517e-06 
+10/04/2020 02:07:38 - INFO - volta.utils -   [NLVR2]: iter 12622 Ep: 9.36 loss 0.238 score 0.882 lr 5.91693e-06 
+10/04/2020 02:28:03 - INFO - volta.utils -   [NLVR2]: iter 12642 Ep: 9.37 loss 0.239 score 0.884 lr 5.9087e-06 
+10/04/2020 02:32:09 - INFO - volta.utils -   [NLVR2]: iter 12662 Ep: 9.39 loss 0.221 score 0.895 lr 5.90046e-06 
+10/04/2020 02:43:59 - INFO - volta.utils -   [NLVR2]: iter 12682 Ep: 9.40 loss 0.248 score 0.891 lr 5.89222e-06 
+10/04/2020 02:49:21 - INFO - volta.utils -   [NLVR2]: iter 12702 Ep: 9.42 loss 0.248 score 0.897 lr 5.88399e-06 
+10/04/2020 03:02:00 - INFO - volta.utils -   [NLVR2]: iter 12722 Ep: 9.43 loss 0.237 score 0.895 lr 5.87575e-06 
+10/04/2020 03:02:20 - INFO - volta.utils -   [NLVR2]: iter 12742 Ep: 9.45 loss 0.217 score 0.898 lr 5.86752e-06 
+10/04/2020 03:04:03 - INFO - volta.utils -   [NLVR2]: iter 12762 Ep: 9.46 loss 0.240 score 0.890 lr 5.85928e-06 
+10/04/2020 03:22:26 - INFO - volta.utils -   [NLVR2]: iter 12782 Ep: 9.48 loss 0.230 score 0.892 lr 5.85104e-06 
+10/04/2020 03:22:59 - INFO - volta.utils -   [NLVR2]: iter 12802 Ep: 9.49 loss 0.249 score 0.889 lr 5.84281e-06 
+10/04/2020 03:23:07 - INFO - volta.utils -   [NLVR2]: iter 12822 Ep: 9.50 loss 0.240 score 0.892 lr 5.83457e-06 
+10/04/2020 03:23:15 - INFO - volta.utils -   [NLVR2]: iter 12842 Ep: 9.52 loss 0.254 score 0.883 lr 5.82633e-06 
+10/04/2020 03:23:22 - INFO - volta.utils -   [NLVR2]: iter 12862 Ep: 9.53 loss 0.253 score 0.889 lr 5.8181e-06 
+10/04/2020 03:23:30 - INFO - volta.utils -   [NLVR2]: iter 12882 Ep: 9.55 loss 0.243 score 0.892 lr 5.80986e-06 
+10/04/2020 03:23:39 - INFO - volta.utils -   [NLVR2]: iter 12902 Ep: 9.56 loss 0.232 score 0.902 lr 5.80162e-06 
+10/04/2020 03:23:46 - INFO - volta.utils -   [NLVR2]: iter 12922 Ep: 9.58 loss 0.232 score 0.893 lr 5.79339e-06 
+10/04/2020 03:48:55 - INFO - volta.utils -   [NLVR2]: iter 12942 Ep: 9.59 loss 0.242 score 0.891 lr 5.78515e-06 
+10/04/2020 03:49:11 - INFO - volta.utils -   [NLVR2]: iter 12962 Ep: 9.61 loss 0.246 score 0.887 lr 5.77691e-06 
+10/04/2020 03:52:01 - INFO - volta.utils -   [NLVR2]: iter 12982 Ep: 9.62 loss 0.237 score 0.894 lr 5.76868e-06 
+10/04/2020 04:10:51 - INFO - volta.utils -   [NLVR2]: iter 13002 Ep: 9.64 loss 0.246 score 0.888 lr 5.76044e-06 
+10/04/2020 04:10:59 - INFO - volta.utils -   [NLVR2]: iter 13022 Ep: 9.65 loss 0.257 score 0.881 lr 5.7522e-06 
+10/04/2020 04:14:56 - INFO - volta.utils -   [NLVR2]: iter 13042 Ep: 9.67 loss 0.252 score 0.885 lr 5.74397e-06 
+10/04/2020 04:25:35 - INFO - volta.utils -   [NLVR2]: iter 13062 Ep: 9.68 loss 0.263 score 0.878 lr 5.73573e-06 
+10/04/2020 04:26:16 - INFO - volta.utils -   [NLVR2]: iter 13082 Ep: 9.70 loss 0.237 score 0.887 lr 5.72749e-06 
+10/04/2020 04:36:42 - INFO - volta.utils -   [NLVR2]: iter 13102 Ep: 9.71 loss 0.264 score 0.885 lr 5.71926e-06 
+10/04/2020 04:44:09 - INFO - volta.utils -   [NLVR2]: iter 13122 Ep: 9.73 loss 0.233 score 0.894 lr 5.71102e-06 
+10/04/2020 04:53:41 - INFO - volta.utils -   [NLVR2]: iter 13142 Ep: 9.74 loss 0.241 score 0.893 lr 5.70278e-06 
+10/04/2020 04:56:35 - INFO - volta.utils -   [NLVR2]: iter 13162 Ep: 9.76 loss 0.257 score 0.880 lr 5.69455e-06 
+10/04/2020 05:07:58 - INFO - volta.utils -   [NLVR2]: iter 13182 Ep: 9.77 loss 0.228 score 0.900 lr 5.68631e-06 
+10/04/2020 05:21:44 - INFO - volta.utils -   [NLVR2]: iter 13202 Ep: 9.79 loss 0.240 score 0.885 lr 5.67807e-06 
+10/04/2020 05:32:56 - INFO - volta.utils -   [NLVR2]: iter 13222 Ep: 9.80 loss 0.254 score 0.894 lr 5.66984e-06 
+10/04/2020 05:35:54 - INFO - volta.utils -   [NLVR2]: iter 13242 Ep: 9.82 loss 0.270 score 0.891 lr 5.6616e-06 
+10/04/2020 05:37:13 - INFO - volta.utils -   [NLVR2]: iter 13262 Ep: 9.83 loss 0.261 score 0.880 lr 5.65336e-06 
+10/04/2020 05:50:02 - INFO - volta.utils -   [NLVR2]: iter 13282 Ep: 9.85 loss 0.251 score 0.891 lr 5.64513e-06 
+10/04/2020 05:50:28 - INFO - volta.utils -   [NLVR2]: iter 13302 Ep: 9.86 loss 0.272 score 0.877 lr 5.63689e-06 
+10/04/2020 06:04:16 - INFO - volta.utils -   [NLVR2]: iter 13322 Ep: 9.88 loss 0.229 score 0.900 lr 5.62865e-06 
+10/04/2020 06:05:12 - INFO - volta.utils -   [NLVR2]: iter 13342 Ep: 9.89 loss 0.241 score 0.898 lr 5.62042e-06 
+10/04/2020 06:05:23 - INFO - volta.utils -   [NLVR2]: iter 13362 Ep: 9.91 loss 0.221 score 0.905 lr 5.61218e-06 
+10/04/2020 06:12:41 - INFO - volta.utils -   [NLVR2]: iter 13382 Ep: 9.92 loss 0.241 score 0.890 lr 5.60395e-06 
+10/04/2020 06:12:49 - INFO - volta.utils -   [NLVR2]: iter 13402 Ep: 9.93 loss 0.250 score 0.886 lr 5.59571e-06 
+10/04/2020 06:12:56 - INFO - volta.utils -   [NLVR2]: iter 13422 Ep: 9.95 loss 0.256 score 0.890 lr 5.58747e-06 
+10/04/2020 06:13:04 - INFO - volta.utils -   [NLVR2]: iter 13442 Ep: 9.96 loss 0.228 score 0.901 lr 5.57924e-06 
+10/04/2020 06:13:12 - INFO - volta.utils -   [NLVR2]: iter 13462 Ep: 9.98 loss 0.227 score 0.904 lr 5.571e-06 
+10/04/2020 06:13:20 - INFO - volta.utils -   [NLVR2]: iter 13482 Ep: 9.99 loss 0.255 score 0.888 lr 5.56276e-06 
+10/04/2020 06:13:23 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  50%|█████     | 10/20 [9:52:54<21:42:59, 7817.92s/it]10/04/2020 06:18:08 - INFO - volta.utils -   Eval task TASK12 on iteration 13491 
+10/04/2020 06:18:08 - INFO - volta.utils -   Validation [NLVR2]: loss 0.855 score 72.090 
+10/04/2020 06:18:16 - INFO - volta.utils -   [NLVR2]: iter 13511 Ep: 10.02 loss 0.234 score 0.894 lr 5.55267e-06 
+10/04/2020 06:18:24 - INFO - volta.utils -   [NLVR2]: iter 13531 Ep: 10.03 loss 0.212 score 0.905 lr 5.54258e-06 

@@ -1,0 +1,115 @@
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+
+Bad key "text.kerning_factor" on line 4 in
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+08/25/2020 16:32:30 - INFO - __main__ -   device: cuda n_gpu: 4, distributed training: False, 16-bits training: False
+08/25/2020 16:32:31 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+08/25/2020 16:32:32 - INFO - volta.task_utils -   Loading refcoco Dataset with batch size 256
+08/25/2020 16:33:13 - INFO - volta.utils -   logging file at: ../../logs/volta/refcoco_unc/refcoco_vilbert_base
+08/25/2020 16:33:19 - INFO - volta.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/volta/vilbert/vilbert_base/pytorch_model_9.bin
+08/25/2020 16:33:26 - INFO - volta.utils -   
+08/25/2020 16:33:26 - INFO - volta.utils -   Weights of BertForVLTasks not initialized from pretrained model: ['clfs_dict.TASK9.weight', 'clfs_dict.TASK9.bias']
+08/25/2020 16:34:13 - INFO - volta.utils -   Eval task TASK9 on iteration 8025 
+08/25/2020 16:34:13 - INFO - volta.utils -   Validation [refcoco]: loss 2.114 score 79.490 
+08/25/2020 16:34:25 - INFO - volta.utils -   [refcoco]: iter 8045 Ep: 17.04 loss 1.663 score 0.908 lr 3.32039e-06 
+08/25/2020 16:34:38 - INFO - volta.utils -   [refcoco]: iter 8065 Ep: 17.09 loss 1.683 score 0.905 lr 3.25918e-06 
+08/25/2020 16:34:50 - INFO - volta.utils -   [refcoco]: iter 8085 Ep: 17.13 loss 1.687 score 0.908 lr 3.2121e-06 
+08/25/2020 16:35:02 - INFO - volta.utils -   [refcoco]: iter 8105 Ep: 17.17 loss 1.666 score 0.915 lr 3.16502e-06 
+08/25/2020 16:35:14 - INFO - volta.utils -   [refcoco]: iter 8125 Ep: 17.21 loss 1.672 score 0.916 lr 3.11794e-06 
+08/25/2020 16:35:26 - INFO - volta.utils -   [refcoco]: iter 8145 Ep: 17.26 loss 1.671 score 0.910 lr 3.07086e-06 
+08/25/2020 16:35:38 - INFO - volta.utils -   [refcoco]: iter 8165 Ep: 17.30 loss 1.669 score 0.908 lr 3.02378e-06 
+08/25/2020 16:35:52 - INFO - volta.utils -   [refcoco]: iter 8185 Ep: 17.34 loss 1.675 score 0.915 lr 2.97669e-06 
+08/25/2020 16:36:03 - INFO - volta.utils -   [refcoco]: iter 8205 Ep: 17.38 loss 1.662 score 0.919 lr 2.92961e-06 
+08/25/2020 16:36:15 - INFO - volta.utils -   [refcoco]: iter 8225 Ep: 17.43 loss 1.675 score 0.916 lr 2.88253e-06 
+08/25/2020 16:36:27 - INFO - volta.utils -   [refcoco]: iter 8245 Ep: 17.47 loss 1.686 score 0.913 lr 2.83545e-06 
+08/25/2020 16:36:39 - INFO - volta.utils -   [refcoco]: iter 8265 Ep: 17.51 loss 1.664 score 0.915 lr 2.78837e-06 
+08/25/2020 16:36:51 - INFO - volta.utils -   [refcoco]: iter 8285 Ep: 17.55 loss 1.685 score 0.907 lr 2.74129e-06 
+08/25/2020 16:37:05 - INFO - volta.utils -   [refcoco]: iter 8305 Ep: 17.60 loss 1.673 score 0.915 lr 2.69421e-06 
+08/25/2020 16:37:17 - INFO - volta.utils -   [refcoco]: iter 8325 Ep: 17.64 loss 1.667 score 0.918 lr 2.64713e-06 
+08/25/2020 16:37:28 - INFO - volta.utils -   [refcoco]: iter 8345 Ep: 17.68 loss 1.675 score 0.911 lr 2.60005e-06 
+08/25/2020 16:37:40 - INFO - volta.utils -   [refcoco]: iter 8365 Ep: 17.72 loss 1.674 score 0.912 lr 2.55297e-06 
+08/25/2020 16:37:52 - INFO - volta.utils -   [refcoco]: iter 8385 Ep: 17.76 loss 1.665 score 0.914 lr 2.50589e-06 
+08/25/2020 16:38:03 - INFO - volta.utils -   [refcoco]: iter 8405 Ep: 17.81 loss 1.653 score 0.918 lr 2.4588e-06 
+08/25/2020 16:38:16 - INFO - volta.utils -   [refcoco]: iter 8425 Ep: 17.85 loss 1.678 score 0.916 lr 2.41172e-06 
+08/25/2020 16:38:28 - INFO - volta.utils -   [refcoco]: iter 8445 Ep: 17.89 loss 1.666 score 0.917 lr 2.36464e-06 
+08/25/2020 16:38:40 - INFO - volta.utils -   [refcoco]: iter 8465 Ep: 17.93 loss 1.659 score 0.920 lr 2.31756e-06 
+08/25/2020 16:38:52 - INFO - volta.utils -   [refcoco]: iter 8485 Ep: 17.98 loss 1.671 score 0.915 lr 2.27048e-06 
+08/25/2020 16:38:58 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  33%|███▎      | 1/3 [05:27<10:55, 327.85s/it]08/25/2020 16:39:22 - INFO - volta.utils -   Eval task TASK9 on iteration 8497 
+08/25/2020 16:39:22 - INFO - volta.utils -   Validation [refcoco]: loss 2.114 score 79.509 
+08/25/2020 16:39:34 - INFO - volta.utils -   [refcoco]: iter 8517 Ep: 18.04 loss 1.656 score 0.914 lr 2.20927e-06 
+08/25/2020 16:39:46 - INFO - volta.utils -   [refcoco]: iter 8537 Ep: 18.09 loss 1.665 score 0.915 lr 2.14807e-06 
+08/25/2020 16:39:58 - INFO - volta.utils -   [refcoco]: iter 8557 Ep: 18.13 loss 1.679 score 0.912 lr 2.10099e-06 
+08/25/2020 16:40:10 - INFO - volta.utils -   [refcoco]: iter 8577 Ep: 18.17 loss 1.693 score 0.913 lr 2.05391e-06 
+08/25/2020 16:40:23 - INFO - volta.utils -   [refcoco]: iter 8597 Ep: 18.21 loss 1.665 score 0.915 lr 2.00683e-06 
+08/25/2020 16:40:37 - INFO - volta.utils -   [refcoco]: iter 8617 Ep: 18.26 loss 1.669 score 0.908 lr 1.95975e-06 
+08/25/2020 16:40:48 - INFO - volta.utils -   [refcoco]: iter 8637 Ep: 18.30 loss 1.675 score 0.916 lr 1.91266e-06 
+08/25/2020 16:41:01 - INFO - volta.utils -   [refcoco]: iter 8657 Ep: 18.34 loss 1.668 score 0.907 lr 1.86558e-06 
+08/25/2020 16:41:13 - INFO - volta.utils -   [refcoco]: iter 8677 Ep: 18.38 loss 1.651 score 0.918 lr 1.8185e-06 
+08/25/2020 16:41:24 - INFO - volta.utils -   [refcoco]: iter 8697 Ep: 18.43 loss 1.676 score 0.919 lr 1.77142e-06 
+08/25/2020 16:41:36 - INFO - volta.utils -   [refcoco]: iter 8717 Ep: 18.47 loss 1.658 score 0.915 lr 1.72434e-06 
+08/25/2020 16:41:50 - INFO - volta.utils -   [refcoco]: iter 8737 Ep: 18.51 loss 1.674 score 0.915 lr 1.67726e-06 
+08/25/2020 16:42:01 - INFO - volta.utils -   [refcoco]: iter 8757 Ep: 18.55 loss 1.667 score 0.912 lr 1.63018e-06 
+08/25/2020 16:42:13 - INFO - volta.utils -   [refcoco]: iter 8777 Ep: 18.60 loss 1.690 score 0.912 lr 1.5831e-06 
+08/25/2020 16:42:25 - INFO - volta.utils -   [refcoco]: iter 8797 Ep: 18.64 loss 1.641 score 0.913 lr 1.53602e-06 
+08/25/2020 16:42:37 - INFO - volta.utils -   [refcoco]: iter 8817 Ep: 18.68 loss 1.667 score 0.913 lr 1.48894e-06 
+08/25/2020 16:42:48 - INFO - volta.utils -   [refcoco]: iter 8837 Ep: 18.72 loss 1.691 score 0.920 lr 1.44185e-06 
+08/25/2020 16:43:02 - INFO - volta.utils -   [refcoco]: iter 8857 Ep: 18.76 loss 1.668 score 0.908 lr 1.39477e-06 
+08/25/2020 16:43:14 - INFO - volta.utils -   [refcoco]: iter 8877 Ep: 18.81 loss 1.672 score 0.912 lr 1.34769e-06 
+08/25/2020 16:43:26 - INFO - volta.utils -   [refcoco]: iter 8897 Ep: 18.85 loss 1.684 score 0.912 lr 1.30061e-06 
+08/25/2020 16:43:39 - INFO - volta.utils -   [refcoco]: iter 8917 Ep: 18.89 loss 1.668 score 0.910 lr 1.25353e-06 
+08/25/2020 16:43:51 - INFO - volta.utils -   [refcoco]: iter 8937 Ep: 18.93 loss 1.668 score 0.915 lr 1.20645e-06 
+08/25/2020 16:44:03 - INFO - volta.utils -   [refcoco]: iter 8957 Ep: 18.98 loss 1.665 score 0.913 lr 1.15937e-06 
+08/25/2020 16:44:09 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch:  67%|██████▋   | 2/3 [10:38<05:22, 322.58s/it]08/25/2020 16:44:29 - INFO - volta.utils -   Eval task TASK9 on iteration 8969 
+08/25/2020 16:44:29 - INFO - volta.utils -   Validation [refcoco]: loss 2.114 score 79.583 
+08/25/2020 16:44:40 - INFO - volta.utils -   [refcoco]: iter 8989 Ep: 19.04 loss 1.675 score 0.915 lr 1.09816e-06 
+08/25/2020 16:44:52 - INFO - volta.utils -   [refcoco]: iter 9009 Ep: 19.09 loss 1.680 score 0.912 lr 1.03696e-06 
+08/25/2020 16:45:05 - INFO - volta.utils -   [refcoco]: iter 9029 Ep: 19.13 loss 1.670 score 0.916 lr 9.89878e-07 
+08/25/2020 16:45:18 - INFO - volta.utils -   [refcoco]: iter 9049 Ep: 19.17 loss 1.673 score 0.922 lr 9.42797e-07 
+08/25/2020 16:45:30 - INFO - volta.utils -   [refcoco]: iter 9069 Ep: 19.21 loss 1.661 score 0.911 lr 8.95716e-07 
+08/25/2020 16:45:42 - INFO - volta.utils -   [refcoco]: iter 9089 Ep: 19.26 loss 1.670 score 0.916 lr 8.48635e-07 
+08/25/2020 16:45:53 - INFO - volta.utils -   [refcoco]: iter 9109 Ep: 19.30 loss 1.680 score 0.914 lr 8.01554e-07 
+08/25/2020 16:46:05 - INFO - volta.utils -   [refcoco]: iter 9129 Ep: 19.34 loss 1.649 score 0.919 lr 7.54473e-07 
+08/25/2020 16:46:19 - INFO - volta.utils -   [refcoco]: iter 9149 Ep: 19.38 loss 1.664 score 0.917 lr 7.07392e-07 
+08/25/2020 16:46:31 - INFO - volta.utils -   [refcoco]: iter 9169 Ep: 19.43 loss 1.675 score 0.913 lr 6.60311e-07 
+08/25/2020 16:46:43 - INFO - volta.utils -   [refcoco]: iter 9189 Ep: 19.47 loss 1.658 score 0.924 lr 6.1323e-07 
+08/25/2020 16:46:54 - INFO - volta.utils -   [refcoco]: iter 9209 Ep: 19.51 loss 1.667 score 0.914 lr 5.66149e-07 
+08/25/2020 16:47:06 - INFO - volta.utils -   [refcoco]: iter 9229 Ep: 19.55 loss 1.659 score 0.913 lr 5.19068e-07 
+08/25/2020 16:47:20 - INFO - volta.utils -   [refcoco]: iter 9249 Ep: 19.60 loss 1.666 score 0.911 lr 4.71987e-07 
+08/25/2020 16:47:32 - INFO - volta.utils -   [refcoco]: iter 9269 Ep: 19.64 loss 1.676 score 0.909 lr 4.24906e-07 
+08/25/2020 16:47:44 - INFO - volta.utils -   [refcoco]: iter 9289 Ep: 19.68 loss 1.670 score 0.916 lr 3.77825e-07 
+08/25/2020 16:47:56 - INFO - volta.utils -   [refcoco]: iter 9309 Ep: 19.72 loss 1.673 score 0.906 lr 3.30744e-07 
+08/25/2020 16:48:09 - INFO - volta.utils -   [refcoco]: iter 9329 Ep: 19.76 loss 1.672 score 0.911 lr 2.83663e-07 
+08/25/2020 16:48:21 - INFO - volta.utils -   [refcoco]: iter 9349 Ep: 19.81 loss 1.670 score 0.908 lr 2.36582e-07 
+08/25/2020 16:48:33 - INFO - volta.utils -   [refcoco]: iter 9369 Ep: 19.85 loss 1.673 score 0.910 lr 1.89501e-07 
+08/25/2020 16:48:45 - INFO - volta.utils -   [refcoco]: iter 9389 Ep: 19.89 loss 1.666 score 0.913 lr 1.4242e-07 
+08/25/2020 16:48:56 - INFO - volta.utils -   [refcoco]: iter 9409 Ep: 19.93 loss 1.683 score 0.914 lr 9.5339e-08 
+08/25/2020 16:49:09 - INFO - volta.utils -   [refcoco]: iter 9429 Ep: 19.98 loss 1.661 score 0.912 lr 4.8258e-08 
+08/25/2020 16:49:26 - INFO - volta.utils -   Eval task TASK9 on iteration 9440 
+08/25/2020 16:49:26 - INFO - volta.utils -   Validation [refcoco]: loss 2.118 score 79.500 
+08/25/2020 16:49:26 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+
+Epoch: 100%|██████████| 3/3 [15:56<00:00, 321.31s/it]

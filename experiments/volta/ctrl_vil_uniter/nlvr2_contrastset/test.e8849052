@@ -1,0 +1,15 @@
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+03/12/2021 17:30:46 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+Traceback (most recent call last):
+  File "eval_task.py", line 188, in <module>
+    main()
+  File "eval_task.py", line 108, in main
+    config = BertConfig.from_json_file(args.config_file)
+  File "/home/4/19ITA380/projects/mpre-volta/code/volta/volta/config.py", line 167, in from_json_file
+    with open(json_file, "r", encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/ctrl_vil_uniter_base.json'

@@ -1,0 +1,18 @@
+Load 86373 data from split(s) train.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/nlvr2_imgfeat/nlvr2_obj36-36.tsv
+Loaded 119354 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/nlvr2_imgfeat/nlvr2_obj36-36.tsv in 1250 seconds.
+Use 86373 data in torch dataset
+Use 103170 images in torch dataset
+
+/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/nlvr2/lxmert
+/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/nlvr2/lxmert
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+Total Iters: 840
+Load model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/nlvr2/lxmert/BEST
+Load 6967 data from split(s) test.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/nlvr2_imgfeat/nlvr2_obj36-36.tsv
+Loaded 119354 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2/nlvr2_imgfeat/nlvr2_obj36-36.tsv in 1316 seconds.
+Use 6967 data in torch dataset
+Use 8082 images in torch dataset
+
+0.7168078082388403

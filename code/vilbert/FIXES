@@ -1,0 +1,6 @@
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda install tensorboard=1.14.0
+pip install tensorboardX==1.8
+pip install pytorch-transformers==1.1.0
+
+Also, cd tools/refer; make

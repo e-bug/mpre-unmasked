@@ -1,0 +1,16 @@
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+03/12/2021 17:37:12 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+03/12/2021 17:37:13 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+03/12/2021 17:37:13 - INFO - volta.task_utils -   Loading NLVR2ContrastSet Dataset with batch size 512
+03/12/2021 17:37:13 - INFO - volta.datasets.nlvr2_contrastset_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2-contrastset/annotations/cache/NLVR2ContrastSet_40.pkl
+03/12/2021 17:37:14 - INFO - volta.train_utils -   logging file at: pytorch_model_19.bin-
+03/12/2021 17:37:14 - INFO - volta.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/mpre-unmasked/nlvr2/volta/ctrl_vilbert_s89/NLVR2_ctrl_vilbert_base/pytorch_model_19.bin
+03/12/2021 17:37:21 - INFO - volta.utils -   
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [01:11<01:11, 71.65s/it]100%|██████████| 2/2 [01:14<00:00, 50.88s/it]
+03/12/2021 17:39:11 - INFO - volta.train_utils -   Eval task TASK19 on iteration 0 
+03/12/2021 17:39:11 - INFO - volta.train_utils -   Validation [NLVR2ContrastSet]: loss 3.646 score 55.936 

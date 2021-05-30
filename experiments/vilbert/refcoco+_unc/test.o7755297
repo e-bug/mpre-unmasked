@@ -1,0 +1,9 @@
+loading dataset refcoco+ into memory...
+creating index...
+index created.
+DONE (t=7.94s)
+3773 refs are in split [test].
+***** Running evaluation *****
+  Num Iters:  {'TASK10': 11}
+  Batch size:  {'TASK10': 1024}
+0/111/112/113/114/115/116/117/118/119/1110/11

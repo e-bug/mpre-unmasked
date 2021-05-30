@@ -1,0 +1,15 @@
+Load 443757 data from split(s) train.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/train2014_obj36-36.tsv
+Loaded 512 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/train2014_obj36-36.tsv in 5 seconds.
+Use 2892 data in torch dataset
+
+/gs/hs0/tgb-deepmt/bugliarello.e/results/vqa/lxmert
+/gs/hs0/tgb-deepmt/bugliarello.e/results/vqa/lxmert
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+BertAdam Total Iters: 360
+Load model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/vqa/lxmert/BEST
+Load 447793 data from split(s) test.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/test2015_obj36-36.tsv
+Loaded 81434 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/test2015_obj36-36.tsv in 840 seconds.
+Use 447793 data in torch dataset
+

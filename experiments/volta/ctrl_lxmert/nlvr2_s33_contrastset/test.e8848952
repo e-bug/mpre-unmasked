@@ -1,0 +1,16 @@
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+03/12/2021 17:30:46 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+03/12/2021 17:30:47 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+03/12/2021 17:30:48 - INFO - volta.task_utils -   Loading NLVR2ContrastSet Dataset with batch size 512
+03/12/2021 17:30:48 - INFO - volta.datasets.nlvr2_contrastset_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/nlvr2-contrastset/annotations/cache/NLVR2ContrastSet_40.pkl
+03/12/2021 17:30:49 - INFO - volta.train_utils -   logging file at: pytorch_model_13.bin-
+03/12/2021 17:30:49 - INFO - volta.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/mpre-unmasked/nlvr2_s33/volta/ctrl_lxmert/NLVR2_ctrl_lxmert/pytorch_model_13.bin
+03/12/2021 17:30:55 - INFO - volta.utils -   
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:50<00:50, 50.21s/it]100%|██████████| 2/2 [00:52<00:00, 35.81s/it]
+03/12/2021 17:32:12 - INFO - volta.train_utils -   Eval task TASK19 on iteration 0 
+03/12/2021 17:32:12 - INFO - volta.train_utils -   Validation [NLVR2ContrastSet]: loss 2.000 score 56.137 

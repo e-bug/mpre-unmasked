@@ -1,0 +1,7 @@
+Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/conceptual_captions/volta/training_feat_all.lmdb
+[32m[0726 08:03:20 @format.py:92][0m Found 2777649 entries in /gs/hs0/tgb-deepmt/bugliarello.e/data/conceptual_captions/volta/training_feat_all.lmdb
+[32m[0726 08:03:23 @parallel.py:309][0m [PrefetchDataZMQ] Will fork a dataflow more than one times. This assumes the datapoints are i.i.d.
+[32m[0726 08:03:23 @argtools.py:146][0m [5m[31mWRN[0m "import prctl" failed! Install python-prctl so that processes can be cleaned with guarantee.
+[32m[0726 08:03:23 @argtools.py:146][0m [5m[31mWRN[0m "import prctl" failed! Install python-prctl so that processes can be cleaned with guarantee.
+Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/conceptual_captions/volta/validation_feat_all.lmdb
+[32m[0726 08:03:24 @format.py:92][0m Found 14463 entries in /gs/hs0/tgb-deepmt/bugliarello.e/data/conceptual_captions/volta/validation_feat_all.lmdb

@@ -1,0 +1,152 @@
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+
+Bad key "text.kerning_factor" on line 4 in
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+08/26/2020 15:11:41 - INFO - __main__ -   device: cuda n_gpu: 4, distributed training: False, 16-bits training: False
+08/26/2020 15:11:42 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+08/26/2020 15:11:42 - INFO - vilbert.task_utils -   Loading GQA Dataset with batch size 256
+08/26/2020 15:11:43 - INFO - vilbert.datasets.gqa_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/gqa/cache/GQA_train_26.pkl
+08/26/2020 15:16:37 - INFO - vilbert.datasets.gqa_dataset -   Loading from /gs/hs0/tgb-deepmt/bugliarello.e/data/gqa/cache/GQA_val_26.pkl
+08/26/2020 15:17:22 - INFO - vilbert.utils -   logging file at: /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/gqa/vilbert/GQA_bert_base_6layer_6conect/logs
+08/26/2020 15:17:22 - INFO - vilbert.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vilbert/bert_base_6layer_6conect/pytorch_model_9.bin
+08/26/2020 15:17:28 - INFO - vilbert.utils -   Weights of VILBertForVLTasks not initialized from pretrained model: ['vil_prediction.logit_fc.0.weight', 'vil_prediction.logit_fc.0.bias', 'vil_prediction.logit_fc.2.weight', 'vil_prediction.logit_fc.2.bias', 'vil_prediction.logit_fc.3.weight', 'vil_prediction.logit_fc.3.bias', 'vil_prediction_gqa.logit_fc.0.weight', 'vil_prediction_gqa.logit_fc.0.bias', 'vil_prediction_gqa.logit_fc.2.weight', 'vil_prediction_gqa.logit_fc.2.bias', 'vil_prediction_gqa.logit_fc.3.weight', 'vil_prediction_gqa.logit_fc.3.bias', 'vil_binary_prediction.logit_fc.0.weight', 'vil_binary_prediction.logit_fc.0.bias', 'vil_binary_prediction.logit_fc.2.weight', 'vil_binary_prediction.logit_fc.2.bias', 'vil_binary_prediction.logit_fc.3.weight', 'vil_binary_prediction.logit_fc.3.bias', 'vil_logit.weight', 'vil_logit.bias', 'vil_tri_prediction.weight', 'vil_tri_prediction.bias', 'vision_logit.weight', 'vision_logit.bias', 'linguisic_logit.weight', 'linguisic_logit.bias']
+Epoch:   0%|          | 0/15 [00:00<?, ?it/s]08/26/2020 15:40:12 - INFO - vilbert.utils -   Eval task TASK15 on iteration 18421 
+08/26/2020 15:40:12 - INFO - vilbert.utils -   Validation [GQA]: loss 1.841 score 65.613 
+08/26/2020 15:40:26 - INFO - vilbert.utils -   [GQA]: iter 18441 Ep: 5.01 loss 0.992 score 0.802 lr 3.33276e-05 
+08/26/2020 15:42:01 - INFO - vilbert.utils -   [GQA]: iter 18461 Ep: 5.01 loss 0.926 score 0.817 lr 3.33143e-05 
+08/26/2020 15:43:24 - INFO - vilbert.utils -   [GQA]: iter 18481 Ep: 5.02 loss 0.997 score 0.808 lr 3.33023e-05 
+08/26/2020 15:45:00 - INFO - vilbert.utils -   [GQA]: iter 18501 Ep: 5.02 loss 0.999 score 0.806 lr 3.32902e-05 
+08/26/2020 15:47:38 - INFO - vilbert.utils -   [GQA]: iter 18521 Ep: 5.03 loss 0.983 score 0.812 lr 3.32781e-05 
+08/26/2020 15:48:53 - INFO - vilbert.utils -   [GQA]: iter 18541 Ep: 5.03 loss 0.923 score 0.818 lr 3.32661e-05 
+08/26/2020 15:50:19 - INFO - vilbert.utils -   [GQA]: iter 18561 Ep: 5.04 loss 0.969 score 0.811 lr 3.3254e-05 
+08/26/2020 15:51:40 - INFO - vilbert.utils -   [GQA]: iter 18581 Ep: 5.04 loss 0.994 score 0.805 lr 3.32419e-05 
+08/26/2020 15:54:23 - INFO - vilbert.utils -   [GQA]: iter 18601 Ep: 5.05 loss 0.966 score 0.814 lr 3.32299e-05 
+08/26/2020 15:56:04 - INFO - vilbert.utils -   [GQA]: iter 18621 Ep: 5.05 loss 0.990 score 0.806 lr 3.32178e-05 
+08/26/2020 15:57:36 - INFO - vilbert.utils -   [GQA]: iter 18641 Ep: 5.06 loss 1.000 score 0.810 lr 3.32058e-05 
+08/26/2020 16:02:28 - INFO - vilbert.utils -   [GQA]: iter 18661 Ep: 5.07 loss 1.010 score 0.808 lr 3.31937e-05 
+08/26/2020 16:13:11 - INFO - vilbert.utils -   [GQA]: iter 18681 Ep: 5.07 loss 0.951 score 0.813 lr 3.31816e-05 
+08/26/2020 16:19:41 - INFO - vilbert.utils -   [GQA]: iter 18701 Ep: 5.08 loss 0.988 score 0.808 lr 3.31696e-05 
+08/26/2020 16:27:27 - INFO - vilbert.utils -   [GQA]: iter 18721 Ep: 5.08 loss 0.986 score 0.811 lr 3.31575e-05 
+08/26/2020 16:38:13 - INFO - vilbert.utils -   [GQA]: iter 18741 Ep: 5.09 loss 0.974 score 0.810 lr 3.31454e-05 
+08/26/2020 16:57:42 - INFO - vilbert.utils -   [GQA]: iter 18761 Ep: 5.09 loss 0.967 score 0.813 lr 3.31334e-05 
+08/26/2020 17:10:06 - INFO - vilbert.utils -   [GQA]: iter 18781 Ep: 5.10 loss 0.924 score 0.821 lr 3.31213e-05 
+08/26/2020 17:19:30 - INFO - vilbert.utils -   [GQA]: iter 18801 Ep: 5.10 loss 0.974 score 0.811 lr 3.31092e-05 
+08/26/2020 17:30:59 - INFO - vilbert.utils -   [GQA]: iter 18821 Ep: 5.11 loss 0.955 score 0.815 lr 3.30972e-05 
+08/26/2020 17:54:16 - INFO - vilbert.utils -   [GQA]: iter 18841 Ep: 5.11 loss 1.021 score 0.796 lr 3.30851e-05 
+08/26/2020 18:05:34 - INFO - vilbert.utils -   [GQA]: iter 18861 Ep: 5.12 loss 0.997 score 0.807 lr 3.3073e-05 
+08/26/2020 18:15:39 - INFO - vilbert.utils -   [GQA]: iter 18881 Ep: 5.13 loss 1.000 score 0.805 lr 3.3061e-05 
+08/26/2020 18:27:03 - INFO - vilbert.utils -   [GQA]: iter 18901 Ep: 5.13 loss 0.924 score 0.813 lr 3.30489e-05 
+08/26/2020 18:50:13 - INFO - vilbert.utils -   [GQA]: iter 18921 Ep: 5.14 loss 0.942 score 0.815 lr 3.30369e-05 
+08/26/2020 19:01:54 - INFO - vilbert.utils -   [GQA]: iter 18941 Ep: 5.14 loss 0.957 score 0.819 lr 3.30248e-05 
+08/26/2020 19:12:57 - INFO - vilbert.utils -   [GQA]: iter 18961 Ep: 5.15 loss 0.957 score 0.818 lr 3.30127e-05 
+08/26/2020 19:24:19 - INFO - vilbert.utils -   [GQA]: iter 18981 Ep: 5.15 loss 0.965 score 0.810 lr 3.30007e-05 
+08/26/2020 19:45:50 - INFO - vilbert.utils -   [GQA]: iter 19001 Ep: 5.16 loss 0.931 score 0.819 lr 3.29886e-05 
+08/26/2020 19:56:56 - INFO - vilbert.utils -   [GQA]: iter 19021 Ep: 5.16 loss 0.943 score 0.816 lr 3.29765e-05 
+08/26/2020 20:09:08 - INFO - vilbert.utils -   [GQA]: iter 19041 Ep: 5.17 loss 0.937 score 0.817 lr 3.29645e-05 
+08/26/2020 20:19:30 - INFO - vilbert.utils -   [GQA]: iter 19061 Ep: 5.17 loss 0.953 score 0.813 lr 3.29524e-05 
+08/26/2020 20:41:00 - INFO - vilbert.utils -   [GQA]: iter 19081 Ep: 5.18 loss 0.964 score 0.810 lr 3.29403e-05 
+08/26/2020 20:50:12 - INFO - vilbert.utils -   [GQA]: iter 19101 Ep: 5.18 loss 0.961 score 0.815 lr 3.29283e-05 
+08/26/2020 21:01:21 - INFO - vilbert.utils -   [GQA]: iter 19121 Ep: 5.19 loss 0.975 score 0.809 lr 3.29162e-05 
+08/26/2020 21:10:55 - INFO - vilbert.utils -   [GQA]: iter 19141 Ep: 5.20 loss 1.005 score 0.813 lr 3.29042e-05 
+08/26/2020 21:32:41 - INFO - vilbert.utils -   [GQA]: iter 19161 Ep: 5.20 loss 0.952 score 0.817 lr 3.28921e-05 
+08/26/2020 21:42:05 - INFO - vilbert.utils -   [GQA]: iter 19181 Ep: 5.21 loss 0.970 score 0.805 lr 3.288e-05 
+08/26/2020 21:52:12 - INFO - vilbert.utils -   [GQA]: iter 19201 Ep: 5.21 loss 0.990 score 0.807 lr 3.2868e-05 
+08/26/2020 22:03:33 - INFO - vilbert.utils -   [GQA]: iter 19221 Ep: 5.22 loss 1.004 score 0.803 lr 3.28559e-05 
+08/26/2020 22:23:55 - INFO - vilbert.utils -   [GQA]: iter 19241 Ep: 5.22 loss 1.020 score 0.798 lr 3.28438e-05 
+08/26/2020 22:37:13 - INFO - vilbert.utils -   [GQA]: iter 19261 Ep: 5.23 loss 0.996 score 0.805 lr 3.28318e-05 
+08/26/2020 22:46:22 - INFO - vilbert.utils -   [GQA]: iter 19281 Ep: 5.23 loss 0.981 score 0.809 lr 3.28197e-05 
+08/26/2020 22:56:32 - INFO - vilbert.utils -   [GQA]: iter 19301 Ep: 5.24 loss 0.979 score 0.806 lr 3.28076e-05 
+08/26/2020 23:14:03 - INFO - vilbert.utils -   [GQA]: iter 19321 Ep: 5.24 loss 1.018 score 0.802 lr 3.27956e-05 
+08/26/2020 23:23:17 - INFO - vilbert.utils -   [GQA]: iter 19341 Ep: 5.25 loss 1.013 score 0.802 lr 3.27835e-05 
+08/26/2020 23:32:36 - INFO - vilbert.utils -   [GQA]: iter 19361 Ep: 5.26 loss 0.987 score 0.803 lr 3.27714e-05 
+08/26/2020 23:47:10 - INFO - vilbert.utils -   [GQA]: iter 19381 Ep: 5.26 loss 0.957 score 0.811 lr 3.27594e-05 
+08/27/2020 00:05:48 - INFO - vilbert.utils -   [GQA]: iter 19401 Ep: 5.27 loss 0.972 score 0.809 lr 3.27473e-05 
+08/27/2020 00:13:35 - INFO - vilbert.utils -   [GQA]: iter 19421 Ep: 5.27 loss 0.929 score 0.819 lr 3.27353e-05 
+08/27/2020 00:23:32 - INFO - vilbert.utils -   [GQA]: iter 19441 Ep: 5.28 loss 0.932 score 0.821 lr 3.27232e-05 
+08/27/2020 00:37:23 - INFO - vilbert.utils -   [GQA]: iter 19461 Ep: 5.28 loss 0.921 score 0.816 lr 3.27111e-05 
+08/27/2020 00:49:55 - INFO - vilbert.utils -   [GQA]: iter 19481 Ep: 5.29 loss 0.993 score 0.802 lr 3.26991e-05 
+08/27/2020 00:58:41 - INFO - vilbert.utils -   [GQA]: iter 19501 Ep: 5.29 loss 0.917 score 0.822 lr 3.2687e-05 
+08/27/2020 01:10:27 - INFO - vilbert.utils -   [GQA]: iter 19521 Ep: 5.30 loss 0.956 score 0.817 lr 3.26749e-05 
+08/27/2020 01:32:17 - INFO - vilbert.utils -   [GQA]: iter 19541 Ep: 5.30 loss 0.959 score 0.811 lr 3.26629e-05 
+08/27/2020 01:41:53 - INFO - vilbert.utils -   [GQA]: iter 19561 Ep: 5.31 loss 0.987 score 0.812 lr 3.26508e-05 
+08/27/2020 01:53:19 - INFO - vilbert.utils -   [GQA]: iter 19581 Ep: 5.32 loss 1.000 score 0.805 lr 3.26387e-05 
+08/27/2020 02:03:50 - INFO - vilbert.utils -   [GQA]: iter 19601 Ep: 5.32 loss 0.975 score 0.810 lr 3.26267e-05 
+08/27/2020 02:24:44 - INFO - vilbert.utils -   [GQA]: iter 19621 Ep: 5.33 loss 0.989 score 0.802 lr 3.26146e-05 
+08/27/2020 02:33:47 - INFO - vilbert.utils -   [GQA]: iter 19641 Ep: 5.33 loss 0.941 score 0.820 lr 3.26025e-05 
+08/27/2020 02:41:34 - INFO - vilbert.utils -   [GQA]: iter 19661 Ep: 5.34 loss 0.965 score 0.810 lr 3.25905e-05 
+08/27/2020 02:57:43 - INFO - vilbert.utils -   [GQA]: iter 19681 Ep: 5.34 loss 1.016 score 0.796 lr 3.25784e-05 
+08/27/2020 03:15:52 - INFO - vilbert.utils -   [GQA]: iter 19701 Ep: 5.35 loss 0.960 score 0.812 lr 3.25664e-05 
+08/27/2020 03:25:08 - INFO - vilbert.utils -   [GQA]: iter 19721 Ep: 5.35 loss 0.965 score 0.812 lr 3.25543e-05 
+08/27/2020 03:35:09 - INFO - vilbert.utils -   [GQA]: iter 19741 Ep: 5.36 loss 0.980 score 0.813 lr 3.25422e-05 
+08/27/2020 03:50:42 - INFO - vilbert.utils -   [GQA]: iter 19761 Ep: 5.36 loss 0.959 score 0.815 lr 3.25302e-05 
+08/27/2020 04:05:31 - INFO - vilbert.utils -   [GQA]: iter 19781 Ep: 5.37 loss 0.970 score 0.808 lr 3.25181e-05 
+08/27/2020 04:17:30 - INFO - vilbert.utils -   [GQA]: iter 19801 Ep: 5.37 loss 0.914 score 0.822 lr 3.2506e-05 
+08/27/2020 04:27:31 - INFO - vilbert.utils -   [GQA]: iter 19821 Ep: 5.38 loss 0.964 score 0.814 lr 3.2494e-05 
+08/27/2020 04:40:37 - INFO - vilbert.utils -   [GQA]: iter 19841 Ep: 5.39 loss 0.956 score 0.814 lr 3.24819e-05 
+08/27/2020 04:56:18 - INFO - vilbert.utils -   [GQA]: iter 19861 Ep: 5.39 loss 0.951 score 0.815 lr 3.24698e-05 
+08/27/2020 05:08:49 - INFO - vilbert.utils -   [GQA]: iter 19881 Ep: 5.40 loss 0.966 score 0.806 lr 3.24578e-05 
+08/27/2020 05:17:47 - INFO - vilbert.utils -   [GQA]: iter 19901 Ep: 5.40 loss 0.969 score 0.814 lr 3.24457e-05 
+08/27/2020 05:29:35 - INFO - vilbert.utils -   [GQA]: iter 19921 Ep: 5.41 loss 0.940 score 0.814 lr 3.24336e-05 
+08/27/2020 05:49:38 - INFO - vilbert.utils -   [GQA]: iter 19941 Ep: 5.41 loss 0.961 score 0.811 lr 3.24216e-05 
+08/27/2020 05:59:31 - INFO - vilbert.utils -   [GQA]: iter 19961 Ep: 5.42 loss 0.969 score 0.814 lr 3.24095e-05 
+08/27/2020 06:10:23 - INFO - vilbert.utils -   [GQA]: iter 19981 Ep: 5.42 loss 0.964 score 0.809 lr 3.23975e-05 
+08/27/2020 06:21:57 - INFO - vilbert.utils -   [GQA]: iter 20001 Ep: 5.43 loss 0.959 score 0.821 lr 3.23854e-05 
+08/27/2020 06:39:41 - INFO - vilbert.utils -   [GQA]: iter 20021 Ep: 5.43 loss 0.973 score 0.811 lr 3.23733e-05 
+08/27/2020 06:52:46 - INFO - vilbert.utils -   [GQA]: iter 20041 Ep: 5.44 loss 0.941 score 0.821 lr 3.23613e-05 
+08/27/2020 07:03:10 - INFO - vilbert.utils -   [GQA]: iter 20061 Ep: 5.45 loss 0.976 score 0.812 lr 3.23492e-05 
+08/27/2020 07:15:01 - INFO - vilbert.utils -   [GQA]: iter 20081 Ep: 5.45 loss 0.913 score 0.814 lr 3.23371e-05 
+08/27/2020 07:27:15 - INFO - vilbert.utils -   [GQA]: iter 20101 Ep: 5.46 loss 0.997 score 0.805 lr 3.23251e-05 
+08/27/2020 07:47:18 - INFO - vilbert.utils -   [GQA]: iter 20121 Ep: 5.46 loss 0.944 score 0.818 lr 3.2313e-05 
+08/27/2020 07:58:47 - INFO - vilbert.utils -   [GQA]: iter 20141 Ep: 5.47 loss 0.935 score 0.818 lr 3.23009e-05 
+08/27/2020 08:08:45 - INFO - vilbert.utils -   [GQA]: iter 20161 Ep: 5.47 loss 0.934 score 0.814 lr 3.22889e-05 
+08/27/2020 08:23:38 - INFO - vilbert.utils -   [GQA]: iter 20181 Ep: 5.48 loss 0.983 score 0.807 lr 3.22768e-05 
+08/27/2020 08:39:17 - INFO - vilbert.utils -   [GQA]: iter 20201 Ep: 5.48 loss 0.924 score 0.820 lr 3.22647e-05 
+08/27/2020 08:50:40 - INFO - vilbert.utils -   [GQA]: iter 20221 Ep: 5.49 loss 0.987 score 0.806 lr 3.22527e-05 
+08/27/2020 09:01:46 - INFO - vilbert.utils -   [GQA]: iter 20241 Ep: 5.49 loss 0.947 score 0.817 lr 3.22406e-05 
+08/27/2020 09:13:00 - INFO - vilbert.utils -   [GQA]: iter 20261 Ep: 5.50 loss 0.942 score 0.816 lr 3.22286e-05 
+08/27/2020 09:33:06 - INFO - vilbert.utils -   [GQA]: iter 20281 Ep: 5.51 loss 0.954 score 0.813 lr 3.22165e-05 
+08/27/2020 09:39:12 - INFO - vilbert.utils -   [GQA]: iter 20301 Ep: 5.51 loss 0.954 score 0.815 lr 3.22044e-05 
+08/27/2020 09:49:33 - INFO - vilbert.utils -   [GQA]: iter 20321 Ep: 5.52 loss 0.924 score 0.825 lr 3.21924e-05 
+08/27/2020 10:01:36 - INFO - vilbert.utils -   [GQA]: iter 20341 Ep: 5.52 loss 0.987 score 0.800 lr 3.21803e-05 
+08/27/2020 10:21:27 - INFO - vilbert.utils -   [GQA]: iter 20361 Ep: 5.53 loss 0.925 score 0.817 lr 3.21682e-05 
+08/27/2020 10:36:31 - INFO - vilbert.utils -   [GQA]: iter 20381 Ep: 5.53 loss 0.944 score 0.812 lr 3.21562e-05 
+08/27/2020 10:46:27 - INFO - vilbert.utils -   [GQA]: iter 20401 Ep: 5.54 loss 0.942 score 0.815 lr 3.21441e-05 
+08/27/2020 10:57:29 - INFO - vilbert.utils -   [GQA]: iter 20421 Ep: 5.54 loss 0.929 score 0.814 lr 3.2132e-05 
+08/27/2020 11:09:22 - INFO - vilbert.utils -   [GQA]: iter 20441 Ep: 5.55 loss 0.971 score 0.813 lr 3.212e-05 
+08/27/2020 11:31:00 - INFO - vilbert.utils -   [GQA]: iter 20461 Ep: 5.55 loss 0.953 score 0.813 lr 3.21079e-05 
+08/27/2020 11:39:49 - INFO - vilbert.utils -   [GQA]: iter 20481 Ep: 5.56 loss 0.952 score 0.819 lr 3.20958e-05 
+08/27/2020 11:49:25 - INFO - vilbert.utils -   [GQA]: iter 20501 Ep: 5.56 loss 0.907 score 0.819 lr 3.20838e-05 
+08/27/2020 12:01:10 - INFO - vilbert.utils -   [GQA]: iter 20521 Ep: 5.57 loss 0.919 score 0.822 lr 3.20717e-05 
+08/27/2020 12:21:16 - INFO - vilbert.utils -   [GQA]: iter 20541 Ep: 5.58 loss 0.917 score 0.824 lr 3.20597e-05 
+08/27/2020 12:29:00 - INFO - vilbert.utils -   [GQA]: iter 20561 Ep: 5.58 loss 0.910 score 0.823 lr 3.20476e-05 
+08/27/2020 12:39:22 - INFO - vilbert.utils -   [GQA]: iter 20581 Ep: 5.59 loss 0.937 score 0.817 lr 3.20355e-05 
+08/27/2020 12:50:28 - INFO - vilbert.utils -   [GQA]: iter 20601 Ep: 5.59 loss 0.960 score 0.812 lr 3.20235e-05 
+08/27/2020 13:09:37 - INFO - vilbert.utils -   [GQA]: iter 20621 Ep: 5.60 loss 0.921 score 0.825 lr 3.20114e-05 
+08/27/2020 13:21:50 - INFO - vilbert.utils -   [GQA]: iter 20641 Ep: 5.60 loss 0.948 score 0.815 lr 3.19993e-05 
+08/27/2020 13:31:35 - INFO - vilbert.utils -   [GQA]: iter 20661 Ep: 5.61 loss 0.948 score 0.813 lr 3.19873e-05 
+08/27/2020 13:45:53 - INFO - vilbert.utils -   [GQA]: iter 20681 Ep: 5.61 loss 0.914 score 0.821 lr 3.19752e-05 
+08/27/2020 14:01:39 - INFO - vilbert.utils -   [GQA]: iter 20701 Ep: 5.62 loss 0.921 score 0.821 lr 3.19631e-05 
+08/27/2020 14:16:25 - INFO - vilbert.utils -   [GQA]: iter 20721 Ep: 5.62 loss 0.935 score 0.817 lr 3.19511e-05 
+08/27/2020 14:27:00 - INFO - vilbert.utils -   [GQA]: iter 20741 Ep: 5.63 loss 0.916 score 0.819 lr 3.1939e-05 
+08/27/2020 14:39:52 - INFO - vilbert.utils -   [GQA]: iter 20761 Ep: 5.64 loss 0.930 score 0.814 lr 3.1927e-05 
+08/27/2020 14:52:28 - INFO - vilbert.utils -   [GQA]: iter 20781 Ep: 5.64 loss 0.956 score 0.817 lr 3.19149e-05 

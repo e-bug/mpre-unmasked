@@ -1,0 +1,17 @@
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/volta/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/06/2020 08:51:47 - INFO - __main__ -   device: cuda n_gpu: 4, distributed training: False
+12/06/2020 08:51:48 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+12/06/2020 08:51:48 - INFO - volta.task_utils -   Loading VQA Dataset with batch size 256
+Traceback (most recent call last):
+  File "train_task.py", line 350, in <module>
+    main()
+  File "train_task.py", line 172, in main
+    batch_size, task2num_iters, dset_train, dset_val, dl_train, dl_val = LoadDataset(args, config, task_cfg, args.task)
+  File "/home/4/19ITA380/projects/mpre-zeroshot/code/volta/volta/task_utils.py", line 328, in LoadDataset
+    append_mask_sep=(config.fusion_method == 'vl-bert_vqa'),
+TypeError: __init__() missing 1 required positional argument: 'clean_datasets'

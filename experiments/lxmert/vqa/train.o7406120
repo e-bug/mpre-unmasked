@@ -1,0 +1,90 @@
+Load 443757 data from split(s) train.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/train2014_obj36-36.tsv
+Loaded 82783 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/train2014_obj36-36.tsv in 868 seconds.
+Use 443757 data in torch dataset
+
+Load 214354 data from split(s) valid.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/val2014_obj36-36.tsv
+Loaded 40504 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/mscoco/mscoco_imgfeat/val2014_obj36-36.tsv in 436 seconds.
+Use 214354 data in torch dataset
+
+/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/vqa/lxmert
+/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/vqa/lxmert
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+Load LXMERT pre-trained model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/lxmert/Epoch20
+
+Weights in loaded but not in model:
+cls.predictions.bias
+cls.predictions.decoder.weight
+cls.predictions.transform.LayerNorm.bias
+cls.predictions.transform.LayerNorm.weight
+cls.predictions.transform.dense.bias
+cls.predictions.transform.dense.weight
+cls.seq_relationship.bias
+cls.seq_relationship.weight
+obj_predict_head.decoder_dict.attr.bias
+obj_predict_head.decoder_dict.attr.weight
+obj_predict_head.decoder_dict.feat.bias
+obj_predict_head.decoder_dict.feat.weight
+obj_predict_head.decoder_dict.obj.bias
+obj_predict_head.decoder_dict.obj.weight
+obj_predict_head.transform.LayerNorm.bias
+obj_predict_head.transform.LayerNorm.weight
+obj_predict_head.transform.dense.bias
+obj_predict_head.transform.dense.weight
+
+Weights in model but not in loaded:
+
+BertAdam Total Iters: 277340
+Load model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/vqa/lxmert/BEST
+Splits in Train data: ['train']
+Splits in Valid data: ['valid']
+Valid Oracle: 92.66
+
+Epoch 8: Train 87.18
+Epoch 8: Valid 65.90
+Epoch 8: Best 65.90
+
+Epoch 9: Train 86.02
+Epoch 9: Valid 64.55
+Epoch 9: Best 65.90
+
+Epoch 10: Train 84.11
+Epoch 10: Valid 64.68
+Epoch 10: Best 65.90
+
+Epoch 11: Train 85.14
+Epoch 11: Valid 64.83
+Epoch 11: Best 65.90
+
+Epoch 12: Train 86.48
+Epoch 12: Valid 64.79
+Epoch 12: Best 65.90
+
+Epoch 13: Train 87.71
+Epoch 13: Valid 64.94
+Epoch 13: Best 65.90
+
+Epoch 14: Train 88.58
+Epoch 14: Valid 65.01
+Epoch 14: Best 65.90
+
+Epoch 15: Train 89.29
+Epoch 15: Valid 65.13
+Epoch 15: Best 65.90
+
+Epoch 16: Train 89.87
+Epoch 16: Valid 65.37
+Epoch 16: Best 65.90
+
+Epoch 17: Train 90.31
+Epoch 17: Valid 65.36
+Epoch 17: Best 65.90
+
+Epoch 18: Train 90.71
+Epoch 18: Valid 65.55
+Epoch 18: Best 65.90
+
+Epoch 19: Train 90.97
+Epoch 19: Valid 65.76
+Epoch 19: Best 65.90

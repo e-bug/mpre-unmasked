@@ -1,0 +1,38 @@
+Load 943000 data from split(s) train.
+Start to load Faster-RCNN detected objects from /gs/hs0/tgb-deepmt/bugliarello.e/data/gqa/vg_gqa_imgfeat/vg_gqa_obj36-36.tsv
+Loaded 148854 images in file /gs/hs0/tgb-deepmt/bugliarello.e/data/gqa/vg_gqa_imgfeat/vg_gqa_obj36-36.tsv in 1604 seconds.
+Use 943000 data in torch dataset
+
+/gs/hs0/tgb-deepmt/bugliarello.e/results/gqa/lxmert
+/gs/hs0/tgb-deepmt/bugliarello.e/results/gqa/lxmert
+LXRT encoder with 9 l_layers, 5 x_layers, and 5 r_layers.
+Load LXMERT pre-trained model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/lxmert/Epoch20
+
+Weights in loaded but not in model:
+cls.predictions.bias
+cls.predictions.decoder.weight
+cls.predictions.transform.LayerNorm.bias
+cls.predictions.transform.LayerNorm.weight
+cls.predictions.transform.dense.bias
+cls.predictions.transform.dense.weight
+cls.seq_relationship.bias
+cls.seq_relationship.weight
+obj_predict_head.decoder_dict.attr.bias
+obj_predict_head.decoder_dict.attr.weight
+obj_predict_head.decoder_dict.feat.bias
+obj_predict_head.decoder_dict.feat.weight
+obj_predict_head.decoder_dict.obj.bias
+obj_predict_head.decoder_dict.obj.weight
+obj_predict_head.transform.LayerNorm.bias
+obj_predict_head.transform.LayerNorm.weight
+obj_predict_head.transform.dense.bias
+obj_predict_head.transform.dense.weight
+
+Weights in model but not in loaded:
+
+Total Iters: 9200
+Load model from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/gqa/lxmert/BEST
+Load 12578 data from split(s) testdev.
+Use 12578 data in torch dataset
+
+0.5489743997455875

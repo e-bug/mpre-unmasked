@@ -1,0 +1,5 @@
+457 457
+***** Running training *****
+  Num Iters:  {'TASK12': 1349}
+  Batch size:  {'TASK12': 64}
+  Num steps: 26980

@@ -1,0 +1,1402 @@
+Namespace(cfg='cfgs/refcoco/base_detected_regions_4x16G.yaml', cudnn_off=False, dist=True, do_test=False, log_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert/base_detected_regions_4x16G/train_train/tensorboard_logs', model_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/', partial_pretrain=None, slurm=False)
+Namespace(cfg='cfgs/refcoco/base_detected_regions_4x16G.yaml', cudnn_off=False, dist=True, do_test=False, log_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert/base_detected_regions_4x16G/train_train/tensorboard_logs', model_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/', partial_pretrain=None, slurm=False)
+Namespace(cfg='cfgs/refcoco/base_detected_regions_4x16G.yaml', cudnn_off=False, dist=True, do_test=False, log_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert/base_detected_regions_4x16G/train_train/tensorboard_logs', model_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/', partial_pretrain=None, slurm=False)
+Namespace(cfg='cfgs/refcoco/base_detected_regions_4x16G.yaml', cudnn_off=False, dist=True, do_test=False, log_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert/base_detected_regions_4x16G/train_train/tensorboard_logs', model_dir='/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/', partial_pretrain=None, slurm=False)
+{'CHECKPOINT_FREQUENT': 1,
+ {'CHECKPOINT_FREQUENT': 1,
+ {'CHECKPOINT_FREQUENT': 1,
+ {'CHECKPOINT_FREQUENT': 1,
+ 'DATASET': {'ADD_IMAGE_AS_A_BOX': True,
+             'ANSWER_VOCAB_FILE': '',
+             'DATASET': {'ADD_IMAGE_AS_A_BOX': True,
+             'ANSWER_VOCAB_SIZE': 3129,
+             'ANSWER_VOCAB_FILE': '',
+             'APPEND_INDEX': False,
+             'ANSWER_VOCAB_SIZE': 3129,
+             'BASIC_ALIGN': False,
+             'APPEND_INDEX': False,
+             'CACHE_MODE': False,
+             'BASIC_ALIGN': False,
+             'DATASET': 'refcoco+',
+             'CACHE_MODE': False,
+             'DATASET_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/data/',
+             'DATASET': 'refcoco+',
+             'IGNORE_DB_CACHE': True,
+             'DATASET_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/data/',
+             'LABEL_INDEX_IN_BATCH': -1,
+             'DATASET': {'ADD_IMAGE_AS_A_BOX': True,
+             'IGNORE_DB_CACHE': True,
+             'MASK_SIZE': 14,
+             'LABEL_INDEX_IN_BATCH': -1,
+             'ANSWER_VOCAB_FILE': '',
+             'ONLY_USE_RELEVANT_DETS': True,
+             'MASK_SIZE': 14,
+             'ANSWER_VOCAB_SIZE': 3129,
+             'PROPOSAL_SOURCE': 'vg',
+             'ONLY_USE_RELEVANT_DETS': True,
+             'DATASET': {'ADD_IMAGE_AS_A_BOX': True,
+             'APPEND_INDEX': False,
+             'QA2R_AUG': False,
+             'PROPOSAL_SOURCE': 'vg',
+             'BASIC_ALIGN': False,
+             'QA2R_NOQ': False,
+             'ANSWER_VOCAB_FILE': '',
+             'QA2R_AUG': False,
+             'CACHE_MODE': False,
+             'ROOT_PATH': './',
+             'ANSWER_VOCAB_SIZE': 3129,
+             'QA2R_NOQ': False,
+             'DATASET': 'refcoco+',
+             'TASK': 'Q2AR',
+             'APPEND_INDEX': False,
+             'ROOT_PATH': './',
+             'DATASET_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/data/',
+             'TEST_ANNOTATION_FILE': '',
+             'BASIC_ALIGN': False,
+             'TASK': 'Q2AR',
+             'IGNORE_DB_CACHE': True,
+             'TEST_BOXES': 'proposal',
+             'CACHE_MODE': False,
+             'TEST_ANNOTATION_FILE': '',
+             'LABEL_INDEX_IN_BATCH': -1,
+             'TEST_IMAGE_SET': 'test',
+             'DATASET': 'refcoco+',
+             'TEST_BOXES': 'proposal',
+             'MASK_SIZE': 14,
+             'TRAIN_ANNOTATION_FILE': '',
+             'DATASET_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/data/',
+             'TEST_IMAGE_SET': 'test',
+             'ONLY_USE_RELEVANT_DETS': True,
+             'TRAIN_BOXES': 'proposal',
+             'IGNORE_DB_CACHE': True,
+             'TRAIN_ANNOTATION_FILE': '',
+             'PROPOSAL_SOURCE': 'vg',
+             'TRAIN_IMAGE_SET': 'train',
+             'LABEL_INDEX_IN_BATCH': -1,
+             'TRAIN_BOXES': 'proposal',
+             'QA2R_AUG': False,
+             'USE_IMDB': True,
+             'MASK_SIZE': 14,
+             'TRAIN_IMAGE_SET': 'train',
+             'QA2R_NOQ': False,
+             'VAL_ANNOTATION_FILE': '',
+             'ONLY_USE_RELEVANT_DETS': True,
+             'USE_IMDB': True,
+             'ROOT_PATH': './',
+             'VAL_BOXES': 'proposal',
+             'PROPOSAL_SOURCE': 'vg',
+             'VAL_ANNOTATION_FILE': '',
+             'TASK': 'Q2AR',
+             'VAL_IMAGE_SET': 'val',
+             'QA2R_AUG': False,
+             'VAL_BOXES': 'proposal',
+             'TEST_ANNOTATION_FILE': '',
+             'QA2R_NOQ': False,
+             'VAL_IMAGE_SET': 'val',
+             'ZIP_MODE': False},
+ 'TEST_BOXES': 'proposal',
+             'ROOT_PATH': './',
+             'GPUS': '0,1,2,3',
+ 'TEST_IMAGE_SET': 'test',
+             'ZIP_MODE': False},
+ 'TASK': 'Q2AR',
+             'LOG_FREQUENT': 100,
+ 'TRAIN_ANNOTATION_FILE': '',
+             'GPUS': '0,1,2,3',
+ 'TEST_ANNOTATION_FILE': '',
+             'MODEL_PREFIX': 'vl-bert_base_res101_refcoco',
+ 'TRAIN_BOXES': 'proposal',
+             'LOG_FREQUENT': 100,
+ 'TEST_BOXES': 'proposal',
+             'MODULE': 'ResNetVLBERT',
+ 'TRAIN_IMAGE_SET': 'train',
+             'MODEL_PREFIX': 'vl-bert_base_res101_refcoco',
+ 'TEST_IMAGE_SET': 'test',
+             'USE_IMDB': True,
+             'MODULE': 'ResNetVLBERT',
+ 'TRAIN_ANNOTATION_FILE': '',
+             'VAL_ANNOTATION_FILE': '',
+             'TRAIN_BOXES': 'proposal',
+             'VAL_BOXES': 'proposal',
+             'TRAIN_IMAGE_SET': 'train',
+             'VAL_IMAGE_SET': 'val',
+             'USE_IMDB': True,
+             'ZIP_MODE': False},
+ 'VAL_ANNOTATION_FILE': '',
+             'GPUS': '0,1,2,3',
+ 'VAL_BOXES': 'proposal',
+             'LOG_FREQUENT': 100,
+ 'VAL_IMAGE_SET': 'val',
+             'MODEL_PREFIX': 'vl-bert_base_res101_refcoco',
+ 'ZIP_MODE': False},
+ 'MODULE': 'ResNetVLBERT',
+ 'GPUS': '0,1,2,3',
+ 'LOG_FREQUENT': 100,
+ 'MODEL_PREFIX': 'vl-bert_base_res101_refcoco',
+ 'MODULE': 'ResNetVLBERT',
+ 'NETWORK': {'ANS_LOSS_TYPE': 'bce',
+             'ANS_LOSS_WEIGHT': 1.0,
+             'NETWORK': {'ANS_LOSS_TYPE': 'bce',
+             'BERT_ALIGN_ANSWER': True,
+             'ANS_LOSS_WEIGHT': 1.0,
+             'BERT_ALIGN_QUESTION': True,
+             'BERT_ALIGN_ANSWER': True,
+             'BERT_FROZEN': False,
+             'BERT_ALIGN_QUESTION': True,
+             'BERT_FROZEN': False,
+             'NETWORK': {'ANS_LOSS_TYPE': 'bce',
+             'ANS_LOSS_WEIGHT': 1.0,
+             'BERT_ALIGN_ANSWER': True,
+             'BERT_ALIGN_QUESTION': True,
+             'NETWORK': {'ANS_LOSS_TYPE': 'bce',
+             'BERT_FROZEN': False,
+             'ANS_LOSS_WEIGHT': 1.0,
+             'BERT_ALIGN_ANSWER': True,
+             'BERT_ALIGN_QUESTION': True,
+             'BERT_FROZEN': False,
+             'BERT_MODEL_NAME': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/pretrained_models/bert-base-uncased',
+             'BERT_MODEL_NAME': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/pretrained_models/bert-base-uncased',
+             'BERT_PRETRAINED': '',
+             'BERT_PRETRAINED': '',
+             'BERT_PRETRAINED_EPOCH': 0,
+             'BERT_PRETRAINED_EPOCH': 0,
+             'BERT_USE_LAYER': -2,
+             'BERT_USE_LAYER': -2,
+             'BERT_WITH_MLM_LOSS': False,
+             'BERT_WITH_MLM_LOSS': False,
+             'BERT_WITH_NSP_LOSS': False,
+             'BERT_WITH_NSP_LOSS': False,
+             'BLIND': False,
+             'BLIND': False,
+             'CLASSIFIER_DROPOUT': 0.0,
+             'CLASSIFIER_DROPOUT': 0.0,
+             'CLASSIFIER_HIDDEN_SIZE': 1024,
+             'BERT_MODEL_NAME': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/pretrained_models/bert-base-uncased',
+             'CLASSIFIER_HIDDEN_SIZE': 1024,
+             'CLASSIFIER_PRETRAINED': False,
+             'CLASSIFIER_PRETRAINED': False,
+             'BERT_PRETRAINED': '',
+             'CLASSIFIER_SIGMOID': False,
+             'CLASSIFIER_SIGMOID': False,
+             'BERT_PRETRAINED_EPOCH': 0,
+             'BERT_MODEL_NAME': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/pretrained_models/bert-base-uncased',
+             'BERT_USE_LAYER': -2,
+             'CLASSIFIER_SIGMOID_LOSS_POSITIVE_WEIGHT': 1.0,
+             'CLASSIFIER_SIGMOID_LOSS_POSITIVE_WEIGHT': 1.0,
+             'BERT_PRETRAINED': '',
+             'BERT_WITH_MLM_LOSS': False,
+             'CLASSIFIER_TYPE': '2fc',
+             'CLASSIFIER_TYPE': '2fc',
+             'BERT_WITH_NSP_LOSS': False,
+             'BERT_PRETRAINED_EPOCH': 0,
+             'CNN_LOSS_WEIGHT': 1.0,
+             'CNN_LOSS_WEIGHT': 1.0,
+             'BLIND': False,
+             'BERT_USE_LAYER': -2,
+             'ENABLE_CNN_REG_LOSS': False,
+             'ENABLE_CNN_REG_LOSS': False,
+             'CLASSIFIER_DROPOUT': 0.0,
+             'BERT_WITH_MLM_LOSS': False,
+             'IMAGE_C5_DILATED': True,
+             'IMAGE_C5_DILATED': True,
+             'CLASSIFIER_HIDDEN_SIZE': 1024,
+             'BERT_WITH_NSP_LOSS': False,
+             'IMAGE_FEAT_PRECOMPUTED': True,
+             'IMAGE_FEAT_PRECOMPUTED': True,
+             'CLASSIFIER_PRETRAINED': False,
+             'BLIND': False,
+             'IMAGE_FINAL_DIM': 768,
+             'IMAGE_FINAL_DIM': 768,
+             'CLASSIFIER_SIGMOID': False,
+             'CLASSIFIER_DROPOUT': 0.0,
+             'CLASSIFIER_SIGMOID_LOSS_POSITIVE_WEIGHT': 1.0,
+             'CLASSIFIER_HIDDEN_SIZE': 1024,
+             'IMAGE_FROZEN_BACKBONE_STAGES': [1, 2],
+             'IMAGE_FROZEN_BACKBONE_STAGES': [1, 2],
+             'CLASSIFIER_TYPE': '2fc',
+             'CLASSIFIER_PRETRAINED': False,
+             'IMAGE_FROZEN_BN': True,
+             'IMAGE_FROZEN_BN': True,
+             'CNN_LOSS_WEIGHT': 1.0,
+             'CLASSIFIER_SIGMOID': False,
+             'IMAGE_NUM_LAYERS': 101,
+             'IMAGE_NUM_LAYERS': 101,
+             'ENABLE_CNN_REG_LOSS': False,
+             'CLASSIFIER_SIGMOID_LOSS_POSITIVE_WEIGHT': 1.0,
+             'IMAGE_PRETRAINED': '',
+             'IMAGE_PRETRAINED': '',
+             'IMAGE_C5_DILATED': True,
+             'CLASSIFIER_TYPE': '2fc',
+             'IMAGE_PRETRAINED_EPOCH': 0,
+             'IMAGE_PRETRAINED_EPOCH': 0,
+             'IMAGE_FEAT_PRECOMPUTED': True,
+             'CNN_LOSS_WEIGHT': 1.0,
+             'IMAGE_SEMANTIC': False,
+             'IMAGE_SEMANTIC': False,
+             'IMAGE_FINAL_DIM': 768,
+             'ENABLE_CNN_REG_LOSS': False,
+             'IMAGE_STRIDE_IN_1x1': True,
+             'IMAGE_STRIDE_IN_1x1': True,
+             'IMAGE_C5_DILATED': True,
+             'NO_GROUNDING': False,
+             'NO_GROUNDING': False,
+             'IMAGE_FROZEN_BACKBONE_STAGES': [1, 2],
+             'IMAGE_FEAT_PRECOMPUTED': True,
+             'NO_OBJ_ATTENTION': False,
+             'NO_OBJ_ATTENTION': False,
+             'IMAGE_FROZEN_BN': True,
+             'IMAGE_FINAL_DIM': 768,
+             'OUTPUT_CONV5': False,
+             'OUTPUT_CONV5': False,
+             'IMAGE_NUM_LAYERS': 101,
+             'IMAGE_PRETRAINED': '',
+             'IMAGE_FROZEN_BACKBONE_STAGES': [1, 2],
+             'IMAGE_PRETRAINED_EPOCH': 0,
+             'IMAGE_FROZEN_BN': True,
+             'IMAGE_SEMANTIC': False,
+             'PARTIAL_PRETRAIN': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vl-bert/output/pretrain/vlbert/base_prec_withouttextonly_4x16G_fp32/train_train/vl-bert_base_res101_pretrain-best.model',
+             'PARTIAL_PRETRAIN': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vl-bert/output/pretrain/vlbert/base_prec_withouttextonly_4x16G_fp32/train_train/vl-bert_base_res101_pretrain-best.model',
+             'IMAGE_NUM_LAYERS': 101,
+             'IMAGE_STRIDE_IN_1x1': True,
+             'IMAGE_PRETRAINED': '',
+             'NO_GROUNDING': False,
+             'IMAGE_PRETRAINED_EPOCH': 0,
+             'NO_OBJ_ATTENTION': False,
+             'IMAGE_SEMANTIC': False,
+             'OUTPUT_CONV5': False,
+             'PARTIAL_PRETRAIN_PREFIX_CHANGES': ['vlbert.mvrc_head.transform->final_mlp.0',
+                                                 'PARTIAL_PRETRAIN_PREFIX_CHANGES': ['vlbert.mvrc_head.transform->final_mlp.0',
+                                                 'IMAGE_STRIDE_IN_1x1': True,
+             'NO_GROUNDING': False,
+             'module.vlbert.mvrc_head.transform->module.final_mlp.0',
+                                                 'module.vlbert.mvrc_head.transform->module.final_mlp.0',
+                                                 'NO_OBJ_ATTENTION': False,
+             'PARTIAL_PRETRAIN': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vl-bert/output/pretrain/vlbert/base_prec_withouttextonly_4x16G_fp32/train_train/vl-bert_base_res101_pretrain-best.model',
+             'vlbert->vlbert',
+                                                 'OUTPUT_CONV5': False,
+             'vlbert->vlbert',
+                                                 'module.vlbert->module.vlbert'],
+             'module.vlbert->module.vlbert'],
+             'PARTIAL_PRETRAIN': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vl-bert/output/pretrain/vlbert/base_prec_withouttextonly_4x16G_fp32/train_train/vl-bert_base_res101_pretrain-best.model',
+             'PIXEL_MEANS': [102.9801, 115.9465, 122.7717],
+             'PARTIAL_PRETRAIN_PREFIX_CHANGES': ['vlbert.mvrc_head.transform->final_mlp.0',
+                                                 'PIXEL_MEANS': [102.9801, 115.9465, 122.7717],
+             'PIXEL_STDS': [1.0, 1.0, 1.0],
+             'PIXEL_STDS': [1.0, 1.0, 1.0],
+             'module.vlbert.mvrc_head.transform->module.final_mlp.0',
+                                                 'REPLACE_OBJECT_CHANGE_LABEL': True,
+             'REPLACE_OBJECT_CHANGE_LABEL': True,
+             'vlbert->vlbert',
+                                                 'PARTIAL_PRETRAIN_PREFIX_CHANGES': ['vlbert.mvrc_head.transform->final_mlp.0',
+                                                 'module.vlbert->module.vlbert'],
+             'module.vlbert.mvrc_head.transform->module.final_mlp.0',
+                                                 'vlbert->vlbert',
+                                                 'PIXEL_MEANS': [102.9801, 115.9465, 122.7717],
+             'module.vlbert->module.vlbert'],
+             'PIXEL_STDS': [1.0, 1.0, 1.0],
+             'REPLACE_OBJECT_CHANGE_LABEL': True,
+             'PIXEL_MEANS': [102.9801, 115.9465, 122.7717],
+             'PIXEL_STDS': [1.0, 1.0, 1.0],
+             'REPLACE_OBJECT_CHANGE_LABEL': True,
+             'VLBERT': {'attention_probs_dropout_prob': 0.1,
+                        'VLBERT': {'attention_probs_dropout_prob': 0.1,
+                        'hidden_act': 'gelu',
+                        'hidden_act': 'gelu',
+                        'hidden_dropout_prob': 0.1,
+                        'hidden_dropout_prob': 0.1,
+                        'hidden_size': 768,
+                        'hidden_size': 768,
+                        'initializer_range': 0.02,
+                        'initializer_range': 0.02,
+                        'input_size': 1280,
+                        'input_size': 1280,
+                        'input_transform_type': 1,
+                        'input_transform_type': 1,
+                        'intermediate_size': 3072,
+                        'VLBERT': {'attention_probs_dropout_prob': 0.1,
+                        'intermediate_size': 3072,
+                        'max_position_embeddings': 512,
+                        'hidden_act': 'gelu',
+                        'max_position_embeddings': 512,
+                        'num_attention_heads': 12,
+                        'hidden_dropout_prob': 0.1,
+                        'num_attention_heads': 12,
+                        'num_hidden_layers': 12,
+                        'hidden_size': 768,
+                        'num_hidden_layers': 12,
+                        'VLBERT': {'attention_probs_dropout_prob': 0.1,
+                        'obj_pos_id_relative': True,
+                        'initializer_range': 0.02,
+                        'obj_pos_id_relative': True,
+                        'hidden_act': 'gelu',
+                        'object_word_embed_mode': 2,
+                        'input_size': 1280,
+                        'object_word_embed_mode': 2,
+                        'hidden_dropout_prob': 0.1,
+                        'position_padding_idx': -1,
+                        'input_transform_type': 1,
+                        'position_padding_idx': -1,
+                        'hidden_size': 768,
+                        'type_vocab_size': 3,
+                        'intermediate_size': 3072,
+                        'type_vocab_size': 3,
+                        'initializer_range': 0.02,
+                        'visual_ln': True,
+                        'max_position_embeddings': 512,
+                        'visual_ln': True,
+                        'input_size': 1280,
+                        'visual_scale_object_init': 0.0,
+                        'num_attention_heads': 12,
+                        'visual_scale_object_init': 0.0,
+                        'input_transform_type': 1,
+                        'visual_scale_text_init': 0.0,
+                        'num_hidden_layers': 12,
+                        'visual_scale_text_init': 0.0,
+                        'intermediate_size': 3072,
+                        'visual_size': 768,
+                        'obj_pos_id_relative': True,
+                        'visual_size': 768,
+                        'max_position_embeddings': 512,
+                        'vocab_size': 30522,
+                        'object_word_embed_mode': 2,
+                        'vocab_size': 30522,
+                        'num_attention_heads': 12,
+                        'with_pooler': False,
+                        'position_padding_idx': -1,
+                        'with_pooler': False,
+                        'num_hidden_layers': 12,
+                        'type_vocab_size': 3,
+                        'word_embedding_frozen': False}},
+ 'obj_pos_id_relative': True,
+                        'visual_ln': True,
+                        'word_embedding_frozen': False}},
+ 'NUM_WORKERS_PER_GPU': 4,
+ 'object_word_embed_mode': 2,
+                        'visual_scale_object_init': 0.0,
+                        'NUM_WORKERS_PER_GPU': 4,
+ 'position_padding_idx': -1,
+                        'visual_scale_text_init': 0.0,
+                        'type_vocab_size': 3,
+                        'visual_size': 768,
+                        'OUTPUT_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert',
+ 'visual_ln': True,
+                        'vocab_size': 30522,
+                        'OUTPUT_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert',
+ 'RNG_SEED': 12345,
+ 'visual_scale_object_init': 0.0,
+                        'with_pooler': False,
+                        'RNG_SEED': 12345,
+ 'visual_scale_text_init': 0.0,
+                        'SCALES': [600, 1000],
+ 'word_embedding_frozen': False}},
+ 'visual_size': 768,
+                        'SCALES': [600, 1000],
+ 'vocab_size': 30522,
+                        'NUM_WORKERS_PER_GPU': 4,
+ 'with_pooler': False,
+                        'TEST': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False, 'TEST_EPOCH': 0},
+ 'word_embedding_frozen': False}},
+ 'TEST': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False, 'TEST_EPOCH': 0},
+ 'NUM_WORKERS_PER_GPU': 4,
+ 'OUTPUT_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert',
+ 'RNG_SEED': 12345,
+ 'OUTPUT_PATH': '/gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert',
+ 'SCALES': [600, 1000],
+ 'RNG_SEED': 12345,
+ 'SCALES': [600, 1000],
+ 'TEST': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False, 'TEST_EPOCH': 0},
+ 'TEST': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False, 'TEST_EPOCH': 0},
+ 'TRAIN': {'ASPECT_GROUPING': True,
+           'TRAIN': {'ASPECT_GROUPING': True,
+           'AUTO_RESUME': True,
+           'AUTO_RESUME': True,
+           'BATCH_IMAGES': 4,
+           'BATCH_IMAGES': 4,
+           'BEGIN_EPOCH': 0,
+           'BEGIN_EPOCH': 0,
+           'CLIP_GRAD_NORM': 1.0,
+           'CLIP_GRAD_NORM': 1.0,
+           'END_EPOCH': 20,
+           'END_EPOCH': 20,
+           'FLIP_PROB': 0.5,
+           'FLIP_PROB': 0.5,
+           'FP16': False,
+           'FP16': False,
+           'TRAIN': {'ASPECT_GROUPING': True,
+           'FP16_LOSS_SCALE': 128.0,
+           'FP16_LOSS_SCALE': 128.0,
+           'AUTO_RESUME': True,
+           'GRAD_ACCUMULATE_STEPS': 2,
+           'GRAD_ACCUMULATE_STEPS': 2,
+           'TRAIN': {'ASPECT_GROUPING': True,
+           'BATCH_IMAGES': 4,
+           'AUTO_RESUME': True,
+           'BEGIN_EPOCH': 0,
+           'LOSS_LOGGERS': [('cls_loss', 'ClsLoss')],
+           'LOSS_LOGGERS': [('cls_loss', 'ClsLoss')],
+           'BATCH_IMAGES': 4,
+           'CLIP_GRAD_NORM': 1.0,
+           'LR': 8e-07,
+           'BEGIN_EPOCH': 0,
+           'LR': 8e-07,
+           'END_EPOCH': 20,
+           'LR_FACTOR': 0.1,
+           'CLIP_GRAD_NORM': 1.0,
+           'LR_FACTOR': 0.1,
+           'FLIP_PROB': 0.5,
+           'LR_MULT': [],
+           'END_EPOCH': 20,
+           'LR_MULT': [],
+           'FP16': False,
+           'LR_SCHEDULE': 'triangle',
+           'FLIP_PROB': 0.5,
+           'LR_SCHEDULE': 'triangle',
+           'FP16_LOSS_SCALE': 128.0,
+           'LR_STEP': [],
+           'FP16': False,
+           'LR_STEP': [],
+           'GRAD_ACCUMULATE_STEPS': 2,
+           'MOMENTUM': 0.9,
+           'FP16_LOSS_SCALE': 128.0,
+           'MOMENTUM': 0.9,
+           'OPTIMIZER': 'AdamW',
+           'GRAD_ACCUMULATE_STEPS': 2,
+           'OPTIMIZER': 'AdamW',
+           'LOSS_LOGGERS': [('cls_loss', 'ClsLoss')],
+           'RESUME': False,
+           'RESUME': False,
+           'SHUFFLE': True,
+           'LR': 8e-07,
+           'SHUFFLE': True,
+           'LOSS_LOGGERS': [('cls_loss', 'ClsLoss')],
+           'VISUAL_SCALE_CLIP_GRAD_NORM': -1,
+           'LR_FACTOR': 0.1,
+           'VISUAL_SCALE_CLIP_GRAD_NORM': -1,
+           'LR': 8e-07,
+           'VISUAL_SCALE_OBJECT_LR_MULT': 1.0,
+           'LR_MULT': [],
+           'VISUAL_SCALE_OBJECT_LR_MULT': 1.0,
+           'LR_FACTOR': 0.1,
+           'VISUAL_SCALE_TEXT_LR_MULT': 1.0,
+           'LR_SCHEDULE': 'triangle',
+           'VISUAL_SCALE_TEXT_LR_MULT': 1.0,
+           'LR_MULT': [],
+           'WARMUP': True,
+           'LR_STEP': [],
+           'WARMUP': True,
+           'LR_SCHEDULE': 'triangle',
+           'WARMUP_FACTOR': 0.0,
+           'MOMENTUM': 0.9,
+           'WARMUP_FACTOR': 0.0,
+           'LR_STEP': [],
+           'WARMUP_METHOD': 'linear',
+           'OPTIMIZER': 'AdamW',
+           'WARMUP_METHOD': 'linear',
+           'MOMENTUM': 0.9,
+           'WARMUP_STEPS': 3750,
+           'RESUME': False,
+           'WARMUP_STEPS': 3750,
+           'OPTIMIZER': 'AdamW',
+           'SHUFFLE': True,
+           'WD': 0.0001},
+ 'RESUME': False,
+           'WD': 0.0001},
+ 'VISUAL_SCALE_CLIP_GRAD_NORM': -1,
+           'SHUFFLE': True,
+           'VISUAL_SCALE_OBJECT_LR_MULT': 1.0,
+           'VISUAL_SCALE_CLIP_GRAD_NORM': -1,
+           'VISUAL_SCALE_TEXT_LR_MULT': 1.0,
+           'VAL': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False},
+ 'VISUAL_SCALE_OBJECT_LR_MULT': 1.0,
+           'WARMUP': True,
+           'VAL': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False},
+ 'VISUAL_SCALE_TEXT_LR_MULT': 1.0,
+           'WARMUP_FACTOR': 0.0,
+           'VAL_FREQUENT': 1}
+'VAL_FREQUENT': 1}
+'WARMUP': True,
+           'WARMUP_METHOD': 'linear',
+           'WARMUP_FACTOR': 0.0,
+           'WARMUP_STEPS': 3750,
+           'WARMUP_METHOD': 'linear',
+           'WD': 0.0001},
+ 'WARMUP_STEPS': 3750,
+           'WD': 0.0001},
+ 'VAL': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False},
+ 'VAL_FREQUENT': 1}
+'VAL': {'BATCH_IMAGES': 4, 'FLIP_PROB': 0, 'SHUFFLE': False},
+ 'VAL_FREQUENT': 1}
+Warnings: Unexpected keys: ['pooler.dense.weight', 'pooler.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.gamma', 'cls.predictions.transform.LayerNorm.beta', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias'].
+Warnings: Unexpected keys: ['pooler.dense.weight', 'pooler.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.gamma', 'cls.predictions.transform.LayerNorm.beta', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias'].
+Warnings: Unexpected keys: ['pooler.dense.weight', 'pooler.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.gamma', 'cls.predictions.transform.LayerNorm.beta', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias'].
+Warnings: Unexpected keys: ['pooler.dense.weight', 'pooler.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.gamma', 'cls.predictions.transform.LayerNorm.beta', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias'].
+native distributed, size: 4, rank: 3, local rank: 3
+native distributed, size: 4, rank: 2, local rank: 2
+native distributed, size: 4, rank: 1, local rank: 1
+native distributed, size: 4, rank: 0, local rank: 0
+>> Trainable Parameters:
+---------------------------------------------------------------------------------------------------------------
+|Name                                                         |Dtype            |Shape           |#Params     |
+---------------------------------------------------------------------------------------------------------------
+|image_feature_extractor.obj_downsample.1.weight              |torch.float32    |(768, 4096)     |3145728     |
+---------------------------------------------------------------------------------------------------------------
+|image_feature_extractor.obj_downsample.1.bias                |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|object_linguistic_embeddings.weight                          |torch.float32    |(1, 768)        |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.word_embeddings.weight                                |torch.float32    |(30522, 768)    |23440896    |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.end_embedding.weight                                  |torch.float32    |(1, 768)        |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.position_embeddings.weight                            |torch.float32    |(512, 768)      |393216      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.token_type_embeddings.weight                          |torch.float32    |(3, 768)        |2304        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.embedding_LayerNorm.weight                            |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.embedding_LayerNorm.bias                              |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.visual_ln_text.weight                                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.visual_ln_text.bias                                   |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.visual_ln_object.weight                               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.visual_ln_object.bias                                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.0.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.1.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.2.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.3.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.4.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.5.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.6.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.7.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.8.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.query.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.query.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.key.weight             |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.key.bias               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.value.weight           |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.self.value.bias             |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.output.dense.weight         |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.output.dense.bias           |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.output.LayerNorm.weight     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.attention.output.LayerNorm.bias       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.intermediate.dense.weight             |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.intermediate.dense.bias               |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.output.dense.weight                   |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.output.dense.bias                     |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.output.LayerNorm.weight               |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.9.output.LayerNorm.bias                 |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.query.weight          |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.query.bias            |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.key.weight            |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.key.bias              |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.value.weight          |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.self.value.bias            |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.output.dense.bias          |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.attention.output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.output.dense.bias                    |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.10.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.query.weight          |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.query.bias            |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.key.weight            |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.key.bias              |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.value.weight          |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.self.value.bias            |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.output.dense.weight        |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.output.dense.bias          |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.output.LayerNorm.weight    |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.attention.output.LayerNorm.bias      |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.intermediate.dense.weight            |torch.float32    |(3072, 768)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.intermediate.dense.bias              |torch.float32    |(3072,)         |3072        |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.output.dense.weight                  |torch.float32    |(768, 3072)     |2359296     |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.output.dense.bias                    |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.output.LayerNorm.weight              |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|vlbert.encoder.layer.11.output.LayerNorm.bias                |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|final_mlp.0.dense.weight                                     |torch.float32    |(768, 768)      |589824      |
+---------------------------------------------------------------------------------------------------------------
+|final_mlp.0.dense.bias                                       |torch.float32    |(768,)          |768         |
+---------------------------------------------------------------------------------------------------------------
+|final_mlp.2.weight                                           |torch.float32    |(1, 768)        |768         |
+---------------------------------------------------------------------------------------------------------------
+|final_mlp.2.bias                                             |torch.float32    |(1,)            |1           |
+---------------------------------------------------------------------------------------------------------------
+>> # TrainableParams:       	112.63	M
+>> # NonTrainableParams:    	0.00	M
+>> # TotalParams:           	112.63	M
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=10.32s)
+creating index...
+Done (t=10.57s)
+creating index...
+Done (t=10.53s)
+creating index...
+Done (t=10.68s)
+creating index...
+index created!
+loading dataset refcoco+ into memory...
+index created!
+loading dataset refcoco+ into memory...
+index created!
+loading dataset refcoco+ into memory...
+index created!
+loading dataset refcoco+ into memory...
+creating index...
+creating index...
+creating index...
+creating index...
+index created.
+DONE (t=8.33s)
+index created.
+DONE (t=8.10s)
+index created.
+DONE (t=8.15s)
+index created.
+DONE (t=8.06s)
+cached database ignored.
+loading database of split train...
+cached database ignored.
+loading database of split train...
+cached database ignored.
+loading database of split train...
+cached database ignored.
+loading database of split train...
+Done (t=0.44s)
+grouping aspect...
+Done (t=0.44s)
+grouping aspect...
+Done (t=0.45s)
+grouping aspect...
+Done (t=0.46s)
+caching database to ./cache/refcoco+_boxes_proposal_train.pkl...
+Done (t=0.07s)
+Done (t=0.08s)
+Done (t=0.07s)
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.48s)
+grouping aspect...
+Done (t=0.04s)
+loading annotations into memory...
+Done (t=10.27s)
+creating index...
+Done (t=10.33s)
+creating index...
+Done (t=10.36s)
+creating index...
+index created!
+loading dataset refcoco+ into memory...
+Done (t=10.39s)
+creating index...
+index created!
+loading dataset refcoco+ into memory...
+index created!
+loading dataset refcoco+ into memory...
+index created!
+loading dataset refcoco+ into memory...
+creating index...
+creating index...
+creating index...
+creating index...
+index created.
+DONE (t=8.33s)
+index created.
+DONE (t=8.33s)
+index created.
+DONE (t=8.41s)
+index created.
+DONE (t=8.41s)
+cached database ignored.
+loading database of split val...
+Done (t=0.04s)
+cached database ignored.
+loading database of split val...
+Done (t=0.04s)
+cached database ignored.
+loading database of split val...
+Done (t=0.04s)
+cached database ignored.
+loading database of split val...
+Done (t=0.04s)
+caching database to ./cache/refcoco+_boxes_proposal_val.pkl...
+Done (t=0.04s)
+[Partial Load] partial load state dict of keys: dict_keys(['module.image_feature_extractor.obj_downsample.1.weight', 'module.image_feature_extractor.obj_downsample.1.bias', 'module.object_linguistic_embeddings.weight', 'module.vlbert.word_embeddings.weight', 'module.vlbert.end_embedding.weight', 'module.vlbert.position_embeddings.weight', 'module.vlbert.token_type_embeddings.weight', 'module.vlbert.embedding_LayerNorm.weight', 'module.vlbert.embedding_LayerNorm.bias', 'module.vlbert.visual_ln_text.weight', 'module.vlbert.visual_ln_text.bias', 'module.vlbert.visual_ln_object.weight', 'module.vlbert.visual_ln_object.bias', 'module.vlbert.encoder.layer.0.attention.self.query.weight', 'module.vlbert.encoder.layer.0.attention.self.query.bias', 'module.vlbert.encoder.layer.0.attention.self.key.weight', 'module.vlbert.encoder.layer.0.attention.self.key.bias', 'module.vlbert.encoder.layer.0.attention.self.value.weight', 'module.vlbert.encoder.layer.0.attention.self.value.bias', 'module.vlbert.encoder.layer.0.attention.output.dense.weight', 'module.vlbert.encoder.layer.0.attention.output.dense.bias', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.0.intermediate.dense.weight', 'module.vlbert.encoder.layer.0.intermediate.dense.bias', 'module.vlbert.encoder.layer.0.output.dense.weight', 'module.vlbert.encoder.layer.0.output.dense.bias', 'module.vlbert.encoder.layer.0.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.attention.self.query.weight', 'module.vlbert.encoder.layer.1.attention.self.query.bias', 'module.vlbert.encoder.layer.1.attention.self.key.weight', 'module.vlbert.encoder.layer.1.attention.self.key.bias', 'module.vlbert.encoder.layer.1.attention.self.value.weight', 'module.vlbert.encoder.layer.1.attention.self.value.bias', 'module.vlbert.encoder.layer.1.attention.output.dense.weight', 'module.vlbert.encoder.layer.1.attention.output.dense.bias', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.intermediate.dense.weight', 'module.vlbert.encoder.layer.1.intermediate.dense.bias', 'module.vlbert.encoder.layer.1.output.dense.weight', 'module.vlbert.encoder.layer.1.output.dense.bias', 'module.vlbert.encoder.layer.1.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.attention.self.query.weight', 'module.vlbert.encoder.layer.2.attention.self.query.bias', 'module.vlbert.encoder.layer.2.attention.self.key.weight', 'module.vlbert.encoder.layer.2.attention.self.key.bias', 'module.vlbert.encoder.layer.2.attention.self.value.weight', 'module.vlbert.encoder.layer.2.attention.self.value.bias', 'module.vlbert.encoder.layer.2.attention.output.dense.weight', 'module.vlbert.encoder.layer.2.attention.output.dense.bias', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.intermediate.dense.weight', 'module.vlbert.encoder.layer.2.intermediate.dense.bias', 'module.vlbert.encoder.layer.2.output.dense.weight', 'module.vlbert.encoder.layer.2.output.dense.bias', 'module.vlbert.encoder.layer.2.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.attention.self.query.weight', 'module.vlbert.encoder.layer.3.attention.self.query.bias', 'module.vlbert.encoder.layer.3.attention.self.key.weight', 'module.vlbert.encoder.layer.3.attention.self.key.bias', 'module.vlbert.encoder.layer.3.attention.self.value.weight', 'module.vlbert.encoder.layer.3.attention.self.value.bias', 'module.vlbert.encoder.layer.3.attention.output.dense.weight', 'module.vlbert.encoder.layer.3.attention.output.dense.bias', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.intermediate.dense.weight', 'module.vlbert.encoder.layer.3.intermediate.dense.bias', 'module.vlbert.encoder.layer.3.output.dense.weight', 'module.vlbert.encoder.layer.3.output.dense.bias', 'module.vlbert.encoder.layer.3.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.attention.self.query.weight', 'module.vlbert.encoder.layer.4.attention.self.query.bias', 'module.vlbert.encoder.layer.4.attention.self.key.weight', 'module.vlbert.encoder.layer.4.attention.self.key.bias', 'module.vlbert.encoder.layer.4.attention.self.value.weight', 'module.vlbert.encoder.layer.4.attention.self.value.bias', 'module.vlbert.encoder.layer.4.attention.output.dense.weight', 'module.vlbert.encoder.layer.4.attention.output.dense.bias', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.intermediate.dense.weight', 'module.vlbert.encoder.layer.4.intermediate.dense.bias', 'module.vlbert.encoder.layer.4.output.dense.weight', 'module.vlbert.encoder.layer.4.output.dense.bias', 'module.vlbert.encoder.layer.4.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.attention.self.query.weight', 'module.vlbert.encoder.layer.5.attention.self.query.bias', 'module.vlbert.encoder.layer.5.attention.self.key.weight', 'module.vlbert.encoder.layer.5.attention.self.key.bias', 'module.vlbert.encoder.layer.5.attention.self.value.weight', 'module.vlbert.encoder.layer.5.attention.self.value.bias', 'module.vlbert.encoder.layer.5.attention.output.dense.weight', 'module.vlbert.encoder.layer.5.attention.output.dense.bias', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.intermediate.dense.weight', 'module.vlbert.encoder.layer.5.intermediate.dense.bias', 'module.vlbert.encoder.layer.5.output.dense.weight', 'module.vlbert.encoder.layer.5.output.dense.bias', 'module.vlbert.encoder.layer.5.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.attention.self.query.weight', 'module.vlbert.encoder.layer.6.attention.self.query.bias', 'module.vlbert.encoder.layer.6.attention.self.key.weight', 'module.vlbert.encoder.layer.6.attention.self.key.bias', 'module.vlbert.encoder.layer.6.attention.self.value.weight', 'module.vlbert.encoder.layer.6.attention.self.value.bias', 'module.vlbert.encoder.layer.6.attention.output.dense.weight', 'module.vlbert.encoder.layer.6.attention.output.dense.bias', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.intermediate.dense.weight', 'module.vlbert.encoder.layer.6.intermediate.dense.bias', 'module.vlbert.encoder.layer.6.output.dense.weight', 'module.vlbert.encoder.layer.6.output.dense.bias', 'module.vlbert.encoder.layer.6.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.attention.self.query.weight', 'module.vlbert.encoder.layer.7.attention.self.query.bias', 'module.vlbert.encoder.layer.7.attention.self.key.weight', 'module.vlbert.encoder.layer.7.attention.self.key.bias', 'module.vlbert.encoder.layer.7.attention.self.value.weight', 'module.vlbert.encoder.layer.7.attention.self.value.bias', 'module.vlbert.encoder.layer.7.attention.output.dense.weight', 'module.vlbert.encoder.layer.7.attention.output.dense.bias', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.intermediate.dense.weight', 'module.vlbert.encoder.layer.7.intermediate.dense.bias', 'module.vlbert.encoder.layer.7.output.dense.weight', 'module.vlbert.encoder.layer.7.output.dense.bias', 'module.vlbert.encoder.layer.7.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.attention.self.query.weight', 'module.vlbert.encoder.layer.8.attention.self.query.bias', 'module.vlbert.encoder.layer.8.attention.self.key.weight', 'module.vlbert.encoder.layer.8.attention.self.key.bias', 'module.vlbert.encoder.layer.8.attention.self.value.weight', 'module.vlbert.encoder.layer.8.attention.self.value.bias', 'module.vlbert.encoder.layer.8.attention.output.dense.weight', 'module.vlbert.encoder.layer.8.attention.output.dense.bias', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.intermediate.dense.weight', 'module.vlbert.encoder.layer.8.intermediate.dense.bias', 'module.vlbert.encoder.layer.8.output.dense.weight', 'module.vlbert.encoder.layer.8.output.dense.bias', 'module.vlbert.encoder.layer.8.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.attention.self.query.weight', 'module.vlbert.encoder.layer.9.attention.self.query.bias', 'module.vlbert.encoder.layer.9.attention.self.key.weight', 'module.vlbert.encoder.layer.9.attention.self.key.bias', 'module.vlbert.encoder.layer.9.attention.self.value.weight', 'module.vlbert.encoder.layer.9.attention.self.value.bias', 'module.vlbert.encoder.layer.9.attention.output.dense.weight', 'module.vlbert.encoder.layer.9.attention.output.dense.bias', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.intermediate.dense.weight', 'module.vlbert.encoder.layer.9.intermediate.dense.bias', 'module.vlbert.encoder.layer.9.output.dense.weight', 'module.vlbert.encoder.layer.9.output.dense.bias', 'module.vlbert.encoder.layer.9.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.attention.self.query.weight', 'module.vlbert.encoder.layer.10.attention.self.query.bias', 'module.vlbert.encoder.layer.10.attention.self.key.weight', 'module.vlbert.encoder.layer.10.attention.self.key.bias', 'module.vlbert.encoder.layer.10.attention.self.value.weight', 'module.vlbert.encoder.layer.10.attention.self.value.bias', 'module.vlbert.encoder.layer.10.attention.output.dense.weight', 'module.vlbert.encoder.layer.10.attention.output.dense.bias', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.intermediate.dense.weight', 'module.vlbert.encoder.layer.10.intermediate.dense.bias', 'module.vlbert.encoder.layer.10.output.dense.weight', 'module.vlbert.encoder.layer.10.output.dense.bias', 'module.vlbert.encoder.layer.10.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.attention.self.query.weight', 'module.vlbert.encoder.layer.11.attention.self.query.bias', 'module.vlbert.encoder.layer.11.attention.self.key.weight', 'module.vlbert.encoder.layer.11.attention.self.key.bias', 'module.vlbert.encoder.layer.11.attention.self.value.weight', 'module.vlbert.encoder.layer.11.attention.self.value.bias', 'module.vlbert.encoder.layer.11.attention.output.dense.weight', 'module.vlbert.encoder.layer.11.attention.output.dense.bias', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.intermediate.dense.weight', 'module.vlbert.encoder.layer.11.intermediate.dense.bias', 'module.vlbert.encoder.layer.11.output.dense.weight', 'module.vlbert.encoder.layer.11.output.dense.bias', 'module.vlbert.encoder.layer.11.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.output.LayerNorm.bias', 'module.final_mlp.0.dense.weight', 'module.final_mlp.0.dense.bias'])
+[Partial Load] non matched keys: ['object_mask_visual_embedding.weight', 'object_mask_word_embedding.weight', 'vlbert.mlm_head.predictions.bias', 'vlbert.mlm_head.predictions.transform.dense.weight', 'vlbert.mlm_head.predictions.transform.dense.bias', 'vlbert.mlm_head.predictions.transform.LayerNorm.weight', 'vlbert.mlm_head.predictions.transform.LayerNorm.bias', 'vlbert.mlm_head.predictions.decoder.weight', 'vlbert.mvrc_head.region_cls_pred.weight', 'vlbert.mvrc_head.region_cls_pred.bias']
+[Partial Load] non pretrain keys: ['module.final_mlp.2.weight', 'module.final_mlp.2.bias']
+[Partial Load] partial load state dict of keys: dict_keys(['module.image_feature_extractor.obj_downsample.1.weight', 'module.image_feature_extractor.obj_downsample.1.bias', 'module.object_linguistic_embeddings.weight', 'module.vlbert.word_embeddings.weight', 'module.vlbert.end_embedding.weight', 'module.vlbert.position_embeddings.weight', 'module.vlbert.token_type_embeddings.weight', 'module.vlbert.embedding_LayerNorm.weight', 'module.vlbert.embedding_LayerNorm.bias', 'module.vlbert.visual_ln_text.weight', 'module.vlbert.visual_ln_text.bias', 'module.vlbert.visual_ln_object.weight', 'module.vlbert.visual_ln_object.bias', 'module.vlbert.encoder.layer.0.attention.self.query.weight', 'module.vlbert.encoder.layer.0.attention.self.query.bias', 'module.vlbert.encoder.layer.0.attention.self.key.weight', 'module.vlbert.encoder.layer.0.attention.self.key.bias', 'module.vlbert.encoder.layer.0.attention.self.value.weight', 'module.vlbert.encoder.layer.0.attention.self.value.bias', 'module.vlbert.encoder.layer.0.attention.output.dense.weight', 'module.vlbert.encoder.layer.0.attention.output.dense.bias', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.0.intermediate.dense.weight', 'module.vlbert.encoder.layer.0.intermediate.dense.bias', 'module.vlbert.encoder.layer.0.output.dense.weight', 'module.vlbert.encoder.layer.0.output.dense.bias', 'module.vlbert.encoder.layer.0.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.attention.self.query.weight', 'module.vlbert.encoder.layer.1.attention.self.query.bias', 'module.vlbert.encoder.layer.1.attention.self.key.weight', 'module.vlbert.encoder.layer.1.attention.self.key.bias', 'module.vlbert.encoder.layer.1.attention.self.value.weight', 'module.vlbert.encoder.layer.1.attention.self.value.bias', 'module.vlbert.encoder.layer.1.attention.output.dense.weight', 'module.vlbert.encoder.layer.1.attention.output.dense.bias', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.intermediate.dense.weight', 'module.vlbert.encoder.layer.1.intermediate.dense.bias', 'module.vlbert.encoder.layer.1.output.dense.weight', 'module.vlbert.encoder.layer.1.output.dense.bias', 'module.vlbert.encoder.layer.1.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.attention.self.query.weight', 'module.vlbert.encoder.layer.2.attention.self.query.bias', 'module.vlbert.encoder.layer.2.attention.self.key.weight', 'module.vlbert.encoder.layer.2.attention.self.key.bias', 'module.vlbert.encoder.layer.2.attention.self.value.weight', 'module.vlbert.encoder.layer.2.attention.self.value.bias', 'module.vlbert.encoder.layer.2.attention.output.dense.weight', 'module.vlbert.encoder.layer.2.attention.output.dense.bias', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.intermediate.dense.weight', 'module.vlbert.encoder.layer.2.intermediate.dense.bias', 'module.vlbert.encoder.layer.2.output.dense.weight', 'module.vlbert.encoder.layer.2.output.dense.bias', 'module.vlbert.encoder.layer.2.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.attention.self.query.weight', 'module.vlbert.encoder.layer.3.attention.self.query.bias', 'module.vlbert.encoder.layer.3.attention.self.key.weight', 'module.vlbert.encoder.layer.3.attention.self.key.bias', 'module.vlbert.encoder.layer.3.attention.self.value.weight', 'module.vlbert.encoder.layer.3.attention.self.value.bias', 'module.vlbert.encoder.layer.3.attention.output.dense.weight', 'module.vlbert.encoder.layer.3.attention.output.dense.bias', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.intermediate.dense.weight', 'module.vlbert.encoder.layer.3.intermediate.dense.bias', 'module.vlbert.encoder.layer.3.output.dense.weight', 'module.vlbert.encoder.layer.3.output.dense.bias', 'module.vlbert.encoder.layer.3.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.attention.self.query.weight', 'module.vlbert.encoder.layer.4.attention.self.query.bias', 'module.vlbert.encoder.layer.4.attention.self.key.weight', 'module.vlbert.encoder.layer.4.attention.self.key.bias', 'module.vlbert.encoder.layer.4.attention.self.value.weight', 'module.vlbert.encoder.layer.4.attention.self.value.bias', 'module.vlbert.encoder.layer.4.attention.output.dense.weight', 'module.vlbert.encoder.layer.4.attention.output.dense.bias', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.intermediate.dense.weight', 'module.vlbert.encoder.layer.4.intermediate.dense.bias', 'module.vlbert.encoder.layer.4.output.dense.weight', 'module.vlbert.encoder.layer.4.output.dense.bias', 'module.vlbert.encoder.layer.4.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.attention.self.query.weight', 'module.vlbert.encoder.layer.5.attention.self.query.bias', 'module.vlbert.encoder.layer.5.attention.self.key.weight', 'module.vlbert.encoder.layer.5.attention.self.key.bias', 'module.vlbert.encoder.layer.5.attention.self.value.weight', 'module.vlbert.encoder.layer.5.attention.self.value.bias', 'module.vlbert.encoder.layer.5.attention.output.dense.weight', 'module.vlbert.encoder.layer.5.attention.output.dense.bias', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.intermediate.dense.weight', 'module.vlbert.encoder.layer.5.intermediate.dense.bias', 'module.vlbert.encoder.layer.5.output.dense.weight', 'module.vlbert.encoder.layer.5.output.dense.bias', 'module.vlbert.encoder.layer.5.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.attention.self.query.weight', 'module.vlbert.encoder.layer.6.attention.self.query.bias', 'module.vlbert.encoder.layer.6.attention.self.key.weight', 'module.vlbert.encoder.layer.6.attention.self.key.bias', 'module.vlbert.encoder.layer.6.attention.self.value.weight', 'module.vlbert.encoder.layer.6.attention.self.value.bias', 'module.vlbert.encoder.layer.6.attention.output.dense.weight', 'module.vlbert.encoder.layer.6.attention.output.dense.bias', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.intermediate.dense.weight', 'module.vlbert.encoder.layer.6.intermediate.dense.bias', 'module.vlbert.encoder.layer.6.output.dense.weight', 'module.vlbert.encoder.layer.6.output.dense.bias', 'module.vlbert.encoder.layer.6.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.attention.self.query.weight', 'module.vlbert.encoder.layer.7.attention.self.query.bias', 'module.vlbert.encoder.layer.7.attention.self.key.weight', 'module.vlbert.encoder.layer.7.attention.self.key.bias', 'module.vlbert.encoder.layer.7.attention.self.value.weight', 'module.vlbert.encoder.layer.7.attention.self.value.bias', 'module.vlbert.encoder.layer.7.attention.output.dense.weight', 'module.vlbert.encoder.layer.7.attention.output.dense.bias', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.intermediate.dense.weight', 'module.vlbert.encoder.layer.7.intermediate.dense.bias', 'module.vlbert.encoder.layer.7.output.dense.weight', 'module.vlbert.encoder.layer.7.output.dense.bias', 'module.vlbert.encoder.layer.7.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.attention.self.query.weight', 'module.vlbert.encoder.layer.8.attention.self.query.bias', 'module.vlbert.encoder.layer.8.attention.self.key.weight', 'module.vlbert.encoder.layer.8.attention.self.key.bias', 'module.vlbert.encoder.layer.8.attention.self.value.weight', 'module.vlbert.encoder.layer.8.attention.self.value.bias', 'module.vlbert.encoder.layer.8.attention.output.dense.weight', 'module.vlbert.encoder.layer.8.attention.output.dense.bias', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.intermediate.dense.weight', 'module.vlbert.encoder.layer.8.intermediate.dense.bias', 'module.vlbert.encoder.layer.8.output.dense.weight', 'module.vlbert.encoder.layer.8.output.dense.bias', 'module.vlbert.encoder.layer.8.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.attention.self.query.weight', 'module.vlbert.encoder.layer.9.attention.self.query.bias', 'module.vlbert.encoder.layer.9.attention.self.key.weight', 'module.vlbert.encoder.layer.9.attention.self.key.bias', 'module.vlbert.encoder.layer.9.attention.self.value.weight', 'module.vlbert.encoder.layer.9.attention.self.value.bias', 'module.vlbert.encoder.layer.9.attention.output.dense.weight', 'module.vlbert.encoder.layer.9.attention.output.dense.bias', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.intermediate.dense.weight', 'module.vlbert.encoder.layer.9.intermediate.dense.bias', 'module.vlbert.encoder.layer.9.output.dense.weight', 'module.vlbert.encoder.layer.9.output.dense.bias', 'module.vlbert.encoder.layer.9.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.attention.self.query.weight', 'module.vlbert.encoder.layer.10.attention.self.query.bias', 'module.vlbert.encoder.layer.10.attention.self.key.weight', 'module.vlbert.encoder.layer.10.attention.self.key.bias', 'module.vlbert.encoder.layer.10.attention.self.value.weight', 'module.vlbert.encoder.layer.10.attention.self.value.bias', 'module.vlbert.encoder.layer.10.attention.output.dense.weight', 'module.vlbert.encoder.layer.10.attention.output.dense.bias', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.intermediate.dense.weight', 'module.vlbert.encoder.layer.10.intermediate.dense.bias', 'module.vlbert.encoder.layer.10.output.dense.weight', 'module.vlbert.encoder.layer.10.output.dense.bias', 'module.vlbert.encoder.layer.10.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.attention.self.query.weight', 'module.vlbert.encoder.layer.11.attention.self.query.bias', 'module.vlbert.encoder.layer.11.attention.self.key.weight', 'module.vlbert.encoder.layer.11.attention.self.key.bias', 'module.vlbert.encoder.layer.11.attention.self.value.weight', 'module.vlbert.encoder.layer.11.attention.self.value.bias', 'module.vlbert.encoder.layer.11.attention.output.dense.weight', 'module.vlbert.encoder.layer.11.attention.output.dense.bias', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.intermediate.dense.weight', 'module.vlbert.encoder.layer.11.intermediate.dense.bias', 'module.vlbert.encoder.layer.11.output.dense.weight', 'module.vlbert.encoder.layer.11.output.dense.bias', 'module.vlbert.encoder.layer.11.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.output.LayerNorm.bias', 'module.final_mlp.0.dense.weight', 'module.final_mlp.0.dense.bias'])
+[Partial Load] non matched keys: ['object_mask_visual_embedding.weight', 'object_mask_word_embedding.weight', 'vlbert.mlm_head.predictions.bias', 'vlbert.mlm_head.predictions.transform.dense.weight', 'vlbert.mlm_head.predictions.transform.dense.bias', 'vlbert.mlm_head.predictions.transform.LayerNorm.weight', 'vlbert.mlm_head.predictions.transform.LayerNorm.bias', 'vlbert.mlm_head.predictions.decoder.weight', 'vlbert.mvrc_head.region_cls_pred.weight', 'vlbert.mvrc_head.region_cls_pred.bias']
+[Partial Load] non pretrain keys: ['module.final_mlp.2.weight', 'module.final_mlp.2.bias']
+[Partial Load] partial load state dict of keys: dict_keys(['module.image_feature_extractor.obj_downsample.1.weight', 'module.image_feature_extractor.obj_downsample.1.bias', 'module.object_linguistic_embeddings.weight', 'module.vlbert.word_embeddings.weight', 'module.vlbert.end_embedding.weight', 'module.vlbert.position_embeddings.weight', 'module.vlbert.token_type_embeddings.weight', 'module.vlbert.embedding_LayerNorm.weight', 'module.vlbert.embedding_LayerNorm.bias', 'module.vlbert.visual_ln_text.weight', 'module.vlbert.visual_ln_text.bias', 'module.vlbert.visual_ln_object.weight', 'module.vlbert.visual_ln_object.bias', 'module.vlbert.encoder.layer.0.attention.self.query.weight', 'module.vlbert.encoder.layer.0.attention.self.query.bias', 'module.vlbert.encoder.layer.0.attention.self.key.weight', 'module.vlbert.encoder.layer.0.attention.self.key.bias', 'module.vlbert.encoder.layer.0.attention.self.value.weight', 'module.vlbert.encoder.layer.0.attention.self.value.bias', 'module.vlbert.encoder.layer.0.attention.output.dense.weight', 'module.vlbert.encoder.layer.0.attention.output.dense.bias', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.0.intermediate.dense.weight', 'module.vlbert.encoder.layer.0.intermediate.dense.bias', 'module.vlbert.encoder.layer.0.output.dense.weight', 'module.vlbert.encoder.layer.0.output.dense.bias', 'module.vlbert.encoder.layer.0.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.attention.self.query.weight', 'module.vlbert.encoder.layer.1.attention.self.query.bias', 'module.vlbert.encoder.layer.1.attention.self.key.weight', 'module.vlbert.encoder.layer.1.attention.self.key.bias', 'module.vlbert.encoder.layer.1.attention.self.value.weight', 'module.vlbert.encoder.layer.1.attention.self.value.bias', 'module.vlbert.encoder.layer.1.attention.output.dense.weight', 'module.vlbert.encoder.layer.1.attention.output.dense.bias', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.intermediate.dense.weight', 'module.vlbert.encoder.layer.1.intermediate.dense.bias', 'module.vlbert.encoder.layer.1.output.dense.weight', 'module.vlbert.encoder.layer.1.output.dense.bias', 'module.vlbert.encoder.layer.1.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.attention.self.query.weight', 'module.vlbert.encoder.layer.2.attention.self.query.bias', 'module.vlbert.encoder.layer.2.attention.self.key.weight', 'module.vlbert.encoder.layer.2.attention.self.key.bias', 'module.vlbert.encoder.layer.2.attention.self.value.weight', 'module.vlbert.encoder.layer.2.attention.self.value.bias', 'module.vlbert.encoder.layer.2.attention.output.dense.weight', 'module.vlbert.encoder.layer.2.attention.output.dense.bias', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.intermediate.dense.weight', 'module.vlbert.encoder.layer.2.intermediate.dense.bias', 'module.vlbert.encoder.layer.2.output.dense.weight', 'module.vlbert.encoder.layer.2.output.dense.bias', 'module.vlbert.encoder.layer.2.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.attention.self.query.weight', 'module.vlbert.encoder.layer.3.attention.self.query.bias', 'module.vlbert.encoder.layer.3.attention.self.key.weight', 'module.vlbert.encoder.layer.3.attention.self.key.bias', 'module.vlbert.encoder.layer.3.attention.self.value.weight', 'module.vlbert.encoder.layer.3.attention.self.value.bias', 'module.vlbert.encoder.layer.3.attention.output.dense.weight', 'module.vlbert.encoder.layer.3.attention.output.dense.bias', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.intermediate.dense.weight', 'module.vlbert.encoder.layer.3.intermediate.dense.bias', 'module.vlbert.encoder.layer.3.output.dense.weight', 'module.vlbert.encoder.layer.3.output.dense.bias', 'module.vlbert.encoder.layer.3.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.attention.self.query.weight', 'module.vlbert.encoder.layer.4.attention.self.query.bias', 'module.vlbert.encoder.layer.4.attention.self.key.weight', 'module.vlbert.encoder.layer.4.attention.self.key.bias', 'module.vlbert.encoder.layer.4.attention.self.value.weight', 'module.vlbert.encoder.layer.4.attention.self.value.bias', 'module.vlbert.encoder.layer.4.attention.output.dense.weight', 'module.vlbert.encoder.layer.4.attention.output.dense.bias', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.intermediate.dense.weight', 'module.vlbert.encoder.layer.4.intermediate.dense.bias', 'module.vlbert.encoder.layer.4.output.dense.weight', 'module.vlbert.encoder.layer.4.output.dense.bias', 'module.vlbert.encoder.layer.4.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.attention.self.query.weight', 'module.vlbert.encoder.layer.5.attention.self.query.bias', 'module.vlbert.encoder.layer.5.attention.self.key.weight', 'module.vlbert.encoder.layer.5.attention.self.key.bias', 'module.vlbert.encoder.layer.5.attention.self.value.weight', 'module.vlbert.encoder.layer.5.attention.self.value.bias', 'module.vlbert.encoder.layer.5.attention.output.dense.weight', 'module.vlbert.encoder.layer.5.attention.output.dense.bias', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.intermediate.dense.weight', 'module.vlbert.encoder.layer.5.intermediate.dense.bias', 'module.vlbert.encoder.layer.5.output.dense.weight', 'module.vlbert.encoder.layer.5.output.dense.bias', 'module.vlbert.encoder.layer.5.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.attention.self.query.weight', 'module.vlbert.encoder.layer.6.attention.self.query.bias', 'module.vlbert.encoder.layer.6.attention.self.key.weight', 'module.vlbert.encoder.layer.6.attention.self.key.bias', 'module.vlbert.encoder.layer.6.attention.self.value.weight', 'module.vlbert.encoder.layer.6.attention.self.value.bias', 'module.vlbert.encoder.layer.6.attention.output.dense.weight', 'module.vlbert.encoder.layer.6.attention.output.dense.bias', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.intermediate.dense.weight', 'module.vlbert.encoder.layer.6.intermediate.dense.bias', 'module.vlbert.encoder.layer.6.output.dense.weight', 'module.vlbert.encoder.layer.6.output.dense.bias', 'module.vlbert.encoder.layer.6.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.attention.self.query.weight', 'module.vlbert.encoder.layer.7.attention.self.query.bias', 'module.vlbert.encoder.layer.7.attention.self.key.weight', 'module.vlbert.encoder.layer.7.attention.self.key.bias', 'module.vlbert.encoder.layer.7.attention.self.value.weight', 'module.vlbert.encoder.layer.7.attention.self.value.bias', 'module.vlbert.encoder.layer.7.attention.output.dense.weight', 'module.vlbert.encoder.layer.7.attention.output.dense.bias', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.intermediate.dense.weight', 'module.vlbert.encoder.layer.7.intermediate.dense.bias', 'module.vlbert.encoder.layer.7.output.dense.weight', 'module.vlbert.encoder.layer.7.output.dense.bias', 'module.vlbert.encoder.layer.7.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.attention.self.query.weight', 'module.vlbert.encoder.layer.8.attention.self.query.bias', 'module.vlbert.encoder.layer.8.attention.self.key.weight', 'module.vlbert.encoder.layer.8.attention.self.key.bias', 'module.vlbert.encoder.layer.8.attention.self.value.weight', 'module.vlbert.encoder.layer.8.attention.self.value.bias', 'module.vlbert.encoder.layer.8.attention.output.dense.weight', 'module.vlbert.encoder.layer.8.attention.output.dense.bias', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.intermediate.dense.weight', 'module.vlbert.encoder.layer.8.intermediate.dense.bias', 'module.vlbert.encoder.layer.8.output.dense.weight', 'module.vlbert.encoder.layer.8.output.dense.bias', 'module.vlbert.encoder.layer.8.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.attention.self.query.weight', 'module.vlbert.encoder.layer.9.attention.self.query.bias', 'module.vlbert.encoder.layer.9.attention.self.key.weight', 'module.vlbert.encoder.layer.9.attention.self.key.bias', 'module.vlbert.encoder.layer.9.attention.self.value.weight', 'module.vlbert.encoder.layer.9.attention.self.value.bias', 'module.vlbert.encoder.layer.9.attention.output.dense.weight', 'module.vlbert.encoder.layer.9.attention.output.dense.bias', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.intermediate.dense.weight', 'module.vlbert.encoder.layer.9.intermediate.dense.bias', 'module.vlbert.encoder.layer.9.output.dense.weight', 'module.vlbert.encoder.layer.9.output.dense.bias', 'module.vlbert.encoder.layer.9.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.attention.self.query.weight', 'module.vlbert.encoder.layer.10.attention.self.query.bias', 'module.vlbert.encoder.layer.10.attention.self.key.weight', 'module.vlbert.encoder.layer.10.attention.self.key.bias', 'module.vlbert.encoder.layer.10.attention.self.value.weight', 'module.vlbert.encoder.layer.10.attention.self.value.bias', 'module.vlbert.encoder.layer.10.attention.output.dense.weight', 'module.vlbert.encoder.layer.10.attention.output.dense.bias', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.intermediate.dense.weight', 'module.vlbert.encoder.layer.10.intermediate.dense.bias', 'module.vlbert.encoder.layer.10.output.dense.weight', 'module.vlbert.encoder.layer.10.output.dense.bias', 'module.vlbert.encoder.layer.10.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.attention.self.query.weight', 'module.vlbert.encoder.layer.11.attention.self.query.bias', 'module.vlbert.encoder.layer.11.attention.self.key.weight', 'module.vlbert.encoder.layer.11.attention.self.key.bias', 'module.vlbert.encoder.layer.11.attention.self.value.weight', 'module.vlbert.encoder.layer.11.attention.self.value.bias', 'module.vlbert.encoder.layer.11.attention.output.dense.weight', 'module.vlbert.encoder.layer.11.attention.output.dense.bias', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.intermediate.dense.weight', 'module.vlbert.encoder.layer.11.intermediate.dense.bias', 'module.vlbert.encoder.layer.11.output.dense.weight', 'module.vlbert.encoder.layer.11.output.dense.bias', 'module.vlbert.encoder.layer.11.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.output.LayerNorm.bias', 'module.final_mlp.0.dense.weight', 'module.final_mlp.0.dense.bias'])
+[Partial Load] non matched keys: ['object_mask_visual_embedding.weight', 'object_mask_word_embedding.weight', 'vlbert.mlm_head.predictions.bias', 'vlbert.mlm_head.predictions.transform.dense.weight', 'vlbert.mlm_head.predictions.transform.dense.bias', 'vlbert.mlm_head.predictions.transform.LayerNorm.weight', 'vlbert.mlm_head.predictions.transform.LayerNorm.bias', 'vlbert.mlm_head.predictions.decoder.weight', 'vlbert.mvrc_head.region_cls_pred.weight', 'vlbert.mvrc_head.region_cls_pred.bias']
+[Partial Load] non pretrain keys: ['module.final_mlp.2.weight', 'module.final_mlp.2.bias']
+[Partial Load] partial load state dict of keys: dict_keys(['module.image_feature_extractor.obj_downsample.1.weight', 'module.image_feature_extractor.obj_downsample.1.bias', 'module.object_linguistic_embeddings.weight', 'module.vlbert.word_embeddings.weight', 'module.vlbert.end_embedding.weight', 'module.vlbert.position_embeddings.weight', 'module.vlbert.token_type_embeddings.weight', 'module.vlbert.embedding_LayerNorm.weight', 'module.vlbert.embedding_LayerNorm.bias', 'module.vlbert.visual_ln_text.weight', 'module.vlbert.visual_ln_text.bias', 'module.vlbert.visual_ln_object.weight', 'module.vlbert.visual_ln_object.bias', 'module.vlbert.encoder.layer.0.attention.self.query.weight', 'module.vlbert.encoder.layer.0.attention.self.query.bias', 'module.vlbert.encoder.layer.0.attention.self.key.weight', 'module.vlbert.encoder.layer.0.attention.self.key.bias', 'module.vlbert.encoder.layer.0.attention.self.value.weight', 'module.vlbert.encoder.layer.0.attention.self.value.bias', 'module.vlbert.encoder.layer.0.attention.output.dense.weight', 'module.vlbert.encoder.layer.0.attention.output.dense.bias', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.0.intermediate.dense.weight', 'module.vlbert.encoder.layer.0.intermediate.dense.bias', 'module.vlbert.encoder.layer.0.output.dense.weight', 'module.vlbert.encoder.layer.0.output.dense.bias', 'module.vlbert.encoder.layer.0.output.LayerNorm.weight', 'module.vlbert.encoder.layer.0.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.attention.self.query.weight', 'module.vlbert.encoder.layer.1.attention.self.query.bias', 'module.vlbert.encoder.layer.1.attention.self.key.weight', 'module.vlbert.encoder.layer.1.attention.self.key.bias', 'module.vlbert.encoder.layer.1.attention.self.value.weight', 'module.vlbert.encoder.layer.1.attention.self.value.bias', 'module.vlbert.encoder.layer.1.attention.output.dense.weight', 'module.vlbert.encoder.layer.1.attention.output.dense.bias', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.1.intermediate.dense.weight', 'module.vlbert.encoder.layer.1.intermediate.dense.bias', 'module.vlbert.encoder.layer.1.output.dense.weight', 'module.vlbert.encoder.layer.1.output.dense.bias', 'module.vlbert.encoder.layer.1.output.LayerNorm.weight', 'module.vlbert.encoder.layer.1.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.attention.self.query.weight', 'module.vlbert.encoder.layer.2.attention.self.query.bias', 'module.vlbert.encoder.layer.2.attention.self.key.weight', 'module.vlbert.encoder.layer.2.attention.self.key.bias', 'module.vlbert.encoder.layer.2.attention.self.value.weight', 'module.vlbert.encoder.layer.2.attention.self.value.bias', 'module.vlbert.encoder.layer.2.attention.output.dense.weight', 'module.vlbert.encoder.layer.2.attention.output.dense.bias', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.2.intermediate.dense.weight', 'module.vlbert.encoder.layer.2.intermediate.dense.bias', 'module.vlbert.encoder.layer.2.output.dense.weight', 'module.vlbert.encoder.layer.2.output.dense.bias', 'module.vlbert.encoder.layer.2.output.LayerNorm.weight', 'module.vlbert.encoder.layer.2.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.attention.self.query.weight', 'module.vlbert.encoder.layer.3.attention.self.query.bias', 'module.vlbert.encoder.layer.3.attention.self.key.weight', 'module.vlbert.encoder.layer.3.attention.self.key.bias', 'module.vlbert.encoder.layer.3.attention.self.value.weight', 'module.vlbert.encoder.layer.3.attention.self.value.bias', 'module.vlbert.encoder.layer.3.attention.output.dense.weight', 'module.vlbert.encoder.layer.3.attention.output.dense.bias', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.3.intermediate.dense.weight', 'module.vlbert.encoder.layer.3.intermediate.dense.bias', 'module.vlbert.encoder.layer.3.output.dense.weight', 'module.vlbert.encoder.layer.3.output.dense.bias', 'module.vlbert.encoder.layer.3.output.LayerNorm.weight', 'module.vlbert.encoder.layer.3.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.attention.self.query.weight', 'module.vlbert.encoder.layer.4.attention.self.query.bias', 'module.vlbert.encoder.layer.4.attention.self.key.weight', 'module.vlbert.encoder.layer.4.attention.self.key.bias', 'module.vlbert.encoder.layer.4.attention.self.value.weight', 'module.vlbert.encoder.layer.4.attention.self.value.bias', 'module.vlbert.encoder.layer.4.attention.output.dense.weight', 'module.vlbert.encoder.layer.4.attention.output.dense.bias', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.4.intermediate.dense.weight', 'module.vlbert.encoder.layer.4.intermediate.dense.bias', 'module.vlbert.encoder.layer.4.output.dense.weight', 'module.vlbert.encoder.layer.4.output.dense.bias', 'module.vlbert.encoder.layer.4.output.LayerNorm.weight', 'module.vlbert.encoder.layer.4.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.attention.self.query.weight', 'module.vlbert.encoder.layer.5.attention.self.query.bias', 'module.vlbert.encoder.layer.5.attention.self.key.weight', 'module.vlbert.encoder.layer.5.attention.self.key.bias', 'module.vlbert.encoder.layer.5.attention.self.value.weight', 'module.vlbert.encoder.layer.5.attention.self.value.bias', 'module.vlbert.encoder.layer.5.attention.output.dense.weight', 'module.vlbert.encoder.layer.5.attention.output.dense.bias', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.5.intermediate.dense.weight', 'module.vlbert.encoder.layer.5.intermediate.dense.bias', 'module.vlbert.encoder.layer.5.output.dense.weight', 'module.vlbert.encoder.layer.5.output.dense.bias', 'module.vlbert.encoder.layer.5.output.LayerNorm.weight', 'module.vlbert.encoder.layer.5.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.attention.self.query.weight', 'module.vlbert.encoder.layer.6.attention.self.query.bias', 'module.vlbert.encoder.layer.6.attention.self.key.weight', 'module.vlbert.encoder.layer.6.attention.self.key.bias', 'module.vlbert.encoder.layer.6.attention.self.value.weight', 'module.vlbert.encoder.layer.6.attention.self.value.bias', 'module.vlbert.encoder.layer.6.attention.output.dense.weight', 'module.vlbert.encoder.layer.6.attention.output.dense.bias', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.6.intermediate.dense.weight', 'module.vlbert.encoder.layer.6.intermediate.dense.bias', 'module.vlbert.encoder.layer.6.output.dense.weight', 'module.vlbert.encoder.layer.6.output.dense.bias', 'module.vlbert.encoder.layer.6.output.LayerNorm.weight', 'module.vlbert.encoder.layer.6.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.attention.self.query.weight', 'module.vlbert.encoder.layer.7.attention.self.query.bias', 'module.vlbert.encoder.layer.7.attention.self.key.weight', 'module.vlbert.encoder.layer.7.attention.self.key.bias', 'module.vlbert.encoder.layer.7.attention.self.value.weight', 'module.vlbert.encoder.layer.7.attention.self.value.bias', 'module.vlbert.encoder.layer.7.attention.output.dense.weight', 'module.vlbert.encoder.layer.7.attention.output.dense.bias', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.7.intermediate.dense.weight', 'module.vlbert.encoder.layer.7.intermediate.dense.bias', 'module.vlbert.encoder.layer.7.output.dense.weight', 'module.vlbert.encoder.layer.7.output.dense.bias', 'module.vlbert.encoder.layer.7.output.LayerNorm.weight', 'module.vlbert.encoder.layer.7.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.attention.self.query.weight', 'module.vlbert.encoder.layer.8.attention.self.query.bias', 'module.vlbert.encoder.layer.8.attention.self.key.weight', 'module.vlbert.encoder.layer.8.attention.self.key.bias', 'module.vlbert.encoder.layer.8.attention.self.value.weight', 'module.vlbert.encoder.layer.8.attention.self.value.bias', 'module.vlbert.encoder.layer.8.attention.output.dense.weight', 'module.vlbert.encoder.layer.8.attention.output.dense.bias', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.8.intermediate.dense.weight', 'module.vlbert.encoder.layer.8.intermediate.dense.bias', 'module.vlbert.encoder.layer.8.output.dense.weight', 'module.vlbert.encoder.layer.8.output.dense.bias', 'module.vlbert.encoder.layer.8.output.LayerNorm.weight', 'module.vlbert.encoder.layer.8.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.attention.self.query.weight', 'module.vlbert.encoder.layer.9.attention.self.query.bias', 'module.vlbert.encoder.layer.9.attention.self.key.weight', 'module.vlbert.encoder.layer.9.attention.self.key.bias', 'module.vlbert.encoder.layer.9.attention.self.value.weight', 'module.vlbert.encoder.layer.9.attention.self.value.bias', 'module.vlbert.encoder.layer.9.attention.output.dense.weight', 'module.vlbert.encoder.layer.9.attention.output.dense.bias', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.9.intermediate.dense.weight', 'module.vlbert.encoder.layer.9.intermediate.dense.bias', 'module.vlbert.encoder.layer.9.output.dense.weight', 'module.vlbert.encoder.layer.9.output.dense.bias', 'module.vlbert.encoder.layer.9.output.LayerNorm.weight', 'module.vlbert.encoder.layer.9.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.attention.self.query.weight', 'module.vlbert.encoder.layer.10.attention.self.query.bias', 'module.vlbert.encoder.layer.10.attention.self.key.weight', 'module.vlbert.encoder.layer.10.attention.self.key.bias', 'module.vlbert.encoder.layer.10.attention.self.value.weight', 'module.vlbert.encoder.layer.10.attention.self.value.bias', 'module.vlbert.encoder.layer.10.attention.output.dense.weight', 'module.vlbert.encoder.layer.10.attention.output.dense.bias', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.10.intermediate.dense.weight', 'module.vlbert.encoder.layer.10.intermediate.dense.bias', 'module.vlbert.encoder.layer.10.output.dense.weight', 'module.vlbert.encoder.layer.10.output.dense.bias', 'module.vlbert.encoder.layer.10.output.LayerNorm.weight', 'module.vlbert.encoder.layer.10.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.attention.self.query.weight', 'module.vlbert.encoder.layer.11.attention.self.query.bias', 'module.vlbert.encoder.layer.11.attention.self.key.weight', 'module.vlbert.encoder.layer.11.attention.self.key.bias', 'module.vlbert.encoder.layer.11.attention.self.value.weight', 'module.vlbert.encoder.layer.11.attention.self.value.bias', 'module.vlbert.encoder.layer.11.attention.output.dense.weight', 'module.vlbert.encoder.layer.11.attention.output.dense.bias', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.attention.output.LayerNorm.bias', 'module.vlbert.encoder.layer.11.intermediate.dense.weight', 'module.vlbert.encoder.layer.11.intermediate.dense.bias', 'module.vlbert.encoder.layer.11.output.dense.weight', 'module.vlbert.encoder.layer.11.output.dense.bias', 'module.vlbert.encoder.layer.11.output.LayerNorm.weight', 'module.vlbert.encoder.layer.11.output.LayerNorm.bias', 'module.final_mlp.0.dense.weight', 'module.final_mlp.0.dense.bias'])
+[Partial Load] non matched keys: ['object_mask_visual_embedding.weight', 'object_mask_word_embedding.weight', 'vlbert.mlm_head.predictions.bias', 'vlbert.mlm_head.predictions.transform.dense.weight', 'vlbert.mlm_head.predictions.transform.dense.bias', 'vlbert.mlm_head.predictions.transform.LayerNorm.weight', 'vlbert.mlm_head.predictions.transform.LayerNorm.bias', 'vlbert.mlm_head.predictions.decoder.weight', 'vlbert.mvrc_head.region_cls_pred.weight', 'vlbert.mvrc_head.region_cls_pred.bias']
+[Partial Load] non pretrain keys: ['module.final_mlp.2.weight', 'module.final_mlp.2.bias']
+Auto continue training from /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco+_unc/vl-bert/./output/refcoco+/vlbert/base_detected_regions_4x16G/train_train/vl-bert_base_res101_refcoco-0015.model
+Train loader len: 7513
+Valid loader len: 673
+PROGRESS: 80.00%
+Train loader len: 7513
+Train loader len: 7513
+Valid loader len: 673
+Train loader len: 7512
+Valid loader len: 673
+PROGRESS: 80.00%
+Valid loader len: 673
+PROGRESS: 80.00%
+PROGRESS: 80.00%
+Rank[  0]Epoch[16] Batch [0]	Speed: - samples/sec ETA: - d - h - m	Train-RefAcc=0.875000,	ClsAcc=1.000000,	ClsPosAcc=1.000000,	ClsPosFrac=0.055743,	ClsLoss=0.000681,	
+Rank[  3]Epoch[16] Batch [0]	Speed: - samples/sec ETA: - d - h - m	Train-RefAcc=0.875000,	ClsAcc=1.000000,	ClsPosAcc=1.000000,	ClsPosFrac=0.055743,	ClsLoss=0.000681,	
+Rank[  2]Epoch[16] Batch [0]	Speed: - samples/sec ETA: - d - h - m	Train-RefAcc=0.875000,	ClsAcc=1.000000,	ClsPosAcc=1.000000,	ClsPosFrac=0.055743,	ClsLoss=0.000681,	
+Rank[  1]Epoch[16] Batch [0]	Speed: - samples/sec ETA: - d - h - m	Train-RefAcc=0.875000,	ClsAcc=1.000000,	ClsPosAcc=1.000000,	ClsPosFrac=0.055743,	ClsLoss=0.000681,	
+Rank[  2]Epoch[16] Batch [100]	Speed: 40.78 samples/s ETA: 0 d  0 h 48 m	Data: 0.012 Tran: 0.000 F: 0.037 B: 0.035 O: 0.024 M: 0.012	Train-RefAcc=0.941213,	ClsAcc=0.999849,	ClsPosAcc=0.998279,	ClsPosFrac=0.048602,	ClsLoss=0.000641,	
+Rank[  3]Epoch[16] Batch [100]	Speed: 40.78 samples/s ETA: 0 d  0 h 48 m	Data: 0.012 Tran: 0.000 F: 0.038 B: 0.036 O: 0.023 M: 0.012	Train-RefAcc=0.941213,	ClsAcc=0.999849,	ClsPosAcc=0.998279,	ClsPosFrac=0.048602,	ClsLoss=0.000641,	
+Rank[  1]Epoch[16] Batch [100]	Speed: 40.78 samples/s ETA: 0 d  0 h 48 m	Data: 0.012 Tran: 0.000 F: 0.039 B: 0.037 O: 0.024 M: 0.009	Train-RefAcc=0.941213,	ClsAcc=0.999849,	ClsPosAcc=0.998279,	ClsPosFrac=0.048602,	ClsLoss=0.000641,	
+Rank[  0]Epoch[16] Batch [100]	Speed: 40.77 samples/s ETA: 0 d  0 h 48 m	Data: 0.011 Tran: 0.000 F: 0.040 B: 0.039 O: 0.023 M: 0.008	Train-RefAcc=0.941213,	ClsAcc=0.999849,	ClsPosAcc=0.998279,	ClsPosFrac=0.048602,	ClsLoss=0.000641,	
+Rank[  2]Epoch[16] Batch [200]	Speed: 44.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.006	Train-RefAcc=0.936567,	ClsAcc=0.999815,	ClsPosAcc=0.998081,	ClsPosFrac=0.048171,	ClsLoss=0.000621,	
+Rank[  1]Epoch[16] Batch [200]	Speed: 44.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.936567,	ClsAcc=0.999815,	ClsPosAcc=0.998081,	ClsPosFrac=0.048171,	ClsLoss=0.000621,	
+Rank[  0]Epoch[16] Batch [200]	Speed: 44.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.936567,	ClsAcc=0.999815,	ClsPosAcc=0.998081,	ClsPosFrac=0.048171,	ClsLoss=0.000621,	
+Rank[  3]Epoch[16] Batch [200]	Speed: 44.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.021 M: 0.007	Train-RefAcc=0.936567,	ClsAcc=0.999815,	ClsPosAcc=0.998081,	ClsPosFrac=0.048171,	ClsLoss=0.000621,	
+Rank[  3]Epoch[16] Batch [300]	Speed: 41.05 samples/s ETA: 0 d  0 h 48 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.041 O: 0.024 M: 0.006	Train-RefAcc=0.937708,	ClsAcc=0.999798,	ClsPosAcc=0.997452,	ClsPosFrac=0.048465,	ClsLoss=0.000564,	
+Rank[  0]Epoch[16] Batch [300]	Speed: 41.05 samples/s ETA: 0 d  0 h 48 m	Data: 0.005 Tran: 0.000 F: 0.024 B: 0.036 O: 0.023 M: 0.007	Train-RefAcc=0.937708,	ClsAcc=0.999798,	ClsPosAcc=0.997452,	ClsPosFrac=0.048465,	ClsLoss=0.000564,	
+Rank[  1]Epoch[16] Batch [300]	Speed: 41.05 samples/s ETA: 0 d  0 h 48 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.026 M: 0.007	Train-RefAcc=0.937708,	ClsAcc=0.999798,	ClsPosAcc=0.997452,	ClsPosFrac=0.048465,	ClsLoss=0.000564,	
+Rank[  2]Epoch[16] Batch [300]	Speed: 41.05 samples/s ETA: 0 d  0 h 48 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.027 M: 0.008	Train-RefAcc=0.937708,	ClsAcc=0.999798,	ClsPosAcc=0.997452,	ClsPosFrac=0.048465,	ClsLoss=0.000564,	
+Rank[  0]Epoch[16] Batch [400]	Speed: 43.70 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.937188,	ClsAcc=0.999823,	ClsPosAcc=0.997721,	ClsPosFrac=0.048051,	ClsLoss=0.000545,	
+Rank[  3]Epoch[16] Batch [400]	Speed: 43.70 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.038 O: 0.021 M: 0.006	Train-RefAcc=0.937188,	ClsAcc=0.999823,	ClsPosAcc=0.997721,	ClsPosFrac=0.048051,	ClsLoss=0.000545,	
+Rank[  1]Epoch[16] Batch [400]	Speed: 43.70 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.937188,	ClsAcc=0.999823,	ClsPosAcc=0.997721,	ClsPosFrac=0.048051,	ClsLoss=0.000545,	
+Rank[  2]Epoch[16] Batch [400]	Speed: 43.70 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.023 M: 0.006	Train-RefAcc=0.937188,	ClsAcc=0.999823,	ClsPosAcc=0.997721,	ClsPosFrac=0.048051,	ClsLoss=0.000545,	
+Rank[  3]Epoch[16] Batch [500]	Speed: 38.63 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.024 M: 0.017	Train-RefAcc=0.936876,	ClsAcc=0.999842,	ClsPosAcc=0.998026,	ClsPosFrac=0.047837,	ClsLoss=0.000481,	
+Rank[  1]Epoch[16] Batch [500]	Speed: 38.62 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.023 M: 0.016	Train-RefAcc=0.936876,	ClsAcc=0.999842,	ClsPosAcc=0.998026,	ClsPosFrac=0.047837,	ClsLoss=0.000481,	
+Rank[  0]Epoch[16] Batch [500]	Speed: 38.62 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.037 O: 0.024 M: 0.016	Train-RefAcc=0.936876,	ClsAcc=0.999842,	ClsPosAcc=0.998026,	ClsPosFrac=0.047837,	ClsLoss=0.000481,	
+Rank[  2]Epoch[16] Batch [500]	Speed: 38.62 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.031 B: 0.037 O: 0.027 M: 0.005	Train-RefAcc=0.936876,	ClsAcc=0.999842,	ClsPosAcc=0.998026,	ClsPosFrac=0.047837,	ClsLoss=0.000481,	
+Rank[  3]Epoch[16] Batch [600]	Speed: 38.20 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.025 M: 0.018	Train-RefAcc=0.936772,	ClsAcc=0.999848,	ClsPosAcc=0.998056,	ClsPosFrac=0.047708,	ClsLoss=0.000455,	
+Rank[  0]Epoch[16] Batch [600]	Speed: 38.20 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.037 O: 0.024 M: 0.016	Train-RefAcc=0.936772,	ClsAcc=0.999848,	ClsPosAcc=0.998056,	ClsPosFrac=0.047708,	ClsLoss=0.000455,	
+Rank[  1]Epoch[16] Batch [600]	Speed: 38.20 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.024 M: 0.016	Train-RefAcc=0.936772,	ClsAcc=0.999848,	ClsPosAcc=0.998056,	ClsPosFrac=0.047708,	ClsLoss=0.000455,	
+Rank[  2]Epoch[16] Batch [600]	Speed: 38.20 samples/s ETA: 0 d  0 h 51 m	Data: 0.002 Tran: 0.000 F: 0.031 B: 0.038 O: 0.028 M: 0.005	Train-RefAcc=0.936772,	ClsAcc=0.999848,	ClsPosAcc=0.998056,	ClsPosFrac=0.047708,	ClsLoss=0.000455,	
+Rank[  3]Epoch[16] Batch [700]	Speed: 43.97 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.007	Train-RefAcc=0.936608,	ClsAcc=0.999851,	ClsPosAcc=0.998184,	ClsPosFrac=0.047765,	ClsLoss=0.000446,	
+Rank[  2]Epoch[16] Batch [700]	Speed: 43.97 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.936608,	ClsAcc=0.999851,	ClsPosAcc=0.998184,	ClsPosFrac=0.047765,	ClsLoss=0.000446,	
+Rank[  0]Epoch[16] Batch [700]	Speed: 43.97 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.936608,	ClsAcc=0.999851,	ClsPosAcc=0.998184,	ClsPosFrac=0.047765,	ClsLoss=0.000446,	
+Rank[  1]Epoch[16] Batch [700]	Speed: 43.97 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.936608,	ClsAcc=0.999851,	ClsPosAcc=0.998184,	ClsPosFrac=0.047765,	ClsLoss=0.000446,	
+Rank[  0]Epoch[16] Batch [800]	Speed: 43.72 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.935549,	ClsAcc=0.999848,	ClsPosAcc=0.998148,	ClsPosFrac=0.047814,	ClsLoss=0.000481,	
+Rank[  3]Epoch[16] Batch [800]	Speed: 43.72 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.007	Train-RefAcc=0.935549,	ClsAcc=0.999848,	ClsPosAcc=0.998148,	ClsPosFrac=0.047814,	ClsLoss=0.000481,	
+Rank[  2]Epoch[16] Batch [800]	Speed: 43.72 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.007	Train-RefAcc=0.935549,	ClsAcc=0.999848,	ClsPosAcc=0.998148,	ClsPosFrac=0.047814,	ClsLoss=0.000481,	
+Rank[  1]Epoch[16] Batch [800]	Speed: 43.72 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.935549,	ClsAcc=0.999848,	ClsPosAcc=0.998148,	ClsPosFrac=0.047814,	ClsLoss=0.000481,	
+Rank[  3]Epoch[16] Batch [900]	Speed: 42.27 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.022 M: 0.008	Train-RefAcc=0.935696,	ClsAcc=0.999850,	ClsPosAcc=0.998198,	ClsPosFrac=0.047863,	ClsLoss=0.000504,	
+Rank[  0]Epoch[16] Batch [900]	Speed: 42.27 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.023 M: 0.006	Train-RefAcc=0.935696,	ClsAcc=0.999850,	ClsPosAcc=0.998198,	ClsPosFrac=0.047863,	ClsLoss=0.000504,	
+Rank[  2]Epoch[16] Batch [900]	Speed: 42.27 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.022 M: 0.008	Train-RefAcc=0.935696,	ClsAcc=0.999850,	ClsPosAcc=0.998198,	ClsPosFrac=0.047863,	ClsLoss=0.000504,	
+Rank[  1]Epoch[16] Batch [900]	Speed: 42.27 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.038 O: 0.022 M: 0.006	Train-RefAcc=0.935696,	ClsAcc=0.999850,	ClsPosAcc=0.998198,	ClsPosFrac=0.047863,	ClsLoss=0.000504,	
+Rank[  2]Epoch[16] Batch [1000]	Speed: 43.65 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.007	Train-RefAcc=0.935689,	ClsAcc=0.999858,	ClsPosAcc=0.998307,	ClsPosFrac=0.047847,	ClsLoss=0.000475,	
+Rank[  3]Epoch[16] Batch [1000]	Speed: 43.65 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.007	Train-RefAcc=0.935689,	ClsAcc=0.999858,	ClsPosAcc=0.998307,	ClsPosFrac=0.047847,	ClsLoss=0.000475,	
+Rank[  0]Epoch[16] Batch [1000]	Speed: 43.65 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.935689,	ClsAcc=0.999858,	ClsPosAcc=0.998307,	ClsPosFrac=0.047847,	ClsLoss=0.000475,	
+Rank[  1]Epoch[16] Batch [1000]	Speed: 43.65 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.935689,	ClsAcc=0.999858,	ClsPosAcc=0.998307,	ClsPosFrac=0.047847,	ClsLoss=0.000475,	
+Rank[  2]Epoch[16] Batch [1100]	Speed: 41.05 samples/s ETA: 0 d  0 h 47 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.022 M: 0.011	Train-RefAcc=0.935400,	ClsAcc=0.999865,	ClsPosAcc=0.998396,	ClsPosFrac=0.047824,	ClsLoss=0.000454,	
+Rank[  0]Epoch[16] Batch [1100]	Speed: 41.05 samples/s ETA: 0 d  0 h 47 m	Data: 0.002 Tran: 0.000 F: 0.028 B: 0.037 O: 0.024 M: 0.006	Train-RefAcc=0.935400,	ClsAcc=0.999865,	ClsPosAcc=0.998396,	ClsPosFrac=0.047824,	ClsLoss=0.000454,	
+Rank[  3]Epoch[16] Batch [1100]	Speed: 41.05 samples/s ETA: 0 d  0 h 47 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.023 M: 0.012	Train-RefAcc=0.935400,	ClsAcc=0.999865,	ClsPosAcc=0.998396,	ClsPosFrac=0.047824,	ClsLoss=0.000454,	
+Rank[  1]Epoch[16] Batch [1100]	Speed: 41.05 samples/s ETA: 0 d  0 h 47 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.022 M: 0.010	Train-RefAcc=0.935400,	ClsAcc=0.999865,	ClsPosAcc=0.998396,	ClsPosFrac=0.047824,	ClsLoss=0.000454,	
+Rank[  3]Epoch[16] Batch [1200]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.007	Train-RefAcc=0.934742,	ClsAcc=0.999851,	ClsPosAcc=0.998055,	ClsPosFrac=0.047730,	ClsLoss=0.000523,	
+Rank[  0]Epoch[16] Batch [1200]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.934742,	ClsAcc=0.999851,	ClsPosAcc=0.998055,	ClsPosFrac=0.047730,	ClsLoss=0.000523,	
+Rank[  2]Epoch[16] Batch [1200]	Speed: 43.73 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.021 M: 0.005	Train-RefAcc=0.934742,	ClsAcc=0.999851,	ClsPosAcc=0.998055,	ClsPosFrac=0.047730,	ClsLoss=0.000523,	
+Rank[  1]Epoch[16] Batch [1200]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.934742,	ClsAcc=0.999851,	ClsPosAcc=0.998055,	ClsPosFrac=0.047730,	ClsLoss=0.000523,	
+Rank[  3]Epoch[16] Batch [1300]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.034 O: 0.022 M: 0.006	Train-RefAcc=0.933801,	ClsAcc=0.999860,	ClsPosAcc=0.998180,	ClsPosFrac=0.047809,	ClsLoss=0.000501,	
+Rank[  0]Epoch[16] Batch [1300]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.933801,	ClsAcc=0.999860,	ClsPosAcc=0.998180,	ClsPosFrac=0.047809,	ClsLoss=0.000501,	
+Rank[  2]Epoch[16] Batch [1300]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.021 M: 0.005	Train-RefAcc=0.933801,	ClsAcc=0.999860,	ClsPosAcc=0.998180,	ClsPosFrac=0.047809,	ClsLoss=0.000501,	
+Rank[  1]Epoch[16] Batch [1300]	Speed: 43.74 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.933801,	ClsAcc=0.999860,	ClsPosAcc=0.998180,	ClsPosFrac=0.047809,	ClsLoss=0.000501,	
+Rank[  2]Epoch[16] Batch [1400]	Speed: 43.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.021 M: 0.005	Train-RefAcc=0.933351,	ClsAcc=0.999860,	ClsPosAcc=0.998207,	ClsPosFrac=0.047740,	ClsLoss=0.000486,	
+Rank[  3]Epoch[16] Batch [1400]	Speed: 43.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.008	Train-RefAcc=0.933351,	ClsAcc=0.999860,	ClsPosAcc=0.998207,	ClsPosFrac=0.047740,	ClsLoss=0.000486,	
+Rank[  0]Epoch[16] Batch [1400]	Speed: 43.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.007	Train-RefAcc=0.933351,	ClsAcc=0.999860,	ClsPosAcc=0.998207,	ClsPosFrac=0.047740,	ClsLoss=0.000486,	
+Rank[  1]Epoch[16] Batch [1400]	Speed: 43.38 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.007	Train-RefAcc=0.933351,	ClsAcc=0.999860,	ClsPosAcc=0.998207,	ClsPosFrac=0.047740,	ClsLoss=0.000486,	
+Rank[  2]Epoch[16] Batch [1500]	Speed: 44.30 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.020 M: 0.005	Train-RefAcc=0.933461,	ClsAcc=0.999868,	ClsPosAcc=0.998302,	ClsPosFrac=0.047732,	ClsLoss=0.000462,	
+Rank[  1]Epoch[16] Batch [1500]	Speed: 44.30 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933461,	ClsAcc=0.999868,	ClsPosAcc=0.998302,	ClsPosFrac=0.047732,	ClsLoss=0.000462,	
+Rank[  3]Epoch[16] Batch [1500]	Speed: 44.30 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.007	Train-RefAcc=0.933461,	ClsAcc=0.999868,	ClsPosAcc=0.998302,	ClsPosFrac=0.047732,	ClsLoss=0.000462,	
+Rank[  0]Epoch[16] Batch [1500]	Speed: 44.30 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.933461,	ClsAcc=0.999868,	ClsPosAcc=0.998302,	ClsPosFrac=0.047732,	ClsLoss=0.000462,	
+Rank[  3]Epoch[16] Batch [1600]	Speed: 44.08 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.008	Train-RefAcc=0.933050,	ClsAcc=0.999870,	ClsPosAcc=0.998321,	ClsPosFrac=0.047756,	ClsLoss=0.000452,	
+Rank[  2]Epoch[16] Batch [1600]	Speed: 44.07 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933050,	ClsAcc=0.999870,	ClsPosAcc=0.998321,	ClsPosFrac=0.047756,	ClsLoss=0.000452,	
+Rank[  0]Epoch[16] Batch [1600]	Speed: 44.08 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.021 M: 0.005	Train-RefAcc=0.933050,	ClsAcc=0.999870,	ClsPosAcc=0.998321,	ClsPosFrac=0.047756,	ClsLoss=0.000452,	
+Rank[  1]Epoch[16] Batch [1600]	Speed: 44.07 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933050,	ClsAcc=0.999870,	ClsPosAcc=0.998321,	ClsPosFrac=0.047756,	ClsLoss=0.000452,	
+Rank[  3]Epoch[16] Batch [1700]	Speed: 44.43 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.007	Train-RefAcc=0.933238,	ClsAcc=0.999871,	ClsPosAcc=0.998357,	ClsPosFrac=0.047738,	ClsLoss=0.000443,	
+Rank[  0]Epoch[16] Batch [1700]	Speed: 44.43 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.933238,	ClsAcc=0.999871,	ClsPosAcc=0.998357,	ClsPosFrac=0.047738,	ClsLoss=0.000443,	
+Rank[  2]Epoch[16] Batch [1700]	Speed: 44.43 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.933238,	ClsAcc=0.999871,	ClsPosAcc=0.998357,	ClsPosFrac=0.047738,	ClsLoss=0.000443,	
+Rank[  1]Epoch[16] Batch [1700]	Speed: 44.43 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933238,	ClsAcc=0.999871,	ClsPosAcc=0.998357,	ClsPosFrac=0.047738,	ClsLoss=0.000443,	
+Rank[  3]Epoch[16] Batch [1800]	Speed: 44.03 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.007	Train-RefAcc=0.932850,	ClsAcc=0.999868,	ClsPosAcc=0.998348,	ClsPosFrac=0.047690,	ClsLoss=0.000468,	
+Rank[  0]Epoch[16] Batch [1800]	Speed: 44.03 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.932850,	ClsAcc=0.999868,	ClsPosAcc=0.998348,	ClsPosFrac=0.047690,	ClsLoss=0.000468,	
+Rank[  1]Epoch[16] Batch [1800]	Speed: 44.03 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.932850,	ClsAcc=0.999868,	ClsPosAcc=0.998348,	ClsPosFrac=0.047690,	ClsLoss=0.000468,	
+Rank[  2]Epoch[16] Batch [1800]	Speed: 44.03 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.007	Train-RefAcc=0.932850,	ClsAcc=0.999868,	ClsPosAcc=0.998348,	ClsPosFrac=0.047690,	ClsLoss=0.000468,	
+Rank[  0]Epoch[16] Batch [1900]	Speed: 44.50 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.004	Train-RefAcc=0.932503,	ClsAcc=0.999868,	ClsPosAcc=0.998324,	ClsPosFrac=0.047720,	ClsLoss=0.000480,	
+Rank[  3]Epoch[16] Batch [1900]	Speed: 44.50 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.007	Train-RefAcc=0.932503,	ClsAcc=0.999868,	ClsPosAcc=0.998324,	ClsPosFrac=0.047720,	ClsLoss=0.000480,	
+Rank[  1]Epoch[16] Batch [1900]	Speed: 44.50 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.932503,	ClsAcc=0.999868,	ClsPosAcc=0.998324,	ClsPosFrac=0.047720,	ClsLoss=0.000480,	
+Rank[  2]Epoch[16] Batch [1900]	Speed: 44.50 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.932503,	ClsAcc=0.999868,	ClsPosAcc=0.998324,	ClsPosFrac=0.047720,	ClsLoss=0.000480,	
+Rank[  3]Epoch[16] Batch [2000]	Speed: 43.88 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.008	Train-RefAcc=0.932534,	ClsAcc=0.999869,	ClsPosAcc=0.998357,	ClsPosFrac=0.047771,	ClsLoss=0.000469,	
+Rank[  0]Epoch[16] Batch [2000]	Speed: 43.88 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.035 O: 0.022 M: 0.004	Train-RefAcc=0.932534,	ClsAcc=0.999869,	ClsPosAcc=0.998357,	ClsPosFrac=0.047771,	ClsLoss=0.000469,	
+Rank[  1]Epoch[16] Batch [2000]	Speed: 43.88 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.007	Train-RefAcc=0.932534,	ClsAcc=0.999869,	ClsPosAcc=0.998357,	ClsPosFrac=0.047771,	ClsLoss=0.000469,	
+Rank[  2]Epoch[16] Batch [2000]	Speed: 43.88 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.020 M: 0.007	Train-RefAcc=0.932534,	ClsAcc=0.999869,	ClsPosAcc=0.998357,	ClsPosFrac=0.047771,	ClsLoss=0.000469,	
+Rank[  3]Epoch[16] Batch [2100]	Speed: 44.06 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.022 M: 0.008	Train-RefAcc=0.932889,	ClsAcc=0.999874,	ClsPosAcc=0.998417,	ClsPosFrac=0.047753,	ClsLoss=0.000456,	
+Rank[  0]Epoch[16] Batch [2100]	Speed: 44.06 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.932889,	ClsAcc=0.999874,	ClsPosAcc=0.998417,	ClsPosFrac=0.047753,	ClsLoss=0.000456,	
+Rank[  1]Epoch[16] Batch [2100]	Speed: 44.06 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.932889,	ClsAcc=0.999874,	ClsPosAcc=0.998417,	ClsPosFrac=0.047753,	ClsLoss=0.000456,	
+Rank[  2]Epoch[16] Batch [2100]	Speed: 44.06 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.932889,	ClsAcc=0.999874,	ClsPosAcc=0.998417,	ClsPosFrac=0.047753,	ClsLoss=0.000456,	
+Rank[  1]Epoch[16] Batch [2200]	Speed: 40.93 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.044 O: 0.020 M: 0.005	Train-RefAcc=0.933013,	ClsAcc=0.999877,	ClsPosAcc=0.998474,	ClsPosFrac=0.047763,	ClsLoss=0.000446,	
+Rank[  2]Epoch[16] Batch [2200]	Speed: 40.94 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.025 M: 0.009	Train-RefAcc=0.933013,	ClsAcc=0.999877,	ClsPosAcc=0.998474,	ClsPosFrac=0.047763,	ClsLoss=0.000446,	
+Rank[  0]Epoch[16] Batch [2200]	Speed: 40.94 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.026 M: 0.009	Train-RefAcc=0.933013,	ClsAcc=0.999877,	ClsPosAcc=0.998474,	ClsPosFrac=0.047763,	ClsLoss=0.000446,	
+Rank[  3]Epoch[16] Batch [2200]	Speed: 40.94 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.026 M: 0.011	Train-RefAcc=0.933013,	ClsAcc=0.999877,	ClsPosAcc=0.998474,	ClsPosFrac=0.047763,	ClsLoss=0.000446,	
+Rank[  2]Epoch[16] Batch [2300]	Speed: 40.84 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.025 M: 0.010	Train-RefAcc=0.933562,	ClsAcc=0.999881,	ClsPosAcc=0.998526,	ClsPosFrac=0.047796,	ClsLoss=0.000436,	
+Rank[  3]Epoch[16] Batch [2300]	Speed: 40.84 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.026 M: 0.011	Train-RefAcc=0.933562,	ClsAcc=0.999881,	ClsPosAcc=0.998526,	ClsPosFrac=0.047796,	ClsLoss=0.000436,	
+Rank[  0]Epoch[16] Batch [2300]	Speed: 40.84 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.026 M: 0.009	Train-RefAcc=0.933562,	ClsAcc=0.999881,	ClsPosAcc=0.998526,	ClsPosFrac=0.047796,	ClsLoss=0.000436,	
+Rank[  1]Epoch[16] Batch [2300]	Speed: 40.84 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.045 O: 0.020 M: 0.005	Train-RefAcc=0.933562,	ClsAcc=0.999881,	ClsPosAcc=0.998526,	ClsPosFrac=0.047796,	ClsLoss=0.000436,	
+Rank[  3]Epoch[16] Batch [2400]	Speed: 40.39 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.034 O: 0.026 M: 0.011	Train-RefAcc=0.933387,	ClsAcc=0.999880,	ClsPosAcc=0.998514,	ClsPosFrac=0.047809,	ClsLoss=0.000458,	
+Rank[  0]Epoch[16] Batch [2400]	Speed: 40.39 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.026 M: 0.007	Train-RefAcc=0.933387,	ClsAcc=0.999880,	ClsPosAcc=0.998514,	ClsPosFrac=0.047809,	ClsLoss=0.000458,	
+Rank[  2]Epoch[16] Batch [2400]	Speed: 40.39 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.011	Train-RefAcc=0.933387,	ClsAcc=0.999880,	ClsPosAcc=0.998514,	ClsPosFrac=0.047809,	ClsLoss=0.000458,	
+Rank[  1]Epoch[16] Batch [2400]	Speed: 40.39 samples/s ETA: 0 d  0 h 45 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.045 O: 0.020 M: 0.006	Train-RefAcc=0.933387,	ClsAcc=0.999880,	ClsPosAcc=0.998514,	ClsPosFrac=0.047809,	ClsLoss=0.000458,	
+Rank[  1]Epoch[16] Batch [2500]	Speed: 41.12 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.044 O: 0.020 M: 0.005	Train-RefAcc=0.933477,	ClsAcc=0.999879,	ClsPosAcc=0.998488,	ClsPosFrac=0.047791,	ClsLoss=0.000456,	
+Rank[  2]Epoch[16] Batch [2500]	Speed: 41.12 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.009	Train-RefAcc=0.933477,	ClsAcc=0.999879,	ClsPosAcc=0.998488,	ClsPosFrac=0.047791,	ClsLoss=0.000456,	
+Rank[  0]Epoch[16] Batch [2500]	Speed: 41.12 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.035 O: 0.025 M: 0.007	Train-RefAcc=0.933477,	ClsAcc=0.999879,	ClsPosAcc=0.998488,	ClsPosFrac=0.047791,	ClsLoss=0.000456,	
+Rank[  3]Epoch[16] Batch [2500]	Speed: 41.12 samples/s ETA: 0 d  0 h 44 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.025 M: 0.009	Train-RefAcc=0.933477,	ClsAcc=0.999879,	ClsPosAcc=0.998488,	ClsPosFrac=0.047791,	ClsLoss=0.000456,	
+Rank[  0]Epoch[16] Batch [2600]	Speed: 41.89 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.035 O: 0.024 M: 0.006	Train-RefAcc=0.933463,	ClsAcc=0.999880,	ClsPosAcc=0.998505,	ClsPosFrac=0.047777,	ClsLoss=0.000453,	
+Rank[  2]Epoch[16] Batch [2600]	Speed: 41.89 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.021 M: 0.008	Train-RefAcc=0.933463,	ClsAcc=0.999880,	ClsPosAcc=0.998505,	ClsPosFrac=0.047777,	ClsLoss=0.000453,	
+Rank[  1]Epoch[16] Batch [2600]	Speed: 41.89 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.040 O: 0.022 M: 0.006	Train-RefAcc=0.933463,	ClsAcc=0.999880,	ClsPosAcc=0.998505,	ClsPosFrac=0.047777,	ClsLoss=0.000453,	
+Rank[  3]Epoch[16] Batch [2600]	Speed: 41.89 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.024 M: 0.007	Train-RefAcc=0.933463,	ClsAcc=0.999880,	ClsPosAcc=0.998505,	ClsPosFrac=0.047777,	ClsLoss=0.000453,	
+Rank[  0]Epoch[16] Batch [2700]	Speed: 42.80 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.933474,	ClsAcc=0.999877,	ClsPosAcc=0.998494,	ClsPosFrac=0.047743,	ClsLoss=0.000470,	
+Rank[  1]Epoch[16] Batch [2700]	Speed: 42.80 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.007	Train-RefAcc=0.933474,	ClsAcc=0.999877,	ClsPosAcc=0.998494,	ClsPosFrac=0.047743,	ClsLoss=0.000470,	
+Rank[  2]Epoch[16] Batch [2700]	Speed: 42.80 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.021 M: 0.006	Train-RefAcc=0.933474,	ClsAcc=0.999877,	ClsPosAcc=0.998494,	ClsPosFrac=0.047743,	ClsLoss=0.000470,	
+Rank[  3]Epoch[16] Batch [2700]	Speed: 42.80 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.023 M: 0.006	Train-RefAcc=0.933474,	ClsAcc=0.999877,	ClsPosAcc=0.998494,	ClsPosFrac=0.047743,	ClsLoss=0.000470,	
+Rank[  2]Epoch[16] Batch [2800]	Speed: 43.34 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.020 M: 0.006	Train-RefAcc=0.933774,	ClsAcc=0.999876,	ClsPosAcc=0.998485,	ClsPosFrac=0.047763,	ClsLoss=0.000468,	
+Rank[  1]Epoch[16] Batch [2800]	Speed: 43.34 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.933774,	ClsAcc=0.999876,	ClsPosAcc=0.998485,	ClsPosFrac=0.047763,	ClsLoss=0.000468,	
+Rank[  0]Epoch[16] Batch [2800]	Speed: 43.34 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.933774,	ClsAcc=0.999876,	ClsPosAcc=0.998485,	ClsPosFrac=0.047763,	ClsLoss=0.000468,	
+Rank[  3]Epoch[16] Batch [2800]	Speed: 43.34 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.023 M: 0.006	Train-RefAcc=0.933774,	ClsAcc=0.999876,	ClsPosAcc=0.998485,	ClsPosFrac=0.047763,	ClsLoss=0.000468,	
+Rank[  2]Epoch[16] Batch [2900]	Speed: 43.85 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.037 O: 0.021 M: 0.006	Train-RefAcc=0.934031,	ClsAcc=0.999878,	ClsPosAcc=0.998524,	ClsPosFrac=0.047739,	ClsLoss=0.000463,	
+Rank[  0]Epoch[16] Batch [2900]	Speed: 43.85 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.934031,	ClsAcc=0.999878,	ClsPosAcc=0.998524,	ClsPosFrac=0.047739,	ClsLoss=0.000463,	
+Rank[  1]Epoch[16] Batch [2900]	Speed: 43.85 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.934031,	ClsAcc=0.999878,	ClsPosAcc=0.998524,	ClsPosFrac=0.047739,	ClsLoss=0.000463,	
+Rank[  3]Epoch[16] Batch [2900]	Speed: 43.85 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.934031,	ClsAcc=0.999878,	ClsPosAcc=0.998524,	ClsPosFrac=0.047739,	ClsLoss=0.000463,	
+Rank[  0]Epoch[16] Batch [3000]	Speed: 44.18 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.933460,	ClsAcc=0.999877,	ClsPosAcc=0.998490,	ClsPosFrac=0.047719,	ClsLoss=0.000467,	
+Rank[  1]Epoch[16] Batch [3000]	Speed: 44.17 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933460,	ClsAcc=0.999877,	ClsPosAcc=0.998490,	ClsPosFrac=0.047719,	ClsLoss=0.000467,	
+Rank[  2]Epoch[16] Batch [3000]	Speed: 44.17 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933460,	ClsAcc=0.999877,	ClsPosAcc=0.998490,	ClsPosFrac=0.047719,	ClsLoss=0.000467,	
+Rank[  3]Epoch[16] Batch [3000]	Speed: 44.18 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.005	Train-RefAcc=0.933460,	ClsAcc=0.999877,	ClsPosAcc=0.998490,	ClsPosFrac=0.047719,	ClsLoss=0.000467,	
+Rank[  0]Epoch[16] Batch [3100]	Speed: 44.19 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933731,	ClsAcc=0.999880,	ClsPosAcc=0.998538,	ClsPosFrac=0.047705,	ClsLoss=0.000457,	
+Rank[  1]Epoch[16] Batch [3100]	Speed: 44.19 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933731,	ClsAcc=0.999880,	ClsPosAcc=0.998538,	ClsPosFrac=0.047705,	ClsLoss=0.000457,	
+Rank[  3]Epoch[16] Batch [3100]	Speed: 44.19 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933731,	ClsAcc=0.999880,	ClsPosAcc=0.998538,	ClsPosFrac=0.047705,	ClsLoss=0.000457,	
+Rank[  2]Epoch[16] Batch [3100]	Speed: 44.19 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933731,	ClsAcc=0.999880,	ClsPosAcc=0.998538,	ClsPosFrac=0.047705,	ClsLoss=0.000457,	
+Rank[  1]Epoch[16] Batch [3200]	Speed: 44.34 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933654,	ClsAcc=0.999880,	ClsPosAcc=0.998518,	ClsPosFrac=0.047698,	ClsLoss=0.000459,	
+Rank[  0]Epoch[16] Batch [3200]	Speed: 44.35 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933654,	ClsAcc=0.999880,	ClsPosAcc=0.998518,	ClsPosFrac=0.047698,	ClsLoss=0.000459,	
+Rank[  2]Epoch[16] Batch [3200]	Speed: 44.35 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933654,	ClsAcc=0.999880,	ClsPosAcc=0.998518,	ClsPosFrac=0.047698,	ClsLoss=0.000459,	
+Rank[  3]Epoch[16] Batch [3200]	Speed: 44.35 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933654,	ClsAcc=0.999880,	ClsPosAcc=0.998518,	ClsPosFrac=0.047698,	ClsLoss=0.000459,	
+Rank[  0]Epoch[16] Batch [3300]	Speed: 44.40 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933429,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047674,	ClsLoss=0.000455,	
+Rank[  1]Epoch[16] Batch [3300]	Speed: 44.40 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933429,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047674,	ClsLoss=0.000455,	
+Rank[  2]Epoch[16] Batch [3300]	Speed: 44.40 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933429,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047674,	ClsLoss=0.000455,	
+Rank[  3]Epoch[16] Batch [3300]	Speed: 44.40 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933429,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047674,	ClsLoss=0.000455,	
+Rank[  2]Epoch[16] Batch [3400]	Speed: 44.41 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.932924,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047592,	ClsLoss=0.000456,	
+Rank[  0]Epoch[16] Batch [3400]	Speed: 44.41 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932924,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047592,	ClsLoss=0.000456,	
+Rank[  1]Epoch[16] Batch [3400]	Speed: 44.41 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.932924,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047592,	ClsLoss=0.000456,	
+Rank[  3]Epoch[16] Batch [3400]	Speed: 44.41 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932924,	ClsAcc=0.999881,	ClsPosAcc=0.998529,	ClsPosFrac=0.047592,	ClsLoss=0.000456,	
+Rank[  2]Epoch[16] Batch [3500]	Speed: 44.48 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.037 O: 0.020 M: 0.005	Train-RefAcc=0.932876,	ClsAcc=0.999882,	ClsPosAcc=0.998550,	ClsPosFrac=0.047570,	ClsLoss=0.000450,	
+Rank[  0]Epoch[16] Batch [3500]	Speed: 44.48 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.932876,	ClsAcc=0.999882,	ClsPosAcc=0.998550,	ClsPosFrac=0.047570,	ClsLoss=0.000450,	
+Rank[  1]Epoch[16] Batch [3500]	Speed: 44.48 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.932876,	ClsAcc=0.999882,	ClsPosAcc=0.998550,	ClsPosFrac=0.047570,	ClsLoss=0.000450,	
+Rank[  3]Epoch[16] Batch [3500]	Speed: 44.48 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932876,	ClsAcc=0.999882,	ClsPosAcc=0.998550,	ClsPosFrac=0.047570,	ClsLoss=0.000450,	
+Rank[  0]Epoch[16] Batch [3600]	Speed: 43.49 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.007	Train-RefAcc=0.932935,	ClsAcc=0.999880,	ClsPosAcc=0.998550,	ClsPosFrac=0.047541,	ClsLoss=0.000451,	
+Rank[  3]Epoch[16] Batch [3600]	Speed: 43.49 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.932935,	ClsAcc=0.999880,	ClsPosAcc=0.998550,	ClsPosFrac=0.047541,	ClsLoss=0.000451,	
+Rank[  2]Epoch[16] Batch [3600]	Speed: 43.49 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.007	Train-RefAcc=0.932935,	ClsAcc=0.999880,	ClsPosAcc=0.998550,	ClsPosFrac=0.047541,	ClsLoss=0.000451,	
+Rank[  1]Epoch[16] Batch [3600]	Speed: 43.49 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.932935,	ClsAcc=0.999880,	ClsPosAcc=0.998550,	ClsPosFrac=0.047541,	ClsLoss=0.000451,	
+Rank[  0]Epoch[16] Batch [3700]	Speed: 40.71 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.010	Train-RefAcc=0.932805,	ClsAcc=0.999882,	ClsPosAcc=0.998570,	ClsPosFrac=0.047548,	ClsLoss=0.000445,	
+Rank[  3]Epoch[16] Batch [3700]	Speed: 40.71 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.043 O: 0.021 M: 0.005	Train-RefAcc=0.932805,	ClsAcc=0.999882,	ClsPosAcc=0.998570,	ClsPosFrac=0.047548,	ClsLoss=0.000445,	
+Rank[  2]Epoch[16] Batch [3700]	Speed: 40.71 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.011	Train-RefAcc=0.932805,	ClsAcc=0.999882,	ClsPosAcc=0.998570,	ClsPosFrac=0.047548,	ClsLoss=0.000445,	
+Rank[  1]Epoch[16] Batch [3700]	Speed: 40.71 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.024 M: 0.008	Train-RefAcc=0.932805,	ClsAcc=0.999882,	ClsPosAcc=0.998570,	ClsPosFrac=0.047548,	ClsLoss=0.000445,	
+Rank[  1]Epoch[16] Batch [3800]	Speed: 40.27 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.010	Train-RefAcc=0.932682,	ClsAcc=0.999882,	ClsPosAcc=0.998588,	ClsPosFrac=0.047534,	ClsLoss=0.000439,	
+Rank[  0]Epoch[16] Batch [3800]	Speed: 40.27 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.010	Train-RefAcc=0.932682,	ClsAcc=0.999882,	ClsPosAcc=0.998588,	ClsPosFrac=0.047534,	ClsLoss=0.000439,	
+Rank[  3]Epoch[16] Batch [3800]	Speed: 40.27 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.044 O: 0.021 M: 0.004	Train-RefAcc=0.932682,	ClsAcc=0.999882,	ClsPosAcc=0.998588,	ClsPosFrac=0.047534,	ClsLoss=0.000439,	
+Rank[  2]Epoch[16] Batch [3800]	Speed: 40.27 samples/s ETA: 0 d  0 h 43 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.024 M: 0.011	Train-RefAcc=0.932682,	ClsAcc=0.999882,	ClsPosAcc=0.998588,	ClsPosFrac=0.047534,	ClsLoss=0.000439,	
+Rank[  1]Epoch[16] Batch [3900]	Speed: 40.76 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.932597,	ClsAcc=0.999882,	ClsPosAcc=0.998579,	ClsPosFrac=0.047542,	ClsLoss=0.000436,	
+Rank[  0]Epoch[16] Batch [3900]	Speed: 40.76 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.025 M: 0.008	Train-RefAcc=0.932597,	ClsAcc=0.999882,	ClsPosAcc=0.998579,	ClsPosFrac=0.047542,	ClsLoss=0.000436,	
+Rank[  3]Epoch[16] Batch [3900]	Speed: 40.76 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.044 O: 0.021 M: 0.004	Train-RefAcc=0.932597,	ClsAcc=0.999882,	ClsPosAcc=0.998579,	ClsPosFrac=0.047542,	ClsLoss=0.000436,	
+Rank[  2]Epoch[16] Batch [3900]	Speed: 40.76 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.010	Train-RefAcc=0.932597,	ClsAcc=0.999882,	ClsPosAcc=0.998579,	ClsPosFrac=0.047542,	ClsLoss=0.000436,	
+Rank[  2]Epoch[16] Batch [4000]	Speed: 40.92 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.024 M: 0.010	Train-RefAcc=0.932798,	ClsAcc=0.999884,	ClsPosAcc=0.998606,	ClsPosFrac=0.047549,	ClsLoss=0.000431,	
+Rank[  3]Epoch[16] Batch [4000]	Speed: 40.92 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.044 O: 0.021 M: 0.004	Train-RefAcc=0.932798,	ClsAcc=0.999884,	ClsPosAcc=0.998606,	ClsPosFrac=0.047549,	ClsLoss=0.000431,	
+Rank[  0]Epoch[16] Batch [4000]	Speed: 40.92 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.008	Train-RefAcc=0.932798,	ClsAcc=0.999884,	ClsPosAcc=0.998606,	ClsPosFrac=0.047549,	ClsLoss=0.000431,	
+Rank[  1]Epoch[16] Batch [4000]	Speed: 40.92 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.932798,	ClsAcc=0.999884,	ClsPosAcc=0.998606,	ClsPosFrac=0.047549,	ClsLoss=0.000431,	
+Rank[  0]Epoch[16] Batch [4100]	Speed: 40.53 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.025 M: 0.009	Train-RefAcc=0.932989,	ClsAcc=0.999885,	ClsPosAcc=0.998623,	ClsPosFrac=0.047555,	ClsLoss=0.000425,	
+Rank[  2]Epoch[16] Batch [4100]	Speed: 40.53 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.025 M: 0.010	Train-RefAcc=0.932989,	ClsAcc=0.999885,	ClsPosAcc=0.998623,	ClsPosFrac=0.047555,	ClsLoss=0.000425,	
+Rank[  1]Epoch[16] Batch [4100]	Speed: 40.53 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.932989,	ClsAcc=0.999885,	ClsPosAcc=0.998623,	ClsPosFrac=0.047555,	ClsLoss=0.000425,	
+Rank[  3]Epoch[16] Batch [4100]	Speed: 40.53 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.045 O: 0.021 M: 0.004	Train-RefAcc=0.932989,	ClsAcc=0.999885,	ClsPosAcc=0.998623,	ClsPosFrac=0.047555,	ClsLoss=0.000425,	
+Rank[  0]Epoch[16] Batch [4200]	Speed: 40.72 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.025 M: 0.009	Train-RefAcc=0.933081,	ClsAcc=0.999886,	ClsPosAcc=0.998630,	ClsPosFrac=0.047556,	ClsLoss=0.000425,	
+Rank[  3]Epoch[16] Batch [4200]	Speed: 40.71 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.045 O: 0.021 M: 0.004	Train-RefAcc=0.933081,	ClsAcc=0.999886,	ClsPosAcc=0.998630,	ClsPosFrac=0.047556,	ClsLoss=0.000425,	
+Rank[  2]Epoch[16] Batch [4200]	Speed: 40.71 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.010	Train-RefAcc=0.933081,	ClsAcc=0.999886,	ClsPosAcc=0.998630,	ClsPosFrac=0.047556,	ClsLoss=0.000425,	
+Rank[  1]Epoch[16] Batch [4200]	Speed: 40.71 samples/s ETA: 0 d  0 h 42 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.933081,	ClsAcc=0.999886,	ClsPosAcc=0.998630,	ClsPosFrac=0.047556,	ClsLoss=0.000425,	
+Rank[  2]Epoch[16] Batch [4300]	Speed: 40.94 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.933068,	ClsAcc=0.999887,	ClsPosAcc=0.998646,	ClsPosFrac=0.047561,	ClsLoss=0.000423,	
+Rank[  1]Epoch[16] Batch [4300]	Speed: 40.94 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.933068,	ClsAcc=0.999887,	ClsPosAcc=0.998646,	ClsPosFrac=0.047561,	ClsLoss=0.000423,	
+Rank[  0]Epoch[16] Batch [4300]	Speed: 40.93 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.024 M: 0.008	Train-RefAcc=0.933068,	ClsAcc=0.999887,	ClsPosAcc=0.998646,	ClsPosFrac=0.047561,	ClsLoss=0.000423,	
+Rank[  3]Epoch[16] Batch [4300]	Speed: 40.93 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.044 O: 0.021 M: 0.004	Train-RefAcc=0.933068,	ClsAcc=0.999887,	ClsPosAcc=0.998646,	ClsPosFrac=0.047561,	ClsLoss=0.000423,	
+Rank[  1]Epoch[16] Batch [4400]	Speed: 40.89 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.009	Train-RefAcc=0.933225,	ClsAcc=0.999885,	ClsPosAcc=0.998613,	ClsPosFrac=0.047582,	ClsLoss=0.000422,	
+Rank[  2]Epoch[16] Batch [4400]	Speed: 40.89 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.010	Train-RefAcc=0.933225,	ClsAcc=0.999885,	ClsPosAcc=0.998613,	ClsPosFrac=0.047582,	ClsLoss=0.000422,	
+Rank[  3]Epoch[16] Batch [4400]	Speed: 40.89 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.044 O: 0.021 M: 0.004	Train-RefAcc=0.933225,	ClsAcc=0.999885,	ClsPosAcc=0.998613,	ClsPosFrac=0.047582,	ClsLoss=0.000422,	
+Rank[  0]Epoch[16] Batch [4400]	Speed: 40.89 samples/s ETA: 0 d  0 h 41 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.037 O: 0.024 M: 0.008	Train-RefAcc=0.933225,	ClsAcc=0.999885,	ClsPosAcc=0.998613,	ClsPosFrac=0.047582,	ClsLoss=0.000422,	
+Rank[  2]Epoch[16] Batch [4500]	Speed: 42.32 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.007	Train-RefAcc=0.932987,	ClsAcc=0.999886,	ClsPosAcc=0.998627,	ClsPosFrac=0.047572,	ClsLoss=0.000420,	
+Rank[  0]Epoch[16] Batch [4500]	Speed: 42.32 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.007	Train-RefAcc=0.932987,	ClsAcc=0.999886,	ClsPosAcc=0.998627,	ClsPosFrac=0.047572,	ClsLoss=0.000420,	
+Rank[  1]Epoch[16] Batch [4500]	Speed: 42.32 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.932987,	ClsAcc=0.999886,	ClsPosAcc=0.998627,	ClsPosFrac=0.047572,	ClsLoss=0.000420,	
+Rank[  3]Epoch[16] Batch [4500]	Speed: 42.31 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.039 O: 0.022 M: 0.005	Train-RefAcc=0.932987,	ClsAcc=0.999886,	ClsPosAcc=0.998627,	ClsPosFrac=0.047572,	ClsLoss=0.000420,	
+Rank[  2]Epoch[16] Batch [4600]	Speed: 41.82 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.006	Train-RefAcc=0.932977,	ClsAcc=0.999883,	ClsPosAcc=0.998595,	ClsPosFrac=0.047569,	ClsLoss=0.000427,	
+Rank[  0]Epoch[16] Batch [4600]	Speed: 41.82 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.026 M: 0.006	Train-RefAcc=0.932977,	ClsAcc=0.999883,	ClsPosAcc=0.998595,	ClsPosFrac=0.047569,	ClsLoss=0.000427,	
+Rank[  1]Epoch[16] Batch [4600]	Speed: 41.82 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.030 B: 0.037 O: 0.021 M: 0.004	Train-RefAcc=0.932977,	ClsAcc=0.999883,	ClsPosAcc=0.998595,	ClsPosFrac=0.047569,	ClsLoss=0.000427,	
+Rank[  3]Epoch[16] Batch [4600]	Speed: 41.82 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.006	Train-RefAcc=0.932977,	ClsAcc=0.999883,	ClsPosAcc=0.998595,	ClsPosFrac=0.047569,	ClsLoss=0.000427,	
+Rank[  2]Epoch[16] Batch [4700]	Speed: 42.07 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.006	Train-RefAcc=0.932833,	ClsAcc=0.999884,	ClsPosAcc=0.998626,	ClsPosFrac=0.047579,	ClsLoss=0.000424,	
+Rank[  0]Epoch[16] Batch [4700]	Speed: 42.07 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.026 M: 0.006	Train-RefAcc=0.932833,	ClsAcc=0.999884,	ClsPosAcc=0.998626,	ClsPosFrac=0.047579,	ClsLoss=0.000424,	
+Rank[  3]Epoch[16] Batch [4700]	Speed: 42.07 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.025 M: 0.005	Train-RefAcc=0.932833,	ClsAcc=0.999884,	ClsPosAcc=0.998626,	ClsPosFrac=0.047579,	ClsLoss=0.000424,	
+Rank[  1]Epoch[16] Batch [4700]	Speed: 42.07 samples/s ETA: 0 d  0 h 40 m	Data: 0.002 Tran: 0.000 F: 0.030 B: 0.037 O: 0.021 M: 0.004	Train-RefAcc=0.932833,	ClsAcc=0.999884,	ClsPosAcc=0.998626,	ClsPosFrac=0.047579,	ClsLoss=0.000424,	
+Rank[  3]Epoch[16] Batch [4800]	Speed: 43.09 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.932866,	ClsAcc=0.999886,	ClsPosAcc=0.998639,	ClsPosFrac=0.047584,	ClsLoss=0.000418,	
+Rank[  0]Epoch[16] Batch [4800]	Speed: 43.09 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.024 M: 0.006	Train-RefAcc=0.932866,	ClsAcc=0.999886,	ClsPosAcc=0.998639,	ClsPosFrac=0.047584,	ClsLoss=0.000418,	
+Rank[  2]Epoch[16] Batch [4800]	Speed: 43.09 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.006	Train-RefAcc=0.932866,	ClsAcc=0.999886,	ClsPosAcc=0.998639,	ClsPosFrac=0.047584,	ClsLoss=0.000418,	
+Rank[  1]Epoch[16] Batch [4800]	Speed: 43.09 samples/s ETA: 0 d  0 h 39 m	Data: 0.002 Tran: 0.000 F: 0.028 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.932866,	ClsAcc=0.999886,	ClsPosAcc=0.998639,	ClsPosFrac=0.047584,	ClsLoss=0.000418,	
+Rank[  0]Epoch[16] Batch [4900]	Speed: 43.21 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.932896,	ClsAcc=0.999885,	ClsPosAcc=0.998624,	ClsPosFrac=0.047588,	ClsLoss=0.000417,	
+Rank[  1]Epoch[16] Batch [4900]	Speed: 43.21 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.932896,	ClsAcc=0.999885,	ClsPosAcc=0.998624,	ClsPosFrac=0.047588,	ClsLoss=0.000417,	
+Rank[  2]Epoch[16] Batch [4900]	Speed: 43.21 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.932896,	ClsAcc=0.999885,	ClsPosAcc=0.998624,	ClsPosFrac=0.047588,	ClsLoss=0.000417,	
+Rank[  3]Epoch[16] Batch [4900]	Speed: 43.21 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.932896,	ClsAcc=0.999885,	ClsPosAcc=0.998624,	ClsPosFrac=0.047588,	ClsLoss=0.000417,	
+Rank[  3]Epoch[16] Batch [5000]	Speed: 43.28 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.933088,	ClsAcc=0.999886,	ClsPosAcc=0.998645,	ClsPosFrac=0.047595,	ClsLoss=0.000412,	
+Rank[  2]Epoch[16] Batch [5000]	Speed: 43.28 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.006	Train-RefAcc=0.933088,	ClsAcc=0.999886,	ClsPosAcc=0.998645,	ClsPosFrac=0.047595,	ClsLoss=0.000412,	
+Rank[  0]Epoch[16] Batch [5000]	Speed: 43.28 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.933088,	ClsAcc=0.999886,	ClsPosAcc=0.998645,	ClsPosFrac=0.047595,	ClsLoss=0.000412,	
+Rank[  1]Epoch[16] Batch [5000]	Speed: 43.27 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933088,	ClsAcc=0.999886,	ClsPosAcc=0.998645,	ClsPosFrac=0.047595,	ClsLoss=0.000412,	
+Rank[  0]Epoch[16] Batch [5100]	Speed: 43.09 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.037 O: 0.021 M: 0.005	Train-RefAcc=0.933101,	ClsAcc=0.999887,	ClsPosAcc=0.998664,	ClsPosFrac=0.047583,	ClsLoss=0.000408,	
+Rank[  2]Epoch[16] Batch [5100]	Speed: 43.09 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.023 M: 0.006	Train-RefAcc=0.933101,	ClsAcc=0.999887,	ClsPosAcc=0.998664,	ClsPosFrac=0.047583,	ClsLoss=0.000408,	
+Rank[  1]Epoch[16] Batch [5100]	Speed: 43.09 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.023 M: 0.006	Train-RefAcc=0.933101,	ClsAcc=0.999887,	ClsPosAcc=0.998664,	ClsPosFrac=0.047583,	ClsLoss=0.000408,	
+Rank[  3]Epoch[16] Batch [5100]	Speed: 43.09 samples/s ETA: 0 d  0 h 38 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.036 O: 0.023 M: 0.005	Train-RefAcc=0.933101,	ClsAcc=0.999887,	ClsPosAcc=0.998664,	ClsPosFrac=0.047583,	ClsLoss=0.000408,	
+Rank[  0]Epoch[16] Batch [5200]	Speed: 44.47 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933078,	ClsAcc=0.999889,	ClsPosAcc=0.998684,	ClsPosFrac=0.047617,	ClsLoss=0.000402,	
+Rank[  1]Epoch[16] Batch [5200]	Speed: 44.47 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933078,	ClsAcc=0.999889,	ClsPosAcc=0.998684,	ClsPosFrac=0.047617,	ClsLoss=0.000402,	
+Rank[  2]Epoch[16] Batch [5200]	Speed: 44.47 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933078,	ClsAcc=0.999889,	ClsPosAcc=0.998684,	ClsPosFrac=0.047617,	ClsLoss=0.000402,	
+Rank[  3]Epoch[16] Batch [5200]	Speed: 44.47 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.004	Train-RefAcc=0.933078,	ClsAcc=0.999889,	ClsPosAcc=0.998684,	ClsPosFrac=0.047617,	ClsLoss=0.000402,	
+Rank[  0]Epoch[16] Batch [5300]	Speed: 44.52 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.932925,	ClsAcc=0.999890,	ClsPosAcc=0.998688,	ClsPosFrac=0.047602,	ClsLoss=0.000398,	
+Rank[  3]Epoch[16] Batch [5300]	Speed: 44.51 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932925,	ClsAcc=0.999890,	ClsPosAcc=0.998688,	ClsPosFrac=0.047602,	ClsLoss=0.000398,	
+Rank[  2]Epoch[16] Batch [5300]	Speed: 44.51 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932925,	ClsAcc=0.999890,	ClsPosAcc=0.998688,	ClsPosFrac=0.047602,	ClsLoss=0.000398,	
+Rank[  1]Epoch[16] Batch [5300]	Speed: 44.51 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.932925,	ClsAcc=0.999890,	ClsPosAcc=0.998688,	ClsPosFrac=0.047602,	ClsLoss=0.000398,	
+Rank[  0]Epoch[16] Batch [5400]	Speed: 44.21 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933010,	ClsAcc=0.999891,	ClsPosAcc=0.998706,	ClsPosFrac=0.047607,	ClsLoss=0.000392,	
+Rank[  2]Epoch[16] Batch [5400]	Speed: 44.21 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933010,	ClsAcc=0.999891,	ClsPosAcc=0.998706,	ClsPosFrac=0.047607,	ClsLoss=0.000392,	
+Rank[  3]Epoch[16] Batch [5400]	Speed: 44.21 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933010,	ClsAcc=0.999891,	ClsPosAcc=0.998706,	ClsPosFrac=0.047607,	ClsLoss=0.000392,	
+Rank[  1]Epoch[16] Batch [5400]	Speed: 44.21 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933010,	ClsAcc=0.999891,	ClsPosAcc=0.998706,	ClsPosFrac=0.047607,	ClsLoss=0.000392,	
+Rank[  0]Epoch[16] Batch [5500]	Speed: 44.20 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933137,	ClsAcc=0.999893,	ClsPosAcc=0.998723,	ClsPosFrac=0.047605,	ClsLoss=0.000387,	
+Rank[  2]Epoch[16] Batch [5500]	Speed: 44.20 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933137,	ClsAcc=0.999893,	ClsPosAcc=0.998723,	ClsPosFrac=0.047605,	ClsLoss=0.000387,	
+Rank[  3]Epoch[16] Batch [5500]	Speed: 44.20 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.022 M: 0.005	Train-RefAcc=0.933137,	ClsAcc=0.999893,	ClsPosAcc=0.998723,	ClsPosFrac=0.047605,	ClsLoss=0.000387,	
+Rank[  1]Epoch[16] Batch [5500]	Speed: 44.20 samples/s ETA: 0 d  0 h 37 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933137,	ClsAcc=0.999893,	ClsPosAcc=0.998723,	ClsPosFrac=0.047605,	ClsLoss=0.000387,	
+Rank[  0]Epoch[16] Batch [5600]	Speed: 44.65 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.022 M: 0.006	Train-RefAcc=0.933081,	ClsAcc=0.999894,	ClsPosAcc=0.998739,	ClsPosFrac=0.047596,	ClsLoss=0.000384,	
+Rank[  1]Epoch[16] Batch [5600]	Speed: 44.65 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933081,	ClsAcc=0.999894,	ClsPosAcc=0.998739,	ClsPosFrac=0.047596,	ClsLoss=0.000384,	
+Rank[  2]Epoch[16] Batch [5600]	Speed: 44.65 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933081,	ClsAcc=0.999894,	ClsPosAcc=0.998739,	ClsPosFrac=0.047596,	ClsLoss=0.000384,	
+Rank[  3]Epoch[16] Batch [5600]	Speed: 44.65 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933081,	ClsAcc=0.999894,	ClsPosAcc=0.998739,	ClsPosFrac=0.047596,	ClsLoss=0.000384,	
+Rank[  0]Epoch[16] Batch [5700]	Speed: 44.68 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.022 M: 0.006	Train-RefAcc=0.933016,	ClsAcc=0.999894,	ClsPosAcc=0.998736,	ClsPosFrac=0.047596,	ClsLoss=0.000390,	
+Rank[  1]Epoch[16] Batch [5700]	Speed: 44.68 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933016,	ClsAcc=0.999894,	ClsPosAcc=0.998736,	ClsPosFrac=0.047596,	ClsLoss=0.000390,	
+Rank[  2]Epoch[16] Batch [5700]	Speed: 44.68 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933016,	ClsAcc=0.999894,	ClsPosAcc=0.998736,	ClsPosFrac=0.047596,	ClsLoss=0.000390,	
+Rank[  3]Epoch[16] Batch [5700]	Speed: 44.68 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933016,	ClsAcc=0.999894,	ClsPosAcc=0.998736,	ClsPosFrac=0.047596,	ClsLoss=0.000390,	
+Rank[  0]Epoch[16] Batch [5800]	Speed: 44.71 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933233,	ClsAcc=0.999894,	ClsPosAcc=0.998752,	ClsPosFrac=0.047601,	ClsLoss=0.000386,	
+Rank[  1]Epoch[16] Batch [5800]	Speed: 44.70 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933233,	ClsAcc=0.999894,	ClsPosAcc=0.998752,	ClsPosFrac=0.047601,	ClsLoss=0.000386,	
+Rank[  2]Epoch[16] Batch [5800]	Speed: 44.70 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933233,	ClsAcc=0.999894,	ClsPosAcc=0.998752,	ClsPosFrac=0.047601,	ClsLoss=0.000386,	
+Rank[  3]Epoch[16] Batch [5800]	Speed: 44.70 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933233,	ClsAcc=0.999894,	ClsPosAcc=0.998752,	ClsPosFrac=0.047601,	ClsLoss=0.000386,	
+Rank[  2]Epoch[16] Batch [5900]	Speed: 44.67 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.933422,	ClsAcc=0.999895,	ClsPosAcc=0.998767,	ClsPosFrac=0.047604,	ClsLoss=0.000384,	
+Rank[  0]Epoch[16] Batch [5900]	Speed: 44.67 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933422,	ClsAcc=0.999895,	ClsPosAcc=0.998767,	ClsPosFrac=0.047604,	ClsLoss=0.000384,	
+Rank[  3]Epoch[16] Batch [5900]	Speed: 44.67 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933422,	ClsAcc=0.999895,	ClsPosAcc=0.998767,	ClsPosFrac=0.047604,	ClsLoss=0.000384,	
+Rank[  1]Epoch[16] Batch [5900]	Speed: 44.67 samples/s ETA: 0 d  0 h 36 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933422,	ClsAcc=0.999895,	ClsPosAcc=0.998767,	ClsPosFrac=0.047604,	ClsLoss=0.000384,	
+Rank[  0]Epoch[16] Batch [6000]	Speed: 44.91 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933522,	ClsAcc=0.999896,	ClsPosAcc=0.998770,	ClsPosFrac=0.047608,	ClsLoss=0.000382,	
+Rank[  3]Epoch[16] Batch [6000]	Speed: 44.91 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933522,	ClsAcc=0.999896,	ClsPosAcc=0.998770,	ClsPosFrac=0.047608,	ClsLoss=0.000382,	
+Rank[  2]Epoch[16] Batch [6000]	Speed: 44.91 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.005	Train-RefAcc=0.933522,	ClsAcc=0.999896,	ClsPosAcc=0.998770,	ClsPosFrac=0.047608,	ClsLoss=0.000382,	
+Rank[  1]Epoch[16] Batch [6000]	Speed: 44.91 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933522,	ClsAcc=0.999896,	ClsPosAcc=0.998770,	ClsPosFrac=0.047608,	ClsLoss=0.000382,	
+Rank[  0]Epoch[16] Batch [6100]	Speed: 44.59 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933218,	ClsAcc=0.999895,	ClsPosAcc=0.998761,	ClsPosFrac=0.047595,	ClsLoss=0.000381,	
+Rank[  1]Epoch[16] Batch [6100]	Speed: 44.59 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933218,	ClsAcc=0.999895,	ClsPosAcc=0.998761,	ClsPosFrac=0.047595,	ClsLoss=0.000381,	
+Rank[  3]Epoch[16] Batch [6100]	Speed: 44.59 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933218,	ClsAcc=0.999895,	ClsPosAcc=0.998761,	ClsPosFrac=0.047595,	ClsLoss=0.000381,	
+Rank[  2]Epoch[16] Batch [6100]	Speed: 44.59 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.933218,	ClsAcc=0.999895,	ClsPosAcc=0.998761,	ClsPosFrac=0.047595,	ClsLoss=0.000381,	
+Rank[  0]Epoch[16] Batch [6200]	Speed: 44.68 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933146,	ClsAcc=0.999896,	ClsPosAcc=0.998763,	ClsPosFrac=0.047583,	ClsLoss=0.000379,	
+Rank[  1]Epoch[16] Batch [6200]	Speed: 44.68 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933146,	ClsAcc=0.999896,	ClsPosAcc=0.998763,	ClsPosFrac=0.047583,	ClsLoss=0.000379,	
+Rank[  2]Epoch[16] Batch [6200]	Speed: 44.68 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.933146,	ClsAcc=0.999896,	ClsPosAcc=0.998763,	ClsPosFrac=0.047583,	ClsLoss=0.000379,	
+Rank[  3]Epoch[16] Batch [6200]	Speed: 44.68 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933146,	ClsAcc=0.999896,	ClsPosAcc=0.998763,	ClsPosFrac=0.047583,	ClsLoss=0.000379,	
+Rank[  0]Epoch[16] Batch [6300]	Speed: 44.65 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933235,	ClsAcc=0.999897,	ClsPosAcc=0.998777,	ClsPosFrac=0.047566,	ClsLoss=0.000374,	
+Rank[  2]Epoch[16] Batch [6300]	Speed: 44.65 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.005	Train-RefAcc=0.933235,	ClsAcc=0.999897,	ClsPosAcc=0.998777,	ClsPosFrac=0.047566,	ClsLoss=0.000374,	
+Rank[  1]Epoch[16] Batch [6300]	Speed: 44.65 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933235,	ClsAcc=0.999897,	ClsPosAcc=0.998777,	ClsPosFrac=0.047566,	ClsLoss=0.000374,	
+Rank[  3]Epoch[16] Batch [6300]	Speed: 44.65 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933235,	ClsAcc=0.999897,	ClsPosAcc=0.998777,	ClsPosFrac=0.047566,	ClsLoss=0.000374,	
+Rank[  2]Epoch[16] Batch [6400]	Speed: 44.60 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933419,	ClsAcc=0.999895,	ClsPosAcc=0.998769,	ClsPosFrac=0.047574,	ClsLoss=0.000387,	
+Rank[  0]Epoch[16] Batch [6400]	Speed: 44.60 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933419,	ClsAcc=0.999895,	ClsPosAcc=0.998769,	ClsPosFrac=0.047574,	ClsLoss=0.000387,	
+Rank[  1]Epoch[16] Batch [6400]	Speed: 44.60 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933419,	ClsAcc=0.999895,	ClsPosAcc=0.998769,	ClsPosFrac=0.047574,	ClsLoss=0.000387,	
+Rank[  3]Epoch[16] Batch [6400]	Speed: 44.60 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933419,	ClsAcc=0.999895,	ClsPosAcc=0.998769,	ClsPosFrac=0.047574,	ClsLoss=0.000387,	
+Rank[  0]Epoch[16] Batch [6500]	Speed: 44.81 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.022 M: 0.006	Train-RefAcc=0.933405,	ClsAcc=0.999895,	ClsPosAcc=0.998765,	ClsPosFrac=0.047564,	ClsLoss=0.000387,	
+Rank[  1]Epoch[16] Batch [6500]	Speed: 44.81 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933405,	ClsAcc=0.999895,	ClsPosAcc=0.998765,	ClsPosFrac=0.047564,	ClsLoss=0.000387,	
+Rank[  2]Epoch[16] Batch [6500]	Speed: 44.81 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933405,	ClsAcc=0.999895,	ClsPosAcc=0.998765,	ClsPosFrac=0.047564,	ClsLoss=0.000387,	
+Rank[  3]Epoch[16] Batch [6500]	Speed: 44.81 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933405,	ClsAcc=0.999895,	ClsPosAcc=0.998765,	ClsPosFrac=0.047564,	ClsLoss=0.000387,	
+Rank[  0]Epoch[16] Batch [6600]	Speed: 44.39 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933325,	ClsAcc=0.999895,	ClsPosAcc=0.998773,	ClsPosFrac=0.047561,	ClsLoss=0.000386,	
+Rank[  3]Epoch[16] Batch [6600]	Speed: 44.39 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933325,	ClsAcc=0.999895,	ClsPosAcc=0.998773,	ClsPosFrac=0.047561,	ClsLoss=0.000386,	
+Rank[  2]Epoch[16] Batch [6600]	Speed: 44.39 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933325,	ClsAcc=0.999895,	ClsPosAcc=0.998773,	ClsPosFrac=0.047561,	ClsLoss=0.000386,	
+Rank[  1]Epoch[16] Batch [6600]	Speed: 44.39 samples/s ETA: 0 d  0 h 35 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933325,	ClsAcc=0.999895,	ClsPosAcc=0.998773,	ClsPosFrac=0.047561,	ClsLoss=0.000386,	
+Rank[  0]Epoch[16] Batch [6700]	Speed: 44.51 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933294,	ClsAcc=0.999897,	ClsPosAcc=0.998791,	ClsPosFrac=0.047553,	ClsLoss=0.000383,	
+Rank[  2]Epoch[16] Batch [6700]	Speed: 44.50 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.006	Train-RefAcc=0.933294,	ClsAcc=0.999897,	ClsPosAcc=0.998791,	ClsPosFrac=0.047553,	ClsLoss=0.000383,	
+Rank[  3]Epoch[16] Batch [6700]	Speed: 44.50 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933294,	ClsAcc=0.999897,	ClsPosAcc=0.998791,	ClsPosFrac=0.047553,	ClsLoss=0.000383,	
+Rank[  1]Epoch[16] Batch [6700]	Speed: 44.50 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933294,	ClsAcc=0.999897,	ClsPosAcc=0.998791,	ClsPosFrac=0.047553,	ClsLoss=0.000383,	
+Rank[  0]Epoch[16] Batch [6800]	Speed: 44.41 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933328,	ClsAcc=0.999897,	ClsPosAcc=0.998788,	ClsPosFrac=0.047555,	ClsLoss=0.000382,	
+Rank[  1]Epoch[16] Batch [6800]	Speed: 44.41 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933328,	ClsAcc=0.999897,	ClsPosAcc=0.998788,	ClsPosFrac=0.047555,	ClsLoss=0.000382,	
+Rank[  3]Epoch[16] Batch [6800]	Speed: 44.41 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933328,	ClsAcc=0.999897,	ClsPosAcc=0.998788,	ClsPosFrac=0.047555,	ClsLoss=0.000382,	
+Rank[  2]Epoch[16] Batch [6800]	Speed: 44.41 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933328,	ClsAcc=0.999897,	ClsPosAcc=0.998788,	ClsPosFrac=0.047555,	ClsLoss=0.000382,	
+Rank[  0]Epoch[16] Batch [6900]	Speed: 44.61 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933243,	ClsAcc=0.999898,	ClsPosAcc=0.998806,	ClsPosFrac=0.047572,	ClsLoss=0.000377,	
+Rank[  1]Epoch[16] Batch [6900]	Speed: 44.61 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.036 O: 0.020 M: 0.005	Train-RefAcc=0.933243,	ClsAcc=0.999898,	ClsPosAcc=0.998806,	ClsPosFrac=0.047572,	ClsLoss=0.000377,	
+Rank[  2]Epoch[16] Batch [6900]	Speed: 44.61 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933243,	ClsAcc=0.999898,	ClsPosAcc=0.998806,	ClsPosFrac=0.047572,	ClsLoss=0.000377,	
+Rank[  3]Epoch[16] Batch [6900]	Speed: 44.61 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933243,	ClsAcc=0.999898,	ClsPosAcc=0.998806,	ClsPosFrac=0.047572,	ClsLoss=0.000377,	
+Rank[  0]Epoch[16] Batch [7000]	Speed: 44.84 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933429,	ClsAcc=0.999900,	ClsPosAcc=0.998824,	ClsPosFrac=0.047584,	ClsLoss=0.000373,	
+Rank[  1]Epoch[16] Batch [7000]	Speed: 44.84 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933429,	ClsAcc=0.999900,	ClsPosAcc=0.998824,	ClsPosFrac=0.047584,	ClsLoss=0.000373,	
+Rank[  2]Epoch[16] Batch [7000]	Speed: 44.84 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933429,	ClsAcc=0.999900,	ClsPosAcc=0.998824,	ClsPosFrac=0.047584,	ClsLoss=0.000373,	
+Rank[  3]Epoch[16] Batch [7000]	Speed: 44.84 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933429,	ClsAcc=0.999900,	ClsPosAcc=0.998824,	ClsPosFrac=0.047584,	ClsLoss=0.000373,	
+Rank[  0]Epoch[16] Batch [7100]	Speed: 44.64 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933425,	ClsAcc=0.999901,	ClsPosAcc=0.998835,	ClsPosFrac=0.047575,	ClsLoss=0.000369,	
+Rank[  3]Epoch[16] Batch [7100]	Speed: 44.64 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933425,	ClsAcc=0.999901,	ClsPosAcc=0.998835,	ClsPosFrac=0.047575,	ClsLoss=0.000369,	
+Rank[  2]Epoch[16] Batch [7100]	Speed: 44.64 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.006	Train-RefAcc=0.933425,	ClsAcc=0.999901,	ClsPosAcc=0.998835,	ClsPosFrac=0.047575,	ClsLoss=0.000369,	
+Rank[  1]Epoch[16] Batch [7100]	Speed: 44.64 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933425,	ClsAcc=0.999901,	ClsPosAcc=0.998835,	ClsPosFrac=0.047575,	ClsLoss=0.000369,	
+Rank[  0]Epoch[16] Batch [7200]	Speed: 44.75 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.035 O: 0.022 M: 0.006	Train-RefAcc=0.933369,	ClsAcc=0.999901,	ClsPosAcc=0.998846,	ClsPosFrac=0.047579,	ClsLoss=0.000367,	
+Rank[  3]Epoch[16] Batch [7200]	Speed: 44.75 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933369,	ClsAcc=0.999901,	ClsPosAcc=0.998846,	ClsPosFrac=0.047579,	ClsLoss=0.000367,	
+Rank[  2]Epoch[16] Batch [7200]	Speed: 44.75 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.005	Train-RefAcc=0.933369,	ClsAcc=0.999901,	ClsPosAcc=0.998846,	ClsPosFrac=0.047579,	ClsLoss=0.000367,	
+Rank[  1]Epoch[16] Batch [7200]	Speed: 44.75 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.021 M: 0.005	Train-RefAcc=0.933369,	ClsAcc=0.999901,	ClsPosAcc=0.998846,	ClsPosFrac=0.047579,	ClsLoss=0.000367,	
+Rank[  0]Epoch[16] Batch [7300]	Speed: 43.83 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.022 M: 0.008	Train-RefAcc=0.933322,	ClsAcc=0.999901,	ClsPosAcc=0.998838,	ClsPosFrac=0.047572,	ClsLoss=0.000367,	
+Rank[  3]Epoch[16] Batch [7300]	Speed: 43.83 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.006	Train-RefAcc=0.933322,	ClsAcc=0.999901,	ClsPosAcc=0.998838,	ClsPosFrac=0.047572,	ClsLoss=0.000367,	
+Rank[  2]Epoch[16] Batch [7300]	Speed: 43.83 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.020 M: 0.007	Train-RefAcc=0.933322,	ClsAcc=0.999901,	ClsPosAcc=0.998838,	ClsPosFrac=0.047572,	ClsLoss=0.000367,	
+Rank[  1]Epoch[16] Batch [7300]	Speed: 43.83 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933322,	ClsAcc=0.999901,	ClsPosAcc=0.998838,	ClsPosFrac=0.047572,	ClsLoss=0.000367,	
+Rank[  0]Epoch[16] Batch [7400]	Speed: 43.43 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.022 M: 0.009	Train-RefAcc=0.933337,	ClsAcc=0.999902,	ClsPosAcc=0.998853,	ClsPosFrac=0.047559,	ClsLoss=0.000364,	
+Rank[  1]Epoch[16] Batch [7400]	Speed: 43.43 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.021 M: 0.005	Train-RefAcc=0.933337,	ClsAcc=0.999902,	ClsPosAcc=0.998853,	ClsPosFrac=0.047559,	ClsLoss=0.000364,	
+Rank[  2]Epoch[16] Batch [7400]	Speed: 43.42 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.021 M: 0.008	Train-RefAcc=0.933337,	ClsAcc=0.999902,	ClsPosAcc=0.998853,	ClsPosFrac=0.047559,	ClsLoss=0.000364,	
+Rank[  3]Epoch[16] Batch [7400]	Speed: 43.43 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.026 B: 0.035 O: 0.021 M: 0.007	Train-RefAcc=0.933337,	ClsAcc=0.999902,	ClsPosAcc=0.998853,	ClsPosFrac=0.047559,	ClsLoss=0.000364,	
+Rank[  0]Epoch[16] Batch [7500]	Speed: 43.74 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.034 O: 0.024 M: 0.006	Train-RefAcc=0.933351,	ClsAcc=0.999902,	ClsPosAcc=0.998859,	ClsPosFrac=0.047550,	ClsLoss=0.000363,	
+Rank[  2]Epoch[16] Batch [7500]	Speed: 43.74 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.024 B: 0.036 O: 0.022 M: 0.006	Train-RefAcc=0.933351,	ClsAcc=0.999902,	ClsPosAcc=0.998859,	ClsPosFrac=0.047550,	ClsLoss=0.000363,	
+Rank[  1]Epoch[16] Batch [7500]	Speed: 43.74 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.027 B: 0.036 O: 0.020 M: 0.005	Train-RefAcc=0.933351,	ClsAcc=0.999902,	ClsPosAcc=0.998859,	ClsPosFrac=0.047550,	ClsLoss=0.000363,	
+Rank[  3]Epoch[16] Batch [7500]	Speed: 43.74 samples/s ETA: 0 d  0 h 34 m	Data: 0.002 Tran: 0.000 F: 0.025 B: 0.035 O: 0.023 M: 0.005	Train-RefAcc=0.933351,	ClsAcc=0.999902,	ClsPosAcc=0.998859,	ClsPosFrac=0.047550,	ClsLoss=0.000363,	
+Saving
+Saved
+PROGRESS: 85.00%
+Saving
+Saved
+PROGRESS: 85.00%
+Saving
+Saved
+PROGRESS: 85.00%
+Saving
+Saved
+PROGRESS: 85.00%

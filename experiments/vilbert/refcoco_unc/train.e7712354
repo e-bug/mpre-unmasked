@@ -1,0 +1,553 @@
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+
+Bad key "text.kerning_factor" on line 4 in
+/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+08/19/2020 17:48:45 - INFO - __main__ -   device: cuda n_gpu: 4, distributed training: False, 16-bits training: False
+08/19/2020 17:48:46 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/4/19ITA380/.cache/torch/pytorch_transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+08/19/2020 17:48:46 - INFO - vilbert.task_utils -   Loading refcoco Dataset with batch size 256
+08/19/2020 17:49:28 - INFO - vilbert.utils -   logging file at: /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/refcoco_unc/vilbert/refcoco_bert_base_6layer_6conect/logs
+08/19/2020 17:49:28 - INFO - vilbert.utils -   loading weights file /gs/hs0/tgb-deepmt/bugliarello.e/checkpoints/conceptual_captions/vilbert/bert_base_6layer_6conect/pytorch_model_9.bin
+08/19/2020 17:49:34 - INFO - vilbert.utils -   Weights of VILBertForVLTasks not initialized from pretrained model: ['vil_prediction.logit_fc.0.weight', 'vil_prediction.logit_fc.0.bias', 'vil_prediction.logit_fc.2.weight', 'vil_prediction.logit_fc.2.bias', 'vil_prediction.logit_fc.3.weight', 'vil_prediction.logit_fc.3.bias', 'vil_prediction_gqa.logit_fc.0.weight', 'vil_prediction_gqa.logit_fc.0.bias', 'vil_prediction_gqa.logit_fc.2.weight', 'vil_prediction_gqa.logit_fc.2.bias', 'vil_prediction_gqa.logit_fc.3.weight', 'vil_prediction_gqa.logit_fc.3.bias', 'vil_binary_prediction.logit_fc.0.weight', 'vil_binary_prediction.logit_fc.0.bias', 'vil_binary_prediction.logit_fc.2.weight', 'vil_binary_prediction.logit_fc.2.bias', 'vil_binary_prediction.logit_fc.3.weight', 'vil_binary_prediction.logit_fc.3.bias', 'vil_logit.weight', 'vil_logit.bias', 'vil_tri_prediction.weight', 'vil_tri_prediction.bias', 'vision_logit.weight', 'vision_logit.bias', 'linguisic_logit.weight', 'linguisic_logit.bias']
+Epoch:   0%|          | 0/20 [00:00<?, ?it/s]/gs/hs0/tgb-deepmt/bugliarello.e/envs/vilbert-mt/lib/python3.6/site-packages/torch/optim/lr_scheduler.py:122: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+08/19/2020 17:50:13 - INFO - vilbert.utils -   [refcoco]: iter 21 Ep: 0.04 loss 5.520 score 0.181 lr 2.33051e-07 
+08/19/2020 17:50:25 - INFO - vilbert.utils -   [refcoco]: iter 41 Ep: 0.09 loss 3.677 score 0.258 lr 6.67373e-07 
+08/19/2020 17:50:37 - INFO - vilbert.utils -   [refcoco]: iter 61 Ep: 0.13 loss 3.342 score 0.307 lr 1.0911e-06 
+08/19/2020 17:50:49 - INFO - vilbert.utils -   [refcoco]: iter 81 Ep: 0.17 loss 3.212 score 0.326 lr 1.51483e-06 
+08/19/2020 17:51:04 - INFO - vilbert.utils -   [refcoco]: iter 101 Ep: 0.21 loss 3.130 score 0.355 lr 1.93856e-06 
+08/19/2020 17:51:16 - INFO - vilbert.utils -   [refcoco]: iter 121 Ep: 0.26 loss 3.038 score 0.397 lr 2.36229e-06 
+08/19/2020 17:51:29 - INFO - vilbert.utils -   [refcoco]: iter 141 Ep: 0.30 loss 3.012 score 0.434 lr 2.78602e-06 
+08/19/2020 17:51:42 - INFO - vilbert.utils -   [refcoco]: iter 161 Ep: 0.34 loss 2.921 score 0.467 lr 3.20975e-06 
+08/19/2020 17:51:54 - INFO - vilbert.utils -   [refcoco]: iter 181 Ep: 0.38 loss 2.916 score 0.465 lr 3.63347e-06 
+08/19/2020 17:52:08 - INFO - vilbert.utils -   [refcoco]: iter 201 Ep: 0.43 loss 2.862 score 0.498 lr 4.0572e-06 
+08/19/2020 17:52:21 - INFO - vilbert.utils -   [refcoco]: iter 221 Ep: 0.47 loss 2.825 score 0.516 lr 4.48093e-06 
+08/19/2020 17:52:34 - INFO - vilbert.utils -   [refcoco]: iter 241 Ep: 0.51 loss 2.737 score 0.568 lr 4.90466e-06 
+08/19/2020 17:52:46 - INFO - vilbert.utils -   [refcoco]: iter 261 Ep: 0.55 loss 2.664 score 0.623 lr 5.32839e-06 
+08/19/2020 17:53:01 - INFO - vilbert.utils -   [refcoco]: iter 281 Ep: 0.60 loss 2.530 score 0.660 lr 5.75212e-06 
+08/19/2020 17:53:13 - INFO - vilbert.utils -   [refcoco]: iter 301 Ep: 0.64 loss 2.509 score 0.669 lr 6.17585e-06 
+08/19/2020 17:53:26 - INFO - vilbert.utils -   [refcoco]: iter 321 Ep: 0.68 loss 2.460 score 0.682 lr 6.59958e-06 
+08/19/2020 17:53:39 - INFO - vilbert.utils -   [refcoco]: iter 341 Ep: 0.72 loss 2.423 score 0.689 lr 7.02331e-06 
+08/19/2020 17:53:53 - INFO - vilbert.utils -   [refcoco]: iter 361 Ep: 0.76 loss 2.386 score 0.703 lr 7.44703e-06 
+08/19/2020 17:54:06 - INFO - vilbert.utils -   [refcoco]: iter 381 Ep: 0.81 loss 2.344 score 0.721 lr 7.87076e-06 
+08/19/2020 17:54:18 - INFO - vilbert.utils -   [refcoco]: iter 401 Ep: 0.85 loss 2.335 score 0.714 lr 8.29449e-06 
+08/19/2020 17:54:31 - INFO - vilbert.utils -   [refcoco]: iter 421 Ep: 0.89 loss 2.323 score 0.729 lr 8.71822e-06 
+08/19/2020 17:54:44 - INFO - vilbert.utils -   [refcoco]: iter 441 Ep: 0.93 loss 2.293 score 0.731 lr 9.14195e-06 
+08/19/2020 17:54:58 - INFO - vilbert.utils -   [refcoco]: iter 461 Ep: 0.98 loss 2.304 score 0.731 lr 9.56568e-06 
+08/19/2020 17:55:05 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:   5%|▌         | 1/20 [05:34<1:45:49, 334.20s/it]08/19/2020 17:55:24 - INFO - vilbert.utils -   Eval task TASK9 on iteration 473 
+08/19/2020 17:55:24 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.227 score 74.072 
+08/19/2020 17:55:38 - INFO - vilbert.utils -   [refcoco]: iter 493 Ep: 1.04 loss 2.275 score 0.742 lr 1.01165e-05 
+08/19/2020 17:55:50 - INFO - vilbert.utils -   [refcoco]: iter 513 Ep: 1.09 loss 2.233 score 0.759 lr 1.06674e-05 
+08/19/2020 17:56:02 - INFO - vilbert.utils -   [refcoco]: iter 533 Ep: 1.13 loss 2.245 score 0.759 lr 1.10911e-05 
+08/19/2020 17:56:16 - INFO - vilbert.utils -   [refcoco]: iter 553 Ep: 1.17 loss 2.212 score 0.757 lr 1.15148e-05 
+08/19/2020 17:56:28 - INFO - vilbert.utils -   [refcoco]: iter 573 Ep: 1.21 loss 2.212 score 0.757 lr 1.19386e-05 
+08/19/2020 17:56:40 - INFO - vilbert.utils -   [refcoco]: iter 593 Ep: 1.26 loss 2.200 score 0.755 lr 1.23623e-05 
+08/19/2020 17:56:52 - INFO - vilbert.utils -   [refcoco]: iter 613 Ep: 1.30 loss 2.207 score 0.771 lr 1.2786e-05 
+08/19/2020 17:57:05 - INFO - vilbert.utils -   [refcoco]: iter 633 Ep: 1.34 loss 2.181 score 0.768 lr 1.32097e-05 
+08/19/2020 17:57:17 - INFO - vilbert.utils -   [refcoco]: iter 653 Ep: 1.38 loss 2.177 score 0.771 lr 1.36335e-05 
+08/19/2020 17:57:29 - INFO - vilbert.utils -   [refcoco]: iter 673 Ep: 1.43 loss 2.164 score 0.782 lr 1.40572e-05 
+08/19/2020 17:57:43 - INFO - vilbert.utils -   [refcoco]: iter 693 Ep: 1.47 loss 2.178 score 0.774 lr 1.44809e-05 
+08/19/2020 17:57:55 - INFO - vilbert.utils -   [refcoco]: iter 713 Ep: 1.51 loss 2.186 score 0.762 lr 1.49047e-05 
+08/19/2020 17:58:07 - INFO - vilbert.utils -   [refcoco]: iter 733 Ep: 1.55 loss 2.137 score 0.784 lr 1.53284e-05 
+08/19/2020 17:58:20 - INFO - vilbert.utils -   [refcoco]: iter 753 Ep: 1.60 loss 2.138 score 0.792 lr 1.57521e-05 
+08/19/2020 17:58:33 - INFO - vilbert.utils -   [refcoco]: iter 773 Ep: 1.64 loss 2.122 score 0.790 lr 1.61758e-05 
+08/19/2020 17:58:45 - INFO - vilbert.utils -   [refcoco]: iter 793 Ep: 1.68 loss 2.128 score 0.790 lr 1.65996e-05 
+08/19/2020 17:58:57 - INFO - vilbert.utils -   [refcoco]: iter 813 Ep: 1.72 loss 2.124 score 0.788 lr 1.70233e-05 
+08/19/2020 17:59:11 - INFO - vilbert.utils -   [refcoco]: iter 833 Ep: 1.76 loss 2.098 score 0.787 lr 1.7447e-05 
+08/19/2020 17:59:24 - INFO - vilbert.utils -   [refcoco]: iter 853 Ep: 1.81 loss 2.123 score 0.791 lr 1.78708e-05 
+08/19/2020 17:59:36 - INFO - vilbert.utils -   [refcoco]: iter 873 Ep: 1.85 loss 2.111 score 0.790 lr 1.82945e-05 
+08/19/2020 17:59:50 - INFO - vilbert.utils -   [refcoco]: iter 893 Ep: 1.89 loss 2.136 score 0.790 lr 1.87182e-05 
+08/19/2020 18:00:02 - INFO - vilbert.utils -   [refcoco]: iter 913 Ep: 1.93 loss 2.133 score 0.788 lr 1.91419e-05 
+08/19/2020 18:00:14 - INFO - vilbert.utils -   [refcoco]: iter 933 Ep: 1.98 loss 2.078 score 0.794 lr 1.95657e-05 
+08/19/2020 18:00:20 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  10%|█         | 2/20 [10:49<1:38:34, 328.57s/it]08/19/2020 18:00:41 - INFO - vilbert.utils -   Eval task TASK9 on iteration 945 
+08/19/2020 18:00:41 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.089 score 77.672 
+08/19/2020 18:00:53 - INFO - vilbert.utils -   [refcoco]: iter 965 Ep: 2.04 loss 2.065 score 0.808 lr 1.99466e-05 
+08/19/2020 18:01:06 - INFO - vilbert.utils -   [refcoco]: iter 985 Ep: 2.09 loss 2.030 score 0.818 lr 1.99258e-05 
+08/19/2020 18:01:20 - INFO - vilbert.utils -   [refcoco]: iter 1005 Ep: 2.13 loss 2.008 score 0.817 lr 1.98788e-05 
+08/19/2020 18:01:32 - INFO - vilbert.utils -   [refcoco]: iter 1025 Ep: 2.17 loss 2.051 score 0.818 lr 1.98317e-05 
+08/19/2020 18:01:44 - INFO - vilbert.utils -   [refcoco]: iter 1045 Ep: 2.21 loss 2.029 score 0.814 lr 1.97846e-05 
+08/19/2020 18:01:56 - INFO - vilbert.utils -   [refcoco]: iter 1065 Ep: 2.26 loss 2.027 score 0.819 lr 1.97375e-05 
+08/19/2020 18:02:10 - INFO - vilbert.utils -   [refcoco]: iter 1085 Ep: 2.30 loss 2.043 score 0.811 lr 1.96904e-05 
+08/19/2020 18:02:22 - INFO - vilbert.utils -   [refcoco]: iter 1105 Ep: 2.34 loss 2.010 score 0.820 lr 1.96434e-05 
+08/19/2020 18:02:34 - INFO - vilbert.utils -   [refcoco]: iter 1125 Ep: 2.38 loss 2.036 score 0.825 lr 1.95963e-05 
+08/19/2020 18:02:46 - INFO - vilbert.utils -   [refcoco]: iter 1145 Ep: 2.43 loss 2.036 score 0.816 lr 1.95492e-05 
+08/19/2020 18:02:58 - INFO - vilbert.utils -   [refcoco]: iter 1165 Ep: 2.47 loss 2.025 score 0.812 lr 1.95021e-05 
+08/19/2020 18:03:12 - INFO - vilbert.utils -   [refcoco]: iter 1185 Ep: 2.51 loss 2.004 score 0.826 lr 1.9455e-05 
+08/19/2020 18:03:24 - INFO - vilbert.utils -   [refcoco]: iter 1205 Ep: 2.55 loss 2.023 score 0.825 lr 1.9408e-05 
+08/19/2020 18:03:36 - INFO - vilbert.utils -   [refcoco]: iter 1225 Ep: 2.60 loss 1.994 score 0.822 lr 1.93609e-05 
+08/19/2020 18:03:48 - INFO - vilbert.utils -   [refcoco]: iter 1245 Ep: 2.64 loss 2.011 score 0.819 lr 1.93138e-05 
+08/19/2020 18:04:02 - INFO - vilbert.utils -   [refcoco]: iter 1265 Ep: 2.68 loss 2.027 score 0.811 lr 1.92667e-05 
+08/19/2020 18:04:14 - INFO - vilbert.utils -   [refcoco]: iter 1285 Ep: 2.72 loss 2.000 score 0.831 lr 1.92196e-05 
+08/19/2020 18:04:26 - INFO - vilbert.utils -   [refcoco]: iter 1305 Ep: 2.76 loss 2.002 score 0.829 lr 1.91726e-05 
+08/19/2020 18:04:38 - INFO - vilbert.utils -   [refcoco]: iter 1325 Ep: 2.81 loss 1.989 score 0.822 lr 1.91255e-05 
+08/19/2020 18:04:52 - INFO - vilbert.utils -   [refcoco]: iter 1345 Ep: 2.85 loss 2.004 score 0.826 lr 1.90784e-05 
+08/19/2020 18:05:04 - INFO - vilbert.utils -   [refcoco]: iter 1365 Ep: 2.89 loss 2.014 score 0.829 lr 1.90313e-05 
+08/19/2020 18:05:16 - INFO - vilbert.utils -   [refcoco]: iter 1385 Ep: 2.93 loss 1.968 score 0.829 lr 1.89842e-05 
+08/19/2020 18:05:28 - INFO - vilbert.utils -   [refcoco]: iter 1405 Ep: 2.98 loss 2.016 score 0.827 lr 1.89371e-05 
+08/19/2020 18:05:34 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  15%|█▌        | 3/20 [16:03<1:31:48, 324.02s/it]08/19/2020 18:05:55 - INFO - vilbert.utils -   Eval task TASK9 on iteration 1417 
+08/19/2020 18:05:55 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.062 score 78.540 
+08/19/2020 18:06:07 - INFO - vilbert.utils -   [refcoco]: iter 1437 Ep: 3.04 loss 1.939 score 0.847 lr 1.88759e-05 
+08/19/2020 18:06:19 - INFO - vilbert.utils -   [refcoco]: iter 1457 Ep: 3.09 loss 1.936 score 0.846 lr 1.88147e-05 
+08/19/2020 18:06:31 - INFO - vilbert.utils -   [refcoco]: iter 1477 Ep: 3.13 loss 1.945 score 0.843 lr 1.87677e-05 
+08/19/2020 18:06:44 - INFO - vilbert.utils -   [refcoco]: iter 1497 Ep: 3.17 loss 1.926 score 0.845 lr 1.87206e-05 
+08/19/2020 18:06:56 - INFO - vilbert.utils -   [refcoco]: iter 1517 Ep: 3.21 loss 1.942 score 0.848 lr 1.86735e-05 
+08/19/2020 18:07:08 - INFO - vilbert.utils -   [refcoco]: iter 1537 Ep: 3.26 loss 1.930 score 0.848 lr 1.86264e-05 
+08/19/2020 18:07:20 - INFO - vilbert.utils -   [refcoco]: iter 1557 Ep: 3.30 loss 1.947 score 0.844 lr 1.85793e-05 
+08/19/2020 18:07:32 - INFO - vilbert.utils -   [refcoco]: iter 1577 Ep: 3.34 loss 1.923 score 0.850 lr 1.85323e-05 
+08/19/2020 18:07:44 - INFO - vilbert.utils -   [refcoco]: iter 1597 Ep: 3.38 loss 1.917 score 0.848 lr 1.84852e-05 
+08/19/2020 18:07:55 - INFO - vilbert.utils -   [refcoco]: iter 1617 Ep: 3.43 loss 1.935 score 0.850 lr 1.84381e-05 
+08/19/2020 18:08:09 - INFO - vilbert.utils -   [refcoco]: iter 1637 Ep: 3.47 loss 1.935 score 0.843 lr 1.8391e-05 
+08/19/2020 18:08:21 - INFO - vilbert.utils -   [refcoco]: iter 1657 Ep: 3.51 loss 1.924 score 0.850 lr 1.83439e-05 
+08/19/2020 18:08:33 - INFO - vilbert.utils -   [refcoco]: iter 1677 Ep: 3.55 loss 1.928 score 0.843 lr 1.82968e-05 
+08/19/2020 18:08:45 - INFO - vilbert.utils -   [refcoco]: iter 1697 Ep: 3.60 loss 1.924 score 0.855 lr 1.82498e-05 
+08/19/2020 18:08:57 - INFO - vilbert.utils -   [refcoco]: iter 1717 Ep: 3.64 loss 1.922 score 0.844 lr 1.82027e-05 
+08/19/2020 18:09:08 - INFO - vilbert.utils -   [refcoco]: iter 1737 Ep: 3.68 loss 1.927 score 0.842 lr 1.81556e-05 
+08/19/2020 18:09:22 - INFO - vilbert.utils -   [refcoco]: iter 1757 Ep: 3.72 loss 1.933 score 0.845 lr 1.81085e-05 
+08/19/2020 18:09:34 - INFO - vilbert.utils -   [refcoco]: iter 1777 Ep: 3.76 loss 1.904 score 0.844 lr 1.80614e-05 
+08/19/2020 18:09:46 - INFO - vilbert.utils -   [refcoco]: iter 1797 Ep: 3.81 loss 1.900 score 0.848 lr 1.80144e-05 
+08/19/2020 18:09:58 - INFO - vilbert.utils -   [refcoco]: iter 1817 Ep: 3.85 loss 1.946 score 0.845 lr 1.79673e-05 
+08/19/2020 18:10:10 - INFO - vilbert.utils -   [refcoco]: iter 1837 Ep: 3.89 loss 1.916 score 0.853 lr 1.79202e-05 
+08/19/2020 18:10:22 - INFO - vilbert.utils -   [refcoco]: iter 1857 Ep: 3.93 loss 1.891 score 0.852 lr 1.78731e-05 
+08/19/2020 18:10:35 - INFO - vilbert.utils -   [refcoco]: iter 1877 Ep: 3.98 loss 1.922 score 0.855 lr 1.7826e-05 
+08/19/2020 18:10:42 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  20%|██        | 4/20 [21:10<1:25:06, 319.13s/it]08/19/2020 18:11:01 - INFO - vilbert.utils -   Eval task TASK9 on iteration 1889 
+08/19/2020 18:11:01 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.060 score 78.706 
+08/19/2020 18:11:13 - INFO - vilbert.utils -   [refcoco]: iter 1909 Ep: 4.04 loss 1.878 score 0.863 lr 1.77648e-05 
+08/19/2020 18:11:27 - INFO - vilbert.utils -   [refcoco]: iter 1929 Ep: 4.09 loss 1.896 score 0.859 lr 1.77036e-05 
+08/19/2020 18:11:39 - INFO - vilbert.utils -   [refcoco]: iter 1949 Ep: 4.13 loss 1.849 score 0.867 lr 1.76565e-05 
+08/19/2020 18:11:51 - INFO - vilbert.utils -   [refcoco]: iter 1969 Ep: 4.17 loss 1.871 score 0.867 lr 1.76095e-05 
+08/19/2020 18:12:05 - INFO - vilbert.utils -   [refcoco]: iter 1989 Ep: 4.21 loss 1.879 score 0.864 lr 1.75624e-05 
+08/19/2020 18:12:18 - INFO - vilbert.utils -   [refcoco]: iter 2009 Ep: 4.26 loss 1.865 score 0.863 lr 1.75153e-05 
+08/19/2020 18:12:29 - INFO - vilbert.utils -   [refcoco]: iter 2029 Ep: 4.30 loss 1.885 score 0.862 lr 1.74682e-05 
+08/19/2020 18:12:41 - INFO - vilbert.utils -   [refcoco]: iter 2049 Ep: 4.34 loss 1.866 score 0.865 lr 1.74211e-05 
+08/19/2020 18:12:55 - INFO - vilbert.utils -   [refcoco]: iter 2069 Ep: 4.38 loss 1.873 score 0.864 lr 1.73741e-05 
+08/19/2020 18:13:07 - INFO - vilbert.utils -   [refcoco]: iter 2089 Ep: 4.43 loss 1.852 score 0.865 lr 1.7327e-05 
+08/19/2020 18:13:19 - INFO - vilbert.utils -   [refcoco]: iter 2109 Ep: 4.47 loss 1.868 score 0.866 lr 1.72799e-05 
+08/19/2020 18:13:31 - INFO - vilbert.utils -   [refcoco]: iter 2129 Ep: 4.51 loss 1.871 score 0.863 lr 1.72328e-05 
+08/19/2020 18:13:45 - INFO - vilbert.utils -   [refcoco]: iter 2149 Ep: 4.55 loss 1.878 score 0.861 lr 1.71857e-05 
+08/19/2020 18:13:57 - INFO - vilbert.utils -   [refcoco]: iter 2169 Ep: 4.60 loss 1.834 score 0.871 lr 1.71387e-05 
+08/19/2020 18:14:09 - INFO - vilbert.utils -   [refcoco]: iter 2189 Ep: 4.64 loss 1.885 score 0.861 lr 1.70916e-05 
+08/19/2020 18:14:22 - INFO - vilbert.utils -   [refcoco]: iter 2209 Ep: 4.68 loss 1.839 score 0.871 lr 1.70445e-05 
+08/19/2020 18:14:34 - INFO - vilbert.utils -   [refcoco]: iter 2229 Ep: 4.72 loss 1.866 score 0.868 lr 1.69974e-05 
+08/19/2020 18:14:46 - INFO - vilbert.utils -   [refcoco]: iter 2249 Ep: 4.76 loss 1.899 score 0.861 lr 1.69503e-05 
+08/19/2020 18:14:58 - INFO - vilbert.utils -   [refcoco]: iter 2269 Ep: 4.81 loss 1.848 score 0.863 lr 1.69032e-05 
+08/19/2020 18:15:12 - INFO - vilbert.utils -   [refcoco]: iter 2289 Ep: 4.85 loss 1.859 score 0.869 lr 1.68562e-05 
+08/19/2020 18:15:24 - INFO - vilbert.utils -   [refcoco]: iter 2309 Ep: 4.89 loss 1.846 score 0.872 lr 1.68091e-05 
+08/19/2020 18:15:36 - INFO - vilbert.utils -   [refcoco]: iter 2329 Ep: 4.93 loss 1.868 score 0.865 lr 1.6762e-05 
+08/19/2020 18:15:48 - INFO - vilbert.utils -   [refcoco]: iter 2349 Ep: 4.98 loss 1.868 score 0.868 lr 1.67149e-05 
+08/19/2020 18:15:56 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  25%|██▌       | 5/20 [26:25<1:19:25, 317.72s/it]08/19/2020 18:16:15 - INFO - vilbert.utils -   Eval task TASK9 on iteration 2361 
+08/19/2020 18:16:15 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.057 score 78.771 
+08/19/2020 18:16:27 - INFO - vilbert.utils -   [refcoco]: iter 2381 Ep: 5.04 loss 1.835 score 0.875 lr 1.66537e-05 
+08/19/2020 18:16:40 - INFO - vilbert.utils -   [refcoco]: iter 2401 Ep: 5.09 loss 1.807 score 0.877 lr 1.65925e-05 
+08/19/2020 18:16:52 - INFO - vilbert.utils -   [refcoco]: iter 2421 Ep: 5.13 loss 1.843 score 0.877 lr 1.65454e-05 
+08/19/2020 18:17:04 - INFO - vilbert.utils -   [refcoco]: iter 2441 Ep: 5.17 loss 1.809 score 0.879 lr 1.64984e-05 
+08/19/2020 18:17:16 - INFO - vilbert.utils -   [refcoco]: iter 2461 Ep: 5.21 loss 1.864 score 0.866 lr 1.64513e-05 
+08/19/2020 18:17:28 - INFO - vilbert.utils -   [refcoco]: iter 2481 Ep: 5.26 loss 1.811 score 0.873 lr 1.64042e-05 
+08/19/2020 18:17:42 - INFO - vilbert.utils -   [refcoco]: iter 2501 Ep: 5.30 loss 1.803 score 0.890 lr 1.63571e-05 
+08/19/2020 18:17:54 - INFO - vilbert.utils -   [refcoco]: iter 2521 Ep: 5.34 loss 1.837 score 0.872 lr 1.631e-05 
+08/19/2020 18:18:05 - INFO - vilbert.utils -   [refcoco]: iter 2541 Ep: 5.38 loss 1.854 score 0.869 lr 1.62629e-05 
+08/19/2020 18:18:17 - INFO - vilbert.utils -   [refcoco]: iter 2561 Ep: 5.43 loss 1.815 score 0.889 lr 1.62159e-05 
+08/19/2020 18:18:31 - INFO - vilbert.utils -   [refcoco]: iter 2581 Ep: 5.47 loss 1.818 score 0.875 lr 1.61688e-05 
+08/19/2020 18:18:44 - INFO - vilbert.utils -   [refcoco]: iter 2601 Ep: 5.51 loss 1.839 score 0.883 lr 1.61217e-05 
+08/19/2020 18:18:56 - INFO - vilbert.utils -   [refcoco]: iter 2621 Ep: 5.55 loss 1.839 score 0.872 lr 1.60746e-05 
+08/19/2020 18:19:08 - INFO - vilbert.utils -   [refcoco]: iter 2641 Ep: 5.60 loss 1.812 score 0.883 lr 1.60275e-05 
+08/19/2020 18:19:19 - INFO - vilbert.utils -   [refcoco]: iter 2661 Ep: 5.64 loss 1.818 score 0.880 lr 1.59805e-05 
+08/19/2020 18:19:33 - INFO - vilbert.utils -   [refcoco]: iter 2681 Ep: 5.68 loss 1.815 score 0.874 lr 1.59334e-05 
+08/19/2020 18:19:45 - INFO - vilbert.utils -   [refcoco]: iter 2701 Ep: 5.72 loss 1.826 score 0.873 lr 1.58863e-05 
+08/19/2020 18:19:57 - INFO - vilbert.utils -   [refcoco]: iter 2721 Ep: 5.76 loss 1.826 score 0.871 lr 1.58392e-05 
+08/19/2020 18:20:09 - INFO - vilbert.utils -   [refcoco]: iter 2741 Ep: 5.81 loss 1.823 score 0.874 lr 1.57921e-05 
+08/19/2020 18:20:22 - INFO - vilbert.utils -   [refcoco]: iter 2761 Ep: 5.85 loss 1.815 score 0.873 lr 1.57451e-05 
+08/19/2020 18:20:34 - INFO - vilbert.utils -   [refcoco]: iter 2781 Ep: 5.89 loss 1.833 score 0.873 lr 1.5698e-05 
+08/19/2020 18:20:46 - INFO - vilbert.utils -   [refcoco]: iter 2801 Ep: 5.93 loss 1.836 score 0.871 lr 1.56509e-05 
+08/19/2020 18:20:58 - INFO - vilbert.utils -   [refcoco]: iter 2821 Ep: 5.98 loss 1.823 score 0.878 lr 1.56038e-05 
+08/19/2020 18:21:04 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  30%|███       | 6/20 [31:33<1:13:27, 314.81s/it]08/19/2020 18:21:25 - INFO - vilbert.utils -   Eval task TASK9 on iteration 2833 
+08/19/2020 18:21:25 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.084 score 78.503 
+08/19/2020 18:21:38 - INFO - vilbert.utils -   [refcoco]: iter 2853 Ep: 6.04 loss 1.783 score 0.884 lr 1.55426e-05 
+08/19/2020 18:21:51 - INFO - vilbert.utils -   [refcoco]: iter 2873 Ep: 6.09 loss 1.802 score 0.883 lr 1.54814e-05 
+08/19/2020 18:22:03 - INFO - vilbert.utils -   [refcoco]: iter 2893 Ep: 6.13 loss 1.796 score 0.885 lr 1.54343e-05 
+08/19/2020 18:22:18 - INFO - vilbert.utils -   [refcoco]: iter 2913 Ep: 6.17 loss 1.776 score 0.884 lr 1.53872e-05 
+08/19/2020 18:22:31 - INFO - vilbert.utils -   [refcoco]: iter 2933 Ep: 6.21 loss 1.793 score 0.887 lr 1.53402e-05 
+08/19/2020 18:22:43 - INFO - vilbert.utils -   [refcoco]: iter 2953 Ep: 6.26 loss 1.785 score 0.889 lr 1.52931e-05 
+08/19/2020 18:22:56 - INFO - vilbert.utils -   [refcoco]: iter 2973 Ep: 6.30 loss 1.817 score 0.885 lr 1.5246e-05 
+08/19/2020 18:23:08 - INFO - vilbert.utils -   [refcoco]: iter 2993 Ep: 6.34 loss 1.810 score 0.885 lr 1.51989e-05 
+08/19/2020 18:23:20 - INFO - vilbert.utils -   [refcoco]: iter 3013 Ep: 6.38 loss 1.788 score 0.889 lr 1.51518e-05 
+08/19/2020 18:23:34 - INFO - vilbert.utils -   [refcoco]: iter 3033 Ep: 6.43 loss 1.795 score 0.887 lr 1.51048e-05 
+08/19/2020 18:23:46 - INFO - vilbert.utils -   [refcoco]: iter 3053 Ep: 6.47 loss 1.802 score 0.885 lr 1.50577e-05 
+08/19/2020 18:23:58 - INFO - vilbert.utils -   [refcoco]: iter 3073 Ep: 6.51 loss 1.798 score 0.886 lr 1.50106e-05 
+08/19/2020 18:24:10 - INFO - vilbert.utils -   [refcoco]: iter 3093 Ep: 6.55 loss 1.810 score 0.887 lr 1.49635e-05 
+08/19/2020 18:24:21 - INFO - vilbert.utils -   [refcoco]: iter 3113 Ep: 6.60 loss 1.806 score 0.887 lr 1.49164e-05 
+08/19/2020 18:24:33 - INFO - vilbert.utils -   [refcoco]: iter 3133 Ep: 6.64 loss 1.780 score 0.880 lr 1.48694e-05 
+08/19/2020 18:24:45 - INFO - vilbert.utils -   [refcoco]: iter 3153 Ep: 6.68 loss 1.789 score 0.886 lr 1.48223e-05 
+08/19/2020 18:24:59 - INFO - vilbert.utils -   [refcoco]: iter 3173 Ep: 6.72 loss 1.800 score 0.887 lr 1.47752e-05 
+08/19/2020 18:25:11 - INFO - vilbert.utils -   [refcoco]: iter 3193 Ep: 6.76 loss 1.807 score 0.881 lr 1.47281e-05 
+08/19/2020 18:25:23 - INFO - vilbert.utils -   [refcoco]: iter 3213 Ep: 6.81 loss 1.777 score 0.884 lr 1.4681e-05 
+08/19/2020 18:25:35 - INFO - vilbert.utils -   [refcoco]: iter 3233 Ep: 6.85 loss 1.799 score 0.878 lr 1.46339e-05 
+08/19/2020 18:25:47 - INFO - vilbert.utils -   [refcoco]: iter 3253 Ep: 6.89 loss 1.782 score 0.883 lr 1.45869e-05 
+08/19/2020 18:25:59 - INFO - vilbert.utils -   [refcoco]: iter 3273 Ep: 6.93 loss 1.817 score 0.883 lr 1.45398e-05 
+08/19/2020 18:26:13 - INFO - vilbert.utils -   [refcoco]: iter 3293 Ep: 6.98 loss 1.811 score 0.883 lr 1.44927e-05 
+08/19/2020 18:26:19 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  35%|███▌      | 7/20 [36:48<1:08:14, 314.95s/it]08/19/2020 18:26:38 - INFO - vilbert.utils -   Eval task TASK9 on iteration 3305 
+08/19/2020 18:26:38 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.063 score 78.687 
+08/19/2020 18:26:50 - INFO - vilbert.utils -   [refcoco]: iter 3325 Ep: 7.04 loss 1.782 score 0.887 lr 1.44315e-05 
+08/19/2020 18:27:04 - INFO - vilbert.utils -   [refcoco]: iter 3345 Ep: 7.09 loss 1.746 score 0.897 lr 1.43703e-05 
+08/19/2020 18:27:16 - INFO - vilbert.utils -   [refcoco]: iter 3365 Ep: 7.13 loss 1.768 score 0.884 lr 1.43232e-05 
+08/19/2020 18:27:28 - INFO - vilbert.utils -   [refcoco]: iter 3385 Ep: 7.17 loss 1.791 score 0.896 lr 1.42761e-05 
+08/19/2020 18:27:40 - INFO - vilbert.utils -   [refcoco]: iter 3405 Ep: 7.21 loss 1.765 score 0.894 lr 1.4229e-05 
+08/19/2020 18:27:52 - INFO - vilbert.utils -   [refcoco]: iter 3425 Ep: 7.26 loss 1.771 score 0.891 lr 1.4182e-05 
+08/19/2020 18:28:05 - INFO - vilbert.utils -   [refcoco]: iter 3445 Ep: 7.30 loss 1.753 score 0.891 lr 1.41349e-05 
+08/19/2020 18:28:17 - INFO - vilbert.utils -   [refcoco]: iter 3465 Ep: 7.34 loss 1.765 score 0.891 lr 1.40878e-05 
+08/19/2020 18:28:29 - INFO - vilbert.utils -   [refcoco]: iter 3485 Ep: 7.38 loss 1.776 score 0.894 lr 1.40407e-05 
+08/19/2020 18:28:41 - INFO - vilbert.utils -   [refcoco]: iter 3505 Ep: 7.43 loss 1.773 score 0.891 lr 1.39936e-05 
+08/19/2020 18:28:55 - INFO - vilbert.utils -   [refcoco]: iter 3525 Ep: 7.47 loss 1.784 score 0.890 lr 1.39466e-05 
+08/19/2020 18:29:07 - INFO - vilbert.utils -   [refcoco]: iter 3545 Ep: 7.51 loss 1.762 score 0.884 lr 1.38995e-05 
+08/19/2020 18:29:19 - INFO - vilbert.utils -   [refcoco]: iter 3565 Ep: 7.55 loss 1.789 score 0.887 lr 1.38524e-05 
+08/19/2020 18:29:31 - INFO - vilbert.utils -   [refcoco]: iter 3585 Ep: 7.60 loss 1.778 score 0.895 lr 1.38053e-05 
+08/19/2020 18:29:43 - INFO - vilbert.utils -   [refcoco]: iter 3605 Ep: 7.64 loss 1.772 score 0.892 lr 1.37582e-05 
+08/19/2020 18:29:56 - INFO - vilbert.utils -   [refcoco]: iter 3625 Ep: 7.68 loss 1.750 score 0.896 lr 1.37112e-05 
+08/19/2020 18:30:08 - INFO - vilbert.utils -   [refcoco]: iter 3645 Ep: 7.72 loss 1.774 score 0.885 lr 1.36641e-05 
+08/19/2020 18:30:20 - INFO - vilbert.utils -   [refcoco]: iter 3665 Ep: 7.76 loss 1.779 score 0.889 lr 1.3617e-05 
+08/19/2020 18:30:32 - INFO - vilbert.utils -   [refcoco]: iter 3685 Ep: 7.81 loss 1.767 score 0.900 lr 1.35699e-05 
+08/19/2020 18:30:46 - INFO - vilbert.utils -   [refcoco]: iter 3705 Ep: 7.85 loss 1.770 score 0.884 lr 1.35228e-05 
+08/19/2020 18:30:58 - INFO - vilbert.utils -   [refcoco]: iter 3725 Ep: 7.89 loss 1.797 score 0.884 lr 1.34758e-05 
+08/19/2020 18:31:10 - INFO - vilbert.utils -   [refcoco]: iter 3745 Ep: 7.93 loss 1.769 score 0.882 lr 1.34287e-05 
+08/19/2020 18:31:22 - INFO - vilbert.utils -   [refcoco]: iter 3765 Ep: 7.98 loss 1.757 score 0.889 lr 1.33816e-05 
+08/19/2020 18:31:28 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  40%|████      | 8/20 [41:57<1:02:37, 313.13s/it]08/19/2020 18:31:50 - INFO - vilbert.utils -   Eval task TASK9 on iteration 3777 
+08/19/2020 18:31:50 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.086 score 78.900 
+08/19/2020 18:32:02 - INFO - vilbert.utils -   [refcoco]: iter 3797 Ep: 8.04 loss 1.754 score 0.894 lr 1.33204e-05 
+08/19/2020 18:32:14 - INFO - vilbert.utils -   [refcoco]: iter 3817 Ep: 8.09 loss 1.753 score 0.898 lr 1.32592e-05 
+08/19/2020 18:32:28 - INFO - vilbert.utils -   [refcoco]: iter 3837 Ep: 8.13 loss 1.765 score 0.896 lr 1.32121e-05 
+08/19/2020 18:32:40 - INFO - vilbert.utils -   [refcoco]: iter 3857 Ep: 8.17 loss 1.746 score 0.902 lr 1.3165e-05 
+08/19/2020 18:32:52 - INFO - vilbert.utils -   [refcoco]: iter 3877 Ep: 8.21 loss 1.763 score 0.889 lr 1.31179e-05 
+08/19/2020 18:33:05 - INFO - vilbert.utils -   [refcoco]: iter 3897 Ep: 8.26 loss 1.762 score 0.893 lr 1.30709e-05 
+08/19/2020 18:33:17 - INFO - vilbert.utils -   [refcoco]: iter 3917 Ep: 8.30 loss 1.742 score 0.900 lr 1.30238e-05 
+08/19/2020 18:33:29 - INFO - vilbert.utils -   [refcoco]: iter 3937 Ep: 8.34 loss 1.748 score 0.891 lr 1.29767e-05 
+08/19/2020 18:33:43 - INFO - vilbert.utils -   [refcoco]: iter 3957 Ep: 8.38 loss 1.747 score 0.896 lr 1.29296e-05 
+08/19/2020 18:33:55 - INFO - vilbert.utils -   [refcoco]: iter 3977 Ep: 8.43 loss 1.766 score 0.895 lr 1.28825e-05 
+08/19/2020 18:34:07 - INFO - vilbert.utils -   [refcoco]: iter 3997 Ep: 8.47 loss 1.752 score 0.894 lr 1.28355e-05 
+08/19/2020 18:34:19 - INFO - vilbert.utils -   [refcoco]: iter 4017 Ep: 8.51 loss 1.747 score 0.896 lr 1.27884e-05 
+08/19/2020 18:34:31 - INFO - vilbert.utils -   [refcoco]: iter 4037 Ep: 8.55 loss 1.762 score 0.888 lr 1.27413e-05 
+08/19/2020 18:34:43 - INFO - vilbert.utils -   [refcoco]: iter 4057 Ep: 8.60 loss 1.749 score 0.895 lr 1.26942e-05 
+08/19/2020 18:34:56 - INFO - vilbert.utils -   [refcoco]: iter 4077 Ep: 8.64 loss 1.743 score 0.893 lr 1.26471e-05 
+08/19/2020 18:35:08 - INFO - vilbert.utils -   [refcoco]: iter 4097 Ep: 8.68 loss 1.746 score 0.892 lr 1.26e-05 
+08/19/2020 18:35:20 - INFO - vilbert.utils -   [refcoco]: iter 4117 Ep: 8.72 loss 1.766 score 0.896 lr 1.2553e-05 
+08/19/2020 18:35:32 - INFO - vilbert.utils -   [refcoco]: iter 4137 Ep: 8.76 loss 1.772 score 0.895 lr 1.25059e-05 
+08/19/2020 18:35:44 - INFO - vilbert.utils -   [refcoco]: iter 4157 Ep: 8.81 loss 1.746 score 0.891 lr 1.24588e-05 
+08/19/2020 18:35:56 - INFO - vilbert.utils -   [refcoco]: iter 4177 Ep: 8.85 loss 1.771 score 0.893 lr 1.24117e-05 
+08/19/2020 18:36:08 - INFO - vilbert.utils -   [refcoco]: iter 4197 Ep: 8.89 loss 1.744 score 0.895 lr 1.23646e-05 
+08/19/2020 18:36:22 - INFO - vilbert.utils -   [refcoco]: iter 4217 Ep: 8.93 loss 1.743 score 0.895 lr 1.23176e-05 
+08/19/2020 18:36:33 - INFO - vilbert.utils -   [refcoco]: iter 4237 Ep: 8.98 loss 1.742 score 0.893 lr 1.22705e-05 
+08/19/2020 18:36:40 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  45%|████▌     | 9/20 [47:08<57:18, 312.62s/it]  08/19/2020 18:36:58 - INFO - vilbert.utils -   Eval task TASK9 on iteration 4249 
+08/19/2020 18:36:58 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.091 score 78.927 
+08/19/2020 18:37:12 - INFO - vilbert.utils -   [refcoco]: iter 4269 Ep: 9.04 loss 1.746 score 0.895 lr 1.22093e-05 
+08/19/2020 18:37:24 - INFO - vilbert.utils -   [refcoco]: iter 4289 Ep: 9.09 loss 1.738 score 0.894 lr 1.21481e-05 
+08/19/2020 18:37:36 - INFO - vilbert.utils -   [refcoco]: iter 4309 Ep: 9.13 loss 1.730 score 0.899 lr 1.2101e-05 
+08/19/2020 18:37:48 - INFO - vilbert.utils -   [refcoco]: iter 4329 Ep: 9.17 loss 1.750 score 0.902 lr 1.20539e-05 
+08/19/2020 18:38:01 - INFO - vilbert.utils -   [refcoco]: iter 4349 Ep: 9.21 loss 1.744 score 0.894 lr 1.20068e-05 
+08/19/2020 18:38:13 - INFO - vilbert.utils -   [refcoco]: iter 4369 Ep: 9.26 loss 1.738 score 0.895 lr 1.19597e-05 
+08/19/2020 18:38:25 - INFO - vilbert.utils -   [refcoco]: iter 4389 Ep: 9.30 loss 1.726 score 0.894 lr 1.19127e-05 
+08/19/2020 18:38:38 - INFO - vilbert.utils -   [refcoco]: iter 4409 Ep: 9.34 loss 1.738 score 0.905 lr 1.18656e-05 
+08/19/2020 18:38:50 - INFO - vilbert.utils -   [refcoco]: iter 4429 Ep: 9.38 loss 1.731 score 0.900 lr 1.18185e-05 
+08/19/2020 18:39:02 - INFO - vilbert.utils -   [refcoco]: iter 4449 Ep: 9.43 loss 1.734 score 0.901 lr 1.17714e-05 
+08/19/2020 18:39:13 - INFO - vilbert.utils -   [refcoco]: iter 4469 Ep: 9.47 loss 1.730 score 0.896 lr 1.17243e-05 
+08/19/2020 18:39:27 - INFO - vilbert.utils -   [refcoco]: iter 4489 Ep: 9.51 loss 1.745 score 0.900 lr 1.16773e-05 
+08/19/2020 18:39:38 - INFO - vilbert.utils -   [refcoco]: iter 4509 Ep: 9.55 loss 1.744 score 0.898 lr 1.16302e-05 
+08/19/2020 18:39:50 - INFO - vilbert.utils -   [refcoco]: iter 4529 Ep: 9.60 loss 1.738 score 0.904 lr 1.15831e-05 
+08/19/2020 18:40:02 - INFO - vilbert.utils -   [refcoco]: iter 4549 Ep: 9.64 loss 1.730 score 0.898 lr 1.1536e-05 
+08/19/2020 18:40:15 - INFO - vilbert.utils -   [refcoco]: iter 4569 Ep: 9.68 loss 1.756 score 0.902 lr 1.14889e-05 
+08/19/2020 18:40:27 - INFO - vilbert.utils -   [refcoco]: iter 4589 Ep: 9.72 loss 1.734 score 0.905 lr 1.14419e-05 
+08/19/2020 18:40:39 - INFO - vilbert.utils -   [refcoco]: iter 4609 Ep: 9.76 loss 1.732 score 0.903 lr 1.13948e-05 
+08/19/2020 18:40:51 - INFO - vilbert.utils -   [refcoco]: iter 4629 Ep: 9.81 loss 1.747 score 0.893 lr 1.13477e-05 
+08/19/2020 18:41:04 - INFO - vilbert.utils -   [refcoco]: iter 4649 Ep: 9.85 loss 1.733 score 0.900 lr 1.13006e-05 
+08/19/2020 18:41:16 - INFO - vilbert.utils -   [refcoco]: iter 4669 Ep: 9.89 loss 1.747 score 0.881 lr 1.12535e-05 
+08/19/2020 18:41:27 - INFO - vilbert.utils -   [refcoco]: iter 4689 Ep: 9.93 loss 1.740 score 0.903 lr 1.12065e-05 
+08/19/2020 18:41:39 - INFO - vilbert.utils -   [refcoco]: iter 4709 Ep: 9.98 loss 1.731 score 0.895 lr 1.11594e-05 
+08/19/2020 18:41:47 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  50%|█████     | 10/20 [52:15<51:48, 310.89s/it]08/19/2020 18:42:06 - INFO - vilbert.utils -   Eval task TASK9 on iteration 4721 
+08/19/2020 18:42:06 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.088 score 79.038 
+08/19/2020 18:42:18 - INFO - vilbert.utils -   [refcoco]: iter 4741 Ep: 10.04 loss 1.731 score 0.899 lr 1.10982e-05 
+08/19/2020 18:42:31 - INFO - vilbert.utils -   [refcoco]: iter 4761 Ep: 10.09 loss 1.733 score 0.899 lr 1.1037e-05 
+08/19/2020 18:42:45 - INFO - vilbert.utils -   [refcoco]: iter 4781 Ep: 10.13 loss 1.729 score 0.898 lr 1.09899e-05 
+08/19/2020 18:42:58 - INFO - vilbert.utils -   [refcoco]: iter 4801 Ep: 10.17 loss 1.724 score 0.902 lr 1.09428e-05 
+08/19/2020 18:43:11 - INFO - vilbert.utils -   [refcoco]: iter 4821 Ep: 10.21 loss 1.711 score 0.908 lr 1.08957e-05 
+08/19/2020 18:43:23 - INFO - vilbert.utils -   [refcoco]: iter 4841 Ep: 10.26 loss 1.725 score 0.904 lr 1.08486e-05 
+08/19/2020 18:43:38 - INFO - vilbert.utils -   [refcoco]: iter 4861 Ep: 10.30 loss 1.732 score 0.903 lr 1.08016e-05 
+08/19/2020 18:43:50 - INFO - vilbert.utils -   [refcoco]: iter 4881 Ep: 10.34 loss 1.721 score 0.907 lr 1.07545e-05 
+08/19/2020 18:44:03 - INFO - vilbert.utils -   [refcoco]: iter 4901 Ep: 10.38 loss 1.731 score 0.898 lr 1.07074e-05 
+08/19/2020 18:44:15 - INFO - vilbert.utils -   [refcoco]: iter 4921 Ep: 10.43 loss 1.729 score 0.906 lr 1.06603e-05 
+08/19/2020 18:44:28 - INFO - vilbert.utils -   [refcoco]: iter 4941 Ep: 10.47 loss 1.741 score 0.902 lr 1.06132e-05 
+08/19/2020 18:44:43 - INFO - vilbert.utils -   [refcoco]: iter 4961 Ep: 10.51 loss 1.717 score 0.904 lr 1.05661e-05 
+08/19/2020 18:44:55 - INFO - vilbert.utils -   [refcoco]: iter 4981 Ep: 10.55 loss 1.717 score 0.907 lr 1.05191e-05 
+08/19/2020 18:45:08 - INFO - vilbert.utils -   [refcoco]: iter 5001 Ep: 10.60 loss 1.727 score 0.896 lr 1.0472e-05 
+08/19/2020 18:45:20 - INFO - vilbert.utils -   [refcoco]: iter 5021 Ep: 10.64 loss 1.713 score 0.896 lr 1.04249e-05 
+08/19/2020 18:45:34 - INFO - vilbert.utils -   [refcoco]: iter 5041 Ep: 10.68 loss 1.728 score 0.903 lr 1.03778e-05 
+08/19/2020 18:45:46 - INFO - vilbert.utils -   [refcoco]: iter 5061 Ep: 10.72 loss 1.738 score 0.895 lr 1.03307e-05 
+08/19/2020 18:45:58 - INFO - vilbert.utils -   [refcoco]: iter 5081 Ep: 10.76 loss 1.720 score 0.898 lr 1.02837e-05 
+08/19/2020 18:46:11 - INFO - vilbert.utils -   [refcoco]: iter 5101 Ep: 10.81 loss 1.720 score 0.896 lr 1.02366e-05 
+08/19/2020 18:46:26 - INFO - vilbert.utils -   [refcoco]: iter 5121 Ep: 10.85 loss 1.730 score 0.897 lr 1.01895e-05 
+08/19/2020 18:46:38 - INFO - vilbert.utils -   [refcoco]: iter 5141 Ep: 10.89 loss 1.721 score 0.901 lr 1.01424e-05 
+08/19/2020 18:46:51 - INFO - vilbert.utils -   [refcoco]: iter 5161 Ep: 10.93 loss 1.703 score 0.905 lr 1.00953e-05 
+08/19/2020 18:47:03 - INFO - vilbert.utils -   [refcoco]: iter 5181 Ep: 10.98 loss 1.740 score 0.893 lr 1.00483e-05 
+08/19/2020 18:47:10 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  55%|█████▌    | 11/20 [57:40<47:14, 314.97s/it]08/19/2020 18:47:32 - INFO - vilbert.utils -   Eval task TASK9 on iteration 5193 
+08/19/2020 18:47:32 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.091 score 79.167 
+08/19/2020 18:47:45 - INFO - vilbert.utils -   [refcoco]: iter 5213 Ep: 11.04 loss 1.725 score 0.908 lr 9.98705e-06 
+08/19/2020 18:47:57 - INFO - vilbert.utils -   [refcoco]: iter 5233 Ep: 11.09 loss 1.722 score 0.901 lr 9.92585e-06 
+08/19/2020 18:48:10 - INFO - vilbert.utils -   [refcoco]: iter 5253 Ep: 11.13 loss 1.711 score 0.908 lr 9.87877e-06 
+08/19/2020 18:48:23 - INFO - vilbert.utils -   [refcoco]: iter 5273 Ep: 11.17 loss 1.729 score 0.902 lr 9.83169e-06 
+08/19/2020 18:48:35 - INFO - vilbert.utils -   [refcoco]: iter 5293 Ep: 11.21 loss 1.709 score 0.901 lr 9.7846e-06 
+08/19/2020 18:48:50 - INFO - vilbert.utils -   [refcoco]: iter 5313 Ep: 11.26 loss 1.705 score 0.911 lr 9.73752e-06 
+08/19/2020 18:49:02 - INFO - vilbert.utils -   [refcoco]: iter 5333 Ep: 11.30 loss 1.702 score 0.903 lr 9.69044e-06 
+08/19/2020 18:49:14 - INFO - vilbert.utils -   [refcoco]: iter 5353 Ep: 11.34 loss 1.721 score 0.908 lr 9.64336e-06 
+08/19/2020 18:49:27 - INFO - vilbert.utils -   [refcoco]: iter 5373 Ep: 11.38 loss 1.706 score 0.907 lr 9.59628e-06 
+08/19/2020 18:49:41 - INFO - vilbert.utils -   [refcoco]: iter 5393 Ep: 11.43 loss 1.718 score 0.906 lr 9.5492e-06 
+08/19/2020 18:49:53 - INFO - vilbert.utils -   [refcoco]: iter 5413 Ep: 11.47 loss 1.712 score 0.908 lr 9.50212e-06 
+08/19/2020 18:50:06 - INFO - vilbert.utils -   [refcoco]: iter 5433 Ep: 11.51 loss 1.708 score 0.900 lr 9.45504e-06 
+08/19/2020 18:50:18 - INFO - vilbert.utils -   [refcoco]: iter 5453 Ep: 11.55 loss 1.722 score 0.907 lr 9.40796e-06 
+08/19/2020 18:50:32 - INFO - vilbert.utils -   [refcoco]: iter 5473 Ep: 11.60 loss 1.719 score 0.899 lr 9.36088e-06 
+08/19/2020 18:50:45 - INFO - vilbert.utils -   [refcoco]: iter 5493 Ep: 11.64 loss 1.692 score 0.906 lr 9.31379e-06 
+08/19/2020 18:50:57 - INFO - vilbert.utils -   [refcoco]: iter 5513 Ep: 11.68 loss 1.716 score 0.895 lr 9.26671e-06 
+08/19/2020 18:51:10 - INFO - vilbert.utils -   [refcoco]: iter 5533 Ep: 11.72 loss 1.696 score 0.908 lr 9.21963e-06 
+08/19/2020 18:51:25 - INFO - vilbert.utils -   [refcoco]: iter 5553 Ep: 11.76 loss 1.710 score 0.913 lr 9.17255e-06 
+08/19/2020 18:51:37 - INFO - vilbert.utils -   [refcoco]: iter 5573 Ep: 11.81 loss 1.727 score 0.903 lr 9.12547e-06 
+08/19/2020 18:51:50 - INFO - vilbert.utils -   [refcoco]: iter 5593 Ep: 11.85 loss 1.704 score 0.905 lr 9.07839e-06 
+08/19/2020 18:52:02 - INFO - vilbert.utils -   [refcoco]: iter 5613 Ep: 11.89 loss 1.715 score 0.901 lr 9.03131e-06 
+08/19/2020 18:52:17 - INFO - vilbert.utils -   [refcoco]: iter 5633 Ep: 11.93 loss 1.716 score 0.905 lr 8.98423e-06 
+08/19/2020 18:52:30 - INFO - vilbert.utils -   [refcoco]: iter 5653 Ep: 11.98 loss 1.715 score 0.906 lr 8.93715e-06 
+08/19/2020 18:52:36 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  60%|██████    | 12/20 [1:03:05<42:24, 318.07s/it]08/19/2020 18:52:57 - INFO - vilbert.utils -   Eval task TASK9 on iteration 5665 
+08/19/2020 18:52:57 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.093 score 78.927 
+08/19/2020 18:53:09 - INFO - vilbert.utils -   [refcoco]: iter 5685 Ep: 12.04 loss 1.710 score 0.901 lr 8.87594e-06 
+08/19/2020 18:53:21 - INFO - vilbert.utils -   [refcoco]: iter 5705 Ep: 12.09 loss 1.703 score 0.905 lr 8.81474e-06 
+08/19/2020 18:53:33 - INFO - vilbert.utils -   [refcoco]: iter 5725 Ep: 12.13 loss 1.702 score 0.908 lr 8.76766e-06 
+08/19/2020 18:53:45 - INFO - vilbert.utils -   [refcoco]: iter 5745 Ep: 12.17 loss 1.706 score 0.907 lr 8.72057e-06 
+08/19/2020 18:53:58 - INFO - vilbert.utils -   [refcoco]: iter 5765 Ep: 12.21 loss 1.692 score 0.907 lr 8.67349e-06 
+08/19/2020 18:54:10 - INFO - vilbert.utils -   [refcoco]: iter 5785 Ep: 12.26 loss 1.720 score 0.908 lr 8.62641e-06 
+08/19/2020 18:54:22 - INFO - vilbert.utils -   [refcoco]: iter 5805 Ep: 12.30 loss 1.709 score 0.908 lr 8.57933e-06 
+08/19/2020 18:54:34 - INFO - vilbert.utils -   [refcoco]: iter 5825 Ep: 12.34 loss 1.705 score 0.906 lr 8.53225e-06 
+08/19/2020 18:54:46 - INFO - vilbert.utils -   [refcoco]: iter 5845 Ep: 12.38 loss 1.696 score 0.909 lr 8.48517e-06 
+08/19/2020 18:54:59 - INFO - vilbert.utils -   [refcoco]: iter 5865 Ep: 12.43 loss 1.685 score 0.896 lr 8.43809e-06 
+08/19/2020 18:55:11 - INFO - vilbert.utils -   [refcoco]: iter 5885 Ep: 12.47 loss 1.719 score 0.901 lr 8.39101e-06 
+08/19/2020 18:55:23 - INFO - vilbert.utils -   [refcoco]: iter 5905 Ep: 12.51 loss 1.717 score 0.912 lr 8.34393e-06 
+08/19/2020 18:55:35 - INFO - vilbert.utils -   [refcoco]: iter 5925 Ep: 12.55 loss 1.687 score 0.903 lr 8.29685e-06 
+08/19/2020 18:55:49 - INFO - vilbert.utils -   [refcoco]: iter 5945 Ep: 12.60 loss 1.698 score 0.909 lr 8.24976e-06 
+08/19/2020 18:56:01 - INFO - vilbert.utils -   [refcoco]: iter 5965 Ep: 12.64 loss 1.700 score 0.906 lr 8.20268e-06 
+08/19/2020 18:56:13 - INFO - vilbert.utils -   [refcoco]: iter 5985 Ep: 12.68 loss 1.691 score 0.903 lr 8.1556e-06 
+08/19/2020 18:56:25 - INFO - vilbert.utils -   [refcoco]: iter 6005 Ep: 12.72 loss 1.718 score 0.905 lr 8.10852e-06 
+08/19/2020 18:56:36 - INFO - vilbert.utils -   [refcoco]: iter 6025 Ep: 12.76 loss 1.693 score 0.904 lr 8.06144e-06 
+08/19/2020 18:56:50 - INFO - vilbert.utils -   [refcoco]: iter 6045 Ep: 12.81 loss 1.697 score 0.913 lr 8.01436e-06 
+08/19/2020 18:57:02 - INFO - vilbert.utils -   [refcoco]: iter 6065 Ep: 12.85 loss 1.706 score 0.907 lr 7.96728e-06 
+08/19/2020 18:57:13 - INFO - vilbert.utils -   [refcoco]: iter 6085 Ep: 12.89 loss 1.717 score 0.909 lr 7.9202e-06 
+08/19/2020 18:57:25 - INFO - vilbert.utils -   [refcoco]: iter 6105 Ep: 12.93 loss 1.712 score 0.908 lr 7.87312e-06 
+08/19/2020 18:57:37 - INFO - vilbert.utils -   [refcoco]: iter 6125 Ep: 12.98 loss 1.716 score 0.898 lr 7.82604e-06 
+08/19/2020 18:57:43 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  65%|██████▌   | 13/20 [1:08:12<36:44, 314.92s/it]08/19/2020 18:58:05 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6137 
+08/19/2020 18:58:05 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.093 score 79.047 
+08/19/2020 18:58:08 - INFO - vilbert.utils -   [refcoco]: iter 6142 Ep: 13.01 loss 1.712 score 0.902 lr 7.78249e-06 
+08/19/2020 18:58:11 - INFO - vilbert.utils -   [refcoco]: iter 6147 Ep: 13.02 loss 1.726 score 0.901 lr 7.75659e-06 
+08/19/2020 18:58:14 - INFO - vilbert.utils -   [refcoco]: iter 6152 Ep: 13.03 loss 1.719 score 0.899 lr 7.74482e-06 
+08/19/2020 18:58:17 - INFO - vilbert.utils -   [refcoco]: iter 6157 Ep: 13.04 loss 1.726 score 0.899 lr 7.73305e-06 
+08/19/2020 18:58:20 - INFO - vilbert.utils -   [refcoco]: iter 6162 Ep: 13.06 loss 1.682 score 0.913 lr 7.72128e-06 
+08/19/2020 18:58:23 - INFO - vilbert.utils -   [refcoco]: iter 6167 Ep: 13.07 loss 1.682 score 0.904 lr 7.70951e-06 
+08/19/2020 18:58:26 - INFO - vilbert.utils -   [refcoco]: iter 6172 Ep: 13.08 loss 1.713 score 0.916 lr 7.69774e-06 
+08/19/2020 18:58:31 - INFO - vilbert.utils -   [refcoco]: iter 6177 Ep: 13.09 loss 1.737 score 0.889 lr 7.68597e-06 
+08/19/2020 18:58:34 - INFO - vilbert.utils -   [refcoco]: iter 6182 Ep: 13.10 loss 1.704 score 0.909 lr 7.6742e-06 
+08/19/2020 18:58:37 - INFO - vilbert.utils -   [refcoco]: iter 6187 Ep: 13.11 loss 1.687 score 0.916 lr 7.66243e-06 
+08/19/2020 18:58:40 - INFO - vilbert.utils -   [refcoco]: iter 6192 Ep: 13.12 loss 1.679 score 0.903 lr 7.65066e-06 
+08/19/2020 18:58:43 - INFO - vilbert.utils -   [refcoco]: iter 6197 Ep: 13.13 loss 1.699 score 0.919 lr 7.63889e-06 
+08/19/2020 18:58:46 - INFO - vilbert.utils -   [refcoco]: iter 6202 Ep: 13.14 loss 1.717 score 0.909 lr 7.62712e-06 
+08/19/2020 18:58:49 - INFO - vilbert.utils -   [refcoco]: iter 6207 Ep: 13.15 loss 1.707 score 0.918 lr 7.61535e-06 
+08/19/2020 18:58:52 - INFO - vilbert.utils -   [refcoco]: iter 6212 Ep: 13.16 loss 1.677 score 0.907 lr 7.60358e-06 
+08/19/2020 18:58:55 - INFO - vilbert.utils -   [refcoco]: iter 6217 Ep: 13.17 loss 1.690 score 0.915 lr 7.59181e-06 
+08/19/2020 18:58:58 - INFO - vilbert.utils -   [refcoco]: iter 6222 Ep: 13.18 loss 1.690 score 0.912 lr 7.58004e-06 
+08/19/2020 18:59:01 - INFO - vilbert.utils -   [refcoco]: iter 6227 Ep: 13.19 loss 1.682 score 0.909 lr 7.56827e-06 
+08/19/2020 18:59:04 - INFO - vilbert.utils -   [refcoco]: iter 6232 Ep: 13.20 loss 1.735 score 0.902 lr 7.5565e-06 
+08/19/2020 18:59:06 - INFO - vilbert.utils -   [refcoco]: iter 6237 Ep: 13.21 loss 1.697 score 0.912 lr 7.54473e-06 
+08/19/2020 18:59:11 - INFO - vilbert.utils -   [refcoco]: iter 6242 Ep: 13.22 loss 1.705 score 0.895 lr 7.53296e-06 
+08/19/2020 18:59:14 - INFO - vilbert.utils -   [refcoco]: iter 6247 Ep: 13.24 loss 1.675 score 0.881 lr 7.52119e-06 
+08/19/2020 18:59:17 - INFO - vilbert.utils -   [refcoco]: iter 6252 Ep: 13.25 loss 1.699 score 0.918 lr 7.50942e-06 
+08/19/2020 18:59:18 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  70%|███████   | 14/20 [1:09:47<24:52, 248.74s/it]08/19/2020 18:59:36 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6255 
+08/19/2020 18:59:36 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.100 score 79.186 
+08/19/2020 18:59:39 - INFO - vilbert.utils -   [refcoco]: iter 6260 Ep: 13.26 loss 1.684 score 0.903 lr 7.49411e-06 
+08/19/2020 18:59:42 - INFO - vilbert.utils -   [refcoco]: iter 6265 Ep: 13.27 loss 1.710 score 0.911 lr 7.47881e-06 
+08/19/2020 18:59:45 - INFO - vilbert.utils -   [refcoco]: iter 6270 Ep: 13.28 loss 1.670 score 0.905 lr 7.46704e-06 
+08/19/2020 18:59:48 - INFO - vilbert.utils -   [refcoco]: iter 6275 Ep: 13.29 loss 1.749 score 0.904 lr 7.45527e-06 
+08/19/2020 18:59:51 - INFO - vilbert.utils -   [refcoco]: iter 6280 Ep: 13.31 loss 1.681 score 0.913 lr 7.4435e-06 
+08/19/2020 18:59:55 - INFO - vilbert.utils -   [refcoco]: iter 6285 Ep: 13.32 loss 1.707 score 0.904 lr 7.43173e-06 
+08/19/2020 18:59:58 - INFO - vilbert.utils -   [refcoco]: iter 6290 Ep: 13.33 loss 1.699 score 0.926 lr 7.41996e-06 
+08/19/2020 19:00:01 - INFO - vilbert.utils -   [refcoco]: iter 6295 Ep: 13.34 loss 1.670 score 0.916 lr 7.40819e-06 
+08/19/2020 19:00:04 - INFO - vilbert.utils -   [refcoco]: iter 6300 Ep: 13.35 loss 1.677 score 0.912 lr 7.39642e-06 
+08/19/2020 19:00:07 - INFO - vilbert.utils -   [refcoco]: iter 6305 Ep: 13.36 loss 1.681 score 0.912 lr 7.38465e-06 
+08/19/2020 19:00:10 - INFO - vilbert.utils -   [refcoco]: iter 6310 Ep: 13.37 loss 1.720 score 0.892 lr 7.37288e-06 
+08/19/2020 19:00:13 - INFO - vilbert.utils -   [refcoco]: iter 6315 Ep: 13.38 loss 1.669 score 0.920 lr 7.36111e-06 
+08/19/2020 19:00:16 - INFO - vilbert.utils -   [refcoco]: iter 6320 Ep: 13.39 loss 1.670 score 0.915 lr 7.34934e-06 
+08/19/2020 19:00:19 - INFO - vilbert.utils -   [refcoco]: iter 6325 Ep: 13.40 loss 1.679 score 0.916 lr 7.33757e-06 
+08/19/2020 19:00:22 - INFO - vilbert.utils -   [refcoco]: iter 6330 Ep: 13.41 loss 1.696 score 0.917 lr 7.3258e-06 
+08/19/2020 19:00:25 - INFO - vilbert.utils -   [refcoco]: iter 6335 Ep: 13.42 loss 1.699 score 0.911 lr 7.31403e-06 
+08/19/2020 19:00:28 - INFO - vilbert.utils -   [refcoco]: iter 6340 Ep: 13.43 loss 1.712 score 0.905 lr 7.30226e-06 
+08/19/2020 19:00:31 - INFO - vilbert.utils -   [refcoco]: iter 6345 Ep: 13.44 loss 1.715 score 0.903 lr 7.29049e-06 
+08/19/2020 19:00:34 - INFO - vilbert.utils -   [refcoco]: iter 6350 Ep: 13.45 loss 1.735 score 0.895 lr 7.27872e-06 
+08/19/2020 19:00:37 - INFO - vilbert.utils -   [refcoco]: iter 6355 Ep: 13.46 loss 1.662 score 0.920 lr 7.26695e-06 
+08/19/2020 19:00:40 - INFO - vilbert.utils -   [refcoco]: iter 6360 Ep: 13.47 loss 1.685 score 0.909 lr 7.25518e-06 
+08/19/2020 19:00:43 - INFO - vilbert.utils -   [refcoco]: iter 6365 Ep: 13.49 loss 1.686 score 0.899 lr 7.24341e-06 
+08/19/2020 19:00:47 - INFO - vilbert.utils -   [refcoco]: iter 6370 Ep: 13.50 loss 1.725 score 0.901 lr 7.23164e-06 
+08/19/2020 19:00:48 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  75%|███████▌  | 15/20 [1:11:18<16:47, 201.50s/it]08/19/2020 19:01:07 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6373 
+08/19/2020 19:01:07 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.105 score 79.177 
+08/19/2020 19:01:10 - INFO - vilbert.utils -   [refcoco]: iter 6378 Ep: 13.51 loss 1.710 score 0.904 lr 7.21634e-06 
+08/19/2020 19:01:13 - INFO - vilbert.utils -   [refcoco]: iter 6383 Ep: 13.52 loss 1.653 score 0.898 lr 7.20104e-06 
+08/19/2020 19:01:15 - INFO - vilbert.utils -   [refcoco]: iter 6388 Ep: 13.53 loss 1.738 score 0.909 lr 7.18927e-06 
+08/19/2020 19:01:18 - INFO - vilbert.utils -   [refcoco]: iter 6393 Ep: 13.54 loss 1.653 score 0.919 lr 7.1775e-06 
+08/19/2020 19:01:21 - INFO - vilbert.utils -   [refcoco]: iter 6398 Ep: 13.56 loss 1.728 score 0.913 lr 7.16573e-06 
+08/19/2020 19:01:24 - INFO - vilbert.utils -   [refcoco]: iter 6403 Ep: 13.57 loss 1.692 score 0.915 lr 7.15395e-06 
+08/19/2020 19:01:27 - INFO - vilbert.utils -   [refcoco]: iter 6408 Ep: 13.58 loss 1.655 score 0.921 lr 7.14218e-06 
+08/19/2020 19:01:30 - INFO - vilbert.utils -   [refcoco]: iter 6413 Ep: 13.59 loss 1.694 score 0.899 lr 7.13041e-06 
+08/19/2020 19:01:35 - INFO - vilbert.utils -   [refcoco]: iter 6418 Ep: 13.60 loss 1.716 score 0.923 lr 7.11864e-06 
+08/19/2020 19:01:39 - INFO - vilbert.utils -   [refcoco]: iter 6423 Ep: 13.61 loss 1.662 score 0.906 lr 7.10687e-06 
+08/19/2020 19:01:41 - INFO - vilbert.utils -   [refcoco]: iter 6428 Ep: 13.62 loss 1.696 score 0.916 lr 7.0951e-06 
+08/19/2020 19:01:44 - INFO - vilbert.utils -   [refcoco]: iter 6433 Ep: 13.63 loss 1.740 score 0.897 lr 7.08333e-06 
+08/19/2020 19:01:47 - INFO - vilbert.utils -   [refcoco]: iter 6438 Ep: 13.64 loss 1.737 score 0.903 lr 7.07156e-06 
+08/19/2020 19:01:50 - INFO - vilbert.utils -   [refcoco]: iter 6443 Ep: 13.65 loss 1.678 score 0.923 lr 7.05979e-06 
+08/19/2020 19:01:53 - INFO - vilbert.utils -   [refcoco]: iter 6448 Ep: 13.66 loss 1.697 score 0.912 lr 7.04802e-06 
+08/19/2020 19:01:56 - INFO - vilbert.utils -   [refcoco]: iter 6453 Ep: 13.67 loss 1.712 score 0.891 lr 7.03625e-06 
+08/19/2020 19:01:59 - INFO - vilbert.utils -   [refcoco]: iter 6458 Ep: 13.68 loss 1.714 score 0.906 lr 7.02448e-06 
+08/19/2020 19:02:02 - INFO - vilbert.utils -   [refcoco]: iter 6463 Ep: 13.69 loss 1.693 score 0.916 lr 7.01271e-06 
+08/19/2020 19:02:05 - INFO - vilbert.utils -   [refcoco]: iter 6468 Ep: 13.70 loss 1.724 score 0.896 lr 7.00094e-06 
+08/19/2020 19:02:08 - INFO - vilbert.utils -   [refcoco]: iter 6473 Ep: 13.71 loss 1.694 score 0.905 lr 6.98917e-06 
+08/19/2020 19:02:11 - INFO - vilbert.utils -   [refcoco]: iter 6478 Ep: 13.72 loss 1.710 score 0.920 lr 6.9774e-06 
+08/19/2020 19:02:14 - INFO - vilbert.utils -   [refcoco]: iter 6483 Ep: 13.74 loss 1.703 score 0.900 lr 6.96563e-06 
+08/19/2020 19:02:17 - INFO - vilbert.utils -   [refcoco]: iter 6488 Ep: 13.75 loss 1.682 score 0.901 lr 6.95386e-06 
+08/19/2020 19:02:18 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  80%|████████  | 16/20 [1:12:47<11:11, 167.87s/it]08/19/2020 19:02:38 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6491 
+08/19/2020 19:02:38 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.107 score 79.186 
+08/19/2020 19:02:41 - INFO - vilbert.utils -   [refcoco]: iter 6496 Ep: 13.76 loss 1.681 score 0.902 lr 6.93856e-06 
+08/19/2020 19:02:44 - INFO - vilbert.utils -   [refcoco]: iter 6501 Ep: 13.77 loss 1.681 score 0.905 lr 6.92326e-06 
+08/19/2020 19:02:46 - INFO - vilbert.utils -   [refcoco]: iter 6506 Ep: 13.78 loss 1.684 score 0.912 lr 6.91149e-06 
+08/19/2020 19:02:50 - INFO - vilbert.utils -   [refcoco]: iter 6511 Ep: 13.79 loss 1.699 score 0.909 lr 6.89972e-06 
+08/19/2020 19:02:53 - INFO - vilbert.utils -   [refcoco]: iter 6516 Ep: 13.81 loss 1.685 score 0.911 lr 6.88795e-06 
+08/19/2020 19:02:55 - INFO - vilbert.utils -   [refcoco]: iter 6521 Ep: 13.82 loss 1.691 score 0.906 lr 6.87618e-06 
+08/19/2020 19:02:58 - INFO - vilbert.utils -   [refcoco]: iter 6526 Ep: 13.83 loss 1.706 score 0.905 lr 6.86441e-06 
+08/19/2020 19:03:01 - INFO - vilbert.utils -   [refcoco]: iter 6531 Ep: 13.84 loss 1.680 score 0.919 lr 6.85264e-06 
+08/19/2020 19:03:04 - INFO - vilbert.utils -   [refcoco]: iter 6536 Ep: 13.85 loss 1.684 score 0.922 lr 6.84087e-06 
+08/19/2020 19:03:07 - INFO - vilbert.utils -   [refcoco]: iter 6541 Ep: 13.86 loss 1.691 score 0.907 lr 6.8291e-06 
+08/19/2020 19:03:12 - INFO - vilbert.utils -   [refcoco]: iter 6546 Ep: 13.87 loss 1.738 score 0.899 lr 6.81733e-06 
+08/19/2020 19:03:15 - INFO - vilbert.utils -   [refcoco]: iter 6551 Ep: 13.88 loss 1.711 score 0.899 lr 6.80556e-06 
+08/19/2020 19:03:18 - INFO - vilbert.utils -   [refcoco]: iter 6556 Ep: 13.89 loss 1.678 score 0.917 lr 6.79379e-06 
+08/19/2020 19:03:21 - INFO - vilbert.utils -   [refcoco]: iter 6561 Ep: 13.90 loss 1.695 score 0.892 lr 6.78202e-06 
+08/19/2020 19:03:24 - INFO - vilbert.utils -   [refcoco]: iter 6566 Ep: 13.91 loss 1.683 score 0.894 lr 6.77024e-06 
+08/19/2020 19:03:27 - INFO - vilbert.utils -   [refcoco]: iter 6571 Ep: 13.92 loss 1.684 score 0.899 lr 6.75847e-06 
+08/19/2020 19:03:30 - INFO - vilbert.utils -   [refcoco]: iter 6576 Ep: 13.93 loss 1.674 score 0.914 lr 6.7467e-06 
+08/19/2020 19:03:33 - INFO - vilbert.utils -   [refcoco]: iter 6581 Ep: 13.94 loss 1.686 score 0.907 lr 6.73493e-06 
+08/19/2020 19:03:36 - INFO - vilbert.utils -   [refcoco]: iter 6586 Ep: 13.95 loss 1.678 score 0.905 lr 6.72316e-06 
+08/19/2020 19:03:39 - INFO - vilbert.utils -   [refcoco]: iter 6591 Ep: 13.96 loss 1.701 score 0.911 lr 6.71139e-06 
+08/19/2020 19:03:43 - INFO - vilbert.utils -   [refcoco]: iter 6596 Ep: 13.97 loss 1.695 score 0.893 lr 6.69962e-06 
+08/19/2020 19:03:46 - INFO - vilbert.utils -   [refcoco]: iter 6601 Ep: 13.99 loss 1.746 score 0.908 lr 6.68785e-06 
+08/19/2020 19:03:49 - INFO - vilbert.utils -   [refcoco]: iter 6606 Ep: 14.00 loss 1.693 score 0.914 lr 6.67608e-06 
+08/19/2020 19:03:50 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  85%|████████▌ | 17/20 [1:14:20<07:15, 145.16s/it]08/19/2020 19:04:12 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6609 
+08/19/2020 19:04:12 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.105 score 79.269 
+08/19/2020 19:04:15 - INFO - vilbert.utils -   [refcoco]: iter 6614 Ep: 14.01 loss 1.651 score 0.916 lr 6.66078e-06 
+08/19/2020 19:04:18 - INFO - vilbert.utils -   [refcoco]: iter 6619 Ep: 14.02 loss 1.679 score 0.913 lr 6.64548e-06 
+08/19/2020 19:04:21 - INFO - vilbert.utils -   [refcoco]: iter 6624 Ep: 14.03 loss 1.705 score 0.912 lr 6.63371e-06 
+08/19/2020 19:04:24 - INFO - vilbert.utils -   [refcoco]: iter 6629 Ep: 14.04 loss 1.670 score 0.914 lr 6.62194e-06 
+08/19/2020 19:04:27 - INFO - vilbert.utils -   [refcoco]: iter 6634 Ep: 14.06 loss 1.670 score 0.912 lr 6.61017e-06 
+08/19/2020 19:04:30 - INFO - vilbert.utils -   [refcoco]: iter 6639 Ep: 14.07 loss 1.672 score 0.909 lr 6.5984e-06 
+08/19/2020 19:04:33 - INFO - vilbert.utils -   [refcoco]: iter 6644 Ep: 14.08 loss 1.697 score 0.919 lr 6.58663e-06 
+08/19/2020 19:04:36 - INFO - vilbert.utils -   [refcoco]: iter 6649 Ep: 14.09 loss 1.672 score 0.909 lr 6.57486e-06 
+08/19/2020 19:04:39 - INFO - vilbert.utils -   [refcoco]: iter 6654 Ep: 14.10 loss 1.693 score 0.908 lr 6.56309e-06 
+08/19/2020 19:04:42 - INFO - vilbert.utils -   [refcoco]: iter 6659 Ep: 14.11 loss 1.696 score 0.923 lr 6.55132e-06 
+08/19/2020 19:04:45 - INFO - vilbert.utils -   [refcoco]: iter 6664 Ep: 14.12 loss 1.668 score 0.914 lr 6.53955e-06 
+08/19/2020 19:04:50 - INFO - vilbert.utils -   [refcoco]: iter 6669 Ep: 14.13 loss 1.700 score 0.895 lr 6.52778e-06 
+08/19/2020 19:04:53 - INFO - vilbert.utils -   [refcoco]: iter 6674 Ep: 14.14 loss 1.703 score 0.899 lr 6.51601e-06 
+08/19/2020 19:04:56 - INFO - vilbert.utils -   [refcoco]: iter 6679 Ep: 14.15 loss 1.689 score 0.915 lr 6.50424e-06 
+08/19/2020 19:04:59 - INFO - vilbert.utils -   [refcoco]: iter 6684 Ep: 14.16 loss 1.699 score 0.905 lr 6.49247e-06 
+08/19/2020 19:05:02 - INFO - vilbert.utils -   [refcoco]: iter 6689 Ep: 14.17 loss 1.709 score 0.914 lr 6.4807e-06 
+08/19/2020 19:05:05 - INFO - vilbert.utils -   [refcoco]: iter 6694 Ep: 14.18 loss 1.690 score 0.906 lr 6.46893e-06 
+08/19/2020 19:05:08 - INFO - vilbert.utils -   [refcoco]: iter 6699 Ep: 14.19 loss 1.680 score 0.905 lr 6.45716e-06 
+08/19/2020 19:05:12 - INFO - vilbert.utils -   [refcoco]: iter 6704 Ep: 14.20 loss 1.686 score 0.902 lr 6.44539e-06 
+08/19/2020 19:05:15 - INFO - vilbert.utils -   [refcoco]: iter 6709 Ep: 14.21 loss 1.645 score 0.912 lr 6.43362e-06 
+08/19/2020 19:05:18 - INFO - vilbert.utils -   [refcoco]: iter 6714 Ep: 14.22 loss 1.681 score 0.899 lr 6.42185e-06 
+08/19/2020 19:05:21 - INFO - vilbert.utils -   [refcoco]: iter 6719 Ep: 14.24 loss 1.727 score 0.906 lr 6.41008e-06 
+08/19/2020 19:05:24 - INFO - vilbert.utils -   [refcoco]: iter 6724 Ep: 14.25 loss 1.691 score 0.905 lr 6.39831e-06 
+08/19/2020 19:05:25 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  90%|█████████ | 18/20 [1:15:54<04:20, 130.03s/it]08/19/2020 19:05:45 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6727 
+08/19/2020 19:05:45 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.112 score 79.306 
+08/19/2020 19:05:48 - INFO - vilbert.utils -   [refcoco]: iter 6732 Ep: 14.26 loss 1.709 score 0.909 lr 6.383e-06 
+08/19/2020 19:05:51 - INFO - vilbert.utils -   [refcoco]: iter 6737 Ep: 14.27 loss 1.709 score 0.910 lr 6.3677e-06 
+08/19/2020 19:05:54 - INFO - vilbert.utils -   [refcoco]: iter 6742 Ep: 14.28 loss 1.689 score 0.918 lr 6.35593e-06 
+08/19/2020 19:05:57 - INFO - vilbert.utils -   [refcoco]: iter 6747 Ep: 14.29 loss 1.708 score 0.912 lr 6.34416e-06 
+08/19/2020 19:06:00 - INFO - vilbert.utils -   [refcoco]: iter 6752 Ep: 14.31 loss 1.684 score 0.911 lr 6.33239e-06 
+08/19/2020 19:06:03 - INFO - vilbert.utils -   [refcoco]: iter 6757 Ep: 14.32 loss 1.706 score 0.898 lr 6.32062e-06 
+08/19/2020 19:06:06 - INFO - vilbert.utils -   [refcoco]: iter 6762 Ep: 14.33 loss 1.654 score 0.916 lr 6.30885e-06 
+08/19/2020 19:06:09 - INFO - vilbert.utils -   [refcoco]: iter 6767 Ep: 14.34 loss 1.706 score 0.916 lr 6.29708e-06 
+08/19/2020 19:06:12 - INFO - vilbert.utils -   [refcoco]: iter 6772 Ep: 14.35 loss 1.723 score 0.913 lr 6.28531e-06 
+08/19/2020 19:06:15 - INFO - vilbert.utils -   [refcoco]: iter 6777 Ep: 14.36 loss 1.689 score 0.902 lr 6.27354e-06 
+08/19/2020 19:06:18 - INFO - vilbert.utils -   [refcoco]: iter 6782 Ep: 14.37 loss 1.700 score 0.901 lr 6.26177e-06 
+08/19/2020 19:06:21 - INFO - vilbert.utils -   [refcoco]: iter 6787 Ep: 14.38 loss 1.690 score 0.908 lr 6.25e-06 
+08/19/2020 19:06:24 - INFO - vilbert.utils -   [refcoco]: iter 6792 Ep: 14.39 loss 1.702 score 0.905 lr 6.23823e-06 
+08/19/2020 19:06:27 - INFO - vilbert.utils -   [refcoco]: iter 6797 Ep: 14.40 loss 1.676 score 0.902 lr 6.22646e-06 
+08/19/2020 19:06:30 - INFO - vilbert.utils -   [refcoco]: iter 6802 Ep: 14.41 loss 1.695 score 0.906 lr 6.21469e-06 
+08/19/2020 19:06:33 - INFO - vilbert.utils -   [refcoco]: iter 6807 Ep: 14.42 loss 1.674 score 0.915 lr 6.20292e-06 
+08/19/2020 19:06:36 - INFO - vilbert.utils -   [refcoco]: iter 6812 Ep: 14.43 loss 1.644 score 0.903 lr 6.19115e-06 
+08/19/2020 19:06:40 - INFO - vilbert.utils -   [refcoco]: iter 6817 Ep: 14.44 loss 1.695 score 0.901 lr 6.17938e-06 
+08/19/2020 19:06:43 - INFO - vilbert.utils -   [refcoco]: iter 6822 Ep: 14.45 loss 1.688 score 0.919 lr 6.16761e-06 
+08/19/2020 19:06:46 - INFO - vilbert.utils -   [refcoco]: iter 6827 Ep: 14.46 loss 1.720 score 0.904 lr 6.15584e-06 
+08/19/2020 19:06:49 - INFO - vilbert.utils -   [refcoco]: iter 6832 Ep: 14.47 loss 1.669 score 0.921 lr 6.14407e-06 
+08/19/2020 19:06:54 - INFO - vilbert.utils -   [refcoco]: iter 6837 Ep: 14.49 loss 1.718 score 0.891 lr 6.1323e-06 
+08/19/2020 19:06:57 - INFO - vilbert.utils -   [refcoco]: iter 6842 Ep: 14.50 loss 1.713 score 0.898 lr 6.12053e-06 
+08/19/2020 19:06:58 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch:  95%|█████████▌| 19/20 [1:17:29<01:59, 119.42s/it]08/19/2020 19:07:18 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6845 
+08/19/2020 19:07:18 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.105 score 79.140 
+08/19/2020 19:07:21 - INFO - vilbert.utils -   [refcoco]: iter 6850 Ep: 14.51 loss 1.707 score 0.901 lr 6.10523e-06 
+08/19/2020 19:07:24 - INFO - vilbert.utils -   [refcoco]: iter 6855 Ep: 14.52 loss 1.688 score 0.912 lr 6.08992e-06 
+08/19/2020 19:07:27 - INFO - vilbert.utils -   [refcoco]: iter 6860 Ep: 14.53 loss 1.705 score 0.920 lr 6.07815e-06 
+08/19/2020 19:07:31 - INFO - vilbert.utils -   [refcoco]: iter 6865 Ep: 14.54 loss 1.673 score 0.924 lr 6.06638e-06 
+08/19/2020 19:07:34 - INFO - vilbert.utils -   [refcoco]: iter 6870 Ep: 14.56 loss 1.690 score 0.909 lr 6.05461e-06 
+08/19/2020 19:07:37 - INFO - vilbert.utils -   [refcoco]: iter 6875 Ep: 14.57 loss 1.697 score 0.899 lr 6.04284e-06 
+08/19/2020 19:07:42 - INFO - vilbert.utils -   [refcoco]: iter 6880 Ep: 14.58 loss 1.749 score 0.906 lr 6.03107e-06 
+08/19/2020 19:07:45 - INFO - vilbert.utils -   [refcoco]: iter 6885 Ep: 14.59 loss 1.694 score 0.885 lr 6.0193e-06 
+08/19/2020 19:07:48 - INFO - vilbert.utils -   [refcoco]: iter 6890 Ep: 14.60 loss 1.676 score 0.911 lr 6.00753e-06 
+08/19/2020 19:07:51 - INFO - vilbert.utils -   [refcoco]: iter 6895 Ep: 14.61 loss 1.728 score 0.905 lr 5.99576e-06 
+08/19/2020 19:07:54 - INFO - vilbert.utils -   [refcoco]: iter 6900 Ep: 14.62 loss 1.723 score 0.887 lr 5.98399e-06 
+08/19/2020 19:07:57 - INFO - vilbert.utils -   [refcoco]: iter 6905 Ep: 14.63 loss 1.695 score 0.895 lr 5.97222e-06 
+08/19/2020 19:08:00 - INFO - vilbert.utils -   [refcoco]: iter 6910 Ep: 14.64 loss 1.677 score 0.922 lr 5.96045e-06 
+08/19/2020 19:08:03 - INFO - vilbert.utils -   [refcoco]: iter 6915 Ep: 14.65 loss 1.683 score 0.916 lr 5.94868e-06 
+08/19/2020 19:08:06 - INFO - vilbert.utils -   [refcoco]: iter 6920 Ep: 14.66 loss 1.722 score 0.916 lr 5.93691e-06 
+08/19/2020 19:08:09 - INFO - vilbert.utils -   [refcoco]: iter 6925 Ep: 14.67 loss 1.675 score 0.914 lr 5.92514e-06 
+08/19/2020 19:08:12 - INFO - vilbert.utils -   [refcoco]: iter 6930 Ep: 14.68 loss 1.692 score 0.914 lr 5.91337e-06 
+08/19/2020 19:08:15 - INFO - vilbert.utils -   [refcoco]: iter 6935 Ep: 14.69 loss 1.674 score 0.921 lr 5.9016e-06 
+08/19/2020 19:08:18 - INFO - vilbert.utils -   [refcoco]: iter 6940 Ep: 14.70 loss 1.673 score 0.899 lr 5.88983e-06 
+08/19/2020 19:08:22 - INFO - vilbert.utils -   [refcoco]: iter 6945 Ep: 14.71 loss 1.684 score 0.911 lr 5.87806e-06 
+08/19/2020 19:08:25 - INFO - vilbert.utils -   [refcoco]: iter 6950 Ep: 14.72 loss 1.723 score 0.904 lr 5.86629e-06 
+08/19/2020 19:08:28 - INFO - vilbert.utils -   [refcoco]: iter 6955 Ep: 14.74 loss 1.700 score 0.894 lr 5.85452e-06 
+08/19/2020 19:08:33 - INFO - vilbert.utils -   [refcoco]: iter 6960 Ep: 14.75 loss 1.691 score 0.916 lr 5.84275e-06 
+08/19/2020 19:08:45 - INFO - vilbert.utils -   Eval task TASK9 on iteration 6962 
+08/19/2020 19:08:45 - INFO - vilbert.utils -   Validation [refcoco]: loss 2.113 score 79.029 
+08/19/2020 19:08:45 - INFO - __main__ -   ** ** * Saving fine - tuned model ** ** * 
+Epoch: 100%|██████████| 20/20 [1:19:15<00:00, 115.24s/it]
